@@ -1,0 +1,69 @@
+AWL  
+**Sublist 1**  
+Analyze vt  
+Constitute vt  
+Establish vt  
+Indicate vt  
+Occur vi  
+Role n  
+Approach n,vt,vi  
+Context n  
+Estimate n,vt&vi  
+Individual adj,n  
+Percent n  
+Section n  
+Area n  
+Contract n,v,vt&vi  
+Evident adj  
+Interpret vt,vt&vi  
+Period n(句号)  
+Sector n  
+Assess vt  
+Create vt  
+Export n,vt&vi  
+Invovle vt  
+Policy n  
+Significant adj  
+Assume vt  
+Data n  
+Factor n  
+Issue n,vi,vt  
+Principle n  
+Similar adj  
+Authority n
+   
+
+Define vt  
+Finance n,vt  
+Labour n,vi  
+Proceed vi  
+Source n  
+Available adj  
+Derive vt&vi  
+Formula n  
+Legal adj  
+Process n,vi(列队进行),vt  
+Specific adj,n  
+Benefit n,vt,vi  
+Distribute vt  
+Function n,vi  
+Legislate vt&vi  
+Require vt  
+Require vt(有赖于)  
+Structure n,vt  
+Concept n  
+Economy n  
+Identify vt,vt&vi(等同于，有关联)  
+Major adj,n,vi  
+Reaearch n,vi,vt  
+Theory n  
+Consist vi  
+Environment n  
+Income n  
+Method n  
+Response vi,vi&vt  
+Vary vi,vt&vi  
+Curriculum vitae  
+enumerate
+
+语境思维和周期思维
