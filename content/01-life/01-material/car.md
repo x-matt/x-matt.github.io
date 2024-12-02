@@ -20,5 +20,4 @@
 
 
 HUD: head up display
-
-![[car 2024.excalidraw]]
+![[car 2024.excalidraw.png|600]]

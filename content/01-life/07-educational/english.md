@@ -1,7 +1,6 @@
 ## Structure
 ---
-![[english 2024.excalidraw|How to learn english?|500]]
-
+![[english 2024.excalidraw.png|How to learn english?|500]]
 ## IELTS
 ---
 ## Grammar[^1]
