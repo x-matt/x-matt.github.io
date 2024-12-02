@@ -1,6 +1,16 @@
+![[welcome.svg|Welcome to my life|800]]
+This is my *vault* that named **PASSION**!!!.
+
+## Intro
 ---
-title: Welcome to Quartz
+### Composition
+
+![[Welcome 2024.excalidraw|Compsition of PASSION!!!|800]]
+
+Try to make the difference.
+
+## File structure
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+- [[life]]
+- [[work-c|work - common part]]
