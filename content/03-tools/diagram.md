@@ -26,6 +26,35 @@ section Stage Two
     Future task2              :         des4, after des3, 5d
 ```
 
+### Kanban
+
+```mermaid
+---
+config:
+  kanban:
+    ticketBaseUrl: 'https://mermaidchart.atlassian.net/browse/#TICKET#'
+---
+kanban
+  Todo
+    [Create Documentation]
+    docs[Create Blog about the new diagram]
+  [In progress]
+    id6[Create renderer so that it works in all cases. We also add som extra text here for testing purposes. And some more just for the extra flare.]
+  id9[Ready for deploy]
+    id8[Design grammar]@{ assigned: 'knsv' }
+  id10[Ready for test]
+    id4[Create parsing tests]@{ ticket: MC-2038, assigned: 'K.Sveidqvist', priority: 'High' }
+    id66[last item]@{ priority: 'Very Low', assigned: 'knsv' }
+  id11[Done]
+    id5[define getData]
+    id2[Title of diagram is more than 100 chars when user duplicates diagram with 100 char]@{ ticket: MC-2036, priority: 'Very High'}
+    id3[Update DB function]@{ ticket: MC-2037, assigned: knsv, priority: 'High' }
+
+  id12[Can't reproduce]
+    id3[Weird flickering in Firefox]
+
+```
+
 ### Pic Chart
 
 ```mermaid
@@ -105,19 +134,19 @@ xychart-beta
     line [5000, 6000, 7500, 8200, 9500, 10500, 11000, 10200, 9200, 8500, 7000, 6000]
 ```
 
-## Bitfield
+### Packet
 
-```bitfield {vspace=100}
-[
-  {name: 'IPO',   bits: 8},
-  {               bits: 7},
-  {name: 'BRK',   bits: 5, type: 4},
-  {name: 'CPK',   bits: 1},
-  {name: 'Clear', bits: 3, type: 5},
-  {               bits: 8}
-]
+```mermaid
+packet-beta
+title UDP Packet
+0-15: "Source Port"
+16-31: "Destination Port"
+32-47: "Length"
+48-63: "Checksum"
+64-95: "Data (variable length)"
 ```
 
+## [Bitfield](https://github.com/wavedrom/bitfield)
 ## Ditaa[^1]
 
 ## Markmap

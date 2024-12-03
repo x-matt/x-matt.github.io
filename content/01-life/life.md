@@ -1,3 +1,6 @@
+---
+title: Life
+---
 
 ![[life 2024.excalidraw.png|Life Dimension|900]]
 ### 十大层面阐述

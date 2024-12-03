@@ -16,8 +16,7 @@
 
 <!-- HACK: 继续阅读第一性原理相关文章 -->
 
-![[mind 2024-04-06 20.38.01.excalidraw|elon's companies|600]]
-
+![[mind 2024.excalidraw.png|elon's companies|600]]
 ## 毛泽东
 
 

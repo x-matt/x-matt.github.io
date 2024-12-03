@@ -2,10 +2,9 @@
 
 ## 目的地
 
-![[travel 2024-04-04 17.30.20.excalidraw]]
-
+![[travel 2024.excalidraw.png|600]]
 ## Hotel
 
 ## Past
 
-![[travel 2024-07-08 17.19.59.excalidraw|You and I|800]]
+![[travel 2024_0.excalidraw.png|700]]

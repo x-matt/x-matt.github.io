@@ -1,6 +1,6 @@
 ### 公告
 
-- 链接: [:link:](https://www.gdzz.gov.cn/tzgg/content/post_20294.html)
+- 链接: [url](https://www.gdzz.gov.cn/tzgg/content/post_20294.html)
 - 考试日期: 2024年3月16日 下午
   1. 2∶00—3∶30  《行政职业能力测验》 90min 总分100
   2. 4∶15—6∶45  《申论》（含《行政执法专业和申论》《公安专业和申论》） 150min 总分100
