@@ -1,3 +1,8 @@
+---
+title: English
+---
+
+
 ## Structure
 ---
 ![[english 2024.excalidraw.png|How to learn english?|500]]

@@ -1,6 +1,6 @@
-
-Getting things done
-
+---
+title: GTD
+---
 - 翻译: 把需要做的事情做好
 - 核心原则[^1]:
   - 收集:

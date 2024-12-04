@@ -1,3 +1,7 @@
+---
+title: Diagram
+---
+
 ## Mermaid
 
 [Mermaid 使用教程：从入门到精通](https://zhuanlan.zhihu.com/p/627356428)

@@ -5,12 +5,8 @@ title: Passion
 ![[welcome.svg|PASSION|800]]
 
 ## Intro
-### Composition
 
-![[Welcome 2024.excalidraw.png|Compsition of PASSION!!!|800]]
-Try to make the difference.
-
-## File structure
+### File structure
 
 | Index | Name      | Desc                                              |
 | ----- | --------- | ------------------------------------------------- |

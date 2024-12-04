@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🎈 Coman",
+    pageTitle: "✨ Coman",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -30,7 +30,7 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#f6f8fa",
+          light: "#fbf7fd",
           lightgray: "#e5e5e5",
           gray: "#b8b8b8",
           darkgray: "#000000",

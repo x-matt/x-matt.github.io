@@ -1,3 +1,8 @@
+---
+title: YJango
+---
+
+
 - 网址: [渐构](https://www.modevol.com/)
 
 ## 学习观

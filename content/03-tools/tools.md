@@ -1,7 +1,6 @@
 ---
 title: Tools
 ---
-
 ## Platform Common
 
 ### For debug
@@ -216,78 +215,6 @@ title: Tools
 		}
 		```
 
-### Todo Tree
-
-```json
-"todo-tree.general.statusBar": "total",
-"todo-tree.filtering.excludeGlobs": ["**/node_modules", "*.xml", "*.XML"],
-"todo-tree.filtering.ignoreGitSubmodules": true,
-"todo-tree.tree.showCountsInTree": true,
-"todo-tree.highlights.customHighlight": {
-    "BUG": {
-      "icon": "bug",
-      "foreground": "#F56C6C",
-      "type": "line"
-    },
-    "FIXME": {
-      "icon": "flame",
-      "foreground": "#FF9800",
-      "type":"line"
-    },
-    "TODO":{
-      "icon": "check-circle",
-      "foreground": "#e6d330",
-      "type":"line"
-    },
-    "[ ]":{
-      "icon": "dot-fill",
-      "foreground": "#e6d330",
-      "type":"tag"
-    },
-    "[x]":{
-      "icon": "dot-fill",
-      "foreground": "#258512",
-      "hideFromTree": true,
-      "type":"tag"
-    },
-    "[m]":{
-      "icon": "dot-fill",
-      "foreground": "#0a978b",
-      "type":"tag"
-    },
-    "[w]":{
-      "icon": "dot-fill",
-      "foreground": "#6cc505",
-      "type":"tag"
-    },
-    "HACK":{
-      "icon": "versions",
-      "foreground": "#E040FB",
-      "type":"line"
-    },
-    "XXX":{
-      "icon": "unverified",
-      "foreground": "#E91E63",
-      "type":"line"
-    }
-  },
-  "todo-tree.general.rootFolder": "${workspaceFolder}",
-  "todo-tree.general.tags": [
-    "[ ]",
-    "[x]",
-    "[w]",
-    "[m]",
-    "TODO",
-    "BUG",
-    "FIXME",
-    "HACK",
-    "XXX"
-  ],
-```
-
-- icon的参考网址:
-    1. [codicon](https://microsoft.github.io/vscode-codicons/dist/codicon.html)
-    1. [octicon](https://primer.style/design/foundations/icons)
 
 ## 配置文件
 
