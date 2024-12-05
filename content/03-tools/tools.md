@@ -40,14 +40,14 @@ title: Tools
 ### Git/Repo
 #repo
 
-| 作用        | 命令                                                                                                    |
-| --------- | ----------------------------------------------------------------------------------------------------- |
-| 统筹建立本地分支  | `repo start dev --all`                                                                                |
-| 单独新建本地分支  | `git checkout -b <本地分支名> <远程主机名>/<远程分支名>`                                                             |
-| 统一上传代码    | `repo upload .`                                                                                       |
-| git单独上传代码 | `git push ssh://matao3@git.mioffice.cn:29418/quark/mtkcam-core HEAD:refs/for/bsp-matisse-s --no-thin` |
-| 同步单个仓     | `repo sync -c quark/mtkcam-core`                                                                      |
-| 克隆多个提交    | `git fetch --unshallow`  or  `git fetch --depth=10`                                                   |
+| 作用        | 命令                                                  |
+| --------- | --------------------------------------------------- |
+| 统筹建立本地分支  | `repo start dev --all`                              |
+| 单独新建本地分支  | `git checkout -b <本地分支名> <远程主机名>/<远程分支名>`           |
+| 统一上传代码    | `repo upload .`                                     |
+| git单独上传代码 | `git push`                                          |
+| 同步单个仓     | `repo sync -c quark/mtkcam-core`                    |
+| 克隆多个提交    | `git fetch --unshallow`  or  `git fetch --depth=10` |
 
 1. 技巧
     1. 创建本地分支并链接到远程库
@@ -248,7 +248,6 @@ alias npp='notepad-plus-plus'
 
 # MTK hot key
 alias camcore='cd vendor/mediatek/proprietary/hardware/mtkcam-core'
-alias algoup='cd vendor/xiaomi/proprietary/algorithm_manager'
 alias custom='cd vendor/mediatek/proprietary/custom'
 alias logd='adb shell setenforce 0 && adb shell setprop persist.vendor.mtk.camera.log_level 3 && adb shell "pkill camera*"'
 

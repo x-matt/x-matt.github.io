@@ -20,7 +20,10 @@ title: Quartz
 
 ## Customize
 
-1. ignore some floders & files
+1. Basic config info
+	1. change title name
+	2. ignore some floders & files
+	3. change background color
 	```tsx title="quartz/quartz.config.ts " {1, 10, 15}
     pageTitle: "✨ Coman",
     pageTitleSuffix: "",
@@ -41,5 +44,8 @@ title: Quartz
 		}
 	}     
 	```
+
+2. Icon
+	- `quartz\static\icon.png`
 
 [^1]:[Welcome to Quartz 4](https://quartz.jzhao.xyz/)
