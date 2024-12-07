@@ -529,7 +529,7 @@ libcvface_api.so: ELF 64-bit LSB shared object, ARM aarch64, version 1 (SYSV), d
 
 - 用途: 用于编解码
 - 工作流程
-	![[tools 2024.excalidraw.png|900]]
+	![[tools 2024.excalidraw.svg|900]]
 #### streams 输出流信息
 
 | 属性                          | 说明                   |

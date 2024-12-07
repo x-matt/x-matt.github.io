@@ -9,4 +9,4 @@ LLM: Large Language Model
 
 SORA: 文字生成视频的大模型
 
-![[llm 2024.excalidraw.png]]
+![[llm 2024.excalidraw.svg]]

@@ -23,5 +23,18 @@ title: Image Format
 | QCOM     | UBWC                         |                                                                                                       | **U**niversal **B**and**W**idth **C**ompression    |
 | Common   | AFBC                         | **MTK-YUV**: NV12, YUVP010                                                                            | **A**rm **F**rame **B**uffer **C**ompressions[^1]  |
 
+### UBWC Intro
+
+>[!quote] Qcom official introduction
+>
+>**Universal bandwidth compression**[^2]
+>
+>Universal bandwidth compression (UBWC) is supported by all GPUs since A5x. UBWC is a unique predictive bandwith compression scheme that improves effective throughput to system memory. By minimizing the bandwidth of data, significant power savings can be achieved.
+>
+>UBWC works across many components in Snapdragon processors including GPU, Display, Video, and Camera. The compression supports YUV and RGB formats, and reduces memory bottlenecks. [Snapdragon Profiler](https://docs.qualcomm.com/bundle/publicresource/topics/80-78185-2/sdp.html?product=1601111740035277#sdp) typically shows surfaces as being encoded as “Optimal” (UBWC) or “Linear” (much less performant, but laid out like a C-array rather than with our proprietary compression scheme).
+>
+>Graphics APIs must be used correctly to maximize the use of UBWC – for example, in Vulkan VK_IMAGE_TILING_LINEAR and VK_IMAGE_TILING_OPTIMAL generally map to “Linear” and “Optimal” as expected.
+
 
 [^1]:[Arm Frame Buffer Compression – Arm®](https://www.arm.com/technologies/graphics-technologies/arm-frame-buffer-compression)
+[^2]:[Snapdragon Game Toolkit Documentation](https://docs.qualcomm.com/bundle/publicresource/topics/80-78185-2/overview.html?product=1601111740035277#universal-bandwidth-compression)

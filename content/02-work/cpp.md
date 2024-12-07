@@ -1,41 +1,70 @@
 ---
 title: Cpp
 ---
-## 大版本迭代
-| C++ 版本 | 发布年份   | 主要改进点                                       |
-| ------ | ------ | ------------------------------------------- |
-| C++98  | 1998   | 标准模板库 (STL)                                 |
-|        |        | 引入命名空间                                      |
-|        |        | 支持异常处理                                      |
-|        |        | 类型继承与多态                                     |
-| C++03  | 2003   | 小幅度改进，修复一些C++98中的缺陷                         |
-|        |        | 提升标准库一致性                                    |
-| C++11  | 2011   | 自动类型推导 (`auto`)                             |
-|        |        | 范围for循环                                     |
-|        |        | 智能指针 (`std::shared_ptr`, `std::unique_ptr`) |
-|        |        | Lambda 表达式                                  |
-|        |        | 右值引用与移动语义                                   |
-|        |        | 并发支持 (`std::thread`)                        |
-|        |        | 静态断言 (`static_assert`)                      |
-| C++14  | 2014   | 泛型Lambda                                    |
-|        |        | 二进制字面值                                      |
-|        |        | `std::make_unique`                          |
-|        |        | 提升Lambda捕获能力                                |
-| C++17  | 2017   | `std::optional`                             |
-|        |        | `std::variant`                              |
-|        |        | `std::any`                                  |
-|        |        | 结构化绑定                                       |
-|        |        | 并行算法支持                                      |
-|        |        | 文件系统库                                       |
-| C++20  | 2020   | 概念（Concepts）                                |
-|        |        | 范围库（Ranges）                                 |
-|        |        | 协程（Coroutines）                              |
-|        |        | 模块化（Modules）                                |
-|        |        | 三路比较运算符（<=>，即太空船运算符）                        |
-| C++23  | 预计2023 | 新的标准库功能（如 `std::expected`, `std::flat_map`） |
-|        |        | 增强的类型特性                                     |
-|        |        | 更强的constexpr支持                              |
-|        |        | 增强的lambda表达式和模板参数                           |
+## Knowledge Classification
+
+| 一级分类                          | 二级分类           | 主要内容                                     |
+| ----------------------------- | -------------- | ---------------------------------------- |
+| 语言基础                          | 基本语法           | 变量、数据类型、运算符、控制流程（if/else、switch）、循环      |
+|                               | 函数             | 函数定义、参数传递、返回值、函数重载、默认参数                  |
+|                               | 指针与引用          | 指针声明、指针运算、引用基础、指针与引用的区别                  |
+| 面向对象编程                        | 类与对象           | 类定义、构造函数、析构函数、成员变量和方法                    |
+|                               | 继承             | 单继承、多继承、虚继承、继承访问控制                       |
+|                               | 多态             | 虚函数、动态绑定、抽象类、接口                          |
+| 高级特性                          | 模板             | 函数模板、类模板、模板特化、变参模板                       |
+|                               | 异常处理           | try-catch、异常类型、自定义异常                     |
+|                               | Lambda表达式      | 匿名函数、闭包、捕获列表                             |
+| 内存管理                          | 内存分配           | new/delete、动态内存分配                        |
+|                               | 智能指针           | unique_ptr、shared_ptr、weak_ptr           |
+| 标准库                           | 容器             | vector、list、map、set、deque                |
+|                               | 算法             | 排序、查找、变换、数值算法                            |
+|                               | 迭代器            | 迭代器类型、迭代器适配器                             |
+| 并发编程                          | 线程             | std::thread、线程同步、互斥锁                     |
+|                               | 并发原语           | condition_variable、atomic、future/promise |
+| 元编程                           | 模板元编程          | 类型推导、SFINAE、编译期计算                        |
+|                               | 类型萃取           | type_traits、conditional、enable_if        |
+| [[cpp#Main version\|现代C++特性]] | C++11/14/17/20 | auto、decltype、constexpr、结构化绑定、概念         |
+| 性能优化                          | 右值引用           | 移动语义、完美转发                                |
+|                               | 编译优化           | 内联、常量折叠、返回值优化                            |
+| 底层编程                          | 内存模型           | 字节对齐、内存布局                                |
+|                               | 位操作            | 位运算、位域                                   |
+
+## Main version
+
+| C++ version | Release year | Main improvment                             |
+| ----------- | ------------ | ------------------------------------------- |
+| C++98       | 1998         | 标准模板库 (STL)                                 |
+|             |              | 引入命名空间                                      |
+|             |              | 支持异常处理                                      |
+|             |              | 类型继承与多态                                     |
+| C++03       | 2003         | 小幅度改进，修复一些C++98中的缺陷                         |
+|             |              | 提升标准库一致性                                    |
+| C++11       | 2011         | 自动类型推导 (`auto`)                             |
+|             |              | 范围for循环                                     |
+|             |              | 智能指针 (`std::shared_ptr`, `std::unique_ptr`) |
+|             |              | Lambda 表达式                                  |
+|             |              | 右值引用与移动语义                                   |
+|             |              | 并发支持 (`std::thread`)                        |
+|             |              | 静态断言 (`static_assert`)                      |
+| C++14       | 2014         | 泛型Lambda                                    |
+|             |              | 二进制字面值                                      |
+|             |              | `std::make_unique`                          |
+|             |              | 提升Lambda捕获能力                                |
+| C++17       | 2017         | `std::optional`                             |
+|             |              | `std::variant`                              |
+|             |              | `std::any`                                  |
+|             |              | 结构化绑定                                       |
+|             |              | 并行算法支持                                      |
+|             |              | 文件系统库                                       |
+| C++20       | 2020         | 概念（Concepts）                                |
+|             |              | 范围库（Ranges）                                 |
+|             |              | 协程（Coroutines）                              |
+|             |              | 模块化（Modules）                                |
+|             |              | 三路比较运算符（<=>，即太空船运算符）                        |
+| C++23       | 预计2023       | 新的标准库功能（如 `std::expected`, `std::flat_map`） |
+|             |              | 增强的类型特性                                     |
+|             |              | 更强的constexpr支持                              |
+|             |              | 增强的lambda表达式和模板参数                           |
 
 ## 基础特性
 
@@ -209,7 +238,6 @@ typedef struct HDC__ *HDC
 
 ```cpp
 typedef PVOID HANDEL;
-
 typedef void *PVOID;
 ```
 
@@ -478,7 +506,7 @@ auto add = [](int a, int b) -> int {return a+b};
 
 ### Deque
 
-![[cpp 2024.excalidraw.png|deque principle|350]]
+![[cpp 2024.excalidraw.svg|deque principle|300]]
 
 - A deque is somewhat recursively defined: internally it maintains a double-ended queue of _chunks_ of fixed size. Each chunk is a vector, and the queue (“map” in the graphic below) of chunks itself is also a vector[^4].
 - 2-d vector: a vector of vectors

@@ -3,6 +3,9 @@ title: Quartz
 ---
 ## Install
 
+> [!Warning] Warning
+>The **newest** version of NodeJS may leads to compile problem
+
 1. install NodeJS: `winget install OpenJS.NodeJS.LTS -v 20.9.0`
 2. install sdk[^1]
 	```bash
@@ -11,12 +14,14 @@ title: Quartz
 	npm i
 	npx quartz create
 	```
-	
-> [!tip] Tip
->NodeJS 安装最新的版本反而会有编译问题
-## Build
 
-`npx quartz build --serve`
+## Command
+
+| Usage                 | Command                    |
+| --------------------- | -------------------------- |
+| build                 | `npx quartz build --serve` |
+| sync & upload         | `npx quartz sync`          |
+| update quartz version | `npx quartz update`        |
 
 ## Customize
 
@@ -24,7 +29,7 @@ title: Quartz
 	1. change title name
 	2. ignore some floders & files
 	3. change background color
-	```tsx title="quartz/quartz.config.ts " {1, 10, 15}
+	```tsx title="quartz/quartz.config.ts" {1, 10, 15}
     pageTitle: "✨ Coman",
     pageTitleSuffix: "",
     enableSPA: true,

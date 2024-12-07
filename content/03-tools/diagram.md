@@ -4,11 +4,7 @@ title: Diagram
 
 ## Mermaid
 
-[Mermaid 使用教程：从入门到精通](https://zhuanlan.zhihu.com/p/627356428)
-
-### Gantt
-
-官方说明: <http://mermaid.js.org/syntax/gantt.html>
+### Gantt[^4]
 
 ```mermaid
 gantt
@@ -150,11 +146,13 @@ title UDP Packet
 64-95: "Data (variable length)"
 ```
 
-## [Bitfield](https://github.com/wavedrom/bitfield)
+## Bitfield[^3]
 ## Ditaa[^1]
 
-## Markmap
+## Markmap[^2]
 
-[官方Doc](https://markmap.js.org/docs/json-options)
 
 [^1]:[字符画——ditaa使用指南，文本格式下作图](https://zhuanlan.zhihu.com/p/429506479?utm_id=0)
+[^2]:[JSON Options - markmap docs](https://markmap.js.org/docs/json-options)
+[^3]:[wavedrom/bitfield: :cake: bit field diagram renderer](https://github.com/wavedrom/bitfield)
+[4^]:[Gantt diagrams | Mermaid](http://mermaid.js.org/syntax/gantt.html)

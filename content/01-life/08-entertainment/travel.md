@@ -2,12 +2,11 @@
 title: Travelling
 ---
 
-
 在路上
 
 ## 目的地
 
-![[travel 2024.excalidraw.png|600]]
+![[travel 2024.excalidraw.svg|600]]
 ## Hotel
 
 ## Past

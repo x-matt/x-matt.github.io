@@ -10,6 +10,7 @@ title: Beautiful Mind
 | 毛泽东       |         |
 | 倪海厦       |         |
 | Elon Musk |         |
+| 姜文        |         |
 
 ## 零散的思维点
 
@@ -29,10 +30,12 @@ title: Beautiful Mind
 
 <!-- HACK: 继续阅读第一性原理相关文章 -->
 
-![[mind 2024.excalidraw.png|elon's companies|600]]
+![[mind 2024.excalidraw.svg|elon's companies|600]]
 ## 毛泽东
 
+## 姜文
 
+![圆桌讲究派 EP01 | 姜文自曝电影中的讲究](https://www.youtube.com/watch?v=iIVeMRT1lj0)
 
 ## 小米价值观
 

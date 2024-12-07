@@ -2,7 +2,7 @@
 title: Life
 ---
 
-![[life 2024.excalidraw.png|Life Dimension|900]]
+![[life 2024.excalidraw.svg|Life Dimension|900]]
 ### 十大层面阐述
 
 1. **物质层面**：包括物质财富、生活条件、住房、食品等。
