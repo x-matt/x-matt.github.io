@@ -1,5 +1,6 @@
 ---
 title: Cpp
+tags: []
 ---
 ## Knowledge Classification
 
@@ -23,7 +24,7 @@ title: Cpp
 |                               | 并发原语           | condition_variable、atomic、future/promise |
 | 元编程                           | 模板元编程          | 类型推导、SFINAE、编译期计算                        |
 |                               | 类型萃取           | type_traits、conditional、enable_if        |
-| [[cpp#Main version\|现代C++特性]] | C++11/14/17/20 | auto、decltype、constexpr、结构化绑定、概念         |
+| [[#Main version|现代C++特性]] | C++11/14/17/20 | auto、decltype、constexpr、结构化绑定、概念         |
 | 性能优化                          | 右值引用           | 移动语义、完美转发                                |
 |                               | 编译优化           | 内联、常量折叠、返回值优化                            |
 | 底层编程                          | 内存模型           | 字节对齐、内存布局                                |

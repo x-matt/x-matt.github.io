@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "x-matt.github.io",
     ignorePatterns: ["private", "templates", ".obsidian", "98-assets/excalidraw/*.md", "99-settings"],
     defaultDateType: "created",
     generateSocialImages: false,
