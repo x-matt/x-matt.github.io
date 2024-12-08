@@ -4,7 +4,8 @@ title: Quartz
 ## Install
 
 > [!Warning] Warning
->The **newest** version of NodeJS may leads to compile problem
+>- The **newest** version of NodeJS may leads to compile problem
+>- Block NodeJS version: `winget pin add --id OpenJS.NodeJS.LTS --blocking`[^2]
 
 1. install NodeJS: `winget install OpenJS.NodeJS.LTS -v 20.9.0`
 2. install sdk[^1]
@@ -54,3 +55,4 @@ title: Quartz
 	- `quartz\static\icon.png`
 
 [^1]:[Welcome to Quartz 4](https://quartz.jzhao.xyz/)
+[^2]:[pin 命令 | Microsoft Learn](https://learn.microsoft.com/zh-cn/windows/package-manager/winget/pinning#examples-1)
