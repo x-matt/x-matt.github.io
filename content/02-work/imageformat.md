@@ -18,11 +18,12 @@ title: Image Format
 
 | Platform | Format Name                  | Domain                                                                                                | Desc                                               |
 | -------- | ---------------------------- | ----------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
-| MTK      | P010(Packed)<br>P012(Packed) | YUV                                                                                                   | ![[MTK_YUV_P010_P012.png \| 400]]                  |
+| MTK      | P010(Packed)<br>P012(Packed) | YUV                                                                                                   | ![[MTK_YUV_P010_P012.webp\| 400]]                  |
 | MTK      | UFBC                         | **RAW**: UFBC_Bayer10, UFBC_Bayer12, UFBC_Bayer14<br>**YUV**: UFBC_NV12, UFBC_YUV_P010, UFBC_YUV_P012 | **U**niversal **F**rame **B**uffer **C**ompression |
 | QCOM     | UBWC                         |                                                                                                       | **U**niversal **B**and**W**idth **C**ompression    |
 | Common   | AFBC                         | **MTK-YUV**: NV12, YUVP010                                                                            | **A**rm **F**rame **B**uffer **C**ompressions[^1]  |
 
+![[imageformat 2024.excalidraw.png]]
 ### UBWC Intro
 
 >[!quote] Qcom official introduction

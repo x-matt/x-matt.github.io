@@ -581,8 +581,8 @@ XML、INI、JSON、CSV、FLAT
   - “full range” = “jpeg” = “pc” = “cg” = “high rgb”
   - “limited range” = “mpeg” = “tv” = “broadcast” = “low rgb”
 
-#### 样例[^1][^2]
-
+#### 样例
+帧率，尺寸，帧数信息的获取[^1][^2]
 ```bash
 # 帧率，尺寸，帧数
 ffprobe ***.mp4 -v error -select_streams v -show_entries stream=r_frame_rate,width,height,nb_frames

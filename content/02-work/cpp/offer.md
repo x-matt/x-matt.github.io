@@ -84,7 +84,6 @@ int countRange(const int* numbers, int length, int start, int end)
             ++count;
     return count;
 }
-
 ```
 
 ### 3.2 找出没有重复的数字
