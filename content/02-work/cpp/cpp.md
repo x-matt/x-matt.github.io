@@ -4,31 +4,31 @@ tags: []
 ---
 ## Knowledge Classification
 
-| 一级分类                          | 二级分类           | 主要内容                                     |
-| ----------------------------- | -------------- | ---------------------------------------- |
-| 语言基础                          | 基本语法           | 变量、数据类型、运算符、控制流程（if/else、switch）、循环      |
-|                               | 函数             | 函数定义、参数传递、返回值、函数重载、默认参数                  |
-|                               | 指针与引用          | 指针声明、指针运算、引用基础、指针与引用的区别                  |
-| 面向对象编程                        | 类与对象           | 类定义、构造函数、析构函数、成员变量和方法                    |
-|                               | 继承             | 单继承、多继承、虚继承、继承访问控制                       |
-|                               | 多态             | 虚函数、动态绑定、抽象类、接口                          |
-| 高级特性                          | 模板             | 函数模板、类模板、模板特化、变参模板                       |
-|                               | 异常处理           | try-catch、异常类型、自定义异常                     |
-|                               | Lambda表达式      | 匿名函数、闭包、捕获列表                             |
-| 内存管理                          | 内存分配           | new/delete、动态内存分配                        |
-|                               | 智能指针           | unique_ptr、shared_ptr、weak_ptr           |
-| 标准库                           | 容器             | vector、list、map、set、deque                |
-|                               | 算法             | 排序、查找、变换、数值算法                            |
-|                               | 迭代器            | 迭代器类型、迭代器适配器                             |
-| 并发编程                          | 线程             | std::thread、线程同步、互斥锁                     |
-|                               | 并发原语           | condition_variable、atomic、future/promise |
-| 元编程                           | 模板元编程          | 类型推导、SFINAE、编译期计算                        |
-|                               | 类型萃取           | type_traits、conditional、enable_if        |
-| [[#Main version|现代C++特性]] | C++11/14/17/20 | auto、decltype、constexpr、结构化绑定、概念         |
-| 性能优化                          | 右值引用           | 移动语义、完美转发                                |
-|                               | 编译优化           | 内联、常量折叠、返回值优化                            |
-| 底层编程                          | 内存模型           | 字节对齐、内存布局                                |
-|                               | 位操作            | 位运算、位域                                   |
+| 一级分类   | 二级分类                          | 主要内容                                     |
+| ------ | ----------------------------- | ---------------------------------------- |
+| 语言基础   | 基本语法                          | 变量、数据类型、运算符、控制流程（if/else、switch）、循环      |
+|        | 函数                            | 函数定义、参数传递、返回值、函数重载、默认参数                  |
+|        | 指针与引用                         | 指针声明、指针运算、引用基础、指针与引用的区别                  |
+| 面向对象编程 | 类与对象                          | 类定义、构造函数、析构函数、成员变量和方法                    |
+|        | 继承                            | 单继承、多继承、虚继承、继承访问控制                       |
+|        | 多态                            | 虚函数、动态绑定、抽象类、接口                          |
+| 高级特性   | 模板                            | 函数模板、类模板、模板特化、变参模板                       |
+|        | 异常处理                          | try-catch、异常类型、自定义异常                     |
+|        | Lambda表达式                     | 匿名函数、闭包、捕获列表                             |
+| 内存管理   | 内存分配                          | new/delete、动态内存分配                        |
+|        | 智能指针                          | unique_ptr、shared_ptr、weak_ptr           |
+| 标准库    | 容器                            | vector、list、map、set、deque                |
+|        | 算法                            | 排序、查找、变换、数值算法                            |
+|        | 迭代器                           | 迭代器类型、迭代器适配器                             |
+| 并发编程   | 线程                            | std::thread、线程同步、互斥锁                     |
+|        | 并发原语                          | condition_variable、atomic、future/promise |
+| 元编程    | 模板元编程                         | 类型推导、SFINAE、编译期计算                        |
+|        | 类型萃取                          | type_traits、conditional、enable_if        |
+|        | [[cpp#Main version\|现代C++特性]] | C++11/14/17/20                           |
+| 性能优化   | 右值引用                          | 移动语义、完美转发                                |
+|        | 编译优化                          | 内联、常量折叠、返回值优化                            |
+| 底层编程   | 内存模型                          | 字节对齐、内存布局                                |
+|        | 位操作                           | 位运算、位域                                   |
 
 ## Main version
 
@@ -404,16 +404,16 @@ typedef unsigned       __INT64 uint64_t;
 ```
 ### Type
 
-| Type   | Byte | Bit   | Minimum              | Maximum                            |
-| ------ | ---- | ----- | -------------------- | ---------------------------------- |
-| bool   | 1    | 8bit  |                      |                                    |
-| byte   | 1    | 8bit  | $-2^{7}$             | $2^7-1$                            |
-| char   | 1    | 8bit  | 0                    | $2^{8}-1$  = 255                   |
-| short  | 2    | 16bit | $-2^{15}$            | $2^{15}-1$                         |
-| int    | 4    | 32bit | $-2^{31}$            | $2^{31}-1$                         |
-| long   | 8    | 64bit | $-2^{63}$            | $2^{63}-1$                         |
-| float  | 4    | 32bit | $1.4\times10^{-45}$  | $3.4028235\times10^{38}$           |
-| double | 8    | 64bit | $4.9\times10^{-324}$ | $1.7976931348623157\times10^{308}$ |
+| Type[^8] | Byte | Bit   | Minimum              | Maximum                            |
+| -------- | ---- | ----- | -------------------- | ---------------------------------- |
+| bool     | 1    | 8bit  |                      |                                    |
+| byte     | 1    | 8bit  | $-2^{7}$             | $2^7-1$                            |
+| char     | 1    | 8bit  | 0                    | $2^{8}-1$  = 255                   |
+| short    | 2    | 16bit | $-2^{15}$            | $2^{15}-1$                         |
+| int      | 4    | 32bit | $-2^{31}$            | $2^{31}-1$                         |
+| long     | 8    | 64bit | $-2^{63}$            | $2^{63}-1$                         |
+| float    | 4    | 32bit | $1.4\times10^{-45}$  | $3.4028235\times10^{38}$           |
+| double   | 8    | 64bit | $4.9\times10^{-324}$ | $1.7976931348623157\times10^{308}$ |
 
 ### Modifiers
 
@@ -531,16 +531,12 @@ auto add = [](int a, int b) -> int {return a+b};
 | `<atomic>`               | 用于原子操作，确保操作的不可分割性 | `std::atomic`                                                                                           |
 | `<shared_mutex>` - c++17 | 用于共享锁的机制          | `std::shared_mutex` 、`std::shared_lock`                                                                 |
 
----
-## 参考资料
 
-- [C++ Data Types](https://www.tutorialspoint.com/cplusplus/cpp_data_types.htm)
-- [c++多线程：这可能是讲死锁最通俗的一篇文章](https://zhuanlan.zhihu.com/p/643130609)
-
-[^1]:[智能指针详细解析(智能指针的使用,原理分析)](https://zhuanlan.zhihu.com/p/642134340)
-[^2]:[What’s the difference between a stack and a heap?](https://www.programmerinterview.com/data-structures/difference-between-stack-and-heap/)
-[^3]:[类与类之间的关系](https://blog.csdn.net/fry3309/article/details/123359536)
-[^4]:[deque 原理](https://stackoverflow.com/questions/6292332/what-really-is-a-deque-in-stl)
-[^5]:[Pointers vs References in C++](https://www.geeksforgeeks.org/pointers-vs-references-cpp/)
-[^6]:[C++ lock_guard和unique_lock的区别 | 闫金钢的Blog](https://blog.yanjingang.com/?p=6547)
-[^7]:[动态内存管理示例 · 恋恋风辰的编程笔记](https://gitbookcpp.llfc.club/sections/cpp/section6/cpp29.html)
+[^1]: [智能指针详细解析(智能指针的使用,原理分析)](https://zhuanlan.zhihu.com/p/642134340)
+[^2]: [What’s the difference between a stack and a heap?](https://www.programmerinterview.com/data-structures/difference-between-stack-and-heap/)
+[^3]: [类与类之间的关系](https://blog.csdn.net/fry3309/article/details/123359536)
+[^4]: [deque 原理](https://stackoverflow.com/questions/6292332/what-really-is-a-deque-in-stl)
+[^5]: [Pointers vs References in C++](https://www.geeksforgeeks.org/pointers-vs-references-cpp/)
+[^6]: [C++ lock_guard和unique_lock的区别 | 闫金钢的Blog](https://blog.yanjingang.com/?p=6547)
+[^7]: [动态内存管理示例 · 恋恋风辰的编程笔记](https://gitbookcpp.llfc.club/sections/cpp/section6/cpp29.html)
+[^8]: [C++ Data Types](https://www.tutorialspoint.com/cplusplus/cpp_data_types.htm)
