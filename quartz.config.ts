@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "x-matt.github.io",
-    ignorePatterns: ["private", "templates", ".obsidian", "98-assets/excalidraw/*.md", "99-settings"],
+    ignorePatterns: ["private", "templates", ".obsidian", "98-assets/excalidraw/*.md", "99-settings", "-1. Capture", "0. PeriodicNotes"],
     defaultDateType: "created",
     generateSocialImages: false,
     theme: {
