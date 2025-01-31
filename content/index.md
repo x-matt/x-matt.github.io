@@ -3,15 +3,15 @@ title: Passion !!!
 ---
 **Man, Come on💎 !!!**
 
-Based on **PARA** form [LifeOS](https://lifeos.vip/).
+Based on **PARA** from [LifeOS](https://lifeos.vip/).
 
-| Index | Section  | Name         | Desc                                              |
-| ----- | -------- | ------------ | ------------------------------------------------- |
-| 1.    | Projects |              |                                                   |
-| 2.    | Areas    | [[life]]     | Summary of various knowledge and insights in life |
-|       |          | [[work]]     | Summary of common knowledge related to work       |
-|       |          | [[tools]]    | Some tools to improve efficiency                  |
-|       |          | [[archived]] | Docs that be archived                             |
-| 3.    | Resource |              |                                                   |
-| 4.    | Archives |              |                                                   |
-| 5.    | Express  |              |                                                   |
+| Index | Section  | Name                             | Desc                                              |
+| ----- | -------- | -------------------------------- | ------------------------------------------------- |
+| 1.    | Projects |                                  |                                                   |
+| 2.    | Areas    | [[2. Areas/Life/README\|Life]]   | Summary of various knowledge and insights in life |
+|       |          | [[2. Areas/Work/README\|Work]]   | Summary of common knowledge related to work       |
+|       |          | [[2. Areas/Tools/README\|Tools]] | Some tools to improve efficiency                  |
+|       |          | [[archived\|Archived]]           | Docs that be archived                             |
+| 3.    | Resource |                                  |                                                   |
+| 4.    | Archives |                                  |                                                   |
+| 5.    | Express  |                                  |                                                   |

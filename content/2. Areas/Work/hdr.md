@@ -35,14 +35,34 @@ timeline
 
 ### Classification
 
-| Frame Number | Name                                     | Desc |
-| ------------ | ---------------------------------------- | ---- |
-| Single[^1]   | Quad Bayer HDR                           |      |
-|              | Interlaced HDR                           |      |
-|              | Zig-zag HDR                              |      |
-|              | DCG                                      |      |
-| Multi        | Multi-frame<br>- *LBMF*                  |      |
-|              | Line Interleaving HDR<br>- *DOL/Stagger* |      |
+
+| A               | B              | Name                       | Desc      |
+| --------------- | -------------- | -------------------------- | --------- |
+| SW(High DR)[^2] | -              | Bracketing                 | L-EXP     |
+|                 |                | HDR+                       | S-EXP     |
+|                 |                | HDR+ with Bracketing       | L & S EXP |
+| HW(Wide DR)     | Spatial-based  | Super CCD                  |           |
+|                 |                | BME & SME                  |           |
+|                 |                | Quad-Bayer HDR             |           |
+|                 |                | Split-diode                |           |
+|                 | Time-based     | Dual Sampling              |           |
+|                 |                | DOL/Staggered              |           |
+|                 | Response-based | Logarithmic response       |           |
+|                 |                | Lin-Log & Multi-Log        |           |
+|                 |                | LOFIC                      |           |
+|                 |                | DCG (Dual Conversion Gain) |           |
+|                 |                | DAG (Dual Analog Gain)     |           |
+|                 |                | Skimming HDR               |           |
+
+
+| Frame Number | Name                                     | Type | Desc |
+| ------------ | ---------------------------------------- | ---- | ---- |
+| Single[^1]   | Quad Bayer HDR                           | HW   |      |
+|              | Interlaced HDR                           |      |      |
+|              | Zig-zag HDR                              |      |      |
+|              | DCG                                      |      |      |
+| Multi        | Multi-frame<br>- *LBMF*                  | SW   |      |
+|              | Line Interleaving HDR<br>- *DOL/Stagger* |      |      |
 
 ### HDR Format Comparison
 
@@ -58,3 +78,4 @@ timeline
 %%[[hdr 2025.excalidraw.md|🖋 Edit in Excalidraw]]%%
 
 [^1]: [图像传感器HDR技术 - 知乎](https://zhuanlan.zhihu.com/p/657455970)
+[^2]: [CMOS图像传感器专题 - 1 高动态范围（HDR）成像 - Analog/RF IC 设计讨论 - EETOP 创芯网论坛 (原名：电子顶级开发网) -](https://bbs.eetop.cn/forum.php?mod=viewthread&tid=966637)

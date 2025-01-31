@@ -7,12 +7,13 @@ title: Travelling
 ## 目的地
 
 ![[travel 2024.excalidraw.svg|600]]
+%%[[travel 2024.excalidraw|🖋 Edit in Excalidraw]]%%
+
 ## Hotel
 
 ## Past
 
 ```mermaid
-%%{init: { theme': 'forest' } }%%
 timeline
     title Past travel
     2017.3 : 哈尔滨

@@ -2,7 +2,6 @@
 title: Music
 ---
 
-
 | Song         | Singer |
 | ------------ | ------ |
 | Dear John    | 比莉     |

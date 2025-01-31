@@ -1,5 +1,7 @@
 ---
 title: Photography
+tags:
+  - pohtography
 ---
 
 ## Light & Shade

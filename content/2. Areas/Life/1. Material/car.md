@@ -25,3 +25,4 @@ title: 🚗Car
 
 HUD: head up display
 ![[car 2024.excalidraw.svg|600]]
+%%[[car 2024.excalidraw|🖋 Edit in Excalidraw]]%%
