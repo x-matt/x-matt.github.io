@@ -3,21 +3,6 @@ title: Basic Tools
 ---
 ## Platform Common
 
-### For debug
-
-#### 看Log
-
-1. [Klogg](https://klogg.filimonov.dev/)
-1. [TextAnalysisTool.NET](https://textanalysistool.github.io/)
-    - Mtk capture flow
-    - Mtk stream flow
-    - Open Camera
-
-#### 看Pic
-
-- YUV/Raw: [Vooya](https://www.offminor.de/downloads.html)
-- 手机投屏电脑: [Vysor](https://www.vysor.io/)
-
 ### Python
 
 1. 查看你系统中有哪些Python的二进制文件可供使用：`ls /usr/bin/python*`

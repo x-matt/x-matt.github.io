@@ -41,6 +41,22 @@ Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
 | command               | config                                  |
 | --------------------- | --------------------------------------- |
 | `winget settings`[^2] | "visual": { "progressBar": "rainbow" }, |
+| `$PSVersionTable`     | get version                             |
+
+```pwsh
+function tosite {
+    Remove-Item -Recurse -Force -Path "D:\site\personal\content\*"\
+    Remove-Item -Recurse -Force -Path "D:\site\work\content\*"
+    Copy-Item -Recurse -Force -Path "D:\notes\brain\personal\*" -Destination "D:\site\personal\content\"
+    Copy-Item -Recurse -Force -Path "D:\notes\brain\work\*" -Destination "D:\site\work\content\"
+}
+function tocloud {
+    Remove-Item -Recurse -Force -Path "D:\notes\brain\personal\*"
+    Remove-Item -Recurse -Force -Path "D:\notes\brain\work\*"
+    Copy-Item -Recurse -Force -Path "D:\site\personal\content\*" -Destination "D:\notes\brain\personal\"
+    Copy-Item -Recurse -Force -Path "D:\site\work\content\*" -Destination "D:\notes\brain\work\"
+}
+```
 
 ## Tmux
 

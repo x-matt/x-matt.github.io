@@ -54,5 +54,12 @@ title: Quartz
 2. Icon
 	- `quartz\static\icon.png`
 
+## Further Development
+
+| Type               | Desc                                                                                       |
+| ------------------ | ------------------------------------------------------------------------------------------ |
+| support excalidraw | [embed.excalidraw](https://www.emilebangma.com/Quartz/Quartz-Syncer-Docs/embed.excalidraw) |
+
+
 [^1]:[Welcome to Quartz 4](https://quartz.jzhao.xyz/)
 [^2]:[pin 命令 | Microsoft Learn](https://learn.microsoft.com/zh-cn/windows/package-manager/winget/pinning#examples-1)
