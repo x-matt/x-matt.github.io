@@ -28,4 +28,5 @@ title: Debug
 ### Video
 
 - [MPV](https://mpv.io/)
+	- command: `mpvnet`
 

@@ -18,11 +18,11 @@ title: Quartz
 
 ## Command
 
-| Usage                 | Command                    |
-| --------------------- | -------------------------- |
-| build                 | `npx quartz build --serve` |
-| sync & upload         | `npx quartz sync`          |
-| update quartz version | `npx quartz update`        |
+| Usage                 | Command                                   |
+| --------------------- | ----------------------------------------- |
+| build                 | `npx quartz build --serve -d FOLDER_NAME` |
+| sync & upload         | `npx quartz sync`                         |
+| update quartz version | `npx quartz update`                       |
 
 ## Customize
 

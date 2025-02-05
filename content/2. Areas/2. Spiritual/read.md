@@ -13,3 +13,7 @@ title: Reading
 - 奇特的一生
 - How to Take Smart Notes
 - 机会笔记(the meaning note) - 山田智惠
+
+## Book
+
+毛泽东选集

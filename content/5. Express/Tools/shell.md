@@ -20,6 +20,14 @@ title: Shell
 	function ... { Set-Location ... }
 	function lt { Get-ChildItem | Sort-Object LastWriteTime | Format-Table -AutoSize }
 	function l { Get-ChildItem -Force }
+	function tosky {
+	    Remove-Item -Recurse -Force -Path "D:\skyview\core\*"
+	    Copy-Item -Recurse -Force -Path "D:\notes\brain\*" -Destination "D:\skyview\core\"
+	}
+	function tocloud {
+	    Remove-Item -Recurse -Force -Path "D:\notes\brain\*"
+	    Copy-Item -Recurse -Force -Path "D:\skyview\core\*" -Destination "D:\notes\brain\"
+	}
 	```
 
 ### Delete unneeded command
@@ -38,10 +46,10 @@ Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
 
 ### Others
 
-| command               | config                                  |
-| --------------------- | --------------------------------------- |
-| `winget settings`[^2] | "visual": { "progressBar": "rainbow" }, |
-| `$PSVersionTable`     | get version                             |
+| command               | config                                    |
+| --------------------- | ----------------------------------------- |
+| `winget settings`[^2] | `"visual": { "progressBar": "rainbow" },` |
+| `$PSVersionTable`     | get version                               |
 
 ```pwsh
 function tosite {

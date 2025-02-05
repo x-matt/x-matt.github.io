@@ -35,7 +35,6 @@ timeline
 
 ### Classification
 
-
 | A               | B              | Name                       | Desc      |
 | --------------- | -------------- | -------------------------- | --------- |
 | SW(High DR)[^2] | -              | Bracketing                 | L-EXP     |

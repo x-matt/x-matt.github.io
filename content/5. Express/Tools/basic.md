@@ -77,14 +77,6 @@ title: Basic Tools
 1. EnableLUA = 0
 1. 重启电脑
 
-### PowerShell
-
-1. 命令
-    - check版本: `$PSVersionTable`
-1. 配置OhMyPosh
-    1. 创建配置文件`New-Item -path $profile -type file –force`
-    1. 配置文件中添加配置命令`oh-my-posh --init --shell pwsh --config ~/jandedobbeleer.omp.json | Invoke-Expression`
-
 ### 软件推荐合集
 
 - 卸载工具：Geek Uninstaller `winget install GeekUninstaller.GeekUninstaller`

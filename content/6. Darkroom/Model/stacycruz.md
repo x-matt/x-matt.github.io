@@ -3,4 +3,4 @@ title: Stacy Cruz
 ---
 ![](https://cdn.tushy.com/scene/videoimages/101221/mainLandscape/1561108983529/tushy-5-10-19-stacy-cruz_3840x2160.webp)
 
-![](https://cdn.blacked.com/scene/TOURPHOTO/100996/1550746557891/04.jpg?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uYmxhY2tlZC5jb20vc2NlbmUvVE9VUlBIT1RPLzEwMDk5Ni8xNTUwNzQ2NTU3ODkxLyouanBnIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzM4MzIzNzc5fX19XX0_&Key-Pair-Id=K18SM53O8A1CFO&Signature=LEgKCzkSMXnjMv2S8WtFCFmDF4lz6k1WcqKKV1X6iDfyM4gO3OU~0En0RxHW~13C52jmrztPs9HJhsTtWWI~ETZvOZj8r~qPEBnYmTGa6Atoh8HrBvl8hSiR7YuHT7RnaUlw3fQRGyUyYeXFUyTX7~lDdGKMO2TSpkgNsSx2JOxJRDky--P9~tchbMeobzRGUmsasAjq2RdbPndQgG6DQCEELHJxKPcsH2jSnGNFL9iUvtdAmKJCuP3ODAAqFzVooNnxdfkpfMaB9NRvDA9r2wYKICV2f~Rcs8gIbltPgnPeCss6sA-ZnoP2kyCpIL0tq0m1As3ov9IasxHl~4Gzkw__)
+![](https://cdn.blacked.com/scene/videoimages/100996/mainLandscape/1550746883909/blacked-12-18-18-stacy-cruz_3840x2160.webp)
