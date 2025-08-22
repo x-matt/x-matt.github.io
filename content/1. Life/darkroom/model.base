@@ -1,0 +1,11 @@
+views:
+  - type: cards
+    name: Table
+    filters:
+      and:
+        - file.inFolder("1. Life/darkroom/Model")
+        - file.name != "README"
+    order:
+      - title
+    image: note.cover
+    imageAspectRatio: 0.7
