@@ -3,9 +3,10 @@ views:
     name: Table
     filters:
       and:
-        - file.inFolder("1. Life/darkroom/Model")
+        - file.inFolder("Life/Darkroom/Model")
         - file.name != "README"
     order:
       - title
     image: note.cover
     imageAspectRatio: 0.7
+    imageFit: ""
