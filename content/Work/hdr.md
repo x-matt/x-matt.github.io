@@ -74,7 +74,7 @@ timeline
 | **Power consumption**        | Good                             | Good        | Good        | Good                                              |
 
 ![[hdr 2025.excalidraw.svg|500]]
-%%[[hdr 2025.excalidraw.md|🖋 Edit in Excalidraw]]%%
+%%[[hdr 2025.excalidraw|🖋 Edit in Excalidraw]]%%
 
 [^1]: [图像传感器HDR技术 - 知乎](https://zhuanlan.zhihu.com/p/657455970)
 [^2]: [CMOS图像传感器专题 - 1 高动态范围（HDR）成像 - Analog/RF IC 设计讨论 - EETOP 创芯网论坛 (原名：电子顶级开发网) -](https://bbs.eetop.cn/forum.php?mod=viewthread&tid=966637)
