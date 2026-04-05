@@ -5,8 +5,6 @@ title: Passion !!!
 
 make difference ~
 
-testing
-
 | Index | Section  | Name                   |
 | ----- | -------- | ---------------------- |
 | 1.    | Life     |                        |

@@ -12,6 +12,7 @@ configuration:
     - private
     - templates
     - .obsidian
+    - .claude
     - zAssets/excalidraw/*.md
     - zSettings
   theme:
