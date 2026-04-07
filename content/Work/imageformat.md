@@ -23,7 +23,7 @@ title: Image Format
 | QCOM     | UBWC                         |                                                                                                       | **U**niversal **B**and**W**idth **C**ompression    |
 | Common   | AFBC                         | **MTK-YUV**: NV12, YUVP010                                                                            | **A**rm **F**rame **B**uffer **C**ompressions[^1]  |
 
-![[imageformat 2024.excalidraw.svg]]
+![[imageformat 2024.excalidraw|600]]
 ### UBWC Intro
 
 >[!quote] Qcom official introduction

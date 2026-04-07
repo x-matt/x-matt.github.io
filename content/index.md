@@ -10,4 +10,4 @@ make difference ~
 | 1.    | Life     |                        |
 | 2.    | Work     |                        |
 | 3.    | Tools    |                        |
-| 4.    | Archives | [[archived\|Archived]] |
+| 4.    | Archives | [[Archived]] |

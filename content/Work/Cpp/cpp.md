@@ -508,7 +508,7 @@ XXX 待进一步学习死锁问题
 
 ### Deque
 
-![[cpp 2024.excalidraw.svg|deque principle|300]]
+![[cpp 2024.excalidraw]]
 
 - A deque is somewhat recursively defined: internally it maintains a double-ended queue of _chunks_ of fixed size. Each chunk is a vector, and the queue (“map” in the graphic below) of chunks itself is also a vector[^4].
 - 2-d vector: a vector of vectors
