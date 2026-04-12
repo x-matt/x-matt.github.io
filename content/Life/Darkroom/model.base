@@ -3,7 +3,7 @@ views:
     name: Table
     filters:
       and:
-        - file.inFolder("Life/Darkroom/Model")
+        - file.hasTag("model")
         - file.name != "README"
     order:
       - title
