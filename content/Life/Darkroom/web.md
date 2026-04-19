@@ -22,6 +22,8 @@ date: 2022-03-17 11:00:00 +0800
 | &#127909; | [HotMovies](https://hotmovs.com/)       | &#128509; |
 | &#127909; | [SexTV](https://www.sextvx.com/)        | &#128509; |
 | &#127909; | [Sxyprn](https://sxyprn.com/)           | &#128509; |
+| &#127909; | [Xmoivx](https://hd.xmovix.net/)        | &#128509; |
+| &#127909; | [Eporner](https://www.eporner.com//)    | &#128509; |
 | &#127909; | [Table](https://jable.tv/)              | &#128510; |
 | &#127909; | [Trex](https://www.porntrex.com/)       | &#128509; |
 | &#127909; | [VintageTube](https://vintagetube.xxx/) | &#129491; |

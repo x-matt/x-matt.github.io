@@ -1,6 +1,7 @@
 ---
 title: C++ I/O
-tags: []
+tags:
+  - cpp
 ---
 ### 输入连续数进入vector
 

@@ -1,5 +1,7 @@
 ---
 title: Design pattern
+tags:
+  - cpp
 ---
 ## 工厂模式
 1. 创建对象时不暴露创建逻辑

@@ -1,6 +1,7 @@
 ---
 title: Lead to offer
-tags: []
+tags:
+  - cpp
 ---
 ## 3 数组-找出数组中重复的数字
 

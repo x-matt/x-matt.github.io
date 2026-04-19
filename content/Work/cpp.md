@@ -1,6 +1,7 @@
 ---
 title: Cpp
-tags: []
+tags:
+  - cpp
 ---
 ## Knowledge Classification
 

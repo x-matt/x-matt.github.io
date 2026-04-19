@@ -1,6 +1,8 @@
 ---
 title: Moana Pozzi
 cover: "[[moana_6.png]]"
+tags:
+  - model
 ---
 
 ## Backfield In Motion

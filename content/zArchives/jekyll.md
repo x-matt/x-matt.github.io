@@ -1,7 +1,7 @@
 ---
 title: Jekyll
 tags:
-  - archived/tools
+  - archived
 ---
 System environment
 
