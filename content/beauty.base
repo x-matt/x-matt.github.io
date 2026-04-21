@@ -3,6 +3,7 @@ views:
     name: Table
     filters:
       and:
+        - file.folder == "Life/Darkroom"
         - file.tags.contains("model")
     order:
       - title
