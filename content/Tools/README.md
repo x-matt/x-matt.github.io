@@ -1,7 +1,7 @@
 ---
 title: README
 ---
-- [[2. Areas/Tools/basic|basic]]
+- [[Tools/basic|basic]]
 - [[design]]
 - [[diagram]]
 - [[obsidian]]
