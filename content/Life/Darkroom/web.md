@@ -33,6 +33,10 @@ date: 2022-03-17 11:00:00 +0800
 
 ## Classic
 
+[Penthouse forum pin up](https://mat6tube.com/watch/-87213081_456240422)
+Anna Nicole Smith 1993
+Victoria Silvstedt 1997
+Anna Sophia Berglund 2011
 ### Fuqingzhu
 
 | 标题                                                     | 平台    | 日期       | 作者   |
