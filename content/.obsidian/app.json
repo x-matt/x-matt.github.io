@@ -1,0 +1,17 @@
+{
+  "alwaysUpdateLinks": true,
+  "showInlineTitle": false,
+  "readableLineLength": false,
+  "showLineNumber": true,
+  "attachmentFolderPath": "assets/images",
+  "promptDelete": false,
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "main": {
+    "id": "c6b2d26dcf7a8ff7",
+    "type": "split",
+    "children": [
+      {
+        "id": "20254b5948c42846",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc3ecd6769d50fc0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "c1cab7fb7a5e7fa3",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "zAssets/excalidraw/name 2026.excalidraw.svg"
+              },
+              "icon": "lucide-image",
+              "title": "name 2026.excalidraw"
+            }
+          },
+          {
+            "id": "505de48b3f79dfe8",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "zAssets/excalidraw/name 2026.excalidraw.svg"
+              },
+              "icon": "lucide-image",
+              "title": "name 2026.excalidraw"
+            }
+          },
+          {
+            "id": "c6204747061c44de",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "beauty.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-layout-grid",
+              "title": "beauty"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bd7736414241e950",
+    "type": "split",
+    "children": [
+      {
+        "id": "f6b5dd97f6c6a739",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c59300ad307449ca",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3ef6f989fb42b276",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "0ceb746d8effe623",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "40f2aa5297dd9605",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 323.5
+  },
+  "right": {
+    "id": "5e007910e90f3de9",
+    "type": "split",
+    "children": [
+      {
+        "id": "132e6b069b0be785",
+        "type": "tabs",
+        "dimension": 39.55399061032864,
+        "children": [
+          {
+            "id": "00e613b5071a4b92",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "06f1af6aec659568",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "7e9c7c78870a3a41",
+        "type": "tabs",
+        "dimension": 60.44600938967136,
+        "children": [
+          {
+            "id": "7ba7bdb4bbc55d00",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 371.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": true,
+      "switcher:Open quick switcher": true,
+      "graph:Open graph view": true,
+      "daily-notes:Open today's daily note": true,
+      "command-palette:Open command palette": true,
+      "workspaces:Manage workspace layouts": true,
+      "obsidian-excalidraw-plugin:New drawing": true,
+      "canvas:Create new canvas": false
+    }
+  },
+  "active": "dc3ecd6769d50fc0",
+  "lastOpenFiles": [
+    "zAssets/excalidraw/name 2026.excalidraw.md",
+    "Life/name.md",
+    "zAssets/excalidraw/name 2026.excalidraw.svg",
+    "beauty.base",
+    "Life/Darkroom/hopeheaven.md",
+    "Life/Darkroom/ambermoore.md",
+    "Life/Darkroom/kellycollins.md",
+    "index.md",
+    "Life/naval.md",
+    "Work/imageformat.md",
+    "Life/Darkroom/web.md",
+    "Life/business.md",
+    "Life/erye.md",
+    "Work/io.md",
+    "Work/README.md",
+    "Tools/README.md",
+    "Tools/basic.md",
+    "Life/Darkroom/buer_four.md",
+    "Life/Darkroom/barbiebrill.md",
+    "Life/Darkroom/classic model.md",
+    "Life/Darkroom/buer_two.md",
+    "Life/Darkroom/buer_three.md",
+    "Life/Darkroom/buer_six.md",
+    "Life/Darkroom/buer_one.md",
+    "Life/Darkroom/buer_five.md",
+    "Life/Darkroom/buer_daily.md",
+    "Life/Darkroom/buer_after.md",
+    "Life/Darkroom",
+    "Life/新建文件夹",
+    "Life",
+    "Live/Darkroom/beauty.base",
+    "Live/Darkroom",
+    "Live",
+    "新建文件夹",
+    "zAssets/images/posts/buer/buer_57.jpg",
+    "zAssets/images/posts/buer/buer_56.jpg",
+    "zAssets/images/posts/buer/buer_55.jpg",
+    "zAssets/images/posts/buer/buer_54.jpg",
+    "zAssets/images/posts/buer/buer_53.jpg",
+    "zAssets/images/posts/buer/file-20260412145006268.jpg",
+    "zAssets/images/posts/buer/file-20260412145006226.jpg",
+    "zAssets/images/posts/buer/file-20260412145006181.jpg",
+    "zAssets/images/posts/buer/file-20260412145006149.jpg",
+    "Daily",
+    "Life/Chronicle/ming.canvas",
+    "Life/History/ming.canvas",
+    "Planning.canvas",
+    "Untitled 1.canvas",
+    "未命名.canvas",
+    "未命名 3.canvas",
+    "未命名 4.canvas",
+    "未命名 2.canvas",
+    "未命名 1.canvas"
+  ]
+}

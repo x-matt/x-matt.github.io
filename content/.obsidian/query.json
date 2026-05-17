@@ -1,0 +1,31 @@
+{
+  "queries": [
+    {
+      "createdAt": "2024/06/27 10:14:01",
+      "id": "202406271014012",
+      "pinnedAt": "",
+      "querystring": "[{\"type\":\"TAG\",\"value\":{\"operator\":\"CONTAIN\",\"value\":\"tool\"},\"relation\":\"AND\"}]",
+      "title": "Tool",
+      "updatedAt": "2024/06/27 10:14:01",
+      "userId": "Thino"
+    },
+    {
+      "createdAt": "2024/11/18 16:16:15",
+      "id": "202411181616152",
+      "pinnedAt": "",
+      "querystring": "[{\"type\":\"TAG\",\"value\":{\"operator\":\"CONTAIN\",\"value\":\"thoughts\"},\"relation\":\"AND\"}]",
+      "title": "Thoughts",
+      "updatedAt": "2024/11/18 16:16:15",
+      "userId": "Thino"
+    },
+    {
+      "createdAt": "2024/11/18 17:04:23",
+      "id": "202411181704232",
+      "pinnedAt": "",
+      "querystring": "[{\"type\":\"TAG\",\"value\":{\"operator\":\"CONTAIN\",\"value\":\"weekly\"},\"relation\":\"AND\"}]",
+      "title": "Weekly",
+      "updatedAt": "2024/11/18 17:04:23",
+      "userId": "Thino"
+    }
+  ]
+}

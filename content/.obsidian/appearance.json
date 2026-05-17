@@ -1,0 +1,12 @@
+{
+  "accentColor": "#b16db6",
+  "cssTheme": "Minimal",
+  "showViewHeader": true,
+  "theme": "system",
+  "enabledCssSnippets": [
+    "personal"
+  ],
+  "interfaceFontFamily": "Ubuntu",
+  "baseFontSize": 17,
+  "showRibbon": false
+}

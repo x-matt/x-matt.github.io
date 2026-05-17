@@ -1,0 +1,86 @@
+/* 周末背景色加深 */
+ #calendar-container {
+  --color-background-weekend: hsla(var(--interactive-accent-hsl), 0.1);
+}
+
+/* 图片标题 */
+.image-embed[alt]:after {
+    content: attr(alt);
+    display: block;
+    margin: 0.2rem 1rem 1rem 1rem;
+    font-size: 90%;
+    font-style: italic;
+    line-height: 1.4;
+    color: var(--text-faint);
+    /* text-align: center; */
+}
+    
+/* 图片居中 */
+/* img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    border-radius: 8px;
+} */
+
+.markdown-source-view.mod-cm6 .cm-content > * {
+        margin: auto auto !important;
+}
+
+/* 表格垂直居中 */
+/* body {
+  --table-cell-vertical-alignment: middle;
+}
+.table-cell-wrapper {display: table-cell;} */
+/* 表格整体居中 */
+/* .markdown-reading-view table {
+    margin: 0 auto;
+}
+.markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper {
+    margin: 0 auto;
+} */
+/* 表格头背景色 */
+.theme-light .markdown-rendered thead tr {
+    background-color: #e8e8e8;
+}
+.theme-dark .markdown-rendered thead tr {
+    background-color: #303030;
+}
+
+/* 实时编辑 */
+.markdown-source-view span.cm-inline-code {
+    padding:4px;
+    border-width:1px;
+    border-style: solid;
+    border-radius: 5px;
+    margin-left:5px;
+    margin-right:5px;
+}
+.theme-light .markdown-source-view span.cm-inline-code {
+    color:#f08800;
+    background-color: #f2f2f2;
+    border-color:w;
+}
+.theme-dark .markdown-source-view span.cm-inline-code{
+    color:#f09c2f;
+    background-color: #1b1b1b;
+    border-color:#777777
+}
+/* 阅读模式 */
+.theme-light .markdown-rendered code {
+    color:#f08800;
+    background-color: #f2f2f2;
+}
+.theme-dark .markdown-rendered code {
+    color:#f09c2f;
+    background-color: #1b1b1b;
+}
+
+.tag {
+    color:#4ed17e !important;
+}
+
+/* code 缩进 */
+.cm-indent::before {
+    content: none !important;
+}
