@@ -3,11 +3,11 @@ title: Passion !!!
 ---
 **Man, Come on💎 !!!**
 
-Based on **PARA** from [LifeOS](https://lifeos.vip/).
+make difference ~
 
-| Index | Section  | Name                   |
-| ----- | -------- | ---------------------- |
-| 1.    | Life     |                        |
-| 2.    | Work     |                        |
-| 3.    | Tools    |                        |
-| 4.    | Archives | [[archived\|Archived]] |
+| Index | Section  |
+| ----- | -------- |
+| 1.    | Life     |
+| 2.    | Work     |
+| 3.    | Tools    |
+| 4.    | Archives |
