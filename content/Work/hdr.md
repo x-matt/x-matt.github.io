@@ -1,79 +1,102 @@
----
-title: HDR
-tags:
-  - hdr
----
-## High Dynamic Range
+> High Dynamic Range
 
-### Timeline
+## 类型
 
-```mermaid
-timeline
-    title Timeline of HDR Development
+- mf-hdr(mStream)
+- staggered-hdr
 
-    2000s : LOFIC
-    2003  : Large/small pixel
-    2010s : Multi-frame HDR
-    2014  : iHDR Zigzag HDR HDR+
-    2017  : QHDR
-    2018  : Staggered HDR
+## 原理
+
+- 人眼动态范围是100dB
+- Sensor 的动态范围： 高端的 >78 dB; 消费级的 60 dB 上下；
+
+动态范围计算公式
+$DR = 20log_{10}(i_max / i_min)$
+
+1. 8bit - (1, 255)
+1. 10bit - (1, 1023) DR = 60
+1. 12bit - (1, 4095) DR = 72
+
+## 具体方案
+
+1. 提高感光井能力
+   1. 增加电荷容量
+   1. 通过多次reset来改善容量
+1. 多曝光合成
+
+   ```cpp
+   If (Intensity > a) intensity = short_exposure_frame;
+   If (Intensity < b) intensity = long_exposure_frame;
+   If (b<Intensity <a) intensity = long_exposure_frame x p + short_exposure_frame x q;
+   ```
+
+   - 需要很快的readout time，但是即便readout time再小，也还是又多帧导致的鬼影问题,vHDR由于运算时间有限，所以无法进行负责鬼影优化
+     - 因此产生了单帧多爆的技术：stagger HDR
+       - 其以“行”为单位，能降低鬼影，但是相邻两行之间的曝光时差会增加，会加剧RollingShutter引起的畸变
+
+## vHDR
+
+### 基础知识
+
+#### DOL
+
+1. 先长曝后短曝, 等待中的line会少一些
+
+### Qcom
+
+- [MFHDR架构介绍](https://wiki.n.miui.com/pages/viewpage.action?pageId=561357565)
+- [MFHDR图像dump](https://wiki.n.miui.com/pages/viewpage.action?pageId=567849584)
+
+### MTK
+
+关键字: `mtkcam-HDRStateEvaluator|mtkcam-HDRPolicyHelper`
+
+```bash
+# 强设sensorMode
+adb shell setprop vendor.debug.cameng.force_sensormode 0
+
+# 强开vHDR
+adb shell setprop vendor.debug.camera.hal3.vhdr 1
+adb shell setprop vendor.debug.camera.hal3.appHdrMode 3
 ```
 
-### Principle
+1. Stagger HDR
+2. MStream HDR
 
-1. Human-eye's dynamic range is **100dB** 
-2. Sensor
-	1. $DR = 20log_{10}(\frac{i_{max}}{i_{min}})$
-		1. $i_{min}$ is **blacklevel**
-		2. if ADC bit depth is $n$，$DR = 6.02 \times n + 1.76$
-	2. Range:
-		1. High: > 80dB
-		2. Normal: < 80dB
-		3. 8bit - (1, 255)
-		4. 10bit - (1, 1023)  DR = 60
-		5. 12bit - (1, 4095)  DR = 72
+   ```cpp
+   bool HDRPolicyHelper::isMStreamHDR() {
+     return (mHDRHalMode & MTK_HDR_FEATURE_HDR_HAL_MODE_MSTREAM_CAPTURE_PREVIEW);
+   }
 
-### Classification
+   typedef enum mtk_camera_metadata_enum_hdr_hal_mode {
+     MTK_HDR_FEATURE_HDR_HAL_MODE_OFF = 0x0,
+     MTK_HDR_FEATURE_HDR_HAL_MODE_MVHDR = 0x1,
+     MTK_HDR_FEATURE_HDR_HAL_MODE_MSTREAM_CAPTURE = 0x2,
+     MTK_HDR_FEATURE_HDR_HAL_MODE_MSTREAM_PREVIEW = 0x4,
+     MTK_HDR_FEATURE_HDR_HAL_MODE_MSTREAM_CAPTURE_PREVIEW =
+         (MTK_HDR_FEATURE_HDR_HAL_MODE_MSTREAM_CAPTURE |
+          MTK_HDR_FEATURE_HDR_HAL_MODE_MSTREAM_PREVIEW),
+     MTK_HDR_FEATURE_HDR_HAL_MODE_STAGGER_2EXP = 0x8,
+     MTK_HDR_FEATURE_HDR_HAL_MODE_STAGGER_3EXP = 0x10,
+     MTK_HDR_FEATURE_HDR_HAL_MODE_STAGGER =
+         (MTK_HDR_FEATURE_HDR_HAL_MODE_STAGGER_2EXP |
+          MTK_HDR_FEATURE_HDR_HAL_MODE_STAGGER_3EXP),
+   } mtk_camera_metadata_enum_hdr_hal_mode_t;
+   ```
 
-| A               | B              | Name                       | Desc      |
-| --------------- | -------------- | -------------------------- | --------- |
-| SW(High DR)[^2] | -              | Bracketing                 | L-EXP     |
-|                 |                | HDR+                       | S-EXP     |
-|                 |                | HDR+ with Bracketing       | L & S EXP |
-| HW(Wide DR)     | Spatial-based  | Super CCD                  |           |
-|                 |                | BME & SME                  |           |
-|                 |                | Quad-Bayer HDR             |           |
-|                 |                | Split-diode                |           |
-|                 | Time-based     | Dual Sampling              |           |
-|                 |                | DOL/Staggered              |           |
-|                 | Response-based | Logarithmic response       |           |
-|                 |                | Lin-Log & Multi-Log        |           |
-|                 |                | LOFIC                      |           |
-|                 |                | DCG (Dual Conversion Gain) |           |
-|                 |                | DAG (Dual Analog Gain)     |           |
-|                 |                | Skimming HDR               |           |
+3. 确认 mfHDR
+   ```shell
+   12-14 16:54:08.908 30719 31285 D mtkcam-HDRPolicyHelper: [HDRPolicyHelper][Cam::0](0xb4000072cbf16018):HDRAppMode(0),HDRHalAppMode(0),HDRHalMode(0x6),HDRSensorMode(0x0),SensorType(0)
+   ```
 
+![[2023-10-10-09-59-58.png| HDR format comparison]]
 
-| Frame Number | Name                                     | Type | Desc |
-| ------------ | ---------------------------------------- | ---- | ---- |
-| Single[^1]   | Quad Bayer HDR                           | HW   |      |
-|              | Interlaced HDR                           |      |      |
-|              | Zig-zag HDR                              |      |      |
-|              | DCG                                      |      |      |
-| Multi        | Multi-frame<br>- *LBMF*                  | SW   |      |
-|              | Line Interleaving HDR<br>- *DOL/Stagger* |      |      |
+## 参考资料
 
-### HDR Format Comparison
-
-| Feature                      | LBMF (Less blanking multi frame) | F DOL       | DCG         | M stream                                          |
-| ---------------------------- | -------------------------------- | ----------- | ----------- | ------------------------------------------------- |
-| **Cost**                     | High cost                        | Middle cost | Middle cost | No extra cost                                     |
-| **Dynamic range**            | Excellent                        | Excellent   | Low         | Good                                              |
-| **Noise level at dark area** | Excellent                        | Excellent   | Excellent   | Good (Exposure time for long exposure is limited) |
-| **Motion artifact**          | Good                             | Good        | Excellent   | Worse                                             |
-| **Power consumption**        | Good                             | Good        | Good        | Good                                              |
-
-![[hdr 2025.excalidraw|500]]
-
-[^1]: [图像传感器HDR技术 - 知乎](https://zhuanlan.zhihu.com/p/657455970)
-[^2]: [CMOS图像传感器专题 - 1 高动态范围（HDR）成像 - Analog/RF IC 设计讨论 - EETOP 创芯网论坛 (原名：电子顶级开发网) -](https://bbs.eetop.cn/forum.php?mod=viewthread&tid=966637)
+1. [HDR Sensor 原理介绍](https://zhuanlan.zhihu.com/p/20705821)
+1. [【笔记】HDR 成像技术学习(一)](https://blog.csdn.net/nyist_yangguang/article/details/123056556)
+1. [【笔记】HDR 成像技术学习(二)](https://blog.csdn.net/nyist_yangguang/article/details/123094698)
+1. [【笔记】HDR 成像技术学习(三)-- LOFIC](https://blog.csdn.net/nyist_yangguang/article/details/123122096)
+1. [Omnivision HDR sensor 简介](https://zhuanlan.zhihu.com/p/348447643)
+1. [HDR(High Dynamic Range)](https://wiki.n.miui.com/pages/viewpage.action?pageId=577818181)
+1. [HDR(DOL/LBMF/DCG/RGBW)-MTK](https://online.mediatek.com/apps/quickstart/QS00419#QSS06209)

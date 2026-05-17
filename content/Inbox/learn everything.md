@@ -1,5 +1,5 @@
 ---
-title: 半小时帮你搞懂任何陌生领域
+title: Learn Everything Within Half an Hour
 source: https://x.com/Khazix0918/status/2043555868902637845
 author:
 published:

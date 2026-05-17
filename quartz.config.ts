@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "x-matt.github.io",
-    ignorePatterns: ["private", "templates", ".obsidian", "zAssets/excalidraw/*.md", "zSettings"],
+    ignorePatterns: ["private", "templates", ".obsidian", "zAssets/excalidraw/*.md", "zAssets/templates/*.md", "zSettings"],
     defaultDateType: "created",
     generateSocialImages: false,
     theme: {

@@ -3,6 +3,7 @@ title: C++ I/O
 tags:
   - cpp
 ---
+
 ### 输入连续数进入vector
 
 ```cpp
@@ -72,7 +73,7 @@ for (int i = 0;i < a.size();i++)
     ch = a[i]+'0';
     s += ch;
 }
-    
+
 for (int i = 0;i < s.size();i++)
 {
     tmp = s[i]-'0';
@@ -87,12 +88,13 @@ int *p=new int;
 delete p;
 int *p=new int(10);
 delete p;
-int *p=new int[10]; 
+int *p=new int[10];
 delete [] p;
 p=NULL;
 ```
 
 ### 华为0731笔试题第二题
+
 找匹配的数
 
 ```cpp
@@ -126,6 +128,7 @@ for (int i = 0;i < result.size();i++)
 ```
 
 ### 华为0731笔试题第一题
+
 最接近某个数的商
 
 ```cpp
@@ -285,11 +288,11 @@ int main()
 
 ```cpp
 // 全排序的类
-class full_order 
+class full_order
 {
 public:
     void permute(vector<int>nums, vector<vector<int>>& ans, int begin, int end) {
-        if (begin > end) 
+        if (begin > end)
         {
             if (front_equal(nums, nums.size()))
             {
@@ -297,9 +300,9 @@ public:
                 return;
             }
         }
-        else 
+        else
         {
-            for (int i = begin; i <= end; i++) 
+            for (int i = begin; i <= end; i++)
             {
                 swap(nums[begin], nums[i]);
                 permute(nums, ans, begin + 1, end);
@@ -307,7 +310,7 @@ public:
         }
     }
 
-    vector<vector<int>> permute(vector<int>& nums) 
+    vector<vector<int>> permute(vector<int>& nums)
     {
         vector<vector<int>> ans;
         int len = nums.size() - 1;
@@ -347,7 +350,7 @@ for (int i = 0;i < num1;i++)
         cin >> a[i][j];
     }
 }
-    
+
 // 得出全排序
 full_order equal_before;
 for (int i = 0;i < num1;i++)
@@ -391,7 +394,7 @@ void preorderTraversalNew(TreeNode *root, vector<int> &path)
 }
 ```
 
->将else中的三行代码交换顺序，就可以实现二叉树的不同遍历方式
+> 将else中的三行代码交换顺序，就可以实现二叉树的不同遍历方式
 
 #### 前序遍历简化版本
 
