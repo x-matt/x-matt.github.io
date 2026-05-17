@@ -57,19 +57,19 @@ tags:
 
 ### 3.1 MTK-自检
 
-| 测试项                                  | 验证方法                                                  | 结论                     | 备注                       |
-| --------------------------------------- | --------------------------------------------------------- | ------------------------ | -------------------------- | ------ |
-| EIS算法版本号                           | `adb shell "pkill camera\*" && adb logcat                 | grep "Vidhance version"` | PASS                       | 3.10.4 |
-| EIS-debug等级的log开启方式              | `setprop vendor.vidhance.logging.level 0`                 | PASS                     | -                          |
-| EIS-dump方式                            | `setprop vendor.vidhance.debug.eisdump 1`                 | PASS                     | /data/vendor/camera_dump   |
-| EISNode处理时间(需要打开debug等级的log) | `adb logcat                                               | grep "Processing time"`  | PASS                       | -      |
-| 录像场景下EIS功能验证                   | `Using configuration` (log中 stabilizer: 1)               | PASS                     | 短视频场景，支持与美颜同开 |
-| UW录像场景下EIS-LDC功能验证             | `Using configuration` (log中 lensDistortionCorrection: 1) | PASS                     | -                          |
-| 超级防抖下超级防抖功能验证              | `Using configuration` (log中 superStabilization: 1)       | PASS                     | -                          |
-| 超级防抖下水平矫正功能验证              | `Using configuration` (log中 horizonCorrection: 1)        | PASS                     | 仅在超级防抖模式下开启     |
-| gyro采样率                              | `Initialized sensor GYROSCOPE`                            | PASS                     | -                          |
-| EISMargin                               | `Using margin scale factor                                | set eisMargin =`         | PASS                       | -      |
-| 校准文件版本                            | `Parsing calibration file`                                | PASS                     | -                          |
+| 测试项                          |
+| ---------------------------- |
+| EIS算法版本号                     |
+| EIS-debug等级的log开启方式          |
+| EIS-dump方式                   |
+| EISNode处理时间(需要打开debug等级的log) |
+| 录像场景下EIS功能验证                 |
+| UW录像场景下EIS-LDC功能验证           |
+| 超级防抖下超级防抖功能验证                |
+| 超级防抖下水平矫正功能验证                |
+| gyro采样率                      |
+| EISMargin                    |
+| 校准文件版本                       |
 
 ### 3.2 看现象
 
@@ -147,7 +147,7 @@ adb shell setprop vendor.vidhance.enabled 0
 | MTK      | input = (100+margin)/100 x output | margin = 25  | OutputMargin |
 | Qcom     | input(1-margin) = output          | margin = 0.2 | InputMargin  |
 
-> 100/(100+margin_MTK) = 1-margin_Qcom
+> 100/(100+margin) = 1-margin
 
 ## 6. WPE-dump
 
