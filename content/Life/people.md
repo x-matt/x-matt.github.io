@@ -1,5 +1,5 @@
 ---
-title: NIhaixia Intro
+title: Nihaixia Intro
 tags:
   - nihaixia
 ---

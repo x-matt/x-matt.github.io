@@ -1,3 +1,10 @@
+---
+title: Eis Framedelay
+tags:
+  - framedelay
+  - eis
+---
+
 - XM MTK平台相机预研规划项]
 - MTK-EIS 60帧缓存
 

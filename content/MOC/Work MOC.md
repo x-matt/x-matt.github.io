@@ -66,7 +66,7 @@ title: Work MOC
 
 - [[eis]] - EIS 总览
 - [[eis-overview|overview]]
-- [[60q]]
+- [[framedelay]]
 - [[power]]
 - [[zoomeis]]
 - [[mis]]
