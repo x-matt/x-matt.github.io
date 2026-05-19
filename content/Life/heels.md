@@ -1,5 +1,5 @@
 ---
-title: 👠High heels
+title: Heels
 ---
 
 ## Brand

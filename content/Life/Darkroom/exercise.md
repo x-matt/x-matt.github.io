@@ -1,5 +1,5 @@
 ---
-title: 锻炼手册
+title: Exercise
 date: 2022-01-16 11:33:00 +0800
 ---
 

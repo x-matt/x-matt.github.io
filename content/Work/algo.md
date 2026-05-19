@@ -1,3 +1,8 @@
+---
+title: Algo
+
+---
+
 1. [[eis]]
 1. [[autozoom]]
 1. [[dolbyvision]]

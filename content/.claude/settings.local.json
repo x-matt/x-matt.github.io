@@ -32,7 +32,8 @@
       "WebFetch(domain:github.com)",
       "WebFetch(domain:raw.githubusercontent.com)",
       "Bash(claude plugin *)",
-      "Bash(python gen_sift.py)"
+      "Bash(python gen_sift.py)",
+      "Bash(python fix_yaml.py)"
     ]
   }
 }

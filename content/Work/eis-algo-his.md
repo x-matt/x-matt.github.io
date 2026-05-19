@@ -1,5 +1,5 @@
 ---
-title: HIS 算法
+title: Eis algo his
 created: 2026-01-16
 tags:
   - eis

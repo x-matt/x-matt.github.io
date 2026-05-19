@@ -1,3 +1,8 @@
+---
+title: Power
+
+---
+
 ## M16T 评估时候的开关对比命令
 
 1. set EISMargin 0

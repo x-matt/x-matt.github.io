@@ -1,4 +1,5 @@
 ---
+title: Mivi structure
 tags:
   - mivi
 ---

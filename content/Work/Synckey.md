@@ -1,4 +1,5 @@
 ---
+title: Synckey
 aliases:
   - Sync Key Problem
 tags:

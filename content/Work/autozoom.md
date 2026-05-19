@@ -1,4 +1,5 @@
 ---
+title: Autozoom
 tags:
   - archived
 ---

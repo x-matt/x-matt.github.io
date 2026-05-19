@@ -1,5 +1,6 @@
 ---
 title: Android Structure
+
 ---
 
 ![[structure 2025.excalidraw#^frame=Android Abstract|600]]

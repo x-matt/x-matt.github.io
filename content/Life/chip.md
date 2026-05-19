@@ -1,5 +1,6 @@
 ---
 title: Small ideas
+
 ---
 
 ### 人与感知类比

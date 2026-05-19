@@ -1,5 +1,5 @@
 ---
-title: EIS (Electronic Image Stabilization) 总览
+title: Eis overview
 created: 2026-01-16
 tags:
   - eis

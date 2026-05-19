@@ -1,3 +1,8 @@
+---
+title: Sensor
+
+---
+
 ## Revision history
 
 | Revision |    Data    | Description        |

@@ -1,5 +1,5 @@
 ---
-title: MTK EIS 命令与调试
+title: Commands
 created: 2026-01-16
 tags:
   - eis

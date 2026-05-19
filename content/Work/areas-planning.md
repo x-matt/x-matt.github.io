@@ -1,6 +1,7 @@
 ---
 title: Core Areas
 cover: "[[pawel-czerwinski-_nqApgG-QrY-unsplash.jpg]]"
+
 ---
 
 ## todo list

@@ -2,6 +2,7 @@
 title: Photography
 tags:
   - entertainment
+
 ---
 
 ## Light & Shade

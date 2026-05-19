@@ -1,5 +1,5 @@
 ---
-title: Qcom EIS 架构与节点
+title: Eis qcom architecture
 created: 2026-01-16
 tags:
   - eis

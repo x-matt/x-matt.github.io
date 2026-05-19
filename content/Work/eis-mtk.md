@@ -1,3 +1,8 @@
+---
+title: Eis of Mtk
+
+---
+
 ### 命令
 
 - 确认打开 - `adb logcat | grep DoRSCMEEis`

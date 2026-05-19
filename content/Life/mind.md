@@ -1,5 +1,6 @@
 ---
 title: Beautiful Mind
+
 ---
 
 ## Symmary

@@ -1,5 +1,5 @@
 ---
-title: 💰Finance
+title: Finance
 ---
 
 ## 美联储利息

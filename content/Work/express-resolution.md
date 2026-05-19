@@ -1,5 +1,6 @@
 ---
 title: Image Resolution
+
 ---
 
 | Type    | Name         | Resolution | Scale |

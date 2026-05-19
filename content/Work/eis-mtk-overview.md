@@ -1,5 +1,5 @@
 ---
-title: MTK EIS 平台总览
+title: Eis mtk overview
 created: 2026-01-16
 tags:
   - eis

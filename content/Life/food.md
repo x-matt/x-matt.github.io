@@ -1,5 +1,5 @@
 ---
-title: 🍙Food
+title: Food
 ---
 
 | City | Name     | Destination | Price   |

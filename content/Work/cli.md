@@ -1,4 +1,5 @@
 ---
+title: Cli
 tags:
   - tool
 ---

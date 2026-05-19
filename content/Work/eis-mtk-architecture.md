@@ -1,5 +1,5 @@
 ---
-title: MTK EIS 架构与流程
+title: Eis mtk architecture
 created: 2026-01-16
 tags:
   - eis

@@ -2,6 +2,7 @@
 title: Structure from Motion
 tags:
   - sfm
+
 ---
 
 - input: 多帧图像或视频

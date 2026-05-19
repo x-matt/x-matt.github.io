@@ -1,5 +1,6 @@
 ---
 title: HDR
+
 ---
 
 ## High Dynamic Range

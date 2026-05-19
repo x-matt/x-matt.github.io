@@ -1,5 +1,7 @@
 ---
 title: MCTF
+tags:
+  - qcom
 ---
 
 > Motion compensation temporal filtering

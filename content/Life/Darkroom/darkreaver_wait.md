@@ -1,5 +1,5 @@
 ---
-title: 第十贴，不漫长的等待
+title: Darkreaver wait
 date: 2012-08-16 11:33:00 +0800
 tags:
   - darkreaver

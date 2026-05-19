@@ -1,6 +1,7 @@
 ---
 title: Classic Model
 tags:
+
 ---
 
 ## Classic

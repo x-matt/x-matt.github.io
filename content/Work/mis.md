@@ -1,5 +1,5 @@
 ---
-title: Mis 架构
+title: Mis Intro
 tags:
   - eis
 ---

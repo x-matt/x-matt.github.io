@@ -2,6 +2,7 @@
 title: Zero Shutter Lag - ZSL
 tags:
   - mivi
+  - zsl
 ---
 
 ### ZSLQ

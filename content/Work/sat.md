@@ -2,6 +2,7 @@
 title: SAT
 tags:
   - sat
+
 ---
 
 ## Revision history

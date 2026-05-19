@@ -1,5 +1,6 @@
 ---
 title: Lead to offer
+
 ---
 
 ## 3 数组-找出数组中重复的数字

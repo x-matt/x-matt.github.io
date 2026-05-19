@@ -1,5 +1,6 @@
 ---
 title: Sensor
+
 ---
 
 ## Camera

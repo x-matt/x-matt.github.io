@@ -1,5 +1,5 @@
 ---
-title: 其他 EIS 算法厂商
+title: Other
 created: 2026-01-16
 tags:
   - eis

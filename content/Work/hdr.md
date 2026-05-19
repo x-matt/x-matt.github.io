@@ -1,3 +1,8 @@
+---
+title: Hdr
+
+---
+
 > High Dynamic Range
 
 ## 类型

@@ -1,3 +1,8 @@
+---
+title: Video
+
+---
+
 ## 视频的生成
 
 - In: light

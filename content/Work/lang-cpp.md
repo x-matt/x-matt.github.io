@@ -1,4 +1,5 @@
 ---
+title: Lang cpp
 tags:
   - cpp
 ---

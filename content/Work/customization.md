@@ -1,5 +1,5 @@
 ---
-title: MTK EIS 客制化配置
+title: Customization
 created: 2026-01-16
 tags:
   - eis

@@ -1,6 +1,5 @@
 ---
-aliases:
-  - Mfnr Problem
+title: Mfnr Problem
 tags:
   - debug
 ---

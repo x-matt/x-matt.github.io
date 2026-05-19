@@ -1,5 +1,5 @@
 ---
-title: Qcom EIS 调试与配置
+title: Eis Qcom debug
 created: 2026-01-16
 tags:
   - eis

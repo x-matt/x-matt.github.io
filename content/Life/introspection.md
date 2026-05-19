@@ -1,5 +1,6 @@
 ---
 title: Introspection
+
 ---
 
 ## 个人不足

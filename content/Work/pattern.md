@@ -1,5 +1,6 @@
 ---
 title: Design pattern
+
 ---
 
 ## 工厂模式

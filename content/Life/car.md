@@ -1,5 +1,6 @@
 ---
-title: 🚗Car
+title: Car
+
 ---
 
 ## EV
