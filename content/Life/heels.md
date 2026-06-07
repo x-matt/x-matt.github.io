@@ -1,5 +1,7 @@
 ---
 title: Heels
+tags:
+  - sexy
 ---
 
 ## Brand
