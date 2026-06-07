@@ -7,7 +7,7 @@ Quartz effectively turns your Markdown files and other resources into a bundle o
 However, if you'd like to publish your site to the world, you need a way to host it online. This guide will detail how to deploy with common hosting providers but any service that allows you to deploy static HTML should work as well.
 
 > [!warning]
-> The rest of this guide assumes that you've already created your own GitHub repository for Quartz. If you haven't already, [[setting up your GitHub repository|make sure you do so]].
+> The rest of this guide assumes that you've already created your own GitHub repository for Quartz. If you haven't already, follow the [[installation#Setting Up Your GitHub Repository|GitHub repository setup]] section of the installation guide.
 
 > [!hint]
 > Some Quartz features (like [[RSS Feed]] and sitemap generation) require `baseUrl` to be configured properly in your [[configuration]] to work properly. Make sure you set this before deploying!
@@ -309,4 +309,39 @@ example.com {
         file_server
     }
 }
+```
+
+## Caching
+
+Quartz emits CSS and JS files with content hashes in their filenames (e.g. `index-a3f2c1b.css`, `component-7d4e2f.css`). Since the filename changes whenever the content changes, these files can be cached indefinitely. HTML files should not be cached long-term since they reference the hashed filenames and need to stay fresh.
+
+### Cloudflare Pages / Vercel / Netlify
+
+These platforms handle caching automatically. No configuration is needed — hashed assets will be served with appropriate cache headers out of the box.
+
+### Nginx
+
+```nginx title="nginx.conf"
+# Immutable cache for hashed assets
+location ~* \.(css|js)$ {
+    if ($uri ~* "-[0-9a-f]{8}\.") {
+        add_header Cache-Control "public, max-age=31536000, immutable";
+    }
+}
+```
+
+### Caddy
+
+```caddy title="Caddyfile"
+@hashed path_regexp hashed -[0-9a-f]{8}\.(css|js)$
+header @hashed Cache-Control "public, max-age=31536000, immutable"
+```
+
+### Apache
+
+```apache title=".htaccess"
+# Immutable cache for content-hashed assets
+<FilesMatch "-[0-9a-f]{8}\.(css|js)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+</FilesMatch>
 ```
