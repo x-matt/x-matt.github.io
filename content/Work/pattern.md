@@ -1,20 +1,22 @@
 ---
 title: Design pattern
-tags:
-  - cpp
+
 ---
+
 ## 工厂模式
+
 1. 创建对象时不暴露创建逻辑
 1. 使用共同接口指向新创建的对象
 1. 应用场景：创建复杂对象时
 
-模式|产品数|工厂数|产品/工程
-:-: | :-: | :-: | :-: 
-简单工程 |多|1|多/1
-工厂方法 |多|多|1/1
-抽象工厂 |多|多|多/1
+|   模式   | 产品数 | 工厂数 | 产品/工程 |
+| :------: | :----: | :----: | :-------: |
+| 简单工程 |   多   |   1    |   多/1    |
+| 工厂方法 |   多   |   多   |    1/1    |
+| 抽象工厂 |   多   |   多   |   多/1    |
 
 ### 简单工程模式
+
 1. 特点：在工厂类中作判断，增加新产品时，修改工厂类
 2. 优点：只需要知道具体的产品型号就可以创建产品
 3. 缺点：若产品量大，工厂类会臃肿
@@ -75,7 +77,7 @@ public:
 ​
 private:
     string m_strType;
-}; 
+};
 ​
 //工厂类
 class TankFactory
@@ -117,6 +119,7 @@ int main()
 ```
 
 ### 工厂方法模式
+
 1. 定义创建对象的接口，由子类完成创建
 2. 优点：增加新类，只需拓展相应的工厂类
 3. 缺点：产品太多时，需要大量工厂类
@@ -169,7 +172,7 @@ public:
 ​
 private:
     string m_strType;
-}; 
+};
 ​
 //抽象工厂类，提供一个创建接口
 class TankFactory
@@ -205,7 +208,7 @@ int main()
     TankFactory* factory56 = new Tank56Factory();
     Tank* tank56 = factory56->createTank();
     tank56->type();
-    
+
     TankFactory* factory96 = new Tank96Factory();
     Tank* tank96 = factory96->createTank();
     tank96->type();
@@ -225,6 +228,7 @@ int main()
 ```
 
 ### 抽象工厂模式
+
 1. 创建一系列接口，不指定具体的类
 2. 应用场景：存在多个产品系列，但客户端只是用一个系列产品
 3. 缺点：当增加一个新系列的产品时，不仅需要现实具体的产品类，还需要增加一个新的创建接口，扩展相对困难。
@@ -274,7 +278,7 @@ public:
 ​
 private:
     string m_strColor;
-}; 
+};
 ​
 //抽象裤子类
 class Pants
@@ -358,6 +362,7 @@ class BlackFactory : public Factory
 ```
 
 ## 策略模式
+
 1. 封装一系列算法，使算法独立于客户端变化
 2. 优点：比`if...else`降低了复杂度，更容易维护
 3. 缺点：需要定义大量策略类
@@ -478,7 +483,7 @@ int main()
 ​
     delete arc;
     arc = nullptr;
-    
+
     return 0;
 }
 ```
@@ -487,7 +492,7 @@ int main()
 
 ```cpp
 #include <iostream>
-#include <functional> 
+#include <functional>
 ​
 void adcHurt()
 {
@@ -543,6 +548,7 @@ int main()
 ```
 
 ## 适配器模式
+
 1. 将一个类的接口转化成希望的另一个接口，实现多个类协作
 2. 缺点：过多使用适配器，让系统凌乱，不是很必要，可以不用适配器
 
@@ -578,7 +584,7 @@ public:
 };
 ​
 //顺序类，抽象目标类
-class Sequence  
+class Sequence
 {
 public:
     virtual void push(int x) = 0;
@@ -586,7 +592,7 @@ public:
 };
 ​
 //栈,后进先出, 适配类
-class Stack:public Sequence   
+class Stack:public Sequence
 {
 public:
     //将元素添加到堆栈的顶部。
@@ -604,7 +610,7 @@ private:
 };
 ​
 //队列，先进先出，适配类
-class Queue:public Sequence  
+class Queue:public Sequence
 {
 public:
     //将元素添加到队列尾部
@@ -626,7 +632,7 @@ private:
 
 ```cpp
 //双端队列，被适配类
-class Deque  
+class Deque
 {
 public:
     void push_back(int x)
@@ -648,7 +654,7 @@ public:
 };
 ​
 //顺序类，抽象目标类
-class Sequence  
+class Sequence
 {
 public:
     virtual void push(int x) = 0;
@@ -656,7 +662,7 @@ public:
 };
 ​
 //栈,后进先出, 适配类
-class Stack:public Sequence, private Deque   
+class Stack:public Sequence, private Deque
 {
 public:
     void push(int x)
@@ -670,7 +676,7 @@ public:
 };
 ​
 //队列，先进先出，适配类
-class Queue:public Sequence, private Deque 
+class Queue:public Sequence, private Deque
 {
 public:
     void push(int x)
@@ -685,12 +691,14 @@ public:
 ```
 
 ## 单例模式
+
 - 保证一个类仅可以有一个实例化对象，并提供一个访问的全局接口
-    - 单例类只能由一个实例化对象。
-    - 单例类必须自己提供一个实例化对象。
-    - 单例类必须提供一个可以访问唯一实例化对象的接口。
+  - 单例类只能由一个实例化对象。
+  - 单例类必须自己提供一个实例化对象。
+  - 单例类必须提供一个可以访问唯一实例化对象的接口。
 
 ### 懒汉单例模式
+
 - 不到万不得已就不去实例化类，即第一次用类才去实例化
 - 针对访问量小，甚至不去访问的情况，采用懒汉
 
@@ -712,7 +720,7 @@ private:
     Singleton(){}                                        //构造函数私有
     Singleton(const Singleton& obj) = delete;            //明确拒绝
     Singleton& operator=(const Singleton& obj) = delete; //明确拒绝
-    
+
     static Singleton* m_pSingleton;
 };
 ​
@@ -743,7 +751,7 @@ private:
     Singleton& operator=(const Singleton&) = delete; //明确拒绝
 
     static Singleton* m_pSingleton;
-    
+
 };
 Singleton* Singleton::m_pSingleton = NULL;
 
@@ -784,6 +792,7 @@ Singleton& Singleton::getInstance()
 ```
 
 ### 饿汉单例模式
+
 - 在单例类定义的时候就进行实例化
 
 ```cpp

@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Coman
+  pageTitle: Colin
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -14,7 +14,9 @@ configuration:
     - .obsidian
     - .claude
     - zAssets/excalidraw/*.md
+    - zAssets/templates/*.md
     - zSettings
+    - Life/Darkroom
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
@@ -247,13 +249,6 @@ plugins:
       position: beforeBody
       priority: 15
       display: all
-  - source:
-      name: quartz-themes
-      repo: github:saberzero1/quartz-themes
-      subdir: plugin
-    enabled: true
-    options:
-      theme: default
 layout:
   groups:
     toolbar:

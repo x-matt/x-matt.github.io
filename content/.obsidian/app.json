@@ -3,7 +3,7 @@
   "showInlineTitle": false,
   "readableLineLength": false,
   "showLineNumber": true,
-  "attachmentFolderPath": "assets/images",
+  "attachmentFolderPath": "zAssets/images",
   "promptDelete": false,
   "useMarkdownLinks": false,
   "newLinkFormat": "shortest",

@@ -1,8 +1,8 @@
 ---
 title: Lead to offer
-tags:
-  - cpp
+
 ---
+
 ## 3 数组-找出数组中重复的数字
 
 ```cpp
@@ -17,7 +17,7 @@ bool duplicate(int numbers[], int length, int* duplication)
         if (numbers[i] < 0 || numbers[i]>length - 1)
             return false;
     }
-    
+
     // 从位置0开始交换
     for (int i = 0;i < length;i++)
     {
@@ -36,6 +36,7 @@ bool duplicate(int numbers[], int length, int* duplication)
 ```
 
 ### 3.1 数组-不修改数组找重复数字
+
 - 利用二分法进行数组分割
 
 ```cpp
@@ -44,7 +45,7 @@ int countRange(const int* numbers, int length, int start, int end);
 // 参数:
 //        numbers:     一个整数数组
 //        length:      数组的长度
-// 返回值:             
+// 返回值:
 //        正数  - 输入有效，并且数组中存在重复的数字，返回值为重复的数字
 //        负数  - 输入无效，或者数组中没有重复的数字
 int getDuplication(const int* numbers, int length)
@@ -88,6 +89,7 @@ int countRange(const int* numbers, int length, int start, int end)
 ```
 
 ### 3.2 找出没有重复的数字
+
 - 利用位运算--异或
 
 ```cpp
@@ -102,6 +104,7 @@ int find(int[] arr)
 ```
 
 ## 4 数组-二维数组中的查找
+
 - 数组由左到右 和 由上到下 均为递增；查找某个数
 - 以数组的右上角或者左下角为突破口
 
@@ -111,7 +114,7 @@ bool fintTarget(int* matrix, int target,int row,int column)
     // 判断在数的范围内
     if (target<matrix[0][0] || target>matrix[row][column]) return false;
     int row_a = 0, column_a = column - 1;
-    
+
     // 比右上角的数大，则到下一行，否则换到前一列
     while (row_a < row && column >= 0)
     {
@@ -124,11 +127,12 @@ bool fintTarget(int* matrix, int target,int row,int column)
 ```
 
 ## 5 字符串-替换空格
+
 - 双指针，一个指向末尾，一个指向拓展后的末尾
 
 ```cpp
 // 基本方法
-void replaceSpace(char *str,int length) 
+void replaceSpace(char *str,int length)
     {
         // 判断数据不为空
         if(str == NULL||length<=0)  return;
@@ -145,11 +149,11 @@ void replaceSpace(char *str,int length)
         // 计算拓展后的字符串长度，判断是否在length范围内
         int new_length=true_length+2*count_blank;
         if(new_length>length) return;
-        
+
         // 后移，替换
         int a_pointer=true_length;
         int b_pointer=new_length;
-        
+
         while(a_pointer>=0 && a_pointer<b_pointer)
         {
             if(str[a_pointer]!=' ')
@@ -210,7 +214,7 @@ void AddToTail(ListNode**pHead,int value)
     ListNode* pNew = new ListNode();
     pNew->L_value = value;
     pNew->L_next = NULL;
-    
+
     // 判断首节点是不是空节点
     if (*pHead == NULL)
     {
@@ -267,6 +271,7 @@ void Remove(ListNode**pHead,int value)
 ```
 
 ### 6.2 链表-从尾到头打印链表
+
 - 先进后出的情况，用栈来实现
 
 ```cpp
@@ -281,7 +286,7 @@ void PrintValueReverse(ListNode*pHead)
         nodes.push(pNode->L_value);
         pNode = pNode->L_next;
     }
-    
+
     // 输出nodes
     while (nodes.empty())
     {
@@ -301,13 +306,13 @@ void PrintValueReverse(ListNode*pHead)
         }
         cout << pHead->L_value;
     }
-    
+
 }
 ```
 
 ## 7 树-重建二叉树
-- [参考](https://www.cnblogs.com/zywu/p/5758917.html)
 
+- [参考](https://www.cnblogs.com/zywu/p/5758917.html)
 
 ```cpp
 class Solution {
@@ -347,6 +352,7 @@ public:
 ```
 
 ## 8 树-二叉树的下一个节点
+
 1. 如果节点有右子节点，则右子节点的最左节点是该节点的下一个节点
 2. 如果节点无右子节点，但该节点是其父节点的左子节点，则父节点是该节点的下一个节点
 3. 如果节点无右子节点，且该节点是其父节点的右子节点，则沿着父节点向上遍历，满足XXX的父节点是其该节点的下一个节点
@@ -379,12 +385,13 @@ TreeNode* GetNext(TreeNode* pNode)
 ```
 
 ## 9 栈和队列-用两个栈实现队列
+
 1. 先将树压入第一个栈
 1. 将第一个栈元素pop出，push进第二个栈
 1. 第二个栈就是队列的顺序
 
 ```cpp
-void push(int node) 
+void push(int node)
 {
     int temple;
     while(!stack2.empty())
@@ -396,7 +403,7 @@ void push(int node)
     stack1.push(node);
 }
 
-int pop() 
+int pop()
 {
     int temple;
     while(!stack1.empty())
@@ -412,8 +419,9 @@ int pop()
 ```
 
 ## 10 斐波那契数
+
 - 循环方法实现计算
-    - 时间复杂度`O(n)`
+  - 时间复杂度`O(n)`
 - [青蛙跳台阶问题](https://www.jianshu.com/p/965d12083d7f)
 
 ```cpp
@@ -438,6 +446,7 @@ long long Fibonacci(unsigned n)
 ```
 
 ## 排序-快排
+
 1. 指定最左端的数为 pivot
 1. 左指针找第一个大于 pivot 的数
 1. 右指针找第一个小于 pivot 的数
@@ -467,6 +476,7 @@ void QuickSort(vector<int> &a,int left,int right)
 ```
 
 ## 排序-归并
+
 1. 递归
 1. 合并两个数组的函数
 1. 二分排序
@@ -477,7 +487,7 @@ void Merge(vector<int> &a, int l, int m, int r)
     // 获取左右部分数组的大小（实际还是原数组）
     int l_c = m - l + 1;
     int r_c = r - m;
-    
+
     // 将数组值赋给临时数组（两个数组）
     int i, j, k;
     vector<int> L(l_c + 1);
@@ -491,7 +501,7 @@ void Merge(vector<int> &a, int l, int m, int r)
     L[l_c] = 11111111;
     R[r_c] = 11111111;
 
-    // 
+    //
     for (i = 0, j = 0, k = l;k <= r;k++)
     {
         if (L[i] < R[j])
@@ -514,6 +524,7 @@ void MergeSort(vector<int> &a, int l, int r)
 ```
 
 ## 排序-堆排
+
 1. 原则
    1. 符合完全二叉树
    1. 父节点大于孩子节点
@@ -549,10 +560,10 @@ void delete_max(vector<int> &a, int length)
     {
         int left = 2 * index + 1;
         int right = 2 * index + 2;
-        
+
         if (left >= length)
             break;
-        else 
+        else
         {
             int large = a[left] > a[right] ? left : right;
             a[index] = a[large];
@@ -574,6 +585,7 @@ void HeapSort(vector<int> &a)
 ```
 
 ## 11 查找-找出旋转数组的最小数字
+
 1. 二分法、双指针
 1. 中间与左、右的值都相等时，采用顺序遍历 `MinInOrder`
 
@@ -612,11 +624,12 @@ int FindMin_Rotate(vector<int> &a)
         else if (a[mid] <= a[right])
             right = mid;
     }
-    return a[mid];    
+    return a[mid];
 }
 ```
 
 ## 12 回溯法-矩阵中的路径
+
 - 判断数组中是否含有相应字符串
 
 ```cpp
@@ -654,7 +667,7 @@ bool haspathcore(char* matrix, int rows, int cols, int row, int col, char* str, 
     bool haspath = false;
 
     if (row >= 0 && row < rows && col >= 0 && col < cols
-        &&matrix[row*cols + col] == str[pathLength] 
+        &&matrix[row*cols + col] == str[pathLength]
         && !visited[row*cols + col])
     {
         pathLength++;
@@ -676,6 +689,7 @@ bool haspathcore(char* matrix, int rows, int cols, int row, int col, char* str, 
 ```
 
 ## 14 动态规划-剪绳子
+
 1. 至少被分成2段
 1. 求各段最大乘积
 1. 动态规划
@@ -705,7 +719,7 @@ int max_cut(int length)
     {
         max = 0;
         for (int j = 0;j < i / 2;j++)
-        {   
+        {
             // 寻找最大
             int count = arr[j] * arr[i - j];
             if (max < arr[i])
@@ -759,19 +773,21 @@ int count_1(int n)
 ```
 
 ## 对应剑指offer第三章-高质量的代码
+
 1. 规范性
-   * 书写清晰
-   * 布局合理
-   * 命名合理
+   - 书写清晰
+   - 布局合理
+   - 命名合理
 1. 完整性
-   * 完成基本功能
-   * 考虑边界条件
-   * 做好错误处理
+   - 完成基本功能
+   - 考虑边界条件
+   - 做好错误处理
 1. 鲁棒性
-   * 采取防御性编程
-   * 处理无效输入
+   - 采取防御性编程
+   - 处理无效输入
 
 ## 16 数值的整数次方
+
 1. 位运算的适用范围仅仅是整数
 2. 递归算法适用负数
 
@@ -802,16 +818,17 @@ double pow_try(double m, int n)
 
     double base = pow_try(m,n>>1);
     base *= base;
-    
+
     if (n & 1 == 1)
         base *= m;
 
-    return base;    
+    return base;
 }
 ```
 
 ## 17 打印 1-最大的n位数
-* 难点：大数--需要将数转化为字符串
+
+- 难点：大数--需要将数转化为字符串
 
 ## 18 删除连续的重复数-链表
 
@@ -857,14 +874,15 @@ void deleteDuplication(ListNode** pHead)
                 pPre->n_next = pNex;
             pCur = pNex;
         }
-        
+
     }
 }
 ```
 
 ## 21 调整数组，使奇数在前，偶数在后
-* 借鉴快排的方法
-* 可以将`(a[i] & 1) == 1`转换成一个函数`fun(n)`，增强其泛化能力
+
+- 借鉴快排的方法
+- 可以将`(a[i] & 1) == 1`转换成一个函数`fun(n)`，增强其泛化能力
 
 ```cpp
 void changearray(vector<int> &a)
@@ -884,21 +902,22 @@ void changearray(vector<int> &a)
             i++;
             j--;
         }
-    }    
+    }
 }
 ```
 
 ## 22 链表中倒数第K个节点
-* 双指针
-* 第一个指针到（k-1）时，第二个与第一个开始同步前进
-* 增加测试样例，提高鲁棒性
+
+- 双指针
+- 第一个指针到（k-1）时，第二个与第一个开始同步前进
+- 增加测试样例，提高鲁棒性
 
 ```cpp
 ListNode* FindKthNode(ListNode*pListHead, int k)
 {
     if (pListHead == NULL || k == 0)
         return NULL;
-    
+
     ListNode* ANode = pListHead;
     ListNode* BNode = ANode;
 
@@ -915,8 +934,10 @@ ListNode* FindKthNode(ListNode*pListHead, int k)
 ```
 
 ## 23 链表中环的入口节点
-* 先判断是否有环：双指针，一快一慢，快的追上慢的，则有环
-* 找入口：双指针，第一个比第二个多环的节点数n
+
+- 先判断是否有环：双指针，一快一慢，快的追上慢的，则有环
+- 找入口：双指针，第一个比第二个多环的节点数n
+
 ## 24 反转链表
 
 ```cpp
@@ -926,12 +947,12 @@ ListNode* ReverseList(ListNode* pHead)
     ListNode* pre;
     ListNode* curr;
     ListNode* follow;
-    
+
     // 初始化
     pre = pHead;
     curr = pHead->n_next;
     follow = curr->n_next;
-    
+
     // 循环，每次改变一个节点的指针方向
     pHead->n_next = NULL;
     while (follow!=NULL)
@@ -971,8 +992,9 @@ ListNode*Merge(ListNode* pHead1, ListNode* pHead2)
 ```
 
 ## 26 判断B是否是A的子结构-树
-* 子树不单单只有两层
-* 若树的值不是int型，则不能直接用等号判断大小
+
+- 子树不单单只有两层
+- 若树的值不是int型，则不能直接用等号判断大小
 
 ```cpp
 bool a_include_b(BinaryTree* father, BinaryTree* son)
@@ -1006,14 +1028,16 @@ bool SonTree(BinaryTree* father, BinaryTree* son)
 ```
 
 ## 对应剑指offer第四章--解决面试题的思路
+
 1. 抽象问题具体化
-   * 画图
-   * 举例
+   - 画图
+   - 举例
 1. 分解让复杂问题简单化
 
 ## 27 二叉树的镜像
-* 树不一定必须是完全二叉树
-* 自上而下，自左而右
+
+- 树不一定必须是完全二叉树
+- 自上而下，自左而右
 
 ```cpp
 // 二叉树的镜像
@@ -1032,7 +1056,7 @@ void MirrorBinTree(BinaryTree* pNode)
         return;
     if (pNode->b_left == nullptr&&pNode->b_right == nullptr)
         return;
-    
+
     BinaryTree* pTemp = pNode->b_left;
     pNode->b_left = pNode->b_right;
     pNode->b_right = pTemp;
@@ -1045,6 +1069,7 @@ void MirrorBinTree(BinaryTree* pNode)
 ```
 
 ## 28 对称二叉树
+
 - 判断二叉树是不是对称
 - 如果二叉树的镜像和本身一样,则是对称二叉树
 - 前序遍历和对称前序遍历,需要考虑空指针的情况
@@ -1067,11 +1092,14 @@ bool isSym(BinaryTree* root1, BinaryTree* root2)
 ```
 
 ## 29 顺序打印矩阵
+
 1. 取左上角的元素为 start
 1. 边界条件为 `col>2start && row>2start`
 1. 每次打印一圈
+
 ## 30 包含min函数的栈
-* 用辅助栈实现最小栈的功能
+
+- 用辅助栈实现最小栈的功能
 
 ```cpp
 template <typename T> class StackWithMin
@@ -1118,11 +1146,10 @@ template <typename T> const T&  StackWithMin<T>::min() const
 }
 ```
 
-
 ## 31 栈的压入、弹出序列
-* 判断输出结构是否能有入栈顺序得出
-* 如果下一个弹出的数字刚好是栈顶，则直接弹出，否则就压栈将待弹出树压到栈顶
-  
+
+- 判断输出结构是否能有入栈顺序得出
+- 如果下一个弹出的数字刚好是栈顶，则直接弹出，否则就压栈将待弹出树压到栈顶
 
 ```cpp
 bool isPopOrder(const vector<int> pPush, const vector<int> pPop)
@@ -1143,11 +1170,10 @@ bool isPopOrder(const vector<int> pPush, const vector<int> pPop)
 }
 ```
 
-
 ## 32 层序遍历二叉树，并按层输出
-* 每层添加标志，每打印一次，toBePrinted减1
-* 每压栈一次，nextlevelsize加1
-  
+
+- 每层添加标志，每打印一次，toBePrinted减1
+- 每压栈一次，nextlevelsize加1
 
 ```cpp
 void Print(BinaryTree* pRoot)
@@ -1166,13 +1192,13 @@ void Print(BinaryTree* pRoot)
             q.push(print_one->b_left);
             nextLevelSize++;
         }
-            
+
         if (print_one->b_right)
         {
             q.push(print_one->b_right);
             nextLevelSize++;
         }
-        
+
         q.pop();
         toBePrinted--;
         if (toBePrinted == 0)
@@ -1185,13 +1211,12 @@ void Print(BinaryTree* pRoot)
 }
 ```
 
-
 ## 33 判断是不是二叉搜索树的后序遍历
+
 1. 先找根节点
 2. 再分左右子节点
 3. 左子树都小于根节点，右子树都小于根节点
-   * 思路是先假定是后序遍历，检测它符合二叉搜索树的条件
-  
+   - 思路是先假定是后序遍历，检测它符合二叉搜索树的条件
 
 ```cpp
 bool sequenceofBST(int sequence[],int length)
@@ -1228,12 +1253,11 @@ bool sequenceofBST(int sequence[],int length)
 }
 ```
 
-
 ## 34 二叉树中和为某一值的路径
+
 1. 判断是否是叶子节点
 2. 判断所有的和是不是相等
 3. 打印路径时候需要访问每个元素，遂用vector实现栈的功能
-   
 
 ```cpp
 // currentSum 初始化为0
@@ -1263,12 +1287,11 @@ void FindPath(BinaryTree* a, int Sum, vector<int> & path, int currentSum)
 }
 ```
 
-
 ## 35 复杂链表的复制
-* 方法一：先复制，再挨个从链表头部找pSibiling，时间负责都为O(n^2)
-* 方法二: 空间复杂度换时间复杂度,利用哈希表,建立复制前后链表之间的联系
-* 方法三: 将复制的放在被复制的后面,则不需要空间消耗:A,A',B,B'
-  
+
+- 方法一：先复制，再挨个从链表头部找pSibiling，时间负责都为O(n^2)
+- 方法二: 空间复杂度换时间复杂度,利用哈希表,建立复制前后链表之间的联系
+- 方法三: 将复制的放在被复制的后面,则不需要空间消耗:A,A',B,B'
 
 ```cpp
 // 复制链表，插空连接
@@ -1329,11 +1352,10 @@ complexListNode* ReconectedNodes(complexListNode* pHead)
 }
 ```
 
-
 ## 38 字符串的排列
-* 思路:固定第一个,找下面的排序可能
-* 实现:使用递归
-  
+
+- 思路:固定第一个,找下面的排序可能
+- 实现:使用递归
 
 ```cpp
 void Permutation(char* pStr, char* pBegin)
@@ -1363,13 +1385,14 @@ void Permutation(char* pStr, char* pBegin)
 }
 ```
 
-
 ## 39 数组中出现次数超过一半的数字
-* 基于快排,但基于的数在middle位置的时候,即为此数
+
+- 基于快排,但基于的数在middle位置的时候,即为此数
+
 ## 40 最小的K个数
+
 1. 修改数组--类似于快排的思路
 2. 最小堆的思路
-
 
 ```cpp
 void insert_p(vector<int> &a, int p)
@@ -1430,20 +1453,19 @@ int main()
     for (int i = v.size()-1;i > v.size() - 4;i--)
         cout << v[i] << " ";
     cout << endl;
-    
+
     system("pause");
 }
 ```
 
-
 ## 41 数据流的中位数
+
 1. 使用最大堆和最小堆的方式来实现
 2. 数据均分为两部分,a为最大堆的堆顶,b为最小堆的堆顶
 3. 确保a\<b,即最小堆的所有数大于最大堆的所有数
-   * 插入min中的数,若比`max[0]`小,则先取max中的最大值 插入max中的数,若比`min[0]`大,则先取min中的最小值
+   - 插入min中的数,若比`max[0]`小,则先取max中的最大值 插入max中的数,若比`min[0]`大,则先取min中的最小值
 
 ## 二叉树数的相关知识
-
 
 ```cpp
 class BinTree
@@ -1511,7 +1533,7 @@ void LevelTravel(BinTree* tree)
 {
     queue<BinTree*> q;
     q.push(tree);
-    
+
     while (!q.empty())
     {
         // cout << q.size() <<"& "<<endl;
@@ -1563,7 +1585,7 @@ int finMax(BinTree *tree)
 // 删除函数
 void RemoveTree(BinTree* &tree, int data)
 {
-    if (tree == NULL) return; 
+    if (tree == NULL) return;
     if (data<tree->data) RemoveTree(tree->leftChild, data);
     else if (data>tree->data)  RemoveTree(tree->rightChild, data);
     else if (tree->leftChild && tree->rightChild)
@@ -1585,7 +1607,7 @@ int main()
 
     /*cout << "Please input a tree with PreOrder,use -1 as NULL" << endl;
     tree = CreateBinTree();
-    
+
     cout << "PreOrder Traversal" << endl;
     PreTravel(tree);
     cout << " " << endl;

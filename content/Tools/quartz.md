@@ -31,7 +31,7 @@ title: Quartz
 	2. ignore some floders & files
 	3. change background color
 	```tsx title="quartz/quartz.config.ts" {1, 10, 15}
-    pageTitle: "✨ Coman",
+    pageTitle: "Colin",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,

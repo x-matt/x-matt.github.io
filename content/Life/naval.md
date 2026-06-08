@@ -2,6 +2,7 @@
 title: Naval Ravikant
 tags:
   - famous
+
 ---
 
 ## Learn From Video

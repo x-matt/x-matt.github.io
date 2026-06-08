@@ -1,86 +1,157 @@
-/* 周末背景色加深 */
- #calendar-container {
-  --color-background-weekend: hsla(var(--interactive-accent-hsl), 0.1);
+/* =======================================================
+   图片相关
+   ======================================================= */
+
+/* 图片标题（使用 alt 作为 caption） */
+.image-embed[alt]::after {
+  content: attr(alt);
+  display: block;
+  margin: 0.2rem 1rem 1rem;
+  font-size: 90%;
+  font-style: italic;
+  line-height: 1.4;
+  color: var(--text-faint);
 }
 
-/* 图片标题 */
-.image-embed[alt]:after {
-    content: attr(alt);
-    display: block;
-    margin: 0.2rem 1rem 1rem 1rem;
-    font-size: 90%;
-    font-style: italic;
-    line-height: 1.4;
-    color: var(--text-faint);
-    /* text-align: center; */
+/* 图片居中（可选） */
+/*
+img {
+  display: block !important;
+  margin: 0 auto !important;
+  border-radius: 8px;
 }
-    
-/* 图片居中 */
-/* img {
-    display: block !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    border-radius: 8px;
+*/
+
+
+/* =======================================================
+   编辑器布局
+   ======================================================= */
+
+/* Live Preview 内容整体居中（⚠️ 会影响列表/表格，慎用） */
+/* .markdown-source-view.mod-cm6 .cm-content > * {
+  margin-left: auto !important;
+  margin-right: auto !important;
 } */
 
-.markdown-source-view.mod-cm6 .cm-content > * {
-        margin: auto auto !important;
-}
 
-/* 表格垂直居中 */
-/* body {
+/* =======================================================
+   表格
+   ======================================================= */
+
+/* 表格垂直居中（可选） */
+/*
+body {
   --table-cell-vertical-alignment: middle;
 }
-.table-cell-wrapper {display: table-cell;} */
-/* 表格整体居中 */
-/* .markdown-reading-view table {
-    margin: 0 auto;
+.table-cell-wrapper {
+  display: table-cell;
+}
+*/
+
+/* 表格整体居中（可选） */
+/*
+.markdown-reading-view table {
+  margin: 0 auto;
 }
 .markdown-source-view.mod-cm6 .cm-table-widget .table-wrapper {
-    margin: 0 auto;
-} */
-/* 表格头背景色 */
+  margin: 0 auto;
+}
+*/
+
+/* 表头背景色 */
 .theme-light .markdown-rendered thead tr {
-    background-color: #e8e8e8;
+  background-color: #e8e8e8;
 }
 .theme-dark .markdown-rendered thead tr {
-    background-color: #303030;
+  background-color: #303030;
 }
 
-/* 实时编辑 */
+
+/* =======================================================
+   行号
+   ======================================================= */
+
+/* 只在「实时预览 Live Preview」隐藏行号 */
+.markdown-source-view.is-live-preview .cm-gutters {
+  display: none;
+}
+
+
+/* =======================================================
+   行内代码（实时编辑）
+   ======================================================= */
+
 .markdown-source-view span.cm-inline-code {
-    padding:4px;
-    border-width:1px;
-    border-style: solid;
-    border-radius: 5px;
-    margin-left:5px;
-    margin-right:5px;
+  padding: 4px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 0 5px;
 }
+
+/* 浅色主题 */
 .theme-light .markdown-source-view span.cm-inline-code {
-    color:#f08800;
-    background-color: #f2f2f2;
-    border-color:w;
+  color: #f08800;
+  background-color: #f2f2f2;
+  border-color: #d0d0d0;
 }
-.theme-dark .markdown-source-view span.cm-inline-code{
-    color:#f09c2f;
-    background-color: #1b1b1b;
-    border-color:#777777
+
+/* 深色主题 */
+.theme-dark .markdown-source-view span.cm-inline-code {
+  color: #f09c2f;
+  background-color: #1b1b1b;
+  border-color: #777777;
 }
-/* 阅读模式 */
+
+
+/* =======================================================
+   行内代码（阅读模式）
+   ======================================================= */
+
 .theme-light .markdown-rendered code {
-    color:#f08800;
-    background-color: #f2f2f2;
+  color: #f08800;
 }
 .theme-dark .markdown-rendered code {
-    color:#f09c2f;
-    background-color: #1b1b1b;
+  color: #f09c2f;
 }
+
+
+/* =======================================================
+   标签
+   ======================================================= */
 
 .tag {
-    color:#4ed17e !important;
+  color: #2fa36b !important;      /* 稍深一点的绿字 */
+  background-color: #e8f6ee !important; /* 很干净的浅绿底 */
+  border: 1px solid #bfe6d3 !important;
+  border-radius: 6px;
+  padding: 0.08em 0.5em;
 }
 
-/* code 缩进 */
+.theme-dark .tag {
+  color: #5fe3a1 !important;
+  background-color: #1e3a2b !important;
+  border: 1px solid #2e6b4c !important;
+}
+
+/* =======================================================
+   CodeMirror 行缩进指示
+   ======================================================= */
+
+/* 移除代码缩进竖线 */
 .cm-indent::before {
-    content: none !important;
+  content: none !important;
+}
+
+/* Light mode: pure black */
+.theme-light .markdown-preview-view strong,
+.theme-light .markdown-preview-view b,
+.theme-light .cm-strong {
+  color: #000000 !important;
+}
+
+/* Dark mode: soft white */
+.theme-dark .markdown-preview-view strong,
+.theme-dark .markdown-preview-view b,
+.theme-dark .cm-strong {
+  color: #e6e6e6 !important;
 }

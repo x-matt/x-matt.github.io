@@ -2,6 +2,7 @@
 title: C++ basic knowledge
 tags:
   - cpp
+
 ---
 ## C++特性
 1. 封装：隐藏实现细节，使得代码模块化

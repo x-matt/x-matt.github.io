@@ -4,57 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "20254b5948c42846",
+        "id": "2b8cbe8d58e3dd02",
         "type": "tabs",
         "children": [
           {
-            "id": "dc3ecd6769d50fc0",
+            "id": "de24958672d6eddb",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "index"
             }
           },
           {
-            "id": "c1cab7fb7a5e7fa3",
+            "id": "90d949f4af94871f",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "zAssets/excalidraw/name 2026.excalidraw.svg"
+                "file": "Life/car.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "name 2026.excalidraw"
-            }
-          },
-          {
-            "id": "505de48b3f79dfe8",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "zAssets/excalidraw/name 2026.excalidraw.svg"
-              },
-              "icon": "lucide-image",
-              "title": "name 2026.excalidraw"
-            }
-          },
-          {
-            "id": "c6204747061c44de",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "beauty.base",
-                "viewName": "Table"
-              },
-              "icon": "lucide-layout-grid",
-              "title": "beauty"
+              "icon": "lucide-file",
+              "title": "car"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "christian",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -104,8 +88,8 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
+                "useHierarchy": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
@@ -126,7 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323.5
+    "width": 383.5
   },
   "right": {
     "id": "5e007910e90f3de9",
@@ -143,16 +127,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "collapseAll": false,
+                "file": "Life/car.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for car"
             }
           },
           {
@@ -161,15 +146,15 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "zAssets/excalidraw/mind 2024.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from mind 2024.excalidraw"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "7e9c7c78870a3a41",
@@ -182,81 +167,86 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Life/car.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of car"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 371.5,
-    "collapsed": true
+    "width": 256.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": true,
-      "switcher:Open quick switcher": true,
-      "graph:Open graph view": true,
-      "daily-notes:Open today's daily note": true,
-      "command-palette:Open command palette": true,
-      "workspaces:Manage workspace layouts": true,
-      "obsidian-excalidraw-plugin:New drawing": true,
-      "canvas:Create new canvas": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
+      "bases:Create new base": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "templates:Insert template": false
     }
   },
-  "active": "dc3ecd6769d50fc0",
+  "active": "90d949f4af94871f",
   "lastOpenFiles": [
-    "zAssets/excalidraw/name 2026.excalidraw.md",
-    "Life/name.md",
-    "zAssets/excalidraw/name 2026.excalidraw.svg",
-    "beauty.base",
-    "Life/Darkroom/hopeheaven.md",
-    "Life/Darkroom/ambermoore.md",
-    "Life/Darkroom/kellycollins.md",
-    "index.md",
-    "Life/naval.md",
-    "Work/imageformat.md",
-    "Life/Darkroom/web.md",
     "Life/business.md",
-    "Life/erye.md",
-    "Work/io.md",
-    "Work/README.md",
-    "Tools/README.md",
-    "Tools/basic.md",
-    "Life/Darkroom/buer_four.md",
-    "Life/Darkroom/barbiebrill.md",
-    "Life/Darkroom/classic model.md",
-    "Life/Darkroom/buer_two.md",
-    "Life/Darkroom/buer_three.md",
-    "Life/Darkroom/buer_six.md",
-    "Life/Darkroom/buer_one.md",
-    "Life/Darkroom/buer_five.md",
-    "Life/Darkroom/buer_daily.md",
-    "Life/Darkroom/buer_after.md",
-    "Life/Darkroom",
-    "Life/新建文件夹",
-    "Life",
-    "Live/Darkroom/beauty.base",
-    "Live/Darkroom",
-    "Live",
-    "新建文件夹",
-    "zAssets/images/posts/buer/buer_57.jpg",
-    "zAssets/images/posts/buer/buer_56.jpg",
-    "zAssets/images/posts/buer/buer_55.jpg",
-    "zAssets/images/posts/buer/buer_54.jpg",
-    "zAssets/images/posts/buer/buer_53.jpg",
-    "zAssets/images/posts/buer/file-20260412145006268.jpg",
-    "zAssets/images/posts/buer/file-20260412145006226.jpg",
-    "zAssets/images/posts/buer/file-20260412145006181.jpg",
-    "zAssets/images/posts/buer/file-20260412145006149.jpg",
-    "Daily",
-    "Life/Chronicle/ming.canvas",
-    "Life/History/ming.canvas",
+    "Life/heels.md",
+    "Life/lingerie.md",
+    "index.md",
+    "Life/Darkroom/andrew.md",
+    "Life/word.md",
+    "Life/Darkroom/dorcel.md",
+    "Life/Darkroom/darkreaver_double_2.md",
+    "Life/Darkroom/stacycruz.md",
+    "Life/Darkroom/sybila.md",
+    "Life/Darkroom/web.md",
+    "Work/model.md",
+    "Work/oflmctf.md",
+    "Work/mctf.md",
+    "Life/chip.md",
+    "Life/mind.md",
+    "Life/yunnan.md",
+    "Life/reasoning.md",
+    "Life/civil.md",
+    "Life/people.md",
+    "Life/writing.md",
+    "Life/travel.md",
+    "zAssets/excalidraw/nihaixia 2025.excalidraw.md",
+    "Work/framedelay.md",
+    "Work/o1.md",
+    "Work/commands.md",
+    "Life/chinese history.canvas",
+    "zSettings/excalidraw/scripts/Downloaded/Select Elements of Type.svg",
+    "zSettings/excalidraw/scripts/Downloaded/Organic Line.svg",
+    "zAssets/templates",
+    "zAssets/images/pawel-czerwinski-_nqApgG-QrY-unsplash.jpg",
+    "zAssets/images/Pasted image 20240710160338.png",
+    "zAssets/images/otis-20240320165511619.jpeg",
+    "zAssets/images/octavian-dan-craciun-b21Ty33CqVs-unsplash.jpg",
+    "zAssets/images/img_v3_02gp_b5cd1b76-cc27-41b6-8d13-f4f41821748l.jpg",
+    "zAssets/images/image-3.png",
+    "zAssets/images/image-2.png",
+    "zAssets/images/image-1.png",
+    "zAssets/images/convert_to_webp.sh",
+    "beauty.base",
+    "Work/format.md.tmp.13184.1776651240840",
+    "gen_sift.py",
+    "Clippings",
+    "zAssets/skills",
+    "features",
+    "Life/Projects",
+    "Work/Express/Work/cpp",
+    "Untitled.canvas",
     "Planning.canvas",
     "Untitled 1.canvas",
     "未命名.canvas",

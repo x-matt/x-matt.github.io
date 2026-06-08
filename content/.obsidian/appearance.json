@@ -3,9 +3,7 @@
   "cssTheme": "Minimal",
   "showViewHeader": true,
   "theme": "system",
-  "enabledCssSnippets": [
-    "personal"
-  ],
+  "enabledCssSnippets": [],
   "interfaceFontFamily": "Ubuntu",
   "baseFontSize": 17,
   "showRibbon": false

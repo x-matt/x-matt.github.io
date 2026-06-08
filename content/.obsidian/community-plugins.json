@@ -1,6 +1,8 @@
 [
   "obsidian-custom-attachment-location",
-  "obsidian-excalidraw-plugin",
   "url-into-selection",
-  "obsidian-hider"
+  "obsidian-hider",
+  "darlal-switcher-plus",
+  "obsidian-excalidraw-plugin",
+  "obsidian-minimal-settings"
 ]

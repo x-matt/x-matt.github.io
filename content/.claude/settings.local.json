@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(mv \"Areas/README.md\" \"areas-planning.md\")",
+      "Bash(mv \"Projects/Series/README.md\" \"series.md\")",
+      "Bash(mv \"Resources/README.md\" \"res-learning.md\")",
+      "Bash(mv \"Express/Work/README.md\" \"express-work-index.md\")",
+      "Bash(mv \"Areas/Testing/README.md\" \"testing.md\")",
+      "Bash(grep -l \"^tags:\" *.md)",
+      "Bash(grep -h \"^tags:\" *.md)",
+      "Bash(grep -h \"^  - \" *.md)",
+      "Bash(grep -ohP '#[a-zA-Z][\\\\w/\\\\-]+' *.md)",
+      "Bash(python -c ':*)",
+      "Bash(mv \"Areas/README.md\" \"life-areas.md\")",
+      "Bash(mv \"Projects/README.md\" \"life-projects.md\")",
+      "Bash(find . -mindepth 2 -type f -name \"*.md\" -exec mv {} . \\\\;)",
+      "Bash(find . -mindepth 1 -type d -empty -delete)",
+      "WebFetch(domain:x.com)",
+      "WebSearch",
+      "Bash(curl -sL -o /dev/null -w \"%{http_code} %{url_effective}\" \"https://x.com/trq212/article/2044548257058328723\")",
+      "Bash(curl -sL -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0.0.0 Safari/537.36\" \"https://x.com/trq212/article/2044548257058328723\")",
+      "Bash(curl -sL -A \"Mozilla/5.0 \\(compatible; Googlebot/2.1; +http://www.google.com/bot.html\\)\" \"https://x.com/trq212/article/2044548257058328723\")",
+      "Bash(curl -sL \"https://nitter.net/trq212/article/2044548257058328723\")",
+      "Bash(curl -sL \"https://cdn.syndication.twimg.com/tweet-result?id=2044548257058328723&lang=en&token=x\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d, indent=2, ensure_ascii=False\\)[:5000]\\)\")",
+      "Bash(curl *)",
+      "Bash(npm list *)",
+      "Bash(pip show *)",
+      "WebFetch(domain:www.npmjs.com)",
+      "Bash(npm search *)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(claude plugin *)",
+      "Bash(python gen_sift.py)",
+      "Bash(python fix_yaml.py)"
+    ]
+  }
+}

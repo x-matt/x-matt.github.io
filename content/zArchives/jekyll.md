@@ -2,6 +2,7 @@
 title: Jekyll
 tags:
   - archived
+draft: "true"
 ---
 System environment
 

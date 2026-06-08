@@ -1,5 +1,5 @@
 {
   "folder": "Daily",
-  "template": "",
+  "template": "zAssets/templates/DailyNote",
   "format": "YYYY-MM-DD"
 }
