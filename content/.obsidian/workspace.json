@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Life/yunnan.md",
+                "file": "Life/people.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "yunnan"
+              "title": "people"
             }
           }
         ],
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Life/yunnan.md",
+                "file": "Life/people.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for yunnan"
+              "title": "Backlinks for people"
             }
           },
           {
@@ -167,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Life/yunnan.md",
+                "file": "Life/people.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of yunnan"
+              "title": "Outline of people"
             }
           }
         ]
@@ -199,6 +199,7 @@
   },
   "active": "e270d89a97a319ad",
   "lastOpenFiles": [
+    "Life/yunnan.md",
     "Inbox/Using Claude Code Session Management & 1M Context.md",
     "Inbox/learn everything.md",
     "Daily/2026-04-16.md",
@@ -223,7 +224,6 @@
     "Work/mctf.md",
     "Life/chip.md",
     "Life/mind.md",
-    "Life/yunnan.md",
     "Life/reasoning.md",
     "Life/civil.md",
     "Life/chinese history.canvas",
