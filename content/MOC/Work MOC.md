@@ -5,7 +5,6 @@ title: Work MOC
 ## Projects
 
 - [[autocheck]]
-- [[eisimprovment]]
 - [[pad]]
 - [[sat-enhance]]
 
@@ -20,8 +19,6 @@ title: Work MOC
 
 - [[series]] - 项目设备追踪
 - [[o1]]
-- [[o12]]
-- [[p10]]
 
 ### Problems
 
@@ -110,17 +107,17 @@ title: Work MOC
 
 ### Mivi
 
-| Module         | Link                              |
-| -------------- | --------------------------------- |
-| 基本结构       | [[__temp__mivi-structure|structure]]     |
-| mivi3 详细     | [[mivi3]]                         |
-| zsl            | [[zsl]]                           |
-| 硬件 plugin    | [[hwplugin]]                      |
-| EIS 帧延迟     | [[eisq]]                          |
-| MTK crop       | [[crop]]                          |
-| mivi 总览      | [[mivi]]                          |
-| mivi_structure | [[mivi_structure]]                |
-| imageformat    | [[mivi-imageformat|imageformat]] |
+| Module         | Link                 |
+| -------------- | -------------------- |
+| 基本结构           | [[mivi-structure]]   |
+| mivi3 详细       | [[mivi3]]            |
+| zsl            | [[zsl]]              |
+| 硬件 plugin      | [[hwplugin]]         |
+| EIS 帧延迟        | [[framedelay]]       |
+| MTK crop       | [[crop]]             |
+| mivi 总览        | [[mivi]]             |
+| mivi_structure | [[mivi_structure]]   |
+| imageformat    | [[mivi-imageformat]] |
 
 ### Platform
 
@@ -144,7 +141,6 @@ title: Work MOC
 
 ### Other
 
-- [[cloudtool]]
 - [[general]]
 - [[memory]]
 - [[route]]
@@ -154,7 +150,6 @@ title: Work MOC
 
 ## Resources
 
-- [[algo-sw]]
 - [[res-mtk|mtk]]
 - [[res-qcom|qcom]]
 
@@ -164,7 +159,6 @@ title: Work MOC
 - [[m12]]
 - [[morpho]]
 - [[n11a]]
-- [[n12]]
 - [[release]]
 - [[vidhance]]
 

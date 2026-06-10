@@ -13,7 +13,6 @@ configuration:
     - templates
     - .obsidian
     - .claude
-    - zAssets/excalidraw/*.md
     - zAssets/templates/*.md
     - zSettings
     - Life/Darkroom
@@ -252,6 +251,13 @@ plugins:
       position: beforeBody
       priority: 15
       display: all
+  - source: github:quartz-community/obsidian-plugin-excalidraw
+    enabled: true
+    options:
+      enableInteraction: true
+      darkMode: auto
+      exportPadding: 20
+    order: 50
 layout:
   groups:
     toolbar:
