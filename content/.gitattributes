@@ -1,0 +1,2 @@
+content/**/*.md text eol=lf
+content/zAssets/**/*.md -text
