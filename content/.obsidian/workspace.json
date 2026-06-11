@@ -41,18 +41,17 @@
             "id": "c89a4794261930c5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Work/mivi-structure.md",
-                "mode": "source",
-                "source": false
+                "file": "Life/Darkroom/amazing.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "mivi-structure"
+              "icon": "lucide-layout-grid",
+              "title": "amazing"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -141,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Life/travel.md",
+                "file": "Life/Darkroom/amazing.base",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +150,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for travel"
+              "title": "Backlinks for amazing"
             }
           },
           {
@@ -181,13 +180,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Life/travel.md",
+                "file": "Life/Darkroom/amazing.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of travel"
+              "title": "Outline of amazing"
             }
           }
         ]
@@ -211,13 +210,13 @@
       "templates:Insert template": false
     }
   },
-  "active": "ce692cf56ad47f72",
+  "active": "c59300ad307449ca",
   "lastOpenFiles": [
-    "zAssets/excalidraw/travel 2024.excalidraw.md",
+    "Work/mivi-structure.md",
     "Life/travel.md",
+    "zAssets/excalidraw/travel 2024.excalidraw.md",
     "Life/body.md",
     "MOC/Work MOC.md",
-    "Work/mivi-structure.md",
     "Work/mivi_structure.md",
     "index.md",
     "zAssets/excalidraw/nihaixia 2025.excalidraw.md",
@@ -229,7 +228,7 @@
     "Daily/2026-04-15.md",
     "Daily/2026-04-07.md",
     "Daily/2026-04-08.md",
-    "amazing.base",
+    "Life/Darkroom/amazing.base",
     "Life/car.md",
     "Life/business.md",
     "Life/heels.md",
