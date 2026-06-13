@@ -9,7 +9,7 @@ tags:
 
 - [[eis-mtk-overview|MTK-EIS]]
 - [[eis-qcom-overview|Qcom-EIS]]
-- [[eis-algo-his]]
+- [[his]]
 - [[vidhance]]
 - [[morpho]]
 

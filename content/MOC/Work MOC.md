@@ -23,7 +23,7 @@ title: Work MOC
 ### Problems
 
 - [[mfnr]]
-- [[Synckey]]
+- [[synckey]]
 
 ## Areas
 
@@ -70,7 +70,7 @@ title: Work MOC
 
 ##### Algorithms
 
-- [[eis-algo-his|his]]
+- [[his|his]]
 - [[other]]
 
 ##### Horizon

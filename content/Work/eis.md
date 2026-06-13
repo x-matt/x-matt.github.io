@@ -1,12 +1,14 @@
 ---
 title: Eis 3rd
+tags:
+  - eis
 ---
 
 ## 1. EIS厂商
 
 - [[vidhance]]
 - [[morpho]]
-- [[eis-algo-his]]
+- [[his|his]]
 
 ## 2. EIS相关测试
 

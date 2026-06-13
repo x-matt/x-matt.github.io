@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/jekyll.md",
+                "file": "Tools/basic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "jekyll"
+              "title": "basic"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:archived",
+                "query": "skills",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tools/jekyll.md",
+                "file": "Tools/basic.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for jekyll"
+              "title": "Backlinks for basic"
             }
           },
           {
@@ -150,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/jekyll.md",
+                "file": "Tools/basic.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of jekyll"
+              "title": "Outline of basic"
             }
           }
         ]
@@ -180,35 +180,36 @@
       "templates:Insert template": false
     }
   },
-  "active": "c59300ad307449ca",
+  "active": "7a358e8decc38cbc",
   "lastOpenFiles": [
-    "index.md",
-    "Life/Darkroom/amazing.base",
-    "Work/mivi-structure.md",
-    "Life/travel.md",
-    "zAssets/excalidraw/travel 2024.excalidraw.md",
-    "Life/body.md",
-    "MOC/Work MOC.md",
-    "Work/mivi_structure.md",
-    "zAssets/excalidraw/nihaixia 2025.excalidraw.md",
-    "Life/people.md",
-    "Life/yunnan.md",
-    "Inbox/Using Claude Code Session Management & 1M Context.md",
-    "Inbox/learn everything.md",
-    "Daily/2026-04-16.md",
-    "Daily/2026-04-15.md",
-    "Daily/2026-04-07.md",
-    "Daily/2026-04-08.md",
-    "Life/car.md",
-    "Life/business.md",
-    "Life/heels.md",
-    "Life/lingerie.md",
-    "Life/Darkroom/andrew.md",
-    "Life/word.md",
-    "Life/Darkroom/dorcel.md",
-    "Life/Darkroom/darkreaver_double_2.md",
-    "Life/Darkroom/stacycruz.md",
+    "Tools/debug.md",
+    "Tools/design.md",
+    "Tools/diagram.md",
+    "Tools/README.md",
+    "Tools/shell.md",
+    "Work/jekyll.md",
+    "Work/obsidian.md",
+    "Tools/obsidian.md",
+    "Life/llm.md",
+    "Work/zsl.md",
+    "Work/zoomeis.md",
+    "Work/warping.md",
+    "Work/vsr.md",
+    "Work/videonightintro.md",
+    "Work/videonight.md",
+    "Work/video stitching.md",
+    "Work/synckey.md",
+    "Work/fb.md",
+    "Work/express-sensor.md",
+    "Work/express-hdr.md",
+    "Work/express-work-index.md",
+    "zAssets/excalidraw/hdr 2025.excalidraw.md",
+    "Work/express-cpp.md",
+    "Work/evs.md",
+    "Work/eis-qcom.md",
+    "Work/eis-overview.md",
     "Life/chinese history.canvas",
+    "Life/Darkroom/amazing.base",
     "zSettings/excalidraw/scripts/Downloaded/Select Elements of Type.svg",
     "zSettings/excalidraw/scripts/Downloaded/Organic Line.svg",
     "zAssets/templates",

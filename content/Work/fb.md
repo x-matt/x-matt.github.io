@@ -1,6 +1,8 @@
 ---
 title: Fb
-
+tags:
+  - fb
+  - algorithm
 ---
 
 ## FaceBeauty

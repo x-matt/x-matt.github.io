@@ -46,7 +46,7 @@ title: Project MOC
 > 问题排查：有明确 root cause 目标的调试记录
 
 - [[mfnr]] - MFNR 超时 root cause（热节流 + 内存压力）
-- [[Synckey]] - MTK syncKey 生命周期竞态
+- [[synckey]] - MTK syncKey 生命周期竞态
 
 ## Life Projects
 
