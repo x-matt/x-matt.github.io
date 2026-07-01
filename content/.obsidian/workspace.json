@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Life/body.md",
+                "file": "Work/video stitching.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "body"
+              "title": "video stitching"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "skills",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -183,6 +183,20 @@
   },
   "active": "e2cbd75968743972",
   "lastOpenFiles": [
+    "Work/video stitching.md",
+    "Work/video.md",
+    "Work/framedelay.md",
+    "Work/general.md",
+    "Work/gme.md",
+    "Work/eis-qcom-architecture.md",
+    "Work/eis-overview.md",
+    "Work/eis-mtk.md",
+    "Work/eis-mtk-architecture.md",
+    "Work/eis-mtk-overview.md",
+    "Work/eis-qcom.md",
+    "Work/dx-5.md",
+    "Work/eis.md",
+    "Life/body.md",
     "Work/autocheck.md",
     "Work/android-structure.md",
     "Work/algo.md",
@@ -196,20 +210,6 @@
     "Life/Darkroom/ambermoore.md",
     "Life/chinese history.canvas",
     "Life/daily.md",
-    "Life/chip.md",
-    "Life/deer.md",
-    "Life/display.md",
-    "Life/english.md",
-    "Life/Darkroom/web.md",
-    "Tools/basic.md",
-    "Tools/debug.md",
-    "Tools/design.md",
-    "Tools/diagram.md",
-    "Tools/README.md",
-    "Tools/shell.md",
-    "Work/jekyll.md",
-    "Work/obsidian.md",
-    "Tools/obsidian.md",
     "Life/Darkroom/amazing.base",
     "zSettings/excalidraw/scripts/Downloaded/Select Elements of Type.svg",
     "zSettings/excalidraw/scripts/Downloaded/Organic Line.svg",
