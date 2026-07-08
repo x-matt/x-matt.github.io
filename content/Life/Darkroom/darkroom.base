@@ -42,8 +42,6 @@ views:
     filters:
       and:
         - file.hasTag("model")
-    order:
-      - title
     limit: 30
     image: note.cover
     cardSize: 200
@@ -100,8 +98,6 @@ views:
     filters:
       and:
         - "!cover.isEmpty()"
-    order:
-      - title
     limit: 30
     image: note.cover
     cardSize: 240
