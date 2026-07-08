@@ -18,6 +18,7 @@ tags:
 ```mermaid
 timeline
     title Past travel
+    2016.6 : 🎼瓜州音乐节
     2017.3 : 哈尔滨
     2017.6 : 十堰 : 恩施 : 宜昌 : 重庆
     2018.8 : 大小荔波
