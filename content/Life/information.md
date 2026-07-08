@@ -1,6 +1,7 @@
 ---
 title: Information
-
+tags:
+  - govexam
 ---
 
 ## 高照

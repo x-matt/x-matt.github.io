@@ -2,7 +2,7 @@
 title: LLM
 tags:
   - education
-
+  - mind
 ---
 
 ## 什么是 LLM

@@ -1,5 +1,7 @@
 ---
 title: Food
+tags:
+  - material
 ---
 
 | City | Name     | Destination | Price   |

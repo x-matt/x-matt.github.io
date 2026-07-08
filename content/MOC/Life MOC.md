@@ -26,7 +26,7 @@ title: Life MOC
 #### Mind
 
 - [[chip]]
-- [[mind]]
+- [[idea]]
 - [[yjango]]
 
 - [[english]]

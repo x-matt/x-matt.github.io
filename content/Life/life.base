@@ -1,0 +1,84 @@
+filters:
+  and:
+    - file.inFolder("Life")
+    - '!file.inFolder("Life/Darkroom")'
+formulas:
+  last_modified: file.mtime.relative()
+  section: |
+    if(file.hasTag("mind"), "Mind",
+    if(file.hasTag("govexam"), "GovExam",
+    if(file.hasTag("fun"), "Entertainment",
+    if(file.hasTag("health"), "Health",
+    if(file.hasTag("material"), "Material", "Temporal")))))
+properties:
+  title:
+    displayName: Title
+  formula.last_modified:
+    displayName: Updated
+  formula.section:
+    displayName: Section
+views:
+  - type: table
+    name: All Docs
+    groupBy:
+      property: formula.section
+      direction: ASC
+    order:
+      - file.name
+      - title
+      - formula.section
+      - formula.last_modified
+    sort:
+      - property: formula.section
+        direction: ASC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 220
+      note.title: 280
+      formula.section: 160
+  - type: table
+    name: Mind
+    filters:
+      and:
+        - file.hasTag("mind")
+    order:
+      - file.name
+      - title
+      - formula.last_modified
+  - type: table
+    name: GovExam
+    filters:
+      and:
+        - file.hasTag("govexam")
+    order:
+      - file.name
+      - title
+      - formula.last_modified
+  - type: table
+    name: Entertainment
+    filters:
+      and:
+        - file.hasTag("fun")
+    order:
+      - file.name
+      - title
+      - formula.last_modified
+  - type: table
+    name: Health
+    filters:
+      and:
+        - file.hasTag("health")
+    order:
+      - file.name
+      - title
+      - formula.last_modified
+  - type: table
+    name: Material
+    filters:
+      and:
+        - file.hasTag("material")
+    order:
+      - file.name
+      - title
+      - formula.last_modified

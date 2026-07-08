@@ -1,6 +1,7 @@
 ---
 title: Introspection
-
+tags:
+  - mind
 ---
 
 ## 个人不足

@@ -1,6 +1,7 @@
 ---
 title: Music
-
+tags:
+  - fun
 ---
 
 | Song                   | Singer      |

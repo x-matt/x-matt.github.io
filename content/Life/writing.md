@@ -1,8 +1,7 @@
 ---
 title: Writing
 tags:
-  - gongkao
-
+  - govexam
 ---
 
 1. 考察能力

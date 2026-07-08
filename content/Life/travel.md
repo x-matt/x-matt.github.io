@@ -2,7 +2,7 @@
 title: Travelling
 tags:
   - trip
-
+  - fun
 ---
 
 在路上

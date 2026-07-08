@@ -1,6 +1,7 @@
 ---
 title: Car
-
+tags:
+  - material
 ---
 
 ## EV

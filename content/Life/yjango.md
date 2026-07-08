@@ -1,6 +1,7 @@
 ---
 title: YJango
-
+tags:
+  - mind
 ---
 
 - 网址: [渐构](https://www.modevol.com/)

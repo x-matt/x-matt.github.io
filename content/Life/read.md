@@ -1,6 +1,7 @@
 ---
 title: Reading
-
+tags:
+  - mind
 ---
 
 知识, 流淌

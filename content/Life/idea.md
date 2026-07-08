@@ -1,6 +1,7 @@
 ---
 title: Beautiful Mind
-
+tags:
+  - mind
 ---
 
 ## Symmary

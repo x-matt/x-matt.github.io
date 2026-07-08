@@ -1,6 +1,7 @@
 ---
 title: Exercise
-
+tags:
+  - health
 ---
 
 ## 运动类型

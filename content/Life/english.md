@@ -2,7 +2,7 @@
 title: English
 tags:
   - education
-
+  - mind
 ---
 
 ## Structure

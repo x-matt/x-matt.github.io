@@ -1,6 +1,7 @@
 ---
 title: Movie
-
+tags:
+  - fun
 ---
 
 > 电影是历史的遗产

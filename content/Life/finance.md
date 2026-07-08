@@ -1,5 +1,7 @@
 ---
 title: Finance
+tags:
+  - material
 ---
 
 ## 美联储利息

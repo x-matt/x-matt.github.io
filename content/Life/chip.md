@@ -1,6 +1,7 @@
 ---
 title: Small ideas
-
+tags:
+  - mind
 ---
 
 ### 人与感知类比

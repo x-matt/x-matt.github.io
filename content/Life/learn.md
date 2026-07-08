@@ -1,6 +1,7 @@
 ---
 title: Learning
-
+tags:
+  - mind
 ---
 
 | Icon | File        | Desc       |
