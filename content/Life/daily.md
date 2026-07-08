@@ -1,5 +1,7 @@
 ---
 title: Daily
+tags:
+  - mind
 ---
 
 ## 精力分配

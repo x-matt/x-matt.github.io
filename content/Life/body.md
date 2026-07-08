@@ -2,6 +2,7 @@
 title: Body
 tags:
   - nihaixia
+  - mind
 ---
 
 ![[nihaixia 2025.excalidraw#^frame=body|800]]

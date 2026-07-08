@@ -14,7 +14,7 @@
               "type": "bases",
               "state": {
                 "file": "Life/life.base",
-                "viewName": "GovExam"
+                "viewName": "All Docs"
               },
               "icon": "lucide-table",
               "title": "life"
@@ -182,8 +182,15 @@
   },
   "active": "86d01ac81d16619e",
   "lastOpenFiles": [
-    "Life/lingerie.md",
+    "Life/daily.md",
     "Life/life.base",
+    "Life/naval.md",
+    "Life/lingerie.md",
+    "Life/home.md",
+    "Life/erye.md",
+    "Life/body.md",
+    "Life/people.md",
+    "Life/yunnan.md",
     "MOC/Life MOC.md",
     "Life/introspection.md",
     "Life/information.md",
@@ -202,14 +209,7 @@
     "Life/reasoning.md",
     "Life/civil.md",
     "Life/llm.md",
-    "Life/learn.md",
-    "Life/english.md",
-    "Life/yjango.md",
-    "Life/idea.md",
-    "Life/chip.md",
-    "Life/life-areas.md",
     "Life/Darkroom/darkroom.base",
-    "Life/Darkroom/hopeheaven.md",
     "Life/chinese history.canvas",
     "zSettings/excalidraw/scripts/Downloaded/Select Elements of Type.svg",
     "zSettings/excalidraw/scripts/Downloaded/Organic Line.svg",

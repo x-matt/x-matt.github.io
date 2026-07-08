@@ -1,8 +1,7 @@
 ---
 title: Naval Ravikant
 tags:
-  - famous
-
+  - mind
 ---
 
 ## Learn From Video

@@ -26,6 +26,7 @@ views:
     order:
       - file.name
       - title
+      - tags
       - formula.section
       - formula.last_modified
     sort:

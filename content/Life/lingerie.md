@@ -2,6 +2,7 @@
 title: Lingerie
 tags:
   - sexy
+  - material
 ---
 
 | Name              | Country   | Score | Features                                               |

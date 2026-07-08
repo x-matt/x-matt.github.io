@@ -2,6 +2,7 @@
 title: Yunnan
 tags:
   - trip
+  - fun
 ---
 ## Plannning
 
