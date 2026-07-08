@@ -1,5 +1,5 @@
 ---
-title: 第十五帖，歌舞团
+title: "15: 歌舞团"
 date: 2012-10-11 11:33:00 +0800
 tags: darkreaver
 ---

@@ -1,5 +1,5 @@
 ---
-title: 第二贴，台球妹妹
+title: "2: 台球妹妹"
 date: 2012-06-27 11:33:00 +0800
 tags: darkreaver
 ---

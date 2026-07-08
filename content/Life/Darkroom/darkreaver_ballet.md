@@ -1,5 +1,5 @@
 ---
-title: 第一贴，芭蕾
+title: "1: 芭蕾"
 date: 2012-06-24 11:33:00 +0800
 tags: darkreaver
 ---

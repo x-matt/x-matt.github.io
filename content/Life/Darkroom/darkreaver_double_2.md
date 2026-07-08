@@ -1,5 +1,5 @@
 ---
-title: 第四贴，双飞
+title: "4: 双飞"
 date: 2012-07-07 11:33:00 +0800
 tags: darkreaver
 ---

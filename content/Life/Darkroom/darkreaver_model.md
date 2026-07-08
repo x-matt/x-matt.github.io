@@ -1,5 +1,5 @@
 ---
-title: 第十八帖，一米八
+title: "17: 一米八"
 date: 2012-11-11 11:33:00 +0800
 tags: darkreaver
 ---

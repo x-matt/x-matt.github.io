@@ -1,5 +1,5 @@
 ---
-title: 第十四帖，离别
+title: "14: 离别"
 date: 2012-09-26 11:33:00 +0800
 tags: darkreaver
 ---

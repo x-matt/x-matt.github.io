@@ -4,21 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "36e0203cd61cb444",
+        "id": "c3a194b9b8788790",
         "type": "tabs",
         "children": [
           {
-            "id": "e2cbd75968743972",
+            "id": "86d01ac81d16619e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Life/home.md",
-                "mode": "source",
-                "source": false
+                "file": "Life/Darkroom/darkroom.base",
+                "viewName": "Image Cards"
               },
-              "icon": "lucide-file",
-              "title": "home"
+              "icon": "lucide-layout-grid",
+              "title": "darkroom"
             }
           }
         ]
@@ -181,36 +180,35 @@
       "templates:Insert template": false
     }
   },
-  "active": "e2cbd75968743972",
+  "active": "86d01ac81d16619e",
   "lastOpenFiles": [
+    "Life/Darkroom/elenakoshka.md",
+    "Life/Darkroom/darkroom.base",
+    "Life/Darkroom/lenareif.md",
+    "Life/Darkroom/darkreaver_model.md",
+    "Life/Darkroom/darkreaver_model_2.md",
+    "Life/Darkroom/darkreaver_double_2.md",
+    "Life/Darkroom/darkreaver_ballet_2.md",
+    "Life/Darkroom/darkreaver_ballet.md",
+    "Life/Darkroom/darkreaver_snooker.md",
+    "Life/Darkroom/darkreaver_wait.md",
+    "Life/Darkroom/antoniadamo.md",
+    "Life/Darkroom/ambermoore.md",
+    "Life/Darkroom/Untitled.md",
+    "Life/food.md",
+    "Life/home.md",
+    "Life/introspection.md",
+    "Life/learn.md",
+    "Life/life-areas.md",
+    "Life/lingerie.md",
+    "Life/Darkroom/dorcel.md",
+    "Life/Darkroom/sybila.md",
     "Life/Darkroom/buer_three.md",
     "Life/travel.md",
     "Life/Darkroom/web.md",
-    "Life/Darkroom/ambermoore.md",
     "Work/video stitching.md",
     "Work/video.md",
-    "Work/framedelay.md",
-    "Work/general.md",
-    "Work/gme.md",
-    "Work/eis-qcom-architecture.md",
-    "Work/eis-overview.md",
-    "Work/eis-mtk.md",
-    "Work/eis-mtk-architecture.md",
-    "Work/eis-mtk-overview.md",
-    "Work/eis-qcom.md",
-    "Work/dx-5.md",
-    "Work/eis.md",
-    "Life/body.md",
-    "Work/autocheck.md",
-    "Work/android-structure.md",
-    "Work/algo.md",
-    "index.md",
-    "MOC/Work MOC.md",
-    "MOC/Project MOC.md",
-    "MOC/Life MOC.md",
-    "Life/home.md",
     "Life/chinese history.canvas",
-    "Life/Darkroom/amazing.base",
     "zSettings/excalidraw/scripts/Downloaded/Select Elements of Type.svg",
     "zSettings/excalidraw/scripts/Downloaded/Organic Line.svg",
     "zAssets/templates",

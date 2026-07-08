@@ -1,5 +1,5 @@
 ---
-title: 第三帖，双飞
+title: "3: 双飞"
 date: 2012-07-02 11:33:00 +0800
 tags: darkreaver
 ---

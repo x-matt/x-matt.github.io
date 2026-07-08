@@ -1,5 +1,5 @@
 ---
-title: 第十二贴，蓝天
+title: "12: 蓝天"
 date: 2012-09-01 11:33:00 +0800
 tags:
   - darkreaver

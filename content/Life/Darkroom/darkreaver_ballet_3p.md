@@ -1,5 +1,5 @@
 ---
-title: 第七贴，芭蕾
+title: "7: 芭蕾"
 date: 2012-07-22 11:33:00 +0800
 tags: darkreaver
 ---

@@ -1,5 +1,5 @@
 ---
-title: Darkreaver wait
+title: "10: 等待"
 date: 2012-08-16 11:33:00 +0800
 tags:
   - darkreaver
