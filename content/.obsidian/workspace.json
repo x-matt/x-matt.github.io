@@ -11,14 +11,13 @@
             "id": "de3c46dfe940fde8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
+                "file": "Life/Darkroom/darkroom.base",
+                "viewName": "💃 Model"
               },
-              "icon": "lucide-file",
-              "title": "index"
+              "icon": "lucide-layout-grid",
+              "title": "darkroom"
             }
           }
         ]
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Life/Darkroom/darkroom.base",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +119,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for darkroom"
             }
           },
           {
@@ -150,13 +149,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "Life/Darkroom/darkroom.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of darkroom"
             }
           }
         ]
@@ -182,35 +181,36 @@
   },
   "active": "de3c46dfe940fde8",
   "lastOpenFiles": [
+    "Life/Darkroom/sonyablaze.md",
+    "Life/Darkroom/darkroom.base",
+    "Life/Darkroom/hopeheaven.md",
+    "Life/Darkroom/ambermoore.md",
+    "Life/Darkroom/antoniadamo.md",
+    "Life/Darkroom/barbiebrill.md",
+    "Life/Darkroom/buer_abuse.md",
+    "Life/Darkroom/buer_after.md",
+    "Life/Darkroom/buer_daily.md",
+    "Life/Darkroom/buer_five.md",
+    "Life/Darkroom/miamelano.md",
+    "Life/Darkroom/melaniemarie.md",
+    "Life/Darkroom/moanapozzi.md",
+    "Life/Darkroom/piaopiao1.md",
+    "Life/Darkroom/piaopiao2.md",
+    "Life/Darkroom/piaopiao3.md",
+    "Life/Darkroom/piaopiao4.md",
+    "Life/Darkroom/darkreaver_ballet_3p.md",
+    "Life/Darkroom/darkreaver_ballet_2.md",
+    "Life/Darkroom/darkreaver_ballet.md",
+    "Life/Darkroom/darkreaver_border_town .md",
+    "Life/Darkroom/darkreaver_double.md",
+    "Life/Darkroom/darkreaver_double_2.md",
+    "Life/Darkroom/darkreaver_forbidden.md",
+    "Life/Darkroom/darkreaver_model.md",
+    "Life/Darkroom/darkreaver_model_2.md",
+    "Life/Darkroom/darkreaver_night.md",
     "life.base",
     "Life/chinese history.canvas",
-    "Life/introspection.md",
-    "Life/life-areas.md",
-    "Life/learn.md",
-    "Life/idea.md",
-    "Life/home.md",
-    "Life/lingerie.md",
-    "Life/heels.md",
-    "Life/name.md",
-    "Life/photography.md",
-    "Life/pkm.md",
-    "Life/food.md",
-    "Life/exercise.md",
-    "Life/finance.md",
-    "Life/yunnan.md",
-    "Life/travel.md",
-    "Life/yjango.md",
-    "Life/read.md",
-    "Life/naval.md",
-    "Life/gtd.md",
-    "Life/music.md",
-    "Life/llm.md",
-    "Life/people.md",
-    "Life/civil.md",
-    "Life/information.md",
-    "Life/reasoning.md",
     "work.base",
-    "Life/Darkroom/darkroom.base",
     "zSettings/excalidraw/scripts/Downloaded/Select Elements of Type.svg",
     "zSettings/excalidraw/scripts/Downloaded/Organic Line.svg",
     "zAssets/templates",

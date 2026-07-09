@@ -1,6 +1,7 @@
 ---
-title: "1: 芭蕾"
+title: 第一贴，今天开始，那个芭蕾美女
 date: 2012-06-24 11:33:00 +0800
+priority: 1
 tags: darkreaver
 ---
 

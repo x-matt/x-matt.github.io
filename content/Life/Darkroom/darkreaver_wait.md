@@ -1,8 +1,8 @@
 ---
-title: "10: 等待"
+title: 第十贴，不算漫长的等待
 date: 2012-08-16 11:33:00 +0800
-tags:
-  - darkreaver
+priority: 10
+tags: darkreaver
 ---
 
 2012年8月16日  六月二十九  多云

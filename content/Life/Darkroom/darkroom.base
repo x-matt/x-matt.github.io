@@ -24,11 +24,13 @@ views:
       property: formula.section
       direction: ASC
     order:
-      - file.name
       - title
+      - file.name
       - formula.section
       - formula.last_modified
     sort:
+      - property: title
+        direction: DESC
       - property: formula.section
         direction: ASC
       - property: file.name
@@ -38,7 +40,7 @@ views:
       note.title: 280
       formula.section: 160
   - type: cards
-    name: Model
+    name: 💃 Model
     filters:
       and:
         - file.hasTag("model")
@@ -47,32 +49,33 @@ views:
     cardSize: 200
     imageAspectRatio: 1.42
   - type: table
-    name: Director
+    name: 🧔🏻Director
     filters:
       and:
         - file.hasTag("director")
     order:
-      - file.name
       - title
+      - file.name
       - formula.last_modified
   - type: table
-    name: Studio
+    name: 🎬 Studio
     filters:
       and:
         - file.hasTag("studio")
     order:
-      - file.name
       - title
+      - file.name
       - formula.last_modified
   - type: table
-    name: SM
+    name: 🪢SM
     filters:
       and:
         - file.hasTag("sm")
     order:
-      - file.name
       - title
+      - file.name
       - formula.last_modified
+      - tags
   - type: table
     name: Piaopiao
     filters:
@@ -90,8 +93,12 @@ views:
     order:
       - title
       - file.name
-    sort: []
+      - tags
+    sort:
+      - property: priority
+        direction: ASC
     columnSize:
+      note.title: 349
       file.name: 198
   - type: cards
     name: Image Cards
