@@ -29,6 +29,8 @@ views:
       - formula.section
       - formula.last_modified
     sort:
+      - property: date
+        direction: ASC
       - property: title
         direction: DESC
       - property: formula.section
@@ -74,8 +76,14 @@ views:
     order:
       - title
       - file.name
-      - formula.last_modified
       - tags
+      - date
+      - formula.last_modified
+    sort:
+      - property: date
+        direction: DESC
+    columnSize:
+      note.title: 280
   - type: table
     name: Piaopiao
     filters:
@@ -85,6 +93,9 @@ views:
       - title
       - file.name
       - formula.last_modified
+    sort:
+      - property: date
+        direction: ASC
   - type: table
     name: DarkReaver
     filters:

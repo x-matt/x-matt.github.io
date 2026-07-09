@@ -4,23 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "0d58f0b1660a5745",
+        "id": "31fe6dcd5b8740cf",
         "type": "tabs",
         "children": [
           {
-            "id": "de3c46dfe940fde8",
+            "id": "a0b0d50156a73180",
             "type": "leaf",
             "state": {
               "type": "bases",
               "state": {
-                "file": "Life/Darkroom/darkroom.base",
-                "viewName": "💃 Model"
+                "file": "life.base",
+                "viewName": "All Docs"
               },
-              "icon": "lucide-layout-grid",
-              "title": "darkroom"
+              "icon": "lucide-table",
+              "title": "life"
             }
           }
-        ]
+        ],
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -52,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:govexam",
+                "query": "2023-10-10-09-59-58.png",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Life/Darkroom/darkroom.base",
+                "file": "life.base",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +120,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for darkroom"
+              "title": "Backlinks for life"
             }
           },
           {
@@ -149,20 +150,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Life/Darkroom/darkroom.base",
+                "file": "life.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of darkroom"
+              "title": "Outline of life"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 256.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,38 +181,41 @@
       "templates:Insert template": false
     }
   },
-  "active": "de3c46dfe940fde8",
+  "active": "a0b0d50156a73180",
   "lastOpenFiles": [
-    "Life/Darkroom/sonyablaze.md",
+    "index.md",
+    "life.base",
+    "work.base",
+    "Inbox/Using Claude Code Session Management & 1M Context.md",
+    "Inbox/learn-everything.md",
+    "Work/synckey.md",
+    "Work/sensor.md",
+    "Work/cpp.md",
+    "Work/express-sensor.md",
+    "Work/lang-cpp.md",
+    "zAssets/excalidraw/cpp 2025.excalidraw.md",
+    "zAssets/excalidraw/cpp 2024.excalidraw.md",
+    "Work/basic.md",
+    "Work/his.md",
+    "Work/hdr.md",
+    "zAssets/images/2023-09-03-18-53-01.webp",
+    "zAssets/images/2023-10-10-09-59-58.png",
+    "zAssets/images/2023-11-15-16-48-45.png",
     "Life/Darkroom/darkroom.base",
+    "Life/Darkroom/buer_abuse.md",
+    "Life/Darkroom/buer_after.md",
+    "Daily/2023-05-09.md",
+    "Life/Darkroom/piaopiao4.md",
+    "Life/Darkroom/piaopiao3.md",
+    "Life/Darkroom/piaopiao2.md",
+    "Life/Darkroom/piaopiao1.md",
+    "Life/Darkroom/sonyablaze.md",
     "Life/Darkroom/hopeheaven.md",
     "Life/Darkroom/ambermoore.md",
     "Life/Darkroom/antoniadamo.md",
     "Life/Darkroom/barbiebrill.md",
-    "Life/Darkroom/buer_abuse.md",
-    "Life/Darkroom/buer_after.md",
     "Life/Darkroom/buer_daily.md",
-    "Life/Darkroom/buer_five.md",
-    "Life/Darkroom/miamelano.md",
-    "Life/Darkroom/melaniemarie.md",
-    "Life/Darkroom/moanapozzi.md",
-    "Life/Darkroom/piaopiao1.md",
-    "Life/Darkroom/piaopiao2.md",
-    "Life/Darkroom/piaopiao3.md",
-    "Life/Darkroom/piaopiao4.md",
-    "Life/Darkroom/darkreaver_ballet_3p.md",
-    "Life/Darkroom/darkreaver_ballet_2.md",
-    "Life/Darkroom/darkreaver_ballet.md",
-    "Life/Darkroom/darkreaver_border_town .md",
-    "Life/Darkroom/darkreaver_double.md",
-    "Life/Darkroom/darkreaver_double_2.md",
-    "Life/Darkroom/darkreaver_forbidden.md",
-    "Life/Darkroom/darkreaver_model.md",
-    "Life/Darkroom/darkreaver_model_2.md",
-    "Life/Darkroom/darkreaver_night.md",
-    "life.base",
     "Life/chinese history.canvas",
-    "work.base",
     "zSettings/excalidraw/scripts/Downloaded/Select Elements of Type.svg",
     "zSettings/excalidraw/scripts/Downloaded/Organic Line.svg",
     "zAssets/templates",
@@ -219,9 +224,6 @@
     "zAssets/images/otis-20240320165511619.jpeg",
     "zAssets/images/octavian-dan-craciun-b21Ty33CqVs-unsplash.jpg",
     "zAssets/images/img_v3_02gp_b5cd1b76-cc27-41b6-8d13-f4f41821748l.jpg",
-    "zAssets/images/image-3.png",
-    "zAssets/images/image-2.png",
-    "zAssets/images/image-1.png",
     "zAssets/images/convert_to_webp.sh",
     "beauty.base",
     "Work/format.md.tmp.13184.1776651240840",

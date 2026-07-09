@@ -5,12 +5,18 @@ filters:
 formulas:
   last_modified: file.mtime.relative()
 properties:
-  title:
+  note.title:
     displayName: Title
   formula.last_modified:
     displayName: Updated
-  formula.section:
-    displayName: Section
+  note.domain:
+    displayName: Domain
+  file.name:
+    displayName: FileName
+  note.tags:
+    displayName: Tags
+  note.status:
+    displayName: Status
 views:
   - type: table
     name: All Docs
@@ -91,4 +97,4 @@ views:
     name: Express
     filters:
       and:
-        - type == "express"
+        - status == "expressing"

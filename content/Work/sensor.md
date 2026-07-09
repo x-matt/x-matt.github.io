@@ -86,6 +86,24 @@ review:
 2. Processing skyview: light -> photo/video ![[sensor 2025.excalidraw#^frame=sensor_action|600]]
 3. frame value ![[sensor 2025.excalidraw#^frame=single_exp|Single Exposure]]
 
+### 2.6 basic info
+
+| Factory    | Country |
+| ---------- | ------- |
+| Sony       | Japan   |
+| Samsung    | Korea   |
+| OmniVision | China   |
+
+| Abb     | Desc              |
+| ------- | ----------------- |
+| CIS[^1] | Cmos Image Sensor |
+
+Hardware Feature
+1. InSensorZoom
+2. DXG
+3. DCG
+4. Stagger HDR
+
 ## 3. Gyro
 
 - MTK: `/mnt/vendor/nvcfg/sensor`

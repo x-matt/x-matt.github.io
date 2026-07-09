@@ -2,7 +2,7 @@
 title: Learn Everything Within Half an Hour
 source: https://x.com/Khazix0918/status/2043555868902637845
 author:
-published:
+published: 2026-04-16
 created: 2026-04-16
 description:
 tags:
