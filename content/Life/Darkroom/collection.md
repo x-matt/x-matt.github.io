@@ -1,49 +1,59 @@
 ---
-title: Web
-date: 2022-03-17 11:00:00 +0800
-
+title: Collection
 ---
 
-## Web
+## Website
 
 ### VIXEN
 
-| A                                  | B                                        |
-| ---------------------------------- | ---------------------------------------- |
-| [Vixen](https://www.vixen.com)     | [Deeper](https://www.deeper.com)         |
-| [Tushy](https://www.tushy.com)     | [TushyRaw](https://www.tushyraw.com)     |
-| [Blacked](https://www.blacked.com) | [BlackedRaw](https://www.blackedraw.com) |
-| [Slayed](https://www.slayed.com)   | [Milfy](https://www.milfy.com/)          |
+| Web                                      | Category   |
+| ---------------------------------------- | ---------- |
+| [Vixen](https://www.vixen.com)           | ART        |
+| [Deeper](https://www.deeper.com)         | SM         |
+| [Blacked](https://www.blacked.com)       | BLACK      |
+| [Tushy](https://www.tushy.com)           | ANAL       |
+| [BlackedRaw](https://www.blackedraw.com) | BLACK, RAW |
+| [TushyRaw](https://www.tushyraw.com)     | ANAL, RAW  |
+| [Slayed](https://www.slayed.com)         | GIRLS      |
+| [Milfy](https://www.milfy.com/)          | MIFY       |
 
-### Al-in-one Webs
+### All-in-one Webs
 
-| Category  | Name                                    |  Taghugo  |
-| :-------: | --------------------------------------- | :-------: |
-| &#127909; | [AnyBunny](https://anybunny.com/)       | &#128509; |
-| &#127909; | [HotMovies](https://hotmovs.com/)       | &#128509; |
-| &#127909; | [SexTV](https://www.sextvx.com/)        | &#128509; |
-| &#127909; | [Sxyprn](https://sxyprn.com/)           | &#128509; |
-| &#127909; | [Xmoivx](https://hd.xmovix.net/)        | &#128509; |
-| &#127909; | [Eporner](https://www.eporner.com//)    | &#128509; |
-| &#127909; | [Table](https://jable.tv/)              | &#128510; |
-| &#127909; | [Trex](https://www.porntrex.com/)       | &#128509; |
-| &#127909; | [VintageTube](https://vintagetube.xxx/) | &#129491; |
-| &#128248; | [PornPic](https://www.pornpics.com/)    | &#128248; |
+| Category | Name                                    | Country |
+| :------: | --------------------------------------- | :-----: |
+|   VID    | [AnyBunny](https://anybunny.com/)       |   USA   |
+|   VID    | [HotMovies](https://hotmovs.com/)       |   USA   |
+|   VID    | [SexTV](https://www.sextvx.com/)        |   USA   |
+|   VID    | [Sxyprn](https://sxyprn.com/)           |   USA   |
+|   VID    | [Xmoivx](https://hd.xmovix.net/)        |   USA   |
+|   VID    | [Eporner](https://www.eporner.com//)    |   USA   |
+|   VID    | [Table](https://jable.tv/)              |   JPN   |
+|   VID    | [Trex](https://www.porntrex.com/)       |   USA   |
+|   VID    | [VintageTube](https://vintagetube.xxx/) |   USA   |
+|   PIC    | [PornVID](https://www.pornVIDs.com/)    |   ALL   |
 
 ---
 
-## Classic
+## Wonderful
+
+### Penthouse
 
 [Penthouse forum pin up](https://mat6tube.com/watch/-87213081_456240422)
-Anna Nicole Smith 1993
-Victoria Silvstedt 1997
-Anna Sophia Berglund 2011
-### Fuqingzhu
+
+### Playboy
+
+| Playboy Playmate     | Year |
+| -------------------- | ---- |
+| Anna Nicole Smith    | 1993 |
+| Victoria Silvstedt   | 1997 |
+| Anna Sophia Berglund | 2011 |
+
+### Fuqinzhu
 
 | 标题                                                     | 平台    | 日期       | 作者   |
 | -------------------------------------------------------- | ------- | ---------- | ------ |
 | [2 天 2 夜人妻调教之全开发][fuqinzhu-b]                  | 91Porn  | 2017/03/31 | 缚青主 |
-| [fuqinzhu PIC 合集][fuqinzhu-a]                          | Twitter | 2023/02/04 | 缚青主 |
+| [fuqinzhu VID 合集][fuqinzhu-a]                          | Twitter | 2023/02/04 | 缚青主 |
 | [一调一教一世界，半痴半迷半沉沦][fuqinzhu-e]             | 91Porn  | 2017/10/25 | 缚青主 |
 | [人妻伺奉奴和肉便器养成记][fuqinzhu-i]                   | 91Porn  | 2019/09/12 | 缚青主 |
 | [凤头！虎躯！豹尾][fuqinzhu-c]                           | 91Porn  | 2017/07/19 | 缚青主 |
@@ -101,7 +111,7 @@ Anna Sophia Berglund 2011
 | 标题                      | 平台     | 日期       | 作者         |
 | ------------------------- | -------- | ---------- | ------------ |
 | [Fyz cccan][fyz]          | Telegram | 2023/07/09 | Fyz cccan    |
-| [Monday pic][monday]      | Telegram | 2023/02/04 | Monday       |
+| [Monday VID][monday]      | Telegram | 2023/02/04 | Monday       |
 | [champagne TT][champagne] | Telegram | 2023/07/02 | champagne TT |
 | [可遇不可求][keyubukeqiu] | Telegram | 2023/07/02 | 可遇不可求   |
 
@@ -153,7 +163,7 @@ Anna Sophia Berglund 2011
 | [（云南）罪恶的弥散][tuisi-2]                                           | 91Porn | 2022/03/01 | 腿丝           |
 | [（云南）风情万种，凡间尤物][tuisi-3]                                   | 91Porn | 2022/03/08 | 腿丝           |
 
-### darkreaver
+### Darkreaver
 
 1. [【Dark 妖艳贴】第一贴，今天开始，那个芭蕾美女。[14P+1P验证]](https://www.sexinsex.net/bbs/disbox.php?action=viewpost&pid=82111193)
 1. [【Dark 妖艳贴】第二贴，继续吧，这次是打台球的妹妹。[14P] + [2P预告] + [1P验证]](https://www.sexinsex.net/bbs/disbox.php?action=viewpost&pid=82209145)
@@ -196,7 +206,7 @@ Anna Sophia Berglund 2011
 [qiaotunyingqi-i]:https://telegra.ph/1876%E5%9B%9E%E5%BF%86%E5%BD%95%E8%97%8F%E7%9D%80%E7%A7%98%E5%AF%86%E7%9A%84%E5%A4%A7%E5%AE%85%E9%99%A2-09-01
 [qiaotunyingqi-j]:https://telegra.ph/%E5%A5%B3%E7%A5%9E%E5%8E%A8%E6%88%BF---M%E7%94%B7%E7%89%9B%E6%8E%92%E9%80%9F%E6%88%90%E7%8F%AD-09-01
 [qiaotunyingqi-k]:https://telegra.ph/%E8%BF%B7%E7%BF%98%E8%87%80%E6%B7%AB%E5%A6%BB-09-01
-[fuqinzhu-a]:https://telegra.ph/%E7%BC%9A%E9%9D%92%E4%B8%BB-PIC-%E5%90%88%E9%9B%86-02-04
+[fuqinzhu-a]:https://telegra.ph/%E7%BC%9A%E9%9D%92%E4%B8%BB-VID-%E5%90%88%E9%9B%86-02-04
 [fuqinzhu-b]:https://telegra.ph/%E7%BC%9A-2%E5%A4%A92%E5%A4%9C%E4%BA%BA%E5%A6%BB%E8%B0%83%E6%95%99%E4%B9%8B%E5%85%A8%E5%BC%80%E5%8F%91-01-01
 [fuqinzhu-c]:https://telegra.ph/%E7%BC%9A-%E5%87%A4%E5%A4%B4%E8%99%8E%E8%BA%AF%E8%B1%B9%E5%B0%BE-01-01
 [fuqinzhu-d]:https://telegra.ph/%E7%BC%9A%E6%AC%B2%E5%A5%B4-%E4%BB%8E%E7%99%BD%E5%AF%8C%E7%BE%8E%E5%88%B0%E9%AA%9A%E6%B7%AB%E8%B4%B1%E4%B9%8B%E5%AE%8C%E5%85%A8%E8%B0%83%E6%95%99-01-01
@@ -206,7 +216,7 @@ Anna Sophia Berglund 2011
 [fuqinzhu-h]:https://telegra.ph/%E7%BC%9A%E6%98%A5%E6%9A%96%E8%8A%B1%E5%BC%80%E4%B9%B3%E6%AD%A4%E7%BE%8E%E5%A5%BD%E9%AB%98%E5%B0%94%E5%A4%AB%E7%90%83%E5%9C%BA%E5%86%85%E7%9A%845P%E5%A4%A7%E6%88%98-01-01
 [fuqinzhu-i]:https://telegra.ph/%E4%BA%BA%E5%A6%BB%E4%BC%BA%E5%A5%89%E5%A5%B4%E5%92%8C%E8%82%89%E4%BE%BF%E5%99%A8%E5%85%BB%E6%88%90%E8%AE%B0-09-25
 [shibaban]:https://telegra.ph/Twitter-%E5%8D%81%E5%85%AB%E8%88%AC%E5%8F%8D%E5%B7%AE-01-27
-[monday]:https://telegra.ph/Tele-Monday-pic-02-04
+[monday]:https://telegra.ph/Tele-Monday-VID-02-04
 [lens4wife]:https://telegra.ph/%E4%B8%BA%E5%A6%BB%E8%80%8C%E6%91%84-07-02
 [flower-1]:https://telegra.ph/91-%E9%82%A3%E4%BA%9B%E8%8A%B1%E5%84%BF%E8%82%A5%E8%87%80%E9%A3%8E%E9%AA%9A%E8%82%9B%E4%BA%A4%E5%BE%A1%E5%A7%90-01-14
 [flower-2]:https://telegra.ph/91-%E6%88%91%E7%9A%84%E8%80%81%E5%A9%86%E6%98%AF%E9%AA%9A%E9%80%BC-01-14

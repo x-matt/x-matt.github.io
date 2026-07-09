@@ -17,6 +17,14 @@ properties:
     displayName: Updated
   formula.section:
     displayName: Section
+  note.title:
+    displayName: Title
+  file.name:
+    displayName: FileName
+  note.date:
+    displayName: Date
+  note.tags:
+    displayName: Tags
 views:
   - type: table
     name: All Docs
@@ -31,11 +39,7 @@ views:
     sort:
       - property: date
         direction: ASC
-      - property: title
-        direction: DESC
       - property: formula.section
-        direction: ASC
-      - property: file.name
         direction: ASC
     columnSize:
       file.name: 220
@@ -45,7 +49,7 @@ views:
     name: 💃 Model
     filters:
       and:
-        - file.hasTag("model")
+        - file.hasProperty("cover")
     limit: 30
     image: note.cover
     cardSize: 200
@@ -118,5 +122,5 @@ views:
         - "!cover.isEmpty()"
     limit: 30
     image: note.cover
-    cardSize: 240
+    cardSize: 200
     imageAspectRatio: 1.42

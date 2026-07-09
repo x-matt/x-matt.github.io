@@ -1,10 +1,10 @@
 ---
 title: Classic Model
 tags:
-
+  - model
 ---
 
-## Classic
+## Classic Model
 
 
 |      A       |       B       |      C       |
