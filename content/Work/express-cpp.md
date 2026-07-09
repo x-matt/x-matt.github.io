@@ -1,6 +1,12 @@
 ---
 title: Cpp
-
+type: express
+status: active
+domain: language
+priority:
+review:
+tags:
+  - cpp
 ---
 
 ## Knowledge Classification

@@ -1,5 +1,10 @@
 ---
 title: C++ basic knowledge
+type: area
+status: active
+domain: language
+priority:
+review:
 tags:
   - cpp
 

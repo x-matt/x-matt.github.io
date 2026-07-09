@@ -1,7 +1,11 @@
 ---
 title: Series
-cover: https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1740578505.62083295.png
-
+type: project
+status: active
+domain: series
+priority:
+review:
+tags:
 ---
 
 > [!INFO] 说明

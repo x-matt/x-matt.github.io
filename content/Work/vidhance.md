@@ -1,7 +1,12 @@
 ---
 title: Vidhance
+type: area
+status: done
+domain: feature
+priority:
+review:
 tags:
-  - archived
+  - eis
 ---
 
 ### 开启Log

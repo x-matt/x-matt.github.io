@@ -1,8 +1,12 @@
 ---
 title: SAT Improvment
+type: area
+status: active
+domain: feature
+priority:
+review:
 tags:
   - sat
-
 ---
 
 ## Timeline

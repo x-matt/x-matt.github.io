@@ -1,6 +1,10 @@
 ---
 title: Business
-
+type: project
+status: active
+domain: business
+priority:
+review:
 ---
 
 ## 系列

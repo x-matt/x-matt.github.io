@@ -1,6 +1,12 @@
 ---
 title: Video
-
+type: area
+status: active
+domain: feature
+priority:
+review: daily
+tags:
+  - skyview
 ---
 
 ## 视频的生成

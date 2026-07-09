@@ -1,9 +1,12 @@
 ---
 title: Customization
-created: 2026-01-16
+type: area
+status: active
+domain: feature
+priority:
+review:
 tags:
   - eis
-  - mtk
 ---
 
 ## 1. 配置文件

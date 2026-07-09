@@ -1,5 +1,12 @@
 ---
 title: LOFIC
+type: area
+status: active
+domain: feature
+priority:
+review:
+tags:
+  - lofic
 ---
 
 ## Lofic

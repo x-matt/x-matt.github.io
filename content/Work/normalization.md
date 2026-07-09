@@ -1,7 +1,10 @@
 ---
 title: Normalization
-tags:
-  - tool
+type: area
+status: active
+domain: tool
+priority:
+review:
 ---
 
 ### 提交前统一格式

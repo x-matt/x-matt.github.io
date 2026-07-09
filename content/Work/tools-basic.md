@@ -1,6 +1,10 @@
 ---
 title: Basic Tools
-
+type: area
+status: active
+domain: tool
+priority:
+review:
 ---
 
 ## Platform Common

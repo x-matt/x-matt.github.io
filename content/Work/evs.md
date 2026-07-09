@@ -1,6 +1,12 @@
 ---
 title: EVS
-
+type: area
+status: active
+domain: hardware
+priority:
+review:
+tags:
+  - evs
 ---
 
 - Event-based Vision Sensor[^1]

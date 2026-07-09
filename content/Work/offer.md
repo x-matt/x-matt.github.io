@@ -1,6 +1,12 @@
 ---
 title: Lead to offer
-
+type: area
+status: active
+domain: lanuage
+priority:
+review:
+tags:
+  - cpp
 ---
 
 ## 3 数组-找出数组中重复的数字

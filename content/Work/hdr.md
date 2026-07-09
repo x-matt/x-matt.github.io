@@ -1,6 +1,12 @@
 ---
 title: Hdr
-
+type: area
+status: active
+domain: feature
+priority:
+review:
+tags:
+  - hdr
 ---
 
 > High Dynamic Range

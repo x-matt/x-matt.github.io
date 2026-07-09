@@ -1,6 +1,12 @@
 ---
 title: Python
-
+type: area
+status: active
+domain: language
+priority:
+review:
+tags:
+  - python
 ---
 
 ## Tricks

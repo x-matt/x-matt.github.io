@@ -1,6 +1,12 @@
 ---
 title: Qcom Basic Info
-
+type: area
+status: active
+domain: platform
+priority:
+review: daily
+tags:
+  - core
 ---
 
 | Abbr  | FullName                            | Desc                                             |

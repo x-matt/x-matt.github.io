@@ -1,7 +1,10 @@
 ---
 title: Resume
-draft: "true"
-
+type: area
+status: waiting
+domain: personal
+priority:
+review:
 ---
 
 ## 马滔

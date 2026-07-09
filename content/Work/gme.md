@@ -1,8 +1,12 @@
 ---
 title: GME
+type: area
+status: active
+domain: feature
+priority:
+review:
 tags:
   - qcom
-
 ---
 
 1. 功能

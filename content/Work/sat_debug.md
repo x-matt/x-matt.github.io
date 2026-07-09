@@ -1,9 +1,12 @@
 ---
 title: SAT Debug
+type: area
+status: active
+domain: debug
+priority:
+review:
 tags:
   - sat
-  - debug
-
 ---
 
 ## SensorCtrl

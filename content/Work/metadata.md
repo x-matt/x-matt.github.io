@@ -1,5 +1,11 @@
 ---
 title: Metadata
+type: area
+status: active
+domain: metadata
+priority:
+review:
+tags:
 ---
 
 元数据是写给未来的情书。 - 杰森·斯科特

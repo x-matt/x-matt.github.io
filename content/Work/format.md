@@ -1,8 +1,10 @@
 ---
 title: Format
-tags:
-  - image
-
+type: area
+status: active
+domain: imagedata
+priority:
+review:
 ---
 
 ## 图片格式

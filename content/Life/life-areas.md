@@ -1,6 +1,12 @@
 ---
-title: README
-
+title: Life Areas Intro
+type: area
+status: active
+domain: mind
+priority:
+review: daily
+tags:
+  - skyview
 ---
 
 ![[life 2024.excalidraw|800]]

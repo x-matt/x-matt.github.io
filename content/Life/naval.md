@@ -1,7 +1,10 @@
 ---
 title: Naval Ravikant
-tags:
-  - mind
+type: area
+status: active
+domain: mind
+priority:
+review:
 ---
 
 ## Learn From Video

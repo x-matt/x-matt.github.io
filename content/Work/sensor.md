@@ -1,6 +1,10 @@
 ---
 title: Sensor
-
+type: area
+status: active
+domain: hardware
+priority:
+review:
 ---
 
 ## Revision history

@@ -1,8 +1,13 @@
 ---
-title: Algo
-
+title: Feature Classification
+type: area
+status: active
+domain: feature
+priority:
+review: daily
+tags:
+  - skyview
 ---
-
 
 ## 算法分类
 

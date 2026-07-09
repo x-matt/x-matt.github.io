@@ -1,7 +1,12 @@
 ---
-title: Release
+title: Sdk Release Sample
+type: area
+status: done
+domain: feature
+priority:
+review:
 tags:
-  - archived
+  - eis
 ---
 
 | >                                                                                        | **Vidhancelib_3.10.4** |

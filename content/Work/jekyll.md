@@ -1,9 +1,14 @@
 ---
 title: Jekyll
+type: resource
+status: done
+domain: tool
+priority:
+review:
 tags:
-  - archived
-draft: "true"
+  - jekyll
 ---
+
 System environment
 
 - Windows 10

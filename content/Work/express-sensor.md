@@ -1,6 +1,10 @@
 ---
 title: Sensor
-
+type: express
+status: active
+domain: hardware
+priority:
+review:
 ---
 
 ## Camera

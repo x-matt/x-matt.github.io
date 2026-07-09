@@ -1,5 +1,12 @@
 ---
 title: Warping
+type: area
+status: active
+domain: algorithm
+priority:
+review:
+tags:
+  - eis
 ---
 
 Inverse warping（逆向变形）是一种图像处理技术，通常用于将图像从一个空间映射到另一个空间。在计算机视觉和图形学中，它经常用于图像校正、图像配准和图像变形等任务中。要在C++中实现逆向变形，你可以按照以下步骤进行：

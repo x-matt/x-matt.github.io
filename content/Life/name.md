@@ -1,6 +1,10 @@
 ---
 title: Pers Info System
-
+type: area
+status: active
+domain: planning
+priority:
+review:
 ---
 
 ## Personal name system

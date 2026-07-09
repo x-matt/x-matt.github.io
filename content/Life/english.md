@@ -1,8 +1,12 @@
 ---
 title: English
+type: area
+status: active
+domain: learn
+priority:
+review:
 tags:
   - education
-  - mind
 ---
 
 ## Structure

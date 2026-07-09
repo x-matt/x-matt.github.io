@@ -1,17 +1,13 @@
 ---
 title: Core Areas
-cover: "[[pawel-czerwinski-_nqApgG-QrY-unsplash.jpg]]"
-
+type: area
+status: active
+domain: planning
+priority:
+review: daily
+tags:
+  - skyview
 ---
-
-## todo list
-
-```tasks
-filter by function task.file.folder.includes( query.file.folder )
-not done
-hide task count
-short mode
-```
 
 ## Planning
 

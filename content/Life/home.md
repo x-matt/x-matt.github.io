@@ -1,6 +1,12 @@
 ---
-title: Home Design
-
+title: House Design
+type: area
+status: active
+domain: material
+priority:
+review:
+tags:
+  - house
 ---
 
 ## Structure

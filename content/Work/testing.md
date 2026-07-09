@@ -1,7 +1,10 @@
 ---
 title: Testing
-cover: https://www.cpsc.gov/s3fs-public/Labs_TestingAndCertification_Card.png
-
+type: area
+status: active
+domain: android
+priority:
+review:
 ---
 
 ## Subjective

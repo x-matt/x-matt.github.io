@@ -1,8 +1,12 @@
 ---
 title: Structure from Motion
+type: area
+status: active
+domain: algorithm
+priority:
+review:
 tags:
   - sfm
-
 ---
 
 - input: 多帧图像或视频

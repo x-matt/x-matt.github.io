@@ -1,7 +1,12 @@
 ---
 title: Cli
+type: area
+status: active
+domain: tool
+priority:
+review:
 tags:
-  - tool
+  - cli
 ---
 
 ## Install feishu

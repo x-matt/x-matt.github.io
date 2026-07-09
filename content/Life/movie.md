@@ -1,7 +1,10 @@
 ---
 title: Movie
-tags:
-  - fun
+type: area
+status: active
+domain: entertainment
+priority:
+review:
 ---
 
 > 电影是历史的遗产

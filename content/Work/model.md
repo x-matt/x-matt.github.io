@@ -1,5 +1,11 @@
 ---
 title: Model
+type: area
+status: active
+domain: algorithm
+priority:
+review:
+tags:
 ---
 
 - 在图像测量过程以及机器视觉应用中，为确定空间物体表面某点的三维几何位置与其在图像中对应点之间的相互关系，必须建立相机成像的几何模型，这些几何模型参数就是相机参数。求解相机参数的过程称为相机标定

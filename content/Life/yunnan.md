@@ -1,8 +1,12 @@
 ---
 title: Yunnan
+type: area
+status: active
+domain: entertainment
+priority:
+review:
 tags:
-  - trip
-  - fun
+  - travel
 ---
 ## Plannning
 

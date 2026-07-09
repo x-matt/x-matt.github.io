@@ -1,6 +1,13 @@
 ---
 title: NDD/ODT Auto Check
-
+type: area
+status: active
+domain: platform
+priority:
+review:
+tags:
+  - ndd
+  - mtk
 ---
 
 > [!todo]

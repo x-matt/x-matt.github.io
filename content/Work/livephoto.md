@@ -1,5 +1,10 @@
 ---
 title: Live Photo Architecture
+type: project
+status: active
+domain: feature
+priority:
+review:
 tags:
   - livp
 ---

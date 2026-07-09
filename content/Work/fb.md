@@ -1,8 +1,12 @@
 ---
-title: Fb
+title: Face Beauty
+type: area
+status: active
+domain: feature
+priority:
+review:
 tags:
   - fb
-  - algorithm
 ---
 
 ## FaceBeauty

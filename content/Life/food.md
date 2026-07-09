@@ -1,7 +1,11 @@
 ---
 title: Food
+type: area
+status: active
+domain: material
+priority:
+review:
 tags:
-  - material
 ---
 
 | City | Name     | Destination | Price   |

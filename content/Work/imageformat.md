@@ -1,5 +1,10 @@
 ---
 title: Image Format
+type: area
+status: active
+domain: imagedata
+priority:
+review:
 ---
 ## Common Format
 | **Domain**            | **Characteristics**                                                  | **Common Formats**                     | **Applications**                                                     | **Advantages**                                   | **Disadvantages**                                                |

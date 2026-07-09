@@ -1,6 +1,11 @@
 ---
 title: Training
-
+type: resource
+status: active
+domain: debug
+priority:
+review:
+tags:
 ---
 
 ## 0720

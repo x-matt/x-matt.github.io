@@ -1,8 +1,12 @@
 ---
 title: SAT
+type: area
+status: active
+domain: feature
+priority:
+review:
 tags:
   - sat
-
 ---
 
 ## Revision history

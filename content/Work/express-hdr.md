@@ -1,6 +1,12 @@
 ---
 title: HDR
-
+type: express
+status: active
+domain: feature
+priority:
+review:
+tags:
+  - hdr
 ---
 
 ## High Dynamic Range

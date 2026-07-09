@@ -1,9 +1,11 @@
 ---
 title: Synckey
-aliases:
-  - Sync Key Problem
+type: area
+status: active
+domain: debug
+priority:
+review:
 tags:
-  - debug
 ---
 
 关键字： `MTK_HALCORE_INFO_SYNC_KEY|infoSyncKey|instance for syncKey|deviceBridge for syncKey`

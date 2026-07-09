@@ -1,7 +1,12 @@
 ---
 title: Introspection
+type: area
+status: active
+domain: mind
+priority:
+review: daily
 tags:
-  - mind
+  - core
 ---
 
 ## 个人不足

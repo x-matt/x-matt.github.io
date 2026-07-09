@@ -1,5 +1,10 @@
 ---
 title: Cpp
+type: area
+status: active
+domain: language
+priority:
+review:
 tags:
   - cpp
 

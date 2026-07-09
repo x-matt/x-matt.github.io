@@ -1,5 +1,10 @@
 ---
 title: Memory
+type: area
+status: active
+domain: platform
+priority:
+review:
 ---
 
 ## 基础理论

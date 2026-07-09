@@ -1,6 +1,10 @@
 ---
 title: GTD
-
+type: area
+status: active
+domain: mind
+priority:
+review:
 ---
 
 - 翻译: 把需要做的事情做好

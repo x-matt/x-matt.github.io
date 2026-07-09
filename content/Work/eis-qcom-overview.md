@@ -1,6 +1,10 @@
 ---
 title: Eis Qcom Overview
-created: 2026-01-16
+type: area
+status: active
+domain: feature
+priority:
+review:
 tags:
   - eis
   - qcom

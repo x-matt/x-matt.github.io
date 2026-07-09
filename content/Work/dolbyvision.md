@@ -1,6 +1,10 @@
 ---
 title: Dolbyvision
-
+type: area
+status: active
+domain: feature
+priority:
+review:
 ---
 
 ## Video

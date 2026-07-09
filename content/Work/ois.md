@@ -1,6 +1,12 @@
 ---
 title: Ois
-
+type: area
+status: active
+domain: feature
+priority:
+review:
+tags:
+  - ois
 ---
 
 ## OIS的作用

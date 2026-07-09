@@ -1,6 +1,12 @@
 ---
 title: DX-5
-
+type: area
+status: active
+domain: platform
+priority:
+review:
+tags:
+  - mtk
 ---
 
 ## Changes

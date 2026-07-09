@@ -1,6 +1,11 @@
 ---
 title: Obsidian
-
+type: area
+status: active
+domain: tool
+priority:
+review:
+tags:
 ---
 
 ## Features

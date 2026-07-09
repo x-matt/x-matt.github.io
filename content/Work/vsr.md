@@ -1,6 +1,12 @@
 ---
 title: Video Super Resolution -VSR
-
+type: area
+status: active
+domain: feature
+priority:
+review:
+tags:
+  - vsr
 ---
 
 ## 状态记录

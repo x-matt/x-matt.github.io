@@ -1,6 +1,13 @@
 ---
 title: Global Flow
+type: area
+status: active
+domain: platform
+priority:
+review:
 
+tags:
+  - mtk
 ---
 
 ### Skyview

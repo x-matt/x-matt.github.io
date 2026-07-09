@@ -1,6 +1,12 @@
 ---
 title: Design pattern
-
+type: area
+status: active
+domain: language
+priority:
+review:
+tags:
+  - cpp
 ---
 
 ## 工厂模式

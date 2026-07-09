@@ -1,7 +1,10 @@
 ---
 title: Finance
-tags:
-  - material
+type: area
+status: active
+domain: finance
+priority:
+review:
 ---
 
 ## 美联储利息

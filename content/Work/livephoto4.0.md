@@ -1,5 +1,10 @@
 ---
 title: Livephoto 4.0
+type: project
+status: active
+domain: feature
+priority:
+review:
 tags:
   - livp
 ---

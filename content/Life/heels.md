@@ -1,5 +1,10 @@
 ---
 title: Heels
+type: area
+status: active
+domain: hobby
+priority:
+review:
 tags:
   - sexy
   - material

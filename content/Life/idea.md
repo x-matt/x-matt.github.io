@@ -1,7 +1,10 @@
 ---
 title: Beautiful Mind
-tags:
-  - mind
+type: area
+status: active
+domain: mind
+priority:
+review:
 ---
 
 ## Symmary

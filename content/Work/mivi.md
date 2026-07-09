@@ -1,5 +1,10 @@
 ---
 title: Mivi Apply
+type: area
+status: active
+domain: platform
+priority:
+review:
 tags:
   - mivi
   - eis

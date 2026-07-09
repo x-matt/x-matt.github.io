@@ -1,6 +1,10 @@
 ---
 title: PKM
-
+type: area
+status: active
+domain: mind
+priority:
+review:
 ---
 
 1. [PKMer](https://pkmer.cn/)

@@ -1,6 +1,10 @@
 ---
 title: C++ basic knowledge
-
+type: area
+status: active
+domain: language
+priority:
+review:
 ---
 
 ## C++特性

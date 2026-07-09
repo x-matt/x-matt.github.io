@@ -1,5 +1,10 @@
 ---
 title: Mis Intro
+type: area
+status: active
+domain: feature
+priority:
+review:
 tags:
   - eis
 ---

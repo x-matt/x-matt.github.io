@@ -1,6 +1,10 @@
 ---
 title: Android Command-line tools
-
+type: area
+status: active
+domain: tool
+priority:
+review:
 ---
 
 ## Dumpsys

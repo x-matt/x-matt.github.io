@@ -1,8 +1,12 @@
 ---
 title: LLM
+type: area
+status: active
+domain: learn
+priority:
+review:
 tags:
   - education
-  - mind
 ---
 
 ## 什么是 LLM

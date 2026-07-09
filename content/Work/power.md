@@ -1,6 +1,12 @@
 ---
-title: Power
-
+title: Eis Power
+type: project
+status: done
+domain: feature
+priority:
+review:
+tags:
+  - eis
 ---
 
 ## M16T 评估时候的开关对比命令

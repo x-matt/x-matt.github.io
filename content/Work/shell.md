@@ -1,6 +1,11 @@
 ---
 title: Shell
-
+type: area
+status: active
+domain: tool
+priority:
+review:
+tags:
 ---
 
 ## Bash

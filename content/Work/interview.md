@@ -1,5 +1,10 @@
 ---
 title: Interview
+type: area
+status: active
+domain: personal
+priority:
+review: daily
 ---
 
 # 面试准备 - 技术痛点梳理

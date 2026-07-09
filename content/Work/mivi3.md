@@ -1,5 +1,10 @@
 ---
 title: MIVI V3.0 - MIVI3
+type: area
+status: active
+domain: platform
+priority:
+review:
 tags:
   - mivi
 ---

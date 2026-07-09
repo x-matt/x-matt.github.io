@@ -1,7 +1,10 @@
 ---
 title: Car
-tags:
-  - material
+type: area
+status: active
+domain: material
+priority:
+review:
 ---
 
 ## EV

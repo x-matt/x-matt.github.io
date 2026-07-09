@@ -1,5 +1,10 @@
 ---
 title: Global Structure
+type: area
+status: active
+domain: platform
+priority:
+review:
 tags:
   - mivi
 ---

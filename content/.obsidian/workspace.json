@@ -4,20 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c3a194b9b8788790",
+        "id": "0d58f0b1660a5745",
         "type": "tabs",
         "children": [
           {
-            "id": "86d01ac81d16619e",
+            "id": "de3c46dfe940fde8",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Life/life.base",
-                "viewName": "All Docs"
+                "file": "index.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "life"
+              "icon": "lucide-file",
+              "title": "index"
             }
           }
         ]
@@ -52,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:govexam",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Life/body.md",
+                "file": "index.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +120,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for body"
+              "title": "Backlinks for index"
             }
           },
           {
@@ -149,21 +150,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Life/body.md",
+                "file": "index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of body"
+              "title": "Outline of index"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 256.5,
-    "collapsed": true
+    "width": 256.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,37 +180,37 @@
       "templates:Insert template": false
     }
   },
-  "active": "86d01ac81d16619e",
+  "active": "de3c46dfe940fde8",
   "lastOpenFiles": [
-    "Life/daily.md",
-    "Life/life.base",
-    "Life/naval.md",
-    "Life/lingerie.md",
-    "Life/home.md",
-    "Life/erye.md",
-    "Life/body.md",
-    "Life/people.md",
-    "Life/yunnan.md",
-    "MOC/Life MOC.md",
-    "Life/introspection.md",
-    "Life/information.md",
-    "Life/read.md",
-    "Life/heels.md",
-    "Life/food.md",
-    "Life/travel.md",
-    "Life/photography.md",
-    "Life/music.md",
-    "Life/movie.md",
-    "Life/finance.md",
-    "Life/car.md",
-    "Life/exercise.md",
-    "Life/writing.md",
-    "Life/word.md",
-    "Life/reasoning.md",
-    "Life/civil.md",
-    "Life/llm.md",
-    "Life/Darkroom/darkroom.base",
+    "life.base",
     "Life/chinese history.canvas",
+    "Life/introspection.md",
+    "Life/life-areas.md",
+    "Life/learn.md",
+    "Life/idea.md",
+    "Life/home.md",
+    "Life/lingerie.md",
+    "Life/heels.md",
+    "Life/name.md",
+    "Life/photography.md",
+    "Life/pkm.md",
+    "Life/food.md",
+    "Life/exercise.md",
+    "Life/finance.md",
+    "Life/yunnan.md",
+    "Life/travel.md",
+    "Life/yjango.md",
+    "Life/read.md",
+    "Life/naval.md",
+    "Life/gtd.md",
+    "Life/music.md",
+    "Life/llm.md",
+    "Life/people.md",
+    "Life/civil.md",
+    "Life/information.md",
+    "Life/reasoning.md",
+    "work.base",
+    "Life/Darkroom/darkroom.base",
     "zSettings/excalidraw/scripts/Downloaded/Select Elements of Type.svg",
     "zSettings/excalidraw/scripts/Downloaded/Organic Line.svg",
     "zAssets/templates",
@@ -228,7 +228,6 @@
     "gen_sift.py",
     "Clippings",
     "zAssets/skills",
-    "features",
     "Untitled.canvas",
     "Planning.canvas",
     "Untitled 1.canvas",

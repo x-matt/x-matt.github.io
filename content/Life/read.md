@@ -1,7 +1,10 @@
 ---
 title: Reading
-tags:
-  - mind
+type: area
+status: active
+domain: mind
+priority:
+review:
 ---
 
 知识, 流淌

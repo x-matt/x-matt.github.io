@@ -1,5 +1,10 @@
 ---
 title: Crop Logic
+type: area
+status: active
+domain: platform
+priority:
+review:
 tags:
   - mivi
   - streaming

@@ -1,8 +1,12 @@
 ---
 title: Body
+type: area
+status: active
+domain: mind
+priority:
+review:
 tags:
   - nihaixia
-  - mind
 ---
 
 ![[nihaixia 2025.excalidraw#^frame=body|800]]

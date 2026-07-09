@@ -1,6 +1,12 @@
 ---
 title: Mtk related resource
-
+type: resource
+status: active
+domain: platform
+priority:
+review:
+tags:
+  - mtk
 ---
 
 ## Dump Related

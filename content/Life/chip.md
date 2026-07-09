@@ -1,7 +1,10 @@
 ---
 title: Small ideas
-tags:
-  - mind
+type: area
+status: active
+domain: mind
+priority:
+review:
 ---
 
 ### 人与感知类比

@@ -1,8 +1,12 @@
 ---
 title: Qcom related resource
+type: resource
+status: active
+domain: platform
+priority:
+review:
 tags:
   - qcom
-
 ---
 
 ## Docs

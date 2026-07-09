@@ -1,8 +1,12 @@
 ---
 title: Travelling
+type: area
+status: active
+domain: entertainment
+priority:
+review:
 tags:
-  - trip
-  - fun
+  - travel
 ---
 
 在路上

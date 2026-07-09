@@ -1,8 +1,12 @@
 ---
 title: Lingerie
+type: area
+status: active
+domain: hobby
+priority:
+review:
 tags:
   - sexy
-  - material
 ---
 
 | Name              | Country   | Score | Features                                               |

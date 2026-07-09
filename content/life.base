@@ -1,0 +1,94 @@
+filters:
+  and:
+    - file.inFolder("Life")
+    - '!file.inFolder("Life/Darkroom")'
+formulas:
+  last_modified: file.mtime.relative()
+properties:
+  title:
+    displayName: Title
+  formula.last_modified:
+    displayName: Updated
+  formula.section:
+    displayName: Section
+views:
+  - type: table
+    name: All Docs
+    groupBy:
+      property: type
+      direction: ASC
+    order:
+      - title
+      - file.name
+      - domain
+      - tags
+      - formula.last_modified
+    sort:
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 220
+      note.title: 280
+  - type: table
+    name: 📌 Projects
+    filters:
+      and:
+        - type == "project"
+        - status != "done"
+    order:
+      - file.name
+      - title
+      - tags
+  - type: table
+    name: 📂 Areas
+    filters:
+      and:
+        - type == "area"
+    groupBy:
+      property: domain
+      direction: ASC
+    order:
+      - title
+      - file.name
+      - tags
+      - status
+    sort:
+      - property: tags
+        direction: DESC
+      - property: domain
+        direction: ASC
+    columnSize:
+      file.name: 220
+      note.title: 280
+      file.domain: 160
+  - type: table
+    name: 📚 Resources
+    filters:
+      and:
+        - type == "resource"
+    order:
+      - title
+      - file.name
+      - tags
+      - domain
+    sort:
+      - property: title
+        direction: ASC
+  - type: table
+    name: 🗃️ Archives
+    filters:
+      and:
+        - status == "done"
+    order:
+      - title
+      - file.name
+      - tags
+      - type
+    sort:
+      - property: title
+        direction: ASC
+  - type: table
+    name: Express
+    filters:
+      and:
+        - type == "express"

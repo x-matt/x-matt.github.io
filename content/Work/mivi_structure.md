@@ -1,5 +1,10 @@
 ---
 title: Mivi structure
+type: area
+status: active
+domain: platform
+priority:
+review:
 tags:
   - mivi
 ---

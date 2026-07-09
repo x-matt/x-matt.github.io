@@ -1,6 +1,11 @@
 ---
 title: Image Resolution
-
+type: area
+status: active
+domain: imagedata
+priority:
+review:
+tags:
 ---
 
 | Type    | Name         | Resolution | Scale |

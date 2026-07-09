@@ -1,7 +1,10 @@
 ---
 title: Photography
-tags:
-  - fun
+type: area
+status: active
+domain: photography
+priority:
+review:
 ---
 
 ## Light & Shade

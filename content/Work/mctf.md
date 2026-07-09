@@ -1,5 +1,10 @@
 ---
 title: MCTF
+type: area
+status: active
+domain: feature
+priority:
+review:
 tags:
   - qcom
 ---

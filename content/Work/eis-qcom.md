@@ -1,5 +1,12 @@
 ---
 title: Eis qcom
+type: area
+status: active
+domain: feature
+priority:
+review:
+tags:
+  - eis
 ---
 
 ## 1. Revision history

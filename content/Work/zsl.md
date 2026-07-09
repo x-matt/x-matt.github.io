@@ -1,5 +1,10 @@
 ---
 title: Zero Shutter Lag - ZSL
+type: area
+status: active
+domain: platform
+priority:
+review:
 tags:
   - mivi
   - zsl

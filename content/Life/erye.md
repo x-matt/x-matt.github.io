@@ -1,7 +1,10 @@
 ---
 title: Er Ye Story
-tags:
-  - mind
+type: area
+status: active
+domain: mind
+priority:
+review:
 ---
 
 ![普通而重要的凡人](https://www.youtube.com/watch?v=IkXMI6wNnHA&t=2s)

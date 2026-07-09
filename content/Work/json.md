@@ -1,5 +1,11 @@
 ---
 title: Json
+type: area
+status: active
+domain: tool
+priority:
+review:
+tags:
 ---
 
 ## Visual

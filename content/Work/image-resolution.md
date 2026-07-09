@@ -1,7 +1,10 @@
 ---
 title: Resolution
-tags:
-  - image
+type: area
+status: active
+domain: imagedata
+priority:
+review:
 ---
 
 | Type    | Name         | Resolution | Scale |

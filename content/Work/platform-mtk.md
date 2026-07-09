@@ -1,6 +1,13 @@
 ---
 title: Platform mtk
-
+type: area
+status: active
+domain: platform
+priority:
+review: daily
+tags:
+  - core
+  - mtk
 ---
 
 ## Timeline #chip

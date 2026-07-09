@@ -1,5 +1,13 @@
 ---
 title: NDD/ODT
+type: area
+status: active
+domain: platform
+priority:
+review:
+tags:
+  - ndd
+  - mtk
 ---
 
 ## 相关脚本释放

@@ -1,10 +1,12 @@
 ---
 title: Commands
-created: 2026-01-16
+type: area
+status: active
+domain: debug
+priority:
+review:
 tags:
   - eis
-  - mtk
-  - debug
 ---
 
 ## 1. 基础命令

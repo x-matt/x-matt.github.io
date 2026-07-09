@@ -1,7 +1,12 @@
 ---
 title: Mfnr Problem
+type: area
+status: active
+domain: debug
+priority:
+review:
 tags:
-  - debug
+  - mfnr
 ---
 
 # SuperHdSnapshot_MfnrInstance0 Process Timeout 根因分析

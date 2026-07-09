@@ -1,7 +1,10 @@
 ---
 title: Exercise
-tags:
-  - health
+type: area
+status: active
+domain: health
+priority:
+review:
 ---
 
 ## 运动类型

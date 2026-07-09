@@ -1,0 +1,122 @@
+filters:
+  and:
+    - file.inFolder("Work")
+views:
+  - type: table
+    name: All Docs
+    groupBy:
+      property: type
+      direction: ASC
+    order:
+      - title
+      - file.name
+      - tags
+      - domain
+    sort:
+      - property: type
+        direction: ASC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 220
+      note.title: 280
+      formula.section: 160
+  - type: table
+    name: 📌 Projects
+    filters:
+      and:
+        - type == "project"
+        - status != "done"
+    order:
+      - file.name
+      - title
+      - tags
+  - type: table
+    name: 📂 Areas
+    filters:
+      and:
+        - type == "area"
+    groupBy:
+      property: domain
+      direction: ASC
+    order:
+      - title
+      - file.name
+      - tags
+      - status
+    sort:
+      - property: tags
+        direction: DESC
+      - property: domain
+        direction: ASC
+    columnSize:
+      file.name: 220
+      note.title: 280
+      file.domain: 160
+  - type: table
+    name: 📚 Resources
+    filters:
+      and:
+        - type == "resource"
+    order:
+      - title
+      - file.name
+      - tags
+      - domain
+    sort:
+      - property: title
+        direction: ASC
+  - type: table
+    name: 🗃️ Archives
+    filters:
+      and:
+        - status == "done"
+    order:
+      - title
+      - file.name
+      - tags
+      - type
+    sort:
+      - property: title
+        direction: ASC
+  - type: table
+    name: Express
+    filters:
+      and:
+        - type == "express"
+  - type: table
+    name: Eis
+    filters:
+      and:
+        - file.tags.contains("eis")
+    groupBy:
+      property: domain
+      direction: ASC
+    order:
+      - file.name
+      - status
+      - domain
+      - tags
+  - type: table
+    name: Sat
+    filters:
+      and:
+        - file.tags.contains("sat")
+    groupBy:
+      property: domain
+      direction: ASC
+    order:
+      - file.name
+      - status
+      - domain
+      - tags
+  - type: table
+    name: Mivi
+    filters:
+      and:
+        - file.tags.contains("mivi")
+    order:
+      - title
+      - file.name
+      - type
+      - domain

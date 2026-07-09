@@ -1,6 +1,12 @@
 ---
 title: Videonightintro
-
+type: area
+status: active
+domain: feature
+priority:
+review:
+tags:
+  - videonight
 ---
 
 > 本文档旨在介绍夜景视频Feature相关的基础特性，方便快速入门

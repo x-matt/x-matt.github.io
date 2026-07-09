@@ -1,5 +1,10 @@
 ---
 title: C++ I/O
+type: area
+status: active
+domain: language
+priority:
+review:
 tags:
   - cpp
 ---

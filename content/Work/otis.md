@@ -1,5 +1,12 @@
 ---
 title: OTIS
+type: area
+status: active
+domain: feature
+priority:
+review:
+tags:
+  - eis
 ---
 
 ## 步骤

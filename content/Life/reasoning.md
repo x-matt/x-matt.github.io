@@ -1,5 +1,10 @@
 ---
 title: Reasoning
+type: project
+status: waiting
+domain: learn
+priority:
+review:
 tags:
   - govexam
 ---

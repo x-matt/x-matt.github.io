@@ -1,5 +1,10 @@
 ---
 title: Log
+type: area
+status: active
+domain: debug
+priority:
+review:
 ---
 
 ## Log Filter

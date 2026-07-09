@@ -1,10 +1,13 @@
 ---
 title: Eis Qcom debug
-created: 2026-01-16
+type: area
+status: active
+domain: debug
+priority:
+review:
 tags:
   - eis
   - qcom
-  - debug
 ---
 
 ## 1. Debug命令

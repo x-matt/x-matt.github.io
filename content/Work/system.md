@@ -1,6 +1,10 @@
 ---
 title: System Division
-
+type: area
+status: active
+domain: android
+priority:
+review:
 ---
 
 ## Android系统分区 [^1]

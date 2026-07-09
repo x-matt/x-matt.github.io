@@ -1,5 +1,11 @@
 ---
 title: Makefile
+type: area
+status: active
+domain: android
+priority:
+review:
+tags:
 ---
 
 ## acp模块分析

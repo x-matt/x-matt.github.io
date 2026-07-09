@@ -1,8 +1,11 @@
 ---
 title: Dump
+type: area
+status: active
+domain: debug
+priority:
+review:
 tags:
-  - debug
-
 ---
 
 ## Qcom

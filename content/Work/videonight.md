@@ -1,6 +1,12 @@
 ---
 title: Video Night
-
+type: area
+status: active
+domain: feature
+priority:
+review:
+tags:
+- videonight
 ---
 
 ## 相关命令

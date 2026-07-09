@@ -1,6 +1,10 @@
 ---
-title:
-  - Word
+title: Word
+type: project
+status: waiting
+domain: learn
+priority:
+review:
 tags:
   - govexam
 ---

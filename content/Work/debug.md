@@ -1,5 +1,10 @@
 ---
 title: Debug
+type: area
+status: active
+domain: tool
+priority:
+review:
 ---
 ## Log
 

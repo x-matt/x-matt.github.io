@@ -1,5 +1,10 @@
 ---
 title: Mivi Imageformat
+type: area
+status: active
+domain: imagedata
+priority:
+review:
 tags:
   - mivi
 ---

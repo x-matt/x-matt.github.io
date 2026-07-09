@@ -1,5 +1,10 @@
 ---
 title: Offline Camera
+type: area
+status: active
+domain: platform
+priority:
+review:
 tags:
   - qcom
   - livp

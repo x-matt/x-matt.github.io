@@ -1,5 +1,10 @@
 ---
 title: Hardware Plugin
+type: area
+status: active
+domain: platform
+priority:
+review:
 tags:
   - mivi
 ---

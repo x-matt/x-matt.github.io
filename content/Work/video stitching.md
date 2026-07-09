@@ -1,5 +1,10 @@
 ---
 title: Video Stitching
+type: area
+status: active
+domain: algorithm
+priority:
+review:
 tags:
   - stitching
 
