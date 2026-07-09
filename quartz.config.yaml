@@ -14,7 +14,7 @@ configuration:
     - .obsidian
     - .claude
     - zAssets/templates/*.md
-    - zSettings
+    - zAssets/settings
   theme:
     fontOrigin: googleFonts
     cdnCaching: true

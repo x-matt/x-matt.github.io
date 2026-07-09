@@ -1,6 +1,8 @@
 filters:
   and:
-    - file.inFolder("Work")
+    - file.inFolder("Writings")
+    - domain == "work"
+    - '!file.inFolder("Writings/Darkroom")'
 formulas:
   last_modified: file.mtime.relative()
 properties:
@@ -8,7 +10,7 @@ properties:
     displayName: Title
   formula.last_modified:
     displayName: Updated
-  note.domain:
+  note.category:
     displayName: Category
   file.name:
     displayName: FileName
@@ -26,7 +28,7 @@ views:
       - title
       - file.name
       - tags
-      - domain
+      - category
       - formula.last_modified
     sort:
       - property: title
@@ -61,7 +63,7 @@ views:
       and:
         - type == "area"
     groupBy:
-      property: domain
+      property: category
       direction: ASC
     order:
       - title
@@ -73,12 +75,12 @@ views:
         direction: DESC
       - property: tags
         direction: DESC
-      - property: domain
+      - property: category
         direction: ASC
     columnSize:
       file.name: 220
       note.title: 280
-      file.domain: 160
+      file.category: 160
   - type: table
     name: 📚 Resources
     filters:
@@ -88,7 +90,7 @@ views:
       - title
       - file.name
       - tags
-      - domain
+      - category
     sort:
       - property: title
         direction: ASC
@@ -116,12 +118,13 @@ views:
       and:
         - file.tags.contains("eis")
     groupBy:
-      property: domain
+      property: category
       direction: ASC
     order:
+      - title
       - file.name
       - status
-      - domain
+      - category
       - tags
   - type: table
     name: Sat
@@ -129,12 +132,13 @@ views:
       and:
         - file.tags.contains("sat")
     groupBy:
-      property: domain
+      property: category
       direction: ASC
     order:
+      - title
       - file.name
       - status
-      - domain
+      - category
       - tags
   - type: table
     name: Mivi
@@ -145,12 +149,12 @@ views:
       - title
       - file.name
       - type
-      - domain
+      - category
   - type: table
     name: Algorithm
     filters:
       and:
-        - domain == "algorithm"
+        - category == "algorithm"
     order:
       - title
       - file.name

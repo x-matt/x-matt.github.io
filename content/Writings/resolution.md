@@ -1,0 +1,23 @@
+---
+title: Image Resolution
+type: area
+status: active
+domain: work
+category: imagedata
+priority:
+review:
+tags:
+---
+
+| Type    | Name         | Resolution | Scale |
+| ------- | ------------ | ---------- | ----- |
+| Capture | 1080P        | 1440x1080  | 4:3   |
+|         | 1440P        | 1920x1440  | 4:3   |
+|         | 4096P/4K     | 4096x3072  | 4:3   |
+| Video   | 720P/HD      | 1280x720   | 16:9  |
+|         | 1080P/FHD    | 1920x1080  | 16:9  |
+|         | 1440P/2K     | 2560x1440  | 16:9  |
+|         | 2160P/4K/UHD | 3840x2160  | 16:9  |
+|         | 4320P/8K     | 7680x4320  | 16:9  |
+
+[^1]: [视频分辨率和宽高比 - 计算机 - YouTube帮助](https://support.google.com/youtube/answer/6375112?hl=zh-Hans&co=GENIE.Platform%3DDesktop&oco=1)

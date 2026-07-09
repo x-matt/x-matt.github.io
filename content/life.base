@@ -1,7 +1,7 @@
 filters:
   and:
-    - file.inFolder("Life")
-    - '!file.inFolder("Life/Darkroom")'
+    - file.inFolder("Writings")
+    - '!file.inFolder("Writings/Darkroom")'
 formulas:
   last_modified: file.mtime.relative()
 properties:
@@ -41,9 +41,12 @@ views:
       and:
         - type == "project"
         - status != "done"
+    groupBy:
+      property: domain
+      direction: ASC
     order:
-      - file.name
       - title
+      - file.name
       - tags
   - type: table
     name: 📂 Areas
@@ -72,6 +75,9 @@ views:
     filters:
       and:
         - type == "resource"
+    groupBy:
+      property: domain
+      direction: ASC
     order:
       - title
       - file.name
@@ -85,11 +91,13 @@ views:
     filters:
       and:
         - status == "done"
+    groupBy:
+      property: domain
+      direction: ASC
     order:
       - title
       - file.name
       - tags
-      - type
     sort:
       - property: title
         direction: ASC

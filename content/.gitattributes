@@ -1,13 +1,6 @@
 # 默认：content 下所有文件都不处理文本和换行
 ** -text
 
-# Life / Work / Inbox / Daily 下的 Markdown & Canvas 强制 LF
-Life/**/*.md text eol=lf
-Work/**/*.md text eol=lf
-Inbox/**/*.md text eol=lf
+Writings/**/*.md text eol=lf
 Daily/**/*.md text eol=lf
-
-Life/**/*.canvas text eol=lf
-Work/**/*.canvas text eol=lf
-Inbox/**/*.canvas text eol=lf
-Daily/**/*.canvas text eol=lf
+zAssets/canvas/**/*.canvas text eol=lf

@@ -10,7 +10,7 @@
   "annotateFolder": "",
   "embedUseExcalidrawFolder": true,
   "templateFilePath": "Excalidraw/Template.excalidraw",
-  "scriptFolderPath": "zSettings/excalidraw/scripts/Downloaded",
+  "scriptFolderPath": "zAssets/settings/excalidraw/scripts/Downloaded",
   "fontAssetsPath": "Excalidraw/CJK Fonts",
   "loadChineseFonts": false,
   "loadJapaneseFonts": false,
