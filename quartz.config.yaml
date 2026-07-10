@@ -13,8 +13,8 @@ configuration:
     - templates
     - .obsidian
     - .claude
-    - zAssets/templates/*.md
-    - zAssets/settings
+    - Assets/templates/*.md
+    - Assets/settings
   theme:
     fontOrigin: googleFonts
     cdnCaching: true

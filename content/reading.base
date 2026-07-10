@@ -9,7 +9,7 @@ views:
       - title
       - author
     image: note.cover
-    imageAspectRatio: 1.4
+    imageAspectRatio: 0.7
   - type: table
     name: List
     order:

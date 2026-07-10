@@ -1,5 +1,5 @@
 {
-  "attachmentFolderPath": "zAssets/images",
+  "attachmentFolderPath": "Assets/images",
   "attachmentRenameMode": "Only pasted images",
   "collectAttachmentUsedByMultipleNotesMode": "Skip",
   "collectedAttachmentFileName": "",

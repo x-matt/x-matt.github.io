@@ -3,4 +3,4 @@
 
 Writings/**/*.md text eol=lf
 Daily/**/*.md text eol=lf
-zAssets/canvas/**/*.canvas text eol=lf
+Assets/canvas/**/*.canvas text eol=lf
