@@ -14,6 +14,6 @@ tags:
 ## Series
 
 ### Pornochic[^1]
-
+![[pornochic.png|700]]
 
 [^1]: [Marc Drocel Pornichic Series Intro](https://www.dorcelvision.com/en/series/pornochic)

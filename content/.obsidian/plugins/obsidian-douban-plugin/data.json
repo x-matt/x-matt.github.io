@@ -1,0 +1,90 @@
+{
+  "pictureBedFlag": false,
+  "pictureBedSetting": {
+    "url": "http://127.0.0.1:36677/upload"
+  },
+  "pictureBedType": "PicGo",
+  "arraySettings": [
+    {
+      "arrayName": "ArrayType1",
+      "arrayStart": "",
+      "arrayElementStart": "[[",
+      "arraySpiltV2": ",",
+      "arrayElementEnd": "]]",
+      "arrayEnd": "",
+      "index": 1
+    }
+  ],
+  "onlineSettingsFileName": "obsidian_douban_plugin_online_settings.json",
+  "onlineSettingsGistId": "35693f9ece9bd6abba98f94e81afde19",
+  "movieTemplateFile": "",
+  "bookTemplateFile": "",
+  "musicTemplateFile": "",
+  "noteTemplateFile": "",
+  "gameTemplateFile": "",
+  "teleplayTemplateFile": "",
+  "searchUrl": "https://www.douban.com/search?q=",
+  "dateFormat": "yyyy-MM-DD",
+  "timeFormat": "HH:mm:ss",
+  "arrayStart": "",
+  "arrayElementStart": "\\n  - ",
+  "arraySpiltV2": "",
+  "arrayElementEnd": "",
+  "arrayEnd": "",
+  "personNameMode": "CH",
+  "dataFilePath": "",
+  "dataFileNamePath": "/{{type}}/{{title}}",
+  "statusBar": true,
+  "debugMode": false,
+  "customProperties": [
+    {
+      "name": "myType",
+      "value": "movie",
+      "field": "movie"
+    },
+    {
+      "name": "myType",
+      "value": "book",
+      "field": "book"
+    },
+    {
+      "name": "myType",
+      "value": "music",
+      "field": "music"
+    },
+    {
+      "name": "myType",
+      "value": "note",
+      "field": "note"
+    },
+    {
+      "name": "myType",
+      "value": "game",
+      "field": "game"
+    },
+    {
+      "name": "myType",
+      "value": "teleplay",
+      "field": "teleplay"
+    },
+    {
+      "name": "myType",
+      "value": "theater",
+      "field": "theater"
+    }
+  ],
+  "loginCookiesContent": "",
+  "loginHeadersContent": "{\"Accept\":\"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7\",\"Accept-Encoding\":\"gzip, deflate, br, zstd\",\"Accept-Language\":\"zh-CN\",\"Cookie\":\"bid=QqecYsg7BZM; dbcl2=\\\"208657794:eKX7pxyAB/g\\\"; ck=e0Qc\",\"Referer\":\"https://accounts.douban.com/\",\"Sec-Fetch-Mode\":\"navigate\",\"Sec-Fetch-Site\":\"same-site\",\"Sec-Fetch-User\":\"?1\",\"Upgrade-Insecure-Requests\":\"1\",\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.12.7 Chrome/142.0.7444.265 Electron/39.8.3 Safari/537.36\"}",
+  "cacheImage": true,
+  "cacheHighQuantityImage": true,
+  "attachmentPath": "assets",
+  "attachmentFileName": "{{title}}",
+  "syncHandledDataArray": [],
+  "scoreSetting": {
+    "starFull": "⭐",
+    "starEmpty": "☆",
+    "displayStarEmpty": false,
+    "maxStar": 5
+  },
+  "searchDefaultType": "all"
+}

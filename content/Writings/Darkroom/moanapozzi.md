@@ -8,7 +8,10 @@ tags:
 
 ## Backfield In Motion
 
-## # Vizi Trans Di Moana
+### Vizi Trans Di Moana
+
+![[moana_0.png]]
+
 ![[moana_1.png]]
 
 ![[moana_2.png]]
@@ -16,5 +19,7 @@ tags:
 ![[moana_3.png]]
 
 ![[moana_4.png]]
+
 ![[moana_5.png]]
+
 ![[moana_6.png]]

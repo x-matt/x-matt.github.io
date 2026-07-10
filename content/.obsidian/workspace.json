@@ -13,11 +13,11 @@
             "state": {
               "type": "bases",
               "state": {
-                "file": "work.base",
-                "viewName": "All Docs"
+                "file": "reading.base",
+                "viewName": "Library"
               },
-              "icon": "lucide-table",
-              "title": "work"
+              "icon": "lucide-layout-grid",
+              "title": "reading"
             }
           }
         ],
@@ -110,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "reading.base",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +120,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for reading"
             }
           },
           {
@@ -149,20 +150,20 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "reading.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of reading"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 256.5,
-    "collapsed": true
+    "width": 256.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,22 +171,50 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "workspaces:Manage workspace layouts": false,
       "bases:Create new base": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "templates:Insert template": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "a0b0d50156a73180",
   "lastOpenFiles": [
+    "Writings/mao.md",
+    "zAssets/images/s1106951.jpg",
+    "zAssets/images/s1106951 1.jpg",
+    "zAssets/images/s1106951 3.jpg",
+    "zAssets/images/s1106951 2.jpg",
+    "zAssets/images/file-20260710182515398.png",
+    "zAssets/images/file-20260710182455072.png",
+    "zAssets/images/file-20260710182446259.png",
+    "zAssets/images/Pasted_Image_20241203202759_543.webp",
+    "zAssets/images/Pasted_Image_20241203202759_539.webp",
+    "zAssets/images/2023-11-01-17-13-26.png",
+    "reading.base",
+    "work.base",
     "life.base",
+    "Writings/Darkroom/dorcel.md",
+    "Writings/otis.md",
+    "zAssets/images/darkroom/dorcel",
+    "zAssets/images/darkroom/moana",
+    "Writings/Darkroom/moanapozzi.md",
+    "Writings/res-qcom.md",
+    "Writings/photography.md",
+    "zAssets/excalidraw/aperture 2025.excalidraw.md",
+    "zAssets/excalidraw/mind 2024.excalidraw.md",
+    "zAssets/excalidraw/mind 2025.excalidraw.md",
+    "Writings/quartz.md",
+    "Writings/Darkroom/ambermoore.md",
     "index.md",
+    "Daily/2026-07-10.md",
+    "Writings/obsidian.md",
+    "book",
+    "assets",
     "Writings/Darkroom/darkroom.base",
     "Writings/Darkroom/piaopiao1.md",
-    "work.base",
     "Writings/body.md",
     "Writings/algo.md",
     "Writings/learn-everything.md",
@@ -197,36 +226,8 @@
     "Writings/zoomeis.md",
     "Writings/warping.md",
     "Writings/vsr.md",
-    "Writings/vidhance.md",
-    "Writings/videonightintro.md",
-    "Writings/videonight.md",
-    "Writings/video.md",
-    "Writings/video stitching.md",
-    "Writings/training.md",
-    "Writings/tools.md",
-    "Writings/tools-debug.md",
-    "Writings/tools-basic.md",
-    "Writings/testing.md",
-    "Writings/system.md",
-    "Writings/stability.md",
-    "Writings/sm8975.md",
     "Work",
-    "zAssets/images/2023-09-03-18-53-01.webp",
-    "zAssets/images/2023-10-10-09-59-58.png",
-    "zAssets/images/2023-11-15-16-48-45.png",
     "zAssets/canvas/chinese history.canvas",
-    "zAssets/settings/excalidraw/scripts/Downloaded/Select Elements of Type.svg",
-    "zAssets/settings/excalidraw/scripts/Downloaded/Organic Line.svg",
-    "zAssets/templates",
-    "zAssets/images/pawel-czerwinski-_nqApgG-QrY-unsplash.jpg",
-    "zAssets/images/Pasted image 20240710160338.png",
-    "zAssets/images/otis-20240320165511619.jpeg",
-    "zAssets/images/octavian-dan-craciun-b21Ty33CqVs-unsplash.jpg",
-    "zAssets/images/img_v3_02gp_b5cd1b76-cc27-41b6-8d13-f4f41821748l.jpg",
-    "zAssets/images/convert_to_webp.sh",
-    "beauty.base",
-    "Work/format.md.tmp.13184.1776651240840",
-    "gen_sift.py",
     "Untitled.canvas",
     "Planning.canvas",
     "Untitled 1.canvas",
