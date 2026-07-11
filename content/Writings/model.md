@@ -1,5 +1,5 @@
 ---
-title: Model
+title: Camera Model
 type: area
 status: active
 domain: work

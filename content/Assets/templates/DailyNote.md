@@ -3,34 +3,34 @@ tags:
   - daily
 ---
 
-## 🧠 Focus 
+## Focus 
 
 
-## 💼 Work
+## Work
 - 做了什么：
 - 相关项目 / 主题：
 - 遇到问题：
 - 输出 / 沉淀：
 
 
-## 🌱 Life
+## Life
 - 健康 / 运动：
 - 情绪 / 状态：
 
-## 💡 Ideas
+## Ideas
 
 
-## 📚 Learning
+## Learning
 - 看了 / 学了：
 - 关键点：
 
 
-## 🔗 Today's related
+## Today's related
 
 
-## ✅ TODO
+## TODO
 - [ ] 
 - [ ] 
 
-## 📝 Notes
+## Notes
 - 

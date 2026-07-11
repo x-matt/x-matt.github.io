@@ -4,7 +4,6 @@ source: https://x.com/trq212/article/2044548257058328723
 author:
   - "[[Thariq (@trq212)]]"
 published: 2026-04-16
-created: 2026-04-16
 description: "In my recent calls with Claude Code users, one theme keeps coming up: the 1M token context window is a double-edged sword. 在我最近与 Claude Code..."
 tags:
   - clippings

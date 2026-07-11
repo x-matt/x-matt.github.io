@@ -13,11 +13,11 @@
             "state": {
               "type": "bases",
               "state": {
-                "file": "reading.base",
-                "viewName": "Library"
+                "file": "life.base",
+                "viewName": "D.Rev"
               },
-              "icon": "lucide-layout-grid",
-              "title": "reading"
+              "icon": "lucide-table",
+              "title": "life"
             }
           }
         ],
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "reading.base",
+                "file": "life.base",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for reading"
+              "title": "Backlinks for life"
             }
           },
           {
@@ -150,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "reading.base",
+                "file": "life.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of reading"
+              "title": "Outline of life"
             }
           }
         ]
@@ -182,11 +182,18 @@
   },
   "active": "a0b0d50156a73180",
   "lastOpenFiles": [
-    "Writings/mao.md",
-    "reading.base",
     "work.base",
+    "reading.base",
     "life.base",
     "index.md",
+    "Writings/eis-mtk-architecture.md",
+    "Assets/templates/DailyNote.md",
+    "Assets/templates/BasicBase.base",
+    "Assets/excalidraw/eisq 2025.excalidraw.md",
+    "Assets/excalidraw/algo 2025.excalidraw.md",
+    "Writings/sfm.md",
+    "Writings/model.md",
+    "Writings/mao.md",
     "Writings/photography.md",
     "Assets/images/s1106951.jpg",
     "Assets/images/s1106951 1.jpg",
@@ -220,13 +227,6 @@
     "Writings/learn-everything.md",
     "Writings/Using Claude Code Session Management & 1M Context.md",
     "Writings",
-    "Writings/Darkroom/classic model.md",
-    "Writings/Darkroom/collection.md",
-    "Writings/zsl.md",
-    "Writings/zoomeis.md",
-    "Writings/warping.md",
-    "Writings/vsr.md",
-    "Work",
     "Assets/canvas/chinese history.canvas",
     "Untitled.canvas",
     "Planning.canvas",

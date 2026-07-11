@@ -2,6 +2,11 @@ filters:
   and:
     - file.inFolder("Writings")
     - domain == "book"
+formulas:
+  last_modified: file.mtime.relative()
+properties:
+  formula.last_modified:
+    displayName: updated
 views:
   - type: cards
     name: Library
@@ -19,6 +24,8 @@ views:
       - scoreStar
     sort:
       - property: score
+        direction: DESC
+      - property: title
         direction: DESC
     columnSize:
       note.title: 202

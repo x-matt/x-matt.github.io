@@ -6,21 +6,53 @@ filters:
 formulas:
   last_modified: file.mtime.relative()
 properties:
-  note.title:
-    displayName: Title
   formula.last_modified:
-    displayName: Updated
-  note.category:
-    displayName: Category
-  file.name:
-    displayName: FileName
-  note.tags:
-    displayName: Tags
-  note.status:
-    displayName: Status
+    displayName: updated
 views:
   - type: table
-    name: All Docs
+    name: Recently
+    order:
+      - title
+      - file.name
+      - category
+      - tags
+      - formula.last_modified
+    sort:
+      - property: formula.last_modified
+        direction: DESC
+    limit: 20
+  - type: table
+    name: D.Rev
+    filters:
+      and:
+        - review == "daily"
+    order:
+      - title
+      - file.name
+      - tags
+      - formula.last_modified
+  - type: table
+    name: W.Rev
+    filters:
+      and:
+        - review == "weekly"
+    order:
+      - title
+      - file.name
+      - tags
+      - formula.last_modified
+  - type: table
+    name: M.Rev
+    filters:
+      and:
+        - review == "monthly"
+    order:
+      - title
+      - file.name
+      - tags
+      - formula.last_modified
+  - type: table
+    name: All
     groupBy:
       property: type
       direction: ASC
@@ -30,7 +62,10 @@ views:
       - tags
       - category
       - formula.last_modified
+      - file.mtime
     sort:
+      - property: category
+        direction: ASC
       - property: title
         direction: ASC
       - property: type
@@ -38,9 +73,8 @@ views:
       - property: file.name
         direction: ASC
     columnSize:
-      file.name: 220
       note.title: 280
-      formula.section: 160
+      file.name: 220
   - type: table
     name: 📌 Projects
     filters:
@@ -159,6 +193,6 @@ views:
       - title
       - file.name
       - type
-      - file.mtime
+      - formula.last_modified
     columnSize:
       note.title: 280
