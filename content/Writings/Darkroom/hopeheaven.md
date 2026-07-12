@@ -1,8 +1,7 @@
 ---
 title: Hope Heaven
 cover: https://cdn.vixen.com/scene/videoimages/106491/mainLandscape/1777538050668/vixen-pull-ep-1_3840x2160.webp
-tags:
-  - model
+category: model
 ---
 ![](https://cdn.vixen.com/scene/videoimages/106491/mainLandscape/1777538050668/vixen-pull-ep-1_3840x2160.webp)
 

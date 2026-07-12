@@ -2,7 +2,8 @@
 title: 第二贴，继续吧，这次是打台球的妹妹
 date: 2012-06-27 11:33:00 +0800
 priority: 2
-tags: darkreaver
+author: darkreaver
+category: blog
 ---
 
 2012年6月27日  五月初九  多云

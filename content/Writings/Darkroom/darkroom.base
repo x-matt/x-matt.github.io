@@ -3,53 +3,30 @@ filters:
     - file.inFolder("Writings/Darkroom")
 formulas:
   last_modified: file.mtime.relative()
-  section: |
-    if(file.hasTag("model"), "model",
-    if(file.hasTag("director"), "director",
-    if(file.hasTag("studio"), "studio",
-    if(file.hasTag("sm"), "sm",
-    if(file.hasTag("piaopiao"), "piaopiao",
-    if(file.hasTag("darkreaver"), "darkreaver", "other"))))))
 properties:
-  title:
-    displayName: Title
   formula.last_modified:
-    displayName: Updated
-  formula.section:
-    displayName: Section
-  note.title:
-    displayName: Title
-  file.name:
-    displayName: FileName
-  note.date:
-    displayName: Date
-  note.tags:
-    displayName: Tags
+    displayName: updated
 views:
   - type: table
-    name: All Docs
+    name: All
     groupBy:
-      property: formula.section
+      property: category
       direction: ASC
     order:
       - title
       - file.name
-      - formula.section
       - formula.last_modified
     sort:
       - property: date
         direction: ASC
-      - property: formula.section
-        direction: ASC
     columnSize:
       file.name: 220
       note.title: 280
-      formula.section: 160
   - type: cards
     name: 💃 Model
     filters:
       and:
-        - file.hasProperty("cover")
+        - category == "model"
     limit: 30
     image: note.cover
     cardSize: 200
@@ -58,7 +35,7 @@ views:
     name: 🧔🏻Director
     filters:
       and:
-        - file.hasTag("director")
+        - category == "director"
     order:
       - title
       - file.name
@@ -67,59 +44,46 @@ views:
     name: 🎬 Studio
     filters:
       and:
-        - file.hasTag("studio")
+        - category == "studio"
     order:
       - title
       - file.name
       - formula.last_modified
   - type: table
-    name: 🪢SM
+    name: Blog
     filters:
       and:
-        - file.hasTag("sm")
+        - category == "blog"
+    groupBy:
+      property: author
+      direction: ASC
     order:
       - title
       - file.name
-      - tags
+      - file.tags
       - date
       - formula.last_modified
     sort:
       - property: date
-        direction: DESC
-    columnSize:
-      note.title: 280
-  - type: table
-    name: Piaopiao
+        direction: ASC
+  - type: cards
+    name: Blogger
     filters:
       and:
-        - file.hasTag("piaopiao")
-    order:
-      - title
-      - file.name
-      - formula.last_modified
+        - category == "blogger"
     sort:
       - property: date
         direction: ASC
-  - type: table
-    name: DarkReaver
-    filters:
-      and:
-        - file.hasTag("darkreaver")
-    order:
-      - title
-      - file.name
-      - tags
-    sort:
-      - property: priority
-        direction: ASC
-    columnSize:
-      note.title: 349
-      file.name: 198
+    image: note.cover
+    imageAspectRatio: 1.42
   - type: cards
     name: Image Cards
     filters:
       and:
         - "!cover.isEmpty()"
+    order:
+      - file.name
+      - category
     limit: 30
     image: note.cover
     cardSize: 200

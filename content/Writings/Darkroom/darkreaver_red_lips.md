@@ -2,7 +2,8 @@
 title: 第十五贴，歌舞团美女的红唇（上）
 date: 2012-10-11 11:33:00 +0800
 priority: 15
-tags: darkreaver
+author: darkreaver
+category: blog
 ---
 
 2012年10月11日  八月二十六  微风

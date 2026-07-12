@@ -1,7 +1,8 @@
 ---
 title: 飘飘回忆录3
 date: 2019-06-13 11:33:00 +0800
-tags: piaopiao
+author: piaopiao
+category: blog
 ---
 
 接着前两个作业。

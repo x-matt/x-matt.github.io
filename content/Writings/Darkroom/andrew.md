@@ -1,7 +1,6 @@
 ---
 title: Andrew Blake
-tags:
-  - studio
+category: director
 ---
 Night Trips
 

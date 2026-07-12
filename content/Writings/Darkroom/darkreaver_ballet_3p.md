@@ -2,7 +2,8 @@
 title: 第七贴，芭蕾美女，预料之外的3P
 date: 2012-07-22 11:33:00 +0800
 priority: 7
-tags: darkreaver
+author: darkreaver
+category: blog
 ---
 
 2012年7月22日  大暑  晴

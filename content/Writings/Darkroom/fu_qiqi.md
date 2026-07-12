@@ -1,9 +1,10 @@
 ---
 title: 三天两夜，以一挑十，小人妻累倒众大汉
 date: 2020-07-10 11:33:00 +0800
+author: "[[fuqingzhu]]"
 tags:
   - sm
-  - fuqingzhu
+category: blog
 ---
 
 这个世界，看似周遭复杂，各色人等，泥沙俱下，本质上，还是你一个人的世界。

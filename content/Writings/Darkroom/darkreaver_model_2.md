@@ -2,7 +2,8 @@
 title: 第十八贴，光棍节的惊喜，1米8的模特（下）
 date: 2013-02-20 11:33:00 +0800
 priority: 18
-tags: darkreaver
+author: darkreaver
+category: blog
 ---
 
 2013年2月20日  正月十一  晴

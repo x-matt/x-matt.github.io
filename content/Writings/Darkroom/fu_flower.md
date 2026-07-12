@@ -1,9 +1,10 @@
 ---
 title: 一调一教一世界，半痴半迷半沉沦
 date: 2017-10-25 11:33:00 +0800
+author: "[[fuqingzhu]]"
 tags:
   - sm
-  - fuqingzhu
+category: blog
 ---
 
 有段时间没有发帖了！

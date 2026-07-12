@@ -2,7 +2,8 @@
 title: 第八贴，遥远的边城，熟女姐妹
 date: 2012-07-28 11:33:00 +0800
 priority: 8
-tags: darkreaver
+author: darkreaver
+category: blog
 ---
 
 2012年7月28日  六月初十  晴

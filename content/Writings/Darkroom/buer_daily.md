@@ -1,9 +1,10 @@
 ---
 title: 妻子被她主人sm调教日常
 date: 2023-05-07 11:33:00 +0800
+author: buer
 tags:
   - sm
-  - buer
+category: blog
 ---
 
 妻子与她主人的点点滴滴，也不知道怎么写文章，就在这里随便发几张吧

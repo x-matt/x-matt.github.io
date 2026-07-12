@@ -1,9 +1,7 @@
 ---
 title: Sonya Blaze
 cover: https://cdn.blackedraw.com/scene/videoimages/102734/mainLandscape/1706264284608/blackedraw-flawless_3840x2160.webp
-tags:
-  - model
-
+category: model
 ---
 ![](https://cdn.blacked.com/scene/videoimages/102869/mainLandscape/1706708845321/blacked-stiff-competition_3840x2160.webp)
 

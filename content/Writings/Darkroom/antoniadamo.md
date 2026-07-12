@@ -1,6 +1,5 @@
 ---
 title: Antonio Adamo
-tags:
-  - director
+category: director
 ---
 Introduction of IMDb: https://www.imdb.com/name/nm0003282/

@@ -13,11 +13,11 @@
             "state": {
               "type": "bases",
               "state": {
-                "file": "life.base",
-                "viewName": "D.Rev"
+                "file": "Writings/Darkroom/darkroom.base",
+                "viewName": "All"
               },
               "icon": "lucide-table",
-              "title": "life"
+              "title": "darkroom"
             }
           }
         ],
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "life.base",
+                "file": "Writings/Darkroom/darkroom.base",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for life"
+              "title": "Backlinks for darkroom"
             }
           },
           {
@@ -150,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "life.base",
+                "file": "Writings/Darkroom/darkroom.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of life"
+              "title": "Outline of darkroom"
             }
           }
         ]
@@ -182,50 +182,50 @@
   },
   "active": "a0b0d50156a73180",
   "lastOpenFiles": [
+    "Writings/Darkroom/wanimal.md",
+    "Writings/Darkroom/darkroom.base",
+    "Writings/Darkroom/fuqingzhu.md",
+    "Assets/images/darkroom/buer/buer_51.jpg",
+    "Assets/images/darkroom/buer/buer_4.jpg",
+    "Assets/images/darkroom/buer/buer_2.jpg",
+    "Assets/images/darkroom/buer/buer_0.jpg",
+    "Writings/Darkroom/fu_c.md",
+    "Assets/images/fuqingzhu.jpg",
+    "Assets/images/image-1.png",
+    "Assets/images/darkroom/fuqingzhu.jpg",
+    "Writings/Darkroom/unnamedwife.md",
+    "Writings/Darkroom/bambola.md",
+    "Writings/Darkroom/antoniadamo.md",
+    "Writings/zoomeis.md",
+    "Writings/chip.md",
+    "Assets/images/darkroom/wanimal.jpg",
+    "Writings/Darkroom/lens4wife.md",
+    "Assets/images/darkroom/lens4wife.jpg",
+    "Writings/Darkroom/ambermoore.md",
+    "Assets/images/darkroom/67lqc.jpg",
+    "Writings/Darkroom/piaopiao1.md",
+    "Writings/Darkroom/darkreaver_border_town .md",
+    "Writings/Darkroom/darkreaver_ballet_3p.md",
+    "Writings/Darkroom/darkreaver_ballet_2.md",
+    "Writings/Darkroom/darkreaver_ballet.md",
+    "Writings/Darkroom/classic model.md",
+    "Writings/Darkroom/buer_two.md",
+    "Writings/Darkroom/buer_three.md",
+    "Writings/Darkroom/buer_six.md",
+    "Writings/Darkroom/buer_one.md",
+    "Writings/Darkroom/buer_four.md",
+    "Writings/Darkroom/buer_five.md",
+    "Writings/Darkroom/buer_daily.md",
+    "Writings/Darkroom/buer_after.md",
+    "Writings/Darkroom/buer_abuse.md",
+    "life.base",
     "work.base",
     "reading.base",
-    "life.base",
-    "index.md",
-    "Writings/eis-mtk-architecture.md",
-    "Assets/templates/DailyNote.md",
     "Assets/templates/BasicBase.base",
-    "Assets/excalidraw/eisq 2025.excalidraw.md",
-    "Assets/excalidraw/algo 2025.excalidraw.md",
-    "Writings/sfm.md",
-    "Writings/model.md",
-    "Writings/mao.md",
-    "Writings/photography.md",
-    "Assets/images/s1106951.jpg",
-    "Assets/images/s1106951 1.jpg",
-    "Assets/images/s1106951 3.jpg",
-    "Assets/images/s1106951 2.jpg",
-    "Assets/images/file-20260710182515398.png",
-    "Assets/images/file-20260710182455072.png",
-    "Assets/images/file-20260710182446259.png",
-    "Assets/images/Pasted_Image_20241203202759_543.webp",
-    "Assets/images/Pasted_Image_20241203202759_539.webp",
-    "Assets/images/2023-11-01-17-13-26.png",
-    "Writings/Darkroom/dorcel.md",
-    "Writings/otis.md",
     "Assets/images/darkroom/dorcel",
     "Assets/images/darkroom/moana",
-    "Writings/Darkroom/moanapozzi.md",
-    "Writings/res-qcom.md",
-    "Assets/excalidraw/aperture 2025.excalidraw.md",
-    "Assets/excalidraw/mind 2024.excalidraw.md",
-    "Assets/excalidraw/mind 2025.excalidraw.md",
-    "Writings/quartz.md",
-    "Writings/Darkroom/ambermoore.md",
-    "Daily/2026-07-10.md",
-    "Writings/obsidian.md",
     "book",
     "assets",
-    "Writings/Darkroom/darkroom.base",
-    "Writings/Darkroom/piaopiao1.md",
-    "Writings/body.md",
-    "Writings/algo.md",
-    "Writings/learn-everything.md",
-    "Writings/Using Claude Code Session Management & 1M Context.md",
     "Writings",
     "Assets/canvas/chinese history.canvas",
     "Untitled.canvas",

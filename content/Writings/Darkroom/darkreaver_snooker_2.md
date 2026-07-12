@@ -2,7 +2,8 @@
 title: 第六贴，如愿以偿，台球美女的激情与放纵
 date: 2012-07-18 11:33:00 +0800
 priority: 6
-tags: darkreaver
+author: darkreaver
+category: blog
 ---
 
 2012年7月18日  五月三十  晴

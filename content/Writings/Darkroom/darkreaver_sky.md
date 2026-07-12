@@ -2,7 +2,8 @@
 title: 第十一贴，七夕夜的妩媚，蓝天上的情欲。（上）
 date: 2012-08-24 11:33:00 +0800
 priority: 11
-tags: darkreaver
+author: darkreaver
+category: blog
 ---
 
 2012年8月23日  七夕  晴

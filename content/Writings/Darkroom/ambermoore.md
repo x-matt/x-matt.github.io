@@ -1,9 +1,7 @@
 ---
 title: Amber Moore
 cover: https://cdn.deeper.com/scene/videoimages/103666/mainLandscape/1664447066800/deeper-non-traditional_3840x2160.webp
-tags:
-  - model
-
+category: model
 ---
 ![](https://cdn.deeper.com/scene/videoimages/103666/mainLandscape/1664447066800/deeper-non-traditional_3840x2160.webp)
 

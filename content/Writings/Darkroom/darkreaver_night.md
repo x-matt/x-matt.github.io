@@ -2,7 +2,8 @@
 title: 第十四贴，经过离别的夜晚，妖艳还要继续
 date: 2012-09-26 11:33:00 +0800
 priority: 14
-tags: darkreaver
+author: darkreaver
+category: blog
 ---
 
 2012年9月26日  八月十一 晴

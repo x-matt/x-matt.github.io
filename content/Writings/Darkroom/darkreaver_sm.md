@@ -2,7 +2,8 @@
 title: 第九贴，情欲SM放纵，施虐与受虐
 date: 2012-08-03 11:33:00 +0800
 priority: 9
-tags: darkreaver
+author: darkreaver
+category: blog
 ---
 
 2012年8月3日  六月十六  晴

@@ -2,7 +2,8 @@
 title: 第五贴，芭蕾美女再登场
 date: 2012-07-14 11:33:00 +0800
 priority: 5
-tags: darkreaver
+author: darkreaver
+category: blog
 ---
 
 2012年7月14日  五月廿六  晴

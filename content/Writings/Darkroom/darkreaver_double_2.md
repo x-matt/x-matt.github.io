@@ -2,7 +2,8 @@
 title: 第四贴，还是双飞的题材
 date: 2012-07-07 11:33:00 +0800
 priority: 4
-tags: darkreaver
+author: darkreaver
+category: blog
 ---
 
 2012年7月7日  小暑  阴

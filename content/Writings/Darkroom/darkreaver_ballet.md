@@ -2,7 +2,8 @@
 title: 第一贴，今天开始，那个芭蕾美女
 date: 2012-06-24 11:33:00 +0800
 priority: 1
-tags: darkreaver
+author: darkreaver
+category: blog
 ---
 
 2012年6月24日 端午 雷雨

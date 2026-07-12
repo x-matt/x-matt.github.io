@@ -1,9 +1,10 @@
 ---
 title: 春暖花开，乳此美好，高尔夫球场内的5P大战
 date: 2018-04-01 11:33:00 +0800
+author: "[[fuqingzhu]]"
 tags:
   - sm
-  - fuqingzhu
+category: blog
 ---
 
 子在川上曰：逝者如斯夫，不舍昼夜！

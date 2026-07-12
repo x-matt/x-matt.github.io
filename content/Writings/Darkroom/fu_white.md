@@ -1,9 +1,10 @@
 ---
 title: 欲奴-从白富美到骚淫贱之完全调教
 date: 2017-10-24 11:33:00 +0800
+author: "[[fuqingzhu]]"
 tags:
   - sm
-  - fuqingzhu
+category: blog
 ---
 
 “一万年太久，只争朝夕”

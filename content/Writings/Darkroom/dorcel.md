@@ -1,8 +1,6 @@
 ---
 title: Marc Dorcel
-tags:
-  - studio
-
+category: studio
 ---
 
 |           A           |             B              |
