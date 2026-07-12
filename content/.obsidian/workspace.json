@@ -14,9 +14,9 @@
               "type": "bases",
               "state": {
                 "file": "Writings/Darkroom/darkroom.base",
-                "viewName": "All"
+                "viewName": "Blogger"
               },
-              "icon": "lucide-table",
+              "icon": "lucide-layout-grid",
               "title": "darkroom"
             }
           }
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 383.5
+    "width": 383.5,
+    "collapsed": true
   },
   "right": {
     "id": "5e007910e90f3de9",
@@ -129,15 +130,16 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Assets/excalidraw/mind 2024.excalidraw.md",
+                "file": "Writings/Darkroom/darkroom.base",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from mind 2024.excalidraw"
+              "title": "Outgoing links from darkroom"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "7e9c7c78870a3a41",
@@ -182,45 +184,45 @@
   },
   "active": "a0b0d50156a73180",
   "lastOpenFiles": [
-    "Writings/Darkroom/wanimal.md",
+    "Writings/Darkroom/papabear.md",
     "Writings/Darkroom/darkroom.base",
+    "Writings/Darkroom/crowley.md",
+    "Writings/Darkroom/wanimal.md",
+    "Assets/images/darkroom/wanimal.jpg",
+    "Assets/images/darkroom/crowley.jpg",
+    "Writings/Darkroom/unnamedwife.md",
+    "Writings/Darkroom/shuaibanji.md",
     "Writings/Darkroom/fuqingzhu.md",
+    "Writings/Darkroom/lens4wife.md",
+    "Assets/images/darkroom/papabear.jpg",
+    "Writings/Darkroom/mico.md",
+    "Assets/images/darkroom/mico.jpg",
+    "Assets/images/darkroom/shuaibanji.jpg",
+    "Writings/Darkroom/stacycruz.md",
+    "life.base",
+    "work.base",
+    "reading.base",
+    "index.md",
+    "Writings/android-structure.md",
+    "Writings/algo.md",
+    "Writings/chip.md",
+    "Writings/civil.md",
+    "Assets/images/darkroom/fuqingzhu.jpg",
     "Assets/images/darkroom/buer/buer_51.jpg",
     "Assets/images/darkroom/buer/buer_4.jpg",
     "Assets/images/darkroom/buer/buer_2.jpg",
     "Assets/images/darkroom/buer/buer_0.jpg",
     "Writings/Darkroom/fu_c.md",
-    "Assets/images/fuqingzhu.jpg",
-    "Assets/images/image-1.png",
-    "Assets/images/darkroom/fuqingzhu.jpg",
-    "Writings/Darkroom/unnamedwife.md",
     "Writings/Darkroom/bambola.md",
     "Writings/Darkroom/antoniadamo.md",
     "Writings/zoomeis.md",
-    "Writings/chip.md",
-    "Assets/images/darkroom/wanimal.jpg",
-    "Writings/Darkroom/lens4wife.md",
-    "Assets/images/darkroom/lens4wife.jpg",
     "Writings/Darkroom/ambermoore.md",
-    "Assets/images/darkroom/67lqc.jpg",
     "Writings/Darkroom/piaopiao1.md",
     "Writings/Darkroom/darkreaver_border_town .md",
     "Writings/Darkroom/darkreaver_ballet_3p.md",
     "Writings/Darkroom/darkreaver_ballet_2.md",
     "Writings/Darkroom/darkreaver_ballet.md",
     "Writings/Darkroom/classic model.md",
-    "Writings/Darkroom/buer_two.md",
-    "Writings/Darkroom/buer_three.md",
-    "Writings/Darkroom/buer_six.md",
-    "Writings/Darkroom/buer_one.md",
-    "Writings/Darkroom/buer_four.md",
-    "Writings/Darkroom/buer_five.md",
-    "Writings/Darkroom/buer_daily.md",
-    "Writings/Darkroom/buer_after.md",
-    "Writings/Darkroom/buer_abuse.md",
-    "life.base",
-    "work.base",
-    "reading.base",
     "Assets/templates/BasicBase.base",
     "Assets/images/darkroom/dorcel",
     "Assets/images/darkroom/moana",

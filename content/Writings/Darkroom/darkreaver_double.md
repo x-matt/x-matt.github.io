@@ -1,6 +1,6 @@
 ---
 title: 第三贴，关于双飞的四个境界
-date: 2012-07-02 11:33:00 +0800
+releasedate: 2012-07-02 11:33:00 +0800
 priority: 3
 author: darkreaver
 category: blog

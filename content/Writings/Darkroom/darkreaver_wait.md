@@ -1,6 +1,6 @@
 ---
 title: 第十贴，不算漫长的等待
-date: 2012-08-16 11:33:00 +0800
+releasedate: 2012-08-16 11:33:00 +0800
 priority: 10
 author: darkreaver
 category: blog

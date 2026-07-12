@@ -1,6 +1,6 @@
 ---
 title: 第十五贴，歌舞团美女的红唇（上）
-date: 2012-10-11 11:33:00 +0800
+releasedate: 2012-10-11 11:33:00 +0800
 priority: 15
 author: darkreaver
 category: blog

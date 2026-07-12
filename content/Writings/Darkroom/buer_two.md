@@ -1,6 +1,6 @@
 ---
 title: 送妻子去调教的SM记录过程二
-date: 2023-05-02 11:33:00 +0800
+releasedate: 2023-05-02 11:33:00 +0800
 author: buer
 tags:
   - sm

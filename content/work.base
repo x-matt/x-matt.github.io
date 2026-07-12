@@ -62,7 +62,6 @@ views:
       - tags
       - category
       - formula.last_modified
-      - file.mtime
     sort:
       - property: category
         direction: ASC

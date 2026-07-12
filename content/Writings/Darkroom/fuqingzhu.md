@@ -2,6 +2,7 @@
 title: 缚青主
 category: blogger
 cover: "[[fuqingzhu.jpg]]"
+scoreStar: ⭐⭐⭐⭐⭐
 ---
 - X: [缚青主](https://x.com/qingzhu0731)
 - Telegram Channel: 

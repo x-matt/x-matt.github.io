@@ -1,6 +1,6 @@
 ---
 title: 第十二贴，蓝天上的情欲。（下）
-date: 2012-09-01 11:33:00 +0800
+releasedate: 2012-09-01 11:33:00 +0800
 priority: 12
 author: darkreaver
 category: blog

@@ -1,6 +1,6 @@
 ---
 title: 第五贴，芭蕾美女再登场
-date: 2012-07-14 11:33:00 +0800
+releasedate: 2012-07-14 11:33:00 +0800
 priority: 5
 author: darkreaver
 category: blog

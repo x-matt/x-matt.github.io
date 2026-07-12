@@ -1,6 +1,6 @@
 ---
 title: 第四贴，还是双飞的题材
-date: 2012-07-07 11:33:00 +0800
+releasedate: 2012-07-07 11:33:00 +0800
 priority: 4
 author: darkreaver
 category: blog

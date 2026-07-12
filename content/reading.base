@@ -8,13 +8,6 @@ properties:
   formula.last_modified:
     displayName: updated
 views:
-  - type: cards
-    name: Library
-    order:
-      - title
-      - author
-    image: note.cover
-    imageAspectRatio: 0.7
   - type: table
     name: List
     order:
@@ -29,3 +22,10 @@ views:
         direction: DESC
     columnSize:
       note.title: 202
+  - type: cards
+    name: Library
+    order:
+      - title
+      - author
+    image: note.cover
+    imageAspectRatio: 0.7

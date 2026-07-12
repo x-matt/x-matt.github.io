@@ -1,0 +1,20 @@
+{
+  "nameTemplate": "{{filename}}-{{counter}}",
+  "dateFormat": "YYYY-MM-DD",
+  "timeFormat": "HHmmss",
+  "defaultFolder": "Assets/image/",
+  "variableDefaults": {},
+  "autoRenamePaste": true,
+  "autoRenameDrop": true,
+  "imageFormats": [
+    "png",
+    "jpg",
+    "jpeg",
+    "gif",
+    "webp",
+    "svg",
+    "bmp"
+  ],
+  "trashFolder": ".trash-images",
+  "language": "en"
+}

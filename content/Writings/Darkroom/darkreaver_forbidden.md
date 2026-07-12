@@ -1,6 +1,6 @@
 ---
 title: 第十三贴，红颜知己和虚拟的禁忌
-date: 2012-09-15 11:33:00 +0800
+releasedate: 2012-09-15 11:33:00 +0800
 priority: 13
 author: darkreaver
 category: blog

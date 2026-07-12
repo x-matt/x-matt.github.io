@@ -8,20 +8,23 @@ properties:
     displayName: updated
 views:
   - type: table
-    name: All
-    groupBy:
-      property: category
-      direction: ASC
+    name: 🎬 Studio
+    filters:
+      and:
+        - category == "studio"
     order:
       - title
       - file.name
       - formula.last_modified
-    sort:
-      - property: date
-        direction: ASC
-    columnSize:
-      file.name: 220
-      note.title: 280
+  - type: table
+    name: 🧔🏻Director
+    filters:
+      and:
+        - category == "director"
+    order:
+      - title
+      - file.name
+      - formula.last_modified
   - type: cards
     name: 💃 Model
     filters:
@@ -32,23 +35,31 @@ views:
     cardSize: 200
     imageAspectRatio: 1.42
   - type: table
-    name: 🧔🏻Director
-    filters:
-      and:
-        - category == "director"
+    name: All
+    groupBy:
+      property: category
+      direction: ASC
     order:
       - title
       - file.name
       - formula.last_modified
-  - type: table
-    name: 🎬 Studio
+    sort:
+      - property: releasedate
+        direction: ASC
+    columnSize:
+      file.name: 220
+      note.title: 280
+  - type: cards
+    name: Blogger
     filters:
       and:
-        - category == "studio"
+        - category == "blogger"
     order:
-      - title
       - file.name
-      - formula.last_modified
+      - scoreStar
+    sort: []
+    image: note.cover
+    imageAspectRatio: 1.42
   - type: table
     name: Blog
     filters:
@@ -59,31 +70,21 @@ views:
       direction: ASC
     order:
       - title
-      - file.name
       - file.tags
-      - date
-      - formula.last_modified
+      - file.name
+      - releasedate
     sort:
-      - property: date
-        direction: ASC
+      - property: releasedate
+        direction: DESC
   - type: cards
-    name: Blogger
-    filters:
-      and:
-        - category == "blogger"
-    sort:
-      - property: date
-        direction: ASC
-    image: note.cover
-    imageAspectRatio: 1.42
-  - type: cards
-    name: Image Cards
+    name: Show
     filters:
       and:
         - "!cover.isEmpty()"
     order:
       - file.name
       - category
+    sort: []
     limit: 30
     image: note.cover
     cardSize: 200

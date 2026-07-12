@@ -1,6 +1,6 @@
 ---
 title: 第十一贴，七夕夜的妩媚，蓝天上的情欲。（上）
-date: 2012-08-24 11:33:00 +0800
+releasedate: 2012-08-24 11:33:00 +0800
 priority: 11
 author: darkreaver
 category: blog

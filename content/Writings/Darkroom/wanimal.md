@@ -2,6 +2,7 @@
 title: WANIMAL
 category: blogger
 cover: "[[wanimal.jpg]]"
+scoreStar: ⭐⭐⭐⭐⭐
 ---
 X: [WANIMAL](https://x.com/WANIMAL912)
 Telegram Channel: <https://web.telegram.org/k/#-2726786481>
