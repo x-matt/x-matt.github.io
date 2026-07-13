@@ -11,14 +11,13 @@
             "id": "8fc36dd949475389",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
+                "file": "Writings/Darkroom/darkroom.base",
+                "viewName": "Blogger"
               },
-              "icon": "lucide-file",
-              "title": "index"
+              "icon": "lucide-layout-grid",
+              "title": "darkroom"
             }
           }
         ],
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Writings/Darkroom/darkroom.base",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +120,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for darkroom"
             }
           },
           {
@@ -151,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "Writings/Darkroom/darkroom.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of darkroom"
             }
           }
         ]
@@ -178,12 +177,20 @@
       "bases:Create new base": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "templater-obsidian:Templater": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "8fc36dd949475389",
   "lastOpenFiles": [
+    "Writings/Darkroom/misscd.md",
+    "Assets/images/darkroom/misscd-0.jpg",
+    "Writings/Darkroom/lyainevan.md",
+    "Assets/images/darkroom/lyainevan.jpg",
+    "Assets/images/darkroom/lyainevan-0.jpg",
+    "Assets/templates/DarkroomNote.md",
+    "Writings/android-structure.md",
+    "Writings/algo.md",
+    "index.md",
     "Writings/food.md",
     "Assets/templates/WorkNote.md",
     "Assets/templates/LifeNote.md",
@@ -204,14 +211,7 @@
     "Daily/2026-07-13.md",
     "Assets/templates/fitness.js.md",
     "Assets/templates/fitness.js",
-    "Assets/templates/DailyNote.md",
-    "Writings/fitness.md",
-    "Writings/fitnessconfig.md",
-    "index.md",
     "fitness.base",
-    "Writings/meal.md",
-    "Daily/2026-07-10.md",
-    "Writings/fullbody.md",
     "Writings/Darkroom/darkroom.base",
     "Assets/images/darkroom/dorcel/pornochic-2.png",
     "Assets/images/darkroom/dorcel/pornochic-0.png",
@@ -220,9 +220,6 @@
     "Assets/images/darkroom/dorcel/pornochic.png",
     "Assets/images/darkroom/67lqc.jpg",
     "Assets/images/darkroom/crowley-2.jpg",
-    "Assets/images/darkroom/papabear.jpg",
-    "Assets/images/darkroom/dorcel/pornochic-3.jpg",
-    "Assets/images/image-3.png",
     "Assets/image",
     "life.base",
     "work.base",
