@@ -4,20 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "31fe6dcd5b8740cf",
+        "id": "95f405d2b3bbdf6e",
         "type": "tabs",
         "children": [
           {
-            "id": "a0b0d50156a73180",
+            "id": "8fc36dd949475389",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Writings/Darkroom/darkroom.base",
-                "viewName": "Blogger"
+                "file": "index.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-grid",
-              "title": "darkroom"
+              "icon": "lucide-file",
+              "title": "index"
             }
           }
         ],
@@ -93,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 383.5,
-    "collapsed": true
+    "width": 383.5
   },
   "right": {
     "id": "5e007910e90f3de9",
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writings/Darkroom/darkroom.base",
+                "file": "index.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for darkroom"
+              "title": "Backlinks for index"
             }
           },
           {
@@ -130,16 +130,15 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Writings/Darkroom/darkroom.base",
+                "file": "Writings/Darkroom/bambola.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from darkroom"
+              "title": "Outgoing links from bambola"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "7e9c7c78870a3a41",
@@ -152,13 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Writings/Darkroom/darkroom.base",
+                "file": "index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of darkroom"
+              "title": "Outline of index"
             }
           }
         ]
@@ -179,56 +178,58 @@
       "bases:Create new base": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "a0b0d50156a73180",
+  "active": "8fc36dd949475389",
   "lastOpenFiles": [
-    "Writings/Darkroom/papabear.md",
+    "Writings/food.md",
+    "Assets/templates/WorkNote.md",
+    "Assets/templates/LifeNote.md",
+    "Writings/shoppping.md",
+    "Writings/nutrition.md",
+    "Writings/workout.md",
+    "Writings/home-fat-loss.md",
+    "mediumcarb.md",
+    "Writings/lower-b.md",
+    "Writings/upper-a.md",
+    "Writings/weeklyreview.md",
+    "Untitled.md",
+    "Upper A.md",
+    "High Carb.md",
+    "Hema Shopping.md",
+    "Writings/highcarb.md",
+    "Writings/stretch.md",
+    "Daily/2026-07-13.md",
+    "Assets/templates/fitness.js.md",
+    "Assets/templates/fitness.js",
+    "Assets/templates/DailyNote.md",
+    "Writings/fitness.md",
+    "Writings/fitnessconfig.md",
+    "index.md",
+    "fitness.base",
+    "Writings/meal.md",
+    "Daily/2026-07-10.md",
+    "Writings/fullbody.md",
     "Writings/Darkroom/darkroom.base",
-    "Writings/Darkroom/crowley.md",
-    "Writings/Darkroom/wanimal.md",
-    "Assets/images/darkroom/wanimal.jpg",
-    "Assets/images/darkroom/crowley.jpg",
-    "Writings/Darkroom/unnamedwife.md",
-    "Writings/Darkroom/shuaibanji.md",
-    "Writings/Darkroom/fuqingzhu.md",
-    "Writings/Darkroom/lens4wife.md",
+    "Assets/images/darkroom/dorcel/pornochic-2.png",
+    "Assets/images/darkroom/dorcel/pornochic-0.png",
+    "Assets/images/darkroom/dorcel/1405325.jpg",
+    "Assets/images/darkroom/dorcel/1364246.jpg",
+    "Assets/images/darkroom/dorcel/pornochic.png",
+    "Assets/images/darkroom/67lqc.jpg",
+    "Assets/images/darkroom/crowley-2.jpg",
     "Assets/images/darkroom/papabear.jpg",
-    "Writings/Darkroom/mico.md",
-    "Assets/images/darkroom/mico.jpg",
-    "Assets/images/darkroom/shuaibanji.jpg",
-    "Writings/Darkroom/stacycruz.md",
+    "Assets/images/darkroom/dorcel/pornochic-3.jpg",
+    "Assets/images/image-3.png",
+    "Assets/image",
     "life.base",
     "work.base",
     "reading.base",
-    "index.md",
-    "Writings/android-structure.md",
-    "Writings/algo.md",
-    "Writings/chip.md",
-    "Writings/civil.md",
-    "Assets/images/darkroom/fuqingzhu.jpg",
-    "Assets/images/darkroom/buer/buer_51.jpg",
-    "Assets/images/darkroom/buer/buer_4.jpg",
-    "Assets/images/darkroom/buer/buer_2.jpg",
-    "Assets/images/darkroom/buer/buer_0.jpg",
-    "Writings/Darkroom/fu_c.md",
-    "Writings/Darkroom/bambola.md",
-    "Writings/Darkroom/antoniadamo.md",
-    "Writings/zoomeis.md",
-    "Writings/Darkroom/ambermoore.md",
-    "Writings/Darkroom/piaopiao1.md",
-    "Writings/Darkroom/darkreaver_border_town .md",
-    "Writings/Darkroom/darkreaver_ballet_3p.md",
-    "Writings/Darkroom/darkreaver_ballet_2.md",
-    "Writings/Darkroom/darkreaver_ballet.md",
-    "Writings/Darkroom/classic model.md",
     "Assets/templates/BasicBase.base",
     "Assets/images/darkroom/dorcel",
     "Assets/images/darkroom/moana",
-    "book",
-    "assets",
-    "Writings",
     "Assets/canvas/chinese history.canvas",
     "Untitled.canvas",
     "Planning.canvas",

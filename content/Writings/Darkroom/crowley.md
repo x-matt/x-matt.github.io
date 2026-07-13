@@ -4,7 +4,12 @@ category: blogger
 cover: "[[crowley.jpg]]"
 scoreStar: ⭐⭐⭐⭐⭐
 ---
+
 ![[crowley.jpg]]
+
+![[crowley-1.jpg]]
+
+![[crowley-2.jpg]]
 
 - X: 
 	1. [Crowley](https://x.com/Crowley83155699)

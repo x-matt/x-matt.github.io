@@ -1,7 +1,7 @@
 ---
 title: Bambola
 cover: https://www.babepedia.com/user-uploads/Bambola6.jpg
-category: model
+category: actor
 ---
 
 | Movie Name                          | Year | Studio        | Key                                  |

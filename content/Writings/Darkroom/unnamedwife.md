@@ -4,5 +4,7 @@ category: blogger
 cover: "[[67lqc.jpg]]"
 scoreStar: ⭐⭐⭐⭐
 ---
-X: 67lqc/jygznm
-Telegram Channel: <https://web.telegram.org/k/#-1603754563>
+![[67lqc.jpg]]
+
+- X: 67lqc/jygznm
+- Telegram Channel: <https://web.telegram.org/k/#-1603754563>

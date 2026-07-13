@@ -2,7 +2,7 @@
   "nameTemplate": "{{filename}}-{{counter}}",
   "dateFormat": "YYYY-MM-DD",
   "timeFormat": "HHmmss",
-  "defaultFolder": "Assets/image/",
+  "defaultFolder": "Assets/images/",
   "variableDefaults": {},
   "autoRenamePaste": true,
   "autoRenameDrop": true,

@@ -1,6 +1,6 @@
 ---
 title: Classic Model
-category: model
+category: actor
 ---
 
 ## Classic Model

@@ -1,13 +1,13 @@
 ---
 title: Android Structure
 type: area
-status: active
 domain: work
 category: android
-priority:
+status: active
 review: daily
 tags:
   - skyview
+priority:
 ---
 
 ![[structure 2025.excalidraw#^frame=Android Abstract|600]]

@@ -4,6 +4,8 @@ category: blogger
 cover: "[[fuqingzhu.jpg]]"
 scoreStar: ⭐⭐⭐⭐⭐
 ---
+![[fuqingzhu.jpg]]
+
 - X: [缚青主](https://x.com/qingzhu0731)
 - Telegram Channel: 
 	1. <https://web.telegram.org/k/#-814456254>

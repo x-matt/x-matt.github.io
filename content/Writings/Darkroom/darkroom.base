@@ -16,20 +16,20 @@ views:
       - title
       - file.name
       - formula.last_modified
-  - type: table
-    name: 🧔🏻Director
-    filters:
-      and:
-        - category == "director"
-    order:
-      - title
-      - file.name
-      - formula.last_modified
   - type: cards
-    name: 💃 Model
+    name: 🎥 Movie
     filters:
       and:
-        - category == "model"
+        - category == "movie"
+    order: []
+    image: note.cover
+    imageAspectRatio: 0.6
+    cardSize: 150
+  - type: cards
+    name: 🧔🏻 People
+    filters:
+      and:
+        - category.containsAny("actor", "director")
     limit: 30
     image: note.cover
     cardSize: 200
@@ -76,16 +76,3 @@ views:
     sort:
       - property: releasedate
         direction: DESC
-  - type: cards
-    name: Show
-    filters:
-      and:
-        - "!cover.isEmpty()"
-    order:
-      - file.name
-      - category
-    sort: []
-    limit: 30
-    image: note.cover
-    cardSize: 200
-    imageAspectRatio: 1.42

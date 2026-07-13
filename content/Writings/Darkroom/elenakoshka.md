@@ -1,7 +1,7 @@
 ---
 title: Elena Koshka
 cover: https://cdn.tushy.com/scene/videoimages/100658/mainLandscape/1544716968159/tushy-i-only-gape-for-you_3840x2160.webp
-category: model
+category: actor
 ---
 ## Porn
 ![](https://cdn.tushy.com/scene/videoimages/100658/mainLandscape/1544716968159/tushy-i-only-gape-for-you_3840x2160.webp)

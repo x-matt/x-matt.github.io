@@ -5,7 +5,8 @@ title: Passion !!!
 
 make difference ~
 
-| Index | Section |
-| ----- | ------- |
-| 1.    | Life    |
-| 2.    | Work    |
+| Level | Name     | Value                               |
+| ----- | -------- | ----------------------------------- |
+| 1     | type     | project/area/resource/archive/daily |
+| 2     | domain   | work/fitness/mind/photography       |
+| 3     | catrgory |                                     |

@@ -3,15 +3,25 @@ title: Marc Dorcel
 category: studio
 ---
 
-|           A           |             B              |
-| :-------------------: | :------------------------: |
-| ![[1364246.jpg\|200]] |   ![[1405325.jpg\|200]]    |
-|      Couture N°1      | Luxure - my wife's friends |
-|         2025          |            2025            |
+```base
+filters:
+  and:
+    - file.inFolder("Writings/Darkroom")
+formulas:
+  last_modified: file.mtime.relative()
+properties:
+  formula.last_modified:
+    displayName: updated
+views:
+  - type: cards
+    name: Dorcel
+    filters:
+      and:
+        - studio == link("dorcel")
+    order:
+      - file.name
+    image: note.cover
+    imageAspectRatio: 0.7143
+    cardSize: 150
 
-## Series
-
-### Pornochic[^1]
-![[pornochic.png|700]]
-
-[^1]: [Marc Drocel Pornichic Series Intro](https://www.dorcelvision.com/en/series/pornochic)
+```

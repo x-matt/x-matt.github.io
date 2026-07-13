@@ -1,7 +1,7 @@
 ---
 title: Hope Heaven
 cover: https://cdn.vixen.com/scene/videoimages/106491/mainLandscape/1777538050668/vixen-pull-ep-1_3840x2160.webp
-category: model
+category: actor
 ---
 ![](https://cdn.vixen.com/scene/videoimages/106491/mainLandscape/1777538050668/vixen-pull-ep-1_3840x2160.webp)
 
