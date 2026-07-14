@@ -1,6 +1,7 @@
 ---
 title: Andrew Blake
 category: director
+cover: "[[andrew-0.jpg]]"
 ---
 Night Trips
 

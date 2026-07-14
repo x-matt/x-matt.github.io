@@ -1,6 +1,7 @@
 ---
 title: Classic Model
 category: actor
+cover: "[[classic model-0.jpg]]"
 ---
 
 ## Classic Model

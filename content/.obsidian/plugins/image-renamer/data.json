@@ -2,7 +2,7 @@
   "nameTemplate": "{{filename}}-{{counter}}",
   "dateFormat": "YYYY-MM-DD",
   "timeFormat": "HHmmss",
-  "defaultFolder": "Assets/images/",
+  "defaultFolder": "Assets/images/darkroom",
   "variableDefaults": {},
   "autoRenamePaste": true,
   "autoRenameDrop": true,
