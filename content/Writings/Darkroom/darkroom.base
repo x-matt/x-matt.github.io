@@ -50,7 +50,7 @@ views:
       file.name: 220
       note.title: 280
   - type: cards
-    name: Blogger
+    name: 🎭 Blogger
     filters:
       and:
         - category == "blogger"
@@ -61,7 +61,7 @@ views:
     image: note.cover
     imageAspectRatio: 1.42
   - type: table
-    name: Blog
+    name: 📝 Blog
     filters:
       and:
         - category == "blog"

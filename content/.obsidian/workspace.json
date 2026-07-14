@@ -14,7 +14,7 @@
               "type": "bases",
               "state": {
                 "file": "Writings/Darkroom/darkroom.base",
-                "viewName": "Blogger"
+                "viewName": "🎥 Movie"
               },
               "icon": "lucide-layout-grid",
               "title": "darkroom"
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 383.5
+    "width": 383.5,
+    "collapsed": true
   },
   "right": {
     "id": "5e007910e90f3de9",
@@ -182,6 +183,10 @@
   },
   "active": "8fc36dd949475389",
   "lastOpenFiles": [
+    "Writings/food.md",
+    "Writings/home.md",
+    "Writings/erye.md",
+    "Writings/Darkroom/darkroom.base",
     "Writings/Darkroom/misscd.md",
     "Assets/images/darkroom/misscd-0.jpg",
     "Writings/Darkroom/lyainevan.md",
@@ -191,7 +196,6 @@
     "Writings/android-structure.md",
     "Writings/algo.md",
     "index.md",
-    "Writings/food.md",
     "Assets/templates/WorkNote.md",
     "Assets/templates/LifeNote.md",
     "Writings/shoppping.md",
@@ -209,10 +213,8 @@
     "Writings/highcarb.md",
     "Writings/stretch.md",
     "Daily/2026-07-13.md",
-    "Assets/templates/fitness.js.md",
     "Assets/templates/fitness.js",
     "fitness.base",
-    "Writings/Darkroom/darkroom.base",
     "Assets/images/darkroom/dorcel/pornochic-2.png",
     "Assets/images/darkroom/dorcel/pornochic-0.png",
     "Assets/images/darkroom/dorcel/1405325.jpg",
