@@ -11,14 +11,13 @@
             "id": "8fc36dd949475389",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Writings/Darkroom/tinto.md",
-                "mode": "source",
-                "source": false
+                "file": "Writings/Darkroom/darkroom.base",
+                "viewName": "🧔🏻 People"
               },
-              "icon": "lucide-file",
-              "title": "tinto"
+              "icon": "lucide-layout-grid",
+              "title": "darkroom"
             }
           }
         ],
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writings/Darkroom/tinto.md",
+                "file": "Writings/Darkroom/darkroom.base",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +120,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for tinto"
+              "title": "Backlinks for darkroom"
             }
           },
           {
@@ -151,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Writings/Darkroom/tinto.md",
+                "file": "Writings/Darkroom/darkroom.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of tinto"
+              "title": "Outline of darkroom"
             }
           }
         ]
@@ -178,14 +177,26 @@
       "bases:Create new base": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "8fc36dd949475389",
   "lastOpenFiles": [
-    "Writings/Darkroom/dorcel.md",
+    "Writings/Darkroom/deborah.md",
     "Writings/Darkroom/darkroom.base",
+    "Writings/Darkroom/hopeheaven.md",
+    "Assets/images/darkroom/deborah-0.jpg",
+    "Writings/Darkroom/miamelano.md",
+    "Writings/sun.md",
+    "work.base",
+    "reading.base",
+    "life.base",
+    "index.md",
     "Writings/movie.md",
+    "Assets/images/sun.jpg",
+    "Writings/Darkroom/tinto.md",
+    "Writings/Darkroom/dorcel.md",
     "Writings/Darkroom/ladies.md",
     "Assets/images/darkroom/ladies-0.webp",
     "Writings/Darkroom/monamour.md",
@@ -195,13 +206,11 @@
     "Assets/images/tinto.webp",
     "Assets/images/Pasted_Image_20241203202759_543.webp",
     "Assets/images/s1106951.jpg",
-    "Writings/Darkroom/tinto.md",
     "Writings/Darkroom/antoniadamo.md",
     "Writings/Darkroom/classic model.md",
     "Assets/images/classic model-0.jpg",
     "Assets/images/antoniadamo-0.jpg",
     "Writings/Darkroom/andrew.md",
-    "Assets/images/andrew-0.jpg",
     "Assets/templates/TemplateDaily.md",
     "Assets/templates/TemplateWork.md",
     "Assets/templates/TemplateLife.md",
@@ -210,22 +219,12 @@
     "Writings/home.md",
     "Writings/erye.md",
     "Writings/Darkroom/misscd.md",
-    "Assets/images/darkroom/misscd-0.jpg",
     "Writings/Darkroom/lyainevan.md",
     "Writings/android-structure.md",
     "Writings/algo.md",
-    "index.md",
-    "Writings/shoppping.md",
-    "Writings/nutrition.md",
-    "Writings/workout.md",
-    "Writings/home-fat-loss.md",
-    "mediumcarb.md",
     "Assets/templates/fitness.js",
     "fitness.base",
     "Assets/image",
-    "life.base",
-    "work.base",
-    "reading.base",
     "Assets/templates/BasicBase.base",
     "Assets/images/darkroom/dorcel",
     "Assets/images/darkroom/moana",

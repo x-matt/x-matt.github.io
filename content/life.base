@@ -147,3 +147,11 @@ views:
     filters:
       and:
         - status == "expressing"
+  - type: cards
+    name: 🎥 Movie
+    filters:
+      and:
+        - category == "movie"
+    image: note.cover
+    cardSize: 200
+    imageAspectRatio: 0.6
