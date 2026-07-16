@@ -4,20 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "95f405d2b3bbdf6e",
+        "id": "e52841aba86ba051",
         "type": "tabs",
         "children": [
           {
-            "id": "8fc36dd949475389",
+            "id": "6447b0e40916590e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Writings/Darkroom/anita.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "anita"
+            }
+          },
+          {
+            "id": "b7e3a39cdb43c1d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Writings/Darkroom/anita.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "anita"
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -50,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "2023-10-10-09-59-58.png",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,6 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Writings/Darkroom/anita.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +136,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for anita"
             }
           },
           {
@@ -146,12 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Writings/Darkroom/anita.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of anita"
             }
           }
         ]
@@ -176,17 +197,33 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8fc36dd949475389",
+  "active": "c59300ad307449ca",
   "lastOpenFiles": [
+    "Assets/images/darkroom/anita.jpg",
+    "Writings/Darkroom/anita.md",
+    "Writings/Darkroom/laure.md",
+    "Writings/Darkroom/skyeblue.md",
     "Writings/Darkroom/darkroom.base",
+    "Writings/Darkroom/moanapozzi.md",
+    "Assets/images/darkroom/moanapozzi-0.jpg",
+    "Writings/Darkroom/classic model.md",
+    "Assets/images/classic model-0.jpg",
+    "Writings/Darkroom/alexa.md",
+    "Assets/images/darkroom/laure.jpg",
+    "Assets/images/darkroom/laure-0.png",
+    "reading.base",
+    "life.base",
+    "Assets/excalidraw/name 2026.excalidraw.md",
+    "Writings/name.md",
+    "Writings/nihaixia.md",
+    "Writings/upper-a.md",
+    "Assets/excalidraw/aperture 2025.excalidraw.md",
     "Writings/Darkroom/deborah.md",
     "Writings/Darkroom/hopeheaven.md",
     "Assets/images/darkroom/deborah-0.jpg",
     "Writings/Darkroom/miamelano.md",
     "Writings/sun.md",
     "work.base",
-    "reading.base",
-    "life.base",
     "index.md",
     "Writings/movie.md",
     "Assets/images/sun.jpg",
@@ -198,25 +235,9 @@
     "Assets/images/darkroom/monamour.jpg",
     "Writings/Darkroom/ambermoore.md",
     "Assets/images/otis-20240320165511619.jpeg",
-    "Assets/images/tinto.webp",
-    "Assets/images/Pasted_Image_20241203202759_543.webp",
-    "Assets/images/s1106951.jpg",
     "Writings/Darkroom/antoniadamo.md",
-    "Writings/Darkroom/classic model.md",
-    "Assets/images/classic model-0.jpg",
-    "Assets/images/antoniadamo-0.jpg",
     "Writings/Darkroom/andrew.md",
     "Assets/templates/TemplateDaily.md",
-    "Assets/templates/TemplateWork.md",
-    "Assets/templates/TemplateLife.md",
-    "Assets/templates/TemplateDarkroom.md",
-    "Writings/food.md",
-    "Writings/home.md",
-    "Writings/erye.md",
-    "Writings/Darkroom/misscd.md",
-    "Writings/Darkroom/lyainevan.md",
-    "Writings/android-structure.md",
-    "Writings/algo.md",
     "Assets/templates/fitness.js",
     "fitness.base",
     "Assets/image",

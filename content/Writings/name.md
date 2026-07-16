@@ -1,5 +1,5 @@
 ---
-title: Pers Info System
+title: Personal Info System
 type: area
 status: active
 domain: planning

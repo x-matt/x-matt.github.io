@@ -1,8 +1,11 @@
 ---
 title: Moana Pozzi
-cover: "[[moana_6.png]]"
+cover: "[[moanapozzi-0.jpg]]"
 category: actor
+image-counter: 1
 ---
+![[moanapozzi-0.jpg]]
+
 
 ## Backfield In Motion
 
