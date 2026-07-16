@@ -11,14 +11,12 @@
             "id": "6447b0e40916590e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Writings/Darkroom/anita.md",
-                "mode": "source",
-                "source": false
+                "file": "Assets/images/darkroom/tinto.webp"
               },
-              "icon": "lucide-file",
-              "title": "anita"
+              "icon": "lucide-image",
+              "title": "tinto"
             }
           },
           {
@@ -36,7 +34,6 @@
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -126,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writings/Darkroom/anita.md",
+                "file": "Assets/images/darkroom/tinto.webp",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +133,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for anita"
+              "title": "Backlinks for tinto"
             }
           },
           {
@@ -166,13 +163,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Writings/Darkroom/anita.md",
+                "file": "Assets/images/darkroom/tinto.webp",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of anita"
+              "title": "Outline of tinto"
             }
           }
         ]
@@ -199,15 +196,21 @@
   },
   "active": "c59300ad307449ca",
   "lastOpenFiles": [
-    "Assets/images/darkroom/anita.jpg",
+    "Assets/images/sun.jpg",
+    "Assets/images/s1106951.jpg",
+    "Assets/images/darkroom/andrew-0.jpg",
+    "Assets/images/darkroom/classic model-0.jpg",
+    "Writings/Darkroom/antoniadamo.md",
+    "Assets/images/antoniadamo-0.jpg",
+    "Assets/images/darkroom/antoniadamo-0.png",
     "Writings/Darkroom/anita.md",
+    "Assets/images/darkroom/anita.jpg",
     "Writings/Darkroom/laure.md",
     "Writings/Darkroom/skyeblue.md",
     "Writings/Darkroom/darkroom.base",
     "Writings/Darkroom/moanapozzi.md",
     "Assets/images/darkroom/moanapozzi-0.jpg",
     "Writings/Darkroom/classic model.md",
-    "Assets/images/classic model-0.jpg",
     "Writings/Darkroom/alexa.md",
     "Assets/images/darkroom/laure.jpg",
     "Assets/images/darkroom/laure-0.png",
@@ -226,16 +229,11 @@
     "work.base",
     "index.md",
     "Writings/movie.md",
-    "Assets/images/sun.jpg",
     "Writings/Darkroom/tinto.md",
     "Writings/Darkroom/dorcel.md",
     "Writings/Darkroom/ladies.md",
-    "Assets/images/darkroom/ladies-0.webp",
     "Writings/Darkroom/monamour.md",
-    "Assets/images/darkroom/monamour.jpg",
     "Writings/Darkroom/ambermoore.md",
-    "Assets/images/otis-20240320165511619.jpeg",
-    "Writings/Darkroom/antoniadamo.md",
     "Writings/Darkroom/andrew.md",
     "Assets/templates/TemplateDaily.md",
     "Assets/templates/fitness.js",
