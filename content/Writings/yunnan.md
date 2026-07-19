@@ -3,10 +3,10 @@ title: Yunnan
 type: area
 status: active
 domain: entertainment
+category: travel
 priority:
 review:
 tags:
-  - travel
 ---
 ## Plannning
 

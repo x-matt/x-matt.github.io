@@ -17,6 +17,7 @@ review:
 | One more light | LINKIN PARK |
 | 闪亮的日子          | 罗大佑         |
 | 为你我受冷风吹        | 胡彦斌         |
+| 我心永恒           |             |
 
 - How log will i love you
 - Save Your Tears

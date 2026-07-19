@@ -7,9 +7,9 @@ cover: "[[classic model-0.jpg]]"
 ## Classic Model
 
 
-|      A       |       B       |      C       |
-| :----------: | :-----------: | :----------: |
-| Silvia Saint | Clea Gaultier |  Kate More   |
-| Zara Whites  |  Moana Pozzi  | Jane Darling |
-| Sandra Russo |    Bambola    | Alyssa Arce  |
-|    Winnie    | Manon Martin  | Sunny Leone  |
+|      A       |       C        |
+| :----------: | :------------: |
+|  Kate More   | Nikki Anderson |
+| Manon Martin |  Jane Darling  |
+| Sandra Russo |                |
+|    Winnie    |  Sunny Leone   |
