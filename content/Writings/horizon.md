@@ -92,7 +92,7 @@ section Stage Two
 
 - 通过event获取gravity数据
 - 原始获取的数据的坐标系不符合右手定则, 需要将x,y,z方向的数值乘以(-1), 将完全符合上述的坐标系(含正方向)
-  ![[2023-11-15-16-48-45.png|qis-hc360|600]]
+  ![[horizon360.png|qis-hc360|600]]
 
 ## Flow
 

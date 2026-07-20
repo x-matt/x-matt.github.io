@@ -10,16 +10,47 @@
           {
             "id": "dfae0bbd58224bda",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "excalidraw",
+              "type": "image",
               "state": {
-                "file": "Assets/excalidraw/name 2026.excalidraw.md"
+                "file": "Assets/images/cl.png"
               },
-              "icon": "excalidraw-icon",
-              "title": "name 2026.excalidraw"
+              "pinned": true,
+              "icon": "lucide-image",
+              "title": "cl"
+            }
+          },
+          {
+            "id": "0cced03c6c088e89",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Writings/heels.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "heels"
+            }
+          },
+          {
+            "id": "99d0d0298a427798",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Assets/images/file-20250106160943809.png"
+              },
+              "icon": "lucide-image",
+              "title": "file-20250106160943809"
             }
           }
         ],
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -92,8 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 383.5,
-    "collapsed": true
+    "width": 383.5
   },
   "right": {
     "id": "5e007910e90f3de9",
@@ -110,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Assets/excalidraw/name 2026.excalidraw.md",
+                "file": "Assets/images/file-20250106160943809.png",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +150,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for name 2026.excalidraw"
+              "title": "Backlinks for file-20250106160943809"
             }
           },
           {
@@ -150,13 +180,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Assets/excalidraw/name 2026.excalidraw.md",
+                "file": "Assets/images/file-20250106160943809.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of name 2026.excalidraw"
+              "title": "Outline of file-20250106160943809"
             }
           }
         ]
@@ -181,53 +211,54 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "dfae0bbd58224bda",
+  "active": "99d0d0298a427798",
   "lastOpenFiles": [
-    "Writings/name.md",
+    "Assets/images/file-20250106161244728.png",
+    "Assets/images/file-20250116190628393.png",
+    "Assets/images/file-20250116190659865.png",
+    "Assets/images/file-20250106160943809.png",
+    "Assets/images/eva-development.png",
+    "Assets/images/jimmy-choo.png",
+    "Assets/images/image-1.png",
+    "Assets/images/otis.jpeg",
+    "Assets/images/sensor.png",
+    "Assets/images/file-20251106101554349.png",
+    "Assets/images/2023-09-03-18-53-01.webp",
+    "Writings/heels.md",
+    "Assets/images/cl.png.~tmp",
+    "Writings/mao.md",
+    "Writings/Darkroom/ulrike.md",
     "work.base",
-    "reading.base",
-    "index.md",
     "life.base",
+    "Writings/swimming.md",
+    "index.md",
+    "Writings/Darkroom/miamelano.md",
+    "Writings/personal.md",
+    "Assets/excalidraw/name 2026.excalidraw.md",
+    "Assets/excalidraw/life 2024.excalidraw.md",
+    "Assets/excalidraw/Gmail_Xcom_Account_Map.excalidraw",
+    "reading.base",
     "Writings/gua.md",
     "Writings/idea.md",
     "Writings/basic-tool.md",
     "Writings/yunnan.md",
     "Clippings/perceptions.md",
-    "Writings/Darkroom/ulrike.md",
     "Clippings",
-    "Assets/images/darkroom/ulrike-1.jpg",
-    "Assets/images/darkroom/ulrike-0.webp",
     "Writings/Darkroom/anita.md",
-    "Assets/images/ulrike.jpg",
     "Writings/Darkroom/sandra.md",
     "Writings/Darkroom/alexa.md",
     "Writings/music.md",
     "Writings/Darkroom/classic model.md",
-    "Assets/images/darkroom/tinto.webp",
-    "Assets/images/sun.jpg",
-    "Assets/images/s1106951.jpg",
-    "Assets/images/darkroom/andrew-0.jpg",
-    "Assets/images/darkroom/classic model-0.jpg",
     "Writings/Darkroom/antoniadamo.md",
-    "Assets/images/antoniadamo-0.jpg",
-    "Assets/images/darkroom/antoniadamo-0.png",
     "Writings/Darkroom/laure.md",
     "Writings/Darkroom/skyeblue.md",
     "Writings/Darkroom/darkroom.base",
     "Writings/Darkroom/moanapozzi.md",
-    "Assets/excalidraw/name 2026.excalidraw.md",
     "Writings/nihaixia.md",
     "Writings/upper-a.md",
-    "Assets/excalidraw/aperture 2025.excalidraw.md",
-    "Writings/Darkroom/deborah.md",
-    "Writings/Darkroom/hopeheaven.md",
-    "Writings/Darkroom/miamelano.md",
-    "Writings/sun.md",
     "Assets/templates/fitness.js",
     "fitness.base",
     "Assets/image",
-    "Assets/templates/BasicBase.base",
-    "Assets/images/darkroom/dorcel",
     "Assets/canvas/chinese history.canvas",
     "Untitled.canvas",
     "Planning.canvas",

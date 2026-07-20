@@ -25,7 +25,7 @@ tags:
 2.  Non-inline Mode ![[vsr 2025.excalidraw#^frame=non-inline|900]]
 3.  Mtk Official Intro
 
-    ![[2023-10-26-10-35-12.png|600]]
+    ![[mtk-vsr.png|600]]
     - 遗留问题: 伪色问题比较明显, 预期tuning可解
     - 上项场景:
       - EIS inline 场景可以直接上

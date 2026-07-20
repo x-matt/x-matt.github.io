@@ -238,7 +238,7 @@ typedef struct is_output_stabilize_s
 ## 7. 其他模块
 
 - EVA : Engine for Visual Analytics
-  ![[image-3.png|timeline|900]]
+  ![[eva-development.png|timeline|900]]
   - Doc
     1. [Engine for Visual Analytics (EVA) v3.x](https://docs.qualcomm.com/bundle/80-PF777-94/resource/80-PF777-94.pdf)
     1. [Qualcomm® SnapdragonTM Engine for Visual Analytics (EVA 3) for SM8450](https://docs.qualcomm.com/bundle/80-35742-1/resource/80-35742-1.pdf)

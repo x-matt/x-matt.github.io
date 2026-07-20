@@ -76,7 +76,7 @@ review:
 
 - **camera sensor size**
   - 以 1/2 为界, < 1/2 则 1英寸代表18mm, > 1/2则 1英寸代表16mm (抛下“1 英寸 = 25.4mm”这个基本常识)
-    ![[Pasted image 20240710160338.png|500]]
+    ![[sensor.png|500]]
   - 影像旗舰们的共同选择：索尼光喻LYTIA传感器LYT-900
     [video](https://www.bilibili.com/video/BV15f421m75s/?vd_source=852d4ef8e14fcaf3d82391cb2461a178)
 

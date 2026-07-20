@@ -37,7 +37,7 @@ chip search: <https://phonedb.net/> #chip
 ### SM8750 Improvment
 
 ![[qcom 2026.excalidraw#^frame=sm8750_improvment|500]]
-![[img_v3_02gp_b5cd1b76-cc27-41b6-8d13-f4f41821748l.jpg|800]]
+![[sm8750.jpg|800]]
 
 > [!info] 调整目的：
 >

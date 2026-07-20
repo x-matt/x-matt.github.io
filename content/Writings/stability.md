@@ -10,7 +10,7 @@ review:
 
 ## Memory safety tools
 
-![[2023-11-01-17-13-26.png|Android memory safety tools landscape|800]]
+![[stability.png|Android memory safety tools landscape|800]]
 
 ### [MTE](https://source.android.com/docs/security/test/memory-safety/arm-mte)
 
