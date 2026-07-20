@@ -10,14 +10,17 @@
           {
             "id": "581ccff70322c64f",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Writings/Darkroom/darkroom.base",
-                "viewName": "🧔🏻 People"
+                "file": "index.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-grid",
-              "title": "darkroom"
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "index"
             }
           }
         ],
@@ -110,17 +113,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writings/Darkroom/darkroom.base",
+                "file": "index.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": true,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for darkroom"
+              "title": "Backlinks for index"
             }
           },
           {
@@ -129,12 +132,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Writings/Darkroom/bambola.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from bambola"
+              "title": "Outgoing links from index"
             }
           }
         ]
@@ -150,13 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Writings/Darkroom/darkroom.base",
+                "file": "index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of darkroom"
+              "title": "Outline of index"
             }
           }
         ]
@@ -183,11 +186,20 @@
   },
   "active": "581ccff70322c64f",
   "lastOpenFiles": [
+    "reading.base",
+    "index.md",
+    "Daily/2026-07-10.md",
+    "Writings/algo.md",
+    "Writings/testing.md",
+    "Writings/stability.md",
+    "life.base",
+    "reminder.md",
+    "Assets/canvas/chinese history.canvas",
+    "work.base",
     "Writings/Darkroom/sandra.md",
+    "Writings/Darkroom/darkroom.base",
     "Assets/images/darkroom/sandra.jpg",
     "Writings/heels.md",
-    "reading.base",
-    "work.base",
     "Assets/images/file-20250106160943809.png",
     "Assets/images/cl.png",
     "Assets/images/file-20250106161244728.png",
@@ -200,9 +212,7 @@
     "Assets/images/cl.png.~tmp",
     "Writings/mao.md",
     "Writings/Darkroom/ulrike.md",
-    "life.base",
     "Writings/swimming.md",
-    "index.md",
     "Writings/Darkroom/miamelano.md",
     "Writings/personal.md",
     "Assets/excalidraw/name 2026.excalidraw.md",
@@ -219,16 +229,9 @@
     "Writings/music.md",
     "Writings/Darkroom/classic model.md",
     "Writings/Darkroom/antoniadamo.md",
-    "Writings/Darkroom/laure.md",
-    "Writings/Darkroom/skyeblue.md",
-    "Writings/Darkroom/darkroom.base",
-    "Writings/Darkroom/moanapozzi.md",
-    "Writings/nihaixia.md",
-    "Writings/upper-a.md",
     "Assets/templates/fitness.js",
     "fitness.base",
     "Assets/image",
-    "Assets/canvas/chinese history.canvas",
     "Untitled.canvas",
     "Planning.canvas",
     "Untitled 1.canvas",
