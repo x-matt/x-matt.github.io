@@ -4,53 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "e52841aba86ba051",
+        "id": "78da8c729b45eb2b",
         "type": "tabs",
         "children": [
           {
-            "id": "dfae0bbd58224bda",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Assets/images/cl.png"
-              },
-              "pinned": true,
-              "icon": "lucide-image",
-              "title": "cl"
-            }
-          },
-          {
-            "id": "0cced03c6c088e89",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Writings/heels.md",
-                "mode": "preview",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "heels"
-            }
-          },
-          {
-            "id": "99d0d0298a427798",
+            "id": "581ccff70322c64f",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "bases",
               "state": {
-                "file": "Assets/images/file-20250106160943809.png"
+                "file": "Writings/Darkroom/darkroom.base",
+                "viewName": "🧔🏻 People"
               },
-              "icon": "lucide-image",
-              "title": "file-20250106160943809"
+              "icon": "lucide-layout-grid",
+              "title": "darkroom"
             }
           }
         ],
-        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -140,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Assets/images/file-20250106160943809.png",
+                "file": "Writings/Darkroom/darkroom.base",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +120,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for file-20250106160943809"
+              "title": "Backlinks for darkroom"
             }
           },
           {
@@ -180,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Assets/images/file-20250106160943809.png",
+                "file": "Writings/Darkroom/darkroom.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of file-20250106160943809"
+              "title": "Outline of darkroom"
             }
           }
         ]
@@ -211,24 +181,25 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "99d0d0298a427798",
+  "active": "581ccff70322c64f",
   "lastOpenFiles": [
+    "Writings/Darkroom/sandra.md",
+    "Assets/images/darkroom/sandra.jpg",
+    "Writings/heels.md",
+    "reading.base",
+    "work.base",
+    "Assets/images/file-20250106160943809.png",
+    "Assets/images/cl.png",
     "Assets/images/file-20250106161244728.png",
     "Assets/images/file-20250116190628393.png",
     "Assets/images/file-20250116190659865.png",
-    "Assets/images/file-20250106160943809.png",
     "Assets/images/eva-development.png",
     "Assets/images/jimmy-choo.png",
     "Assets/images/image-1.png",
     "Assets/images/otis.jpeg",
-    "Assets/images/sensor.png",
-    "Assets/images/file-20251106101554349.png",
-    "Assets/images/2023-09-03-18-53-01.webp",
-    "Writings/heels.md",
     "Assets/images/cl.png.~tmp",
     "Writings/mao.md",
     "Writings/Darkroom/ulrike.md",
-    "work.base",
     "life.base",
     "Writings/swimming.md",
     "index.md",
@@ -237,7 +208,6 @@
     "Assets/excalidraw/name 2026.excalidraw.md",
     "Assets/excalidraw/life 2024.excalidraw.md",
     "Assets/excalidraw/Gmail_Xcom_Account_Map.excalidraw",
-    "reading.base",
     "Writings/gua.md",
     "Writings/idea.md",
     "Writings/basic-tool.md",
@@ -245,7 +215,6 @@
     "Clippings/perceptions.md",
     "Clippings",
     "Writings/Darkroom/anita.md",
-    "Writings/Darkroom/sandra.md",
     "Writings/Darkroom/alexa.md",
     "Writings/music.md",
     "Writings/Darkroom/classic model.md",

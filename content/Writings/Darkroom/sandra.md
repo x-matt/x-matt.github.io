@@ -2,6 +2,7 @@
 title: Sandra Russo
 category: actor
 author:
-cover:
+cover: "[[sandra.jpg]]"
 tags:
 ---
+![[sandra.jpg]]
