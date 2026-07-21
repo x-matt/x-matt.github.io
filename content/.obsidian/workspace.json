@@ -12,18 +12,28 @@
             "type": "leaf",
             "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "pinned": true,
               "icon": "lucide-file",
-              "title": "index"
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "5c2a45859c063895",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "life.base",
+                "viewName": "🎥 Movie"
+              },
+              "icon": "lucide-layout-grid",
+              "title": "life"
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -113,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "life.base",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +133,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for life"
             }
           },
           {
@@ -132,12 +142,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from index"
+              "title": "Outgoing links"
             }
           }
         ]
@@ -153,13 +162,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "life.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of life"
             }
           }
         ]
@@ -184,20 +193,29 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "581ccff70322c64f",
+  "active": "c59300ad307449ca",
   "lastOpenFiles": [
+    "Writings/gone.md",
+    "Assets/images/gone.webp",
+    "Writings/bullet.md",
+    "life.base",
     "reading.base",
+    "Writings/areas.md",
+    "Assets/excalidraw/areas 2024.excalidraw.md",
+    "Writings/Darkroom/darkroom.base",
+    "Writings/hiddenman.md",
+    "Assets/images/hiddenman-0.jpg",
+    "Writings/sun.md",
+    "work.base",
+    "Assets/images/bullet-0.jpg",
     "index.md",
     "Daily/2026-07-10.md",
     "Writings/algo.md",
     "Writings/testing.md",
     "Writings/stability.md",
-    "life.base",
     "reminder.md",
     "Assets/canvas/chinese history.canvas",
-    "work.base",
     "Writings/Darkroom/sandra.md",
-    "Writings/Darkroom/darkroom.base",
     "Assets/images/darkroom/sandra.jpg",
     "Writings/heels.md",
     "Assets/images/file-20250106160943809.png",
@@ -206,9 +224,6 @@
     "Assets/images/file-20250116190628393.png",
     "Assets/images/file-20250116190659865.png",
     "Assets/images/eva-development.png",
-    "Assets/images/jimmy-choo.png",
-    "Assets/images/image-1.png",
-    "Assets/images/otis.jpeg",
     "Assets/images/cl.png.~tmp",
     "Writings/mao.md",
     "Writings/Darkroom/ulrike.md",
@@ -216,7 +231,6 @@
     "Writings/Darkroom/miamelano.md",
     "Writings/personal.md",
     "Assets/excalidraw/name 2026.excalidraw.md",
-    "Assets/excalidraw/life 2024.excalidraw.md",
     "Assets/excalidraw/Gmail_Xcom_Account_Map.excalidraw",
     "Writings/gua.md",
     "Writings/idea.md",
@@ -224,11 +238,6 @@
     "Writings/yunnan.md",
     "Clippings/perceptions.md",
     "Clippings",
-    "Writings/Darkroom/anita.md",
-    "Writings/Darkroom/alexa.md",
-    "Writings/music.md",
-    "Writings/Darkroom/classic model.md",
-    "Writings/Darkroom/antoniadamo.md",
     "Assets/templates/fitness.js",
     "fitness.base",
     "Assets/image",

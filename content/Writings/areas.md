@@ -1,5 +1,5 @@
 ---
-title: Life Areas Intro
+title: Areas Intro
 type: area
 status: active
 domain: mind
@@ -9,7 +9,7 @@ tags:
   - skyview
 ---
 
-![[life 2024.excalidraw|800]]
+![[areas 2024.excalidraw|800]]
 
 ## 十大层面阐述
 
