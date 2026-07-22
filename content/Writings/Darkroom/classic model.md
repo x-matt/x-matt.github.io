@@ -6,10 +6,8 @@ cover: "[[classic model-0.jpg]]"
 
 ## Classic Model
 
-
 |      A       |       C        |
 | :----------: | :------------: |
 |  Kate More   | Nikki Anderson |
 | Manon Martin |  Jane Darling  |
-| Sandra Russo |                |
 |    Winnie    |  Sunny Leone   |

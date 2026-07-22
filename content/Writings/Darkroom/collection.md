@@ -38,8 +38,8 @@ title: Collection
 
 ### Penthouse
 
-[Penthouse forum pin up](https://mat6tube.com/watch/-87213081_456240422)
-
+[Penthouse variations sheer desires](https://mat6tube.com/watch/-220632230_456248261)
+- [HD-version](https://speedporn.net/adult/sheer-desires/)
 ### Playboy
 
 | Playboy Playmate     | Year |

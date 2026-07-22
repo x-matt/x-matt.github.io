@@ -8,32 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "581ccff70322c64f",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "empty",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "5c2a45859c063895",
+            "id": "7f5c749437d851c8",
             "type": "leaf",
             "state": {
               "type": "bases",
               "state": {
                 "file": "life.base",
-                "viewName": "🎥 Movie"
+                "viewName": "Recently"
               },
-              "icon": "lucide-layout-grid",
+              "icon": "lucide-table",
               "title": "life"
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -193,50 +180,51 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c59300ad307449ca",
+  "active": "7f5c749437d851c8",
   "lastOpenFiles": [
+    "Writings/android-structure.md",
+    "work.base",
+    "life.base",
+    "Writings/Darkroom/darkroom.base",
+    "Writings/Darkroom/collection.md",
+    "Writings/Darkroom/barbiebrill.md",
+    "Writings/home.md",
+    "Writings/Darkroom/classic model.md",
+    "Assets/excalidraw/home 2026.excalidraw.md",
+    "Writings/Darkroom/sandra.md",
+    "Writings/guoyuxin.md",
+    "Writings/hanjiaren.md",
+    "Assets/images/jiaren.jpg",
+    "reading.base",
+    "Writings/reminder.md",
+    "Assets/images/darkroom/guoyuxin-0.jpg",
     "Writings/gone.md",
     "Assets/images/gone.webp",
     "Writings/bullet.md",
-    "life.base",
-    "reading.base",
     "Writings/areas.md",
     "Assets/excalidraw/areas 2024.excalidraw.md",
-    "Writings/Darkroom/darkroom.base",
     "Writings/hiddenman.md",
     "Assets/images/hiddenman-0.jpg",
     "Writings/sun.md",
-    "work.base",
     "Assets/images/bullet-0.jpg",
     "index.md",
     "Daily/2026-07-10.md",
     "Writings/algo.md",
     "Writings/testing.md",
     "Writings/stability.md",
-    "reminder.md",
     "Assets/canvas/chinese history.canvas",
-    "Writings/Darkroom/sandra.md",
     "Assets/images/darkroom/sandra.jpg",
     "Writings/heels.md",
     "Assets/images/file-20250106160943809.png",
     "Assets/images/cl.png",
     "Assets/images/file-20250106161244728.png",
     "Assets/images/file-20250116190628393.png",
-    "Assets/images/file-20250116190659865.png",
-    "Assets/images/eva-development.png",
     "Assets/images/cl.png.~tmp",
     "Writings/mao.md",
     "Writings/Darkroom/ulrike.md",
     "Writings/swimming.md",
     "Writings/Darkroom/miamelano.md",
-    "Writings/personal.md",
-    "Assets/excalidraw/name 2026.excalidraw.md",
     "Assets/excalidraw/Gmail_Xcom_Account_Map.excalidraw",
-    "Writings/gua.md",
-    "Writings/idea.md",
-    "Writings/basic-tool.md",
-    "Writings/yunnan.md",
-    "Clippings/perceptions.md",
     "Clippings",
     "Assets/templates/fitness.js",
     "fitness.base",

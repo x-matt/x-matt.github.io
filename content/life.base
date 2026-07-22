@@ -17,7 +17,7 @@ views:
       - domain
       - formula.last_modified
     sort:
-      - property: formula.last_modified
+      - property: file.mtime
         direction: DESC
     limit: 20
   - type: table
@@ -155,3 +155,10 @@ views:
     image: note.cover
     cardSize: 200
     imageAspectRatio: 0.6
+  - type: cards
+    name: 🧔🏻 People
+    filters:
+      and:
+        - category.containsAny("director", "actor")
+    image: note.cover
+    imageAspectRatio: 0.75
