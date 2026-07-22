@@ -13,11 +13,11 @@
             "state": {
               "type": "bases",
               "state": {
-                "file": "life.base",
+                "file": "work.base",
                 "viewName": "Recently"
               },
               "icon": "lucide-table",
-              "title": "life"
+              "title": "work"
             }
           }
         ],
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "life.base",
+                "file": "work.base",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for life"
+              "title": "Backlinks for work"
             }
           },
           {
@@ -149,20 +149,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "life.base",
+                "file": "work.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of life"
+              "title": "Outline of work"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 256.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,13 +183,13 @@
   },
   "active": "7f5c749437d851c8",
   "lastOpenFiles": [
+    "life.base",
+    "Writings/home.md",
     "Writings/android-structure.md",
     "work.base",
-    "life.base",
     "Writings/Darkroom/darkroom.base",
     "Writings/Darkroom/collection.md",
     "Writings/Darkroom/barbiebrill.md",
-    "Writings/home.md",
     "Writings/Darkroom/classic model.md",
     "Assets/excalidraw/home 2026.excalidraw.md",
     "Writings/Darkroom/sandra.md",
@@ -223,7 +224,6 @@
     "Writings/mao.md",
     "Writings/Darkroom/ulrike.md",
     "Writings/swimming.md",
-    "Writings/Darkroom/miamelano.md",
     "Assets/excalidraw/Gmail_Xcom_Account_Map.excalidraw",
     "Clippings",
     "Assets/templates/fitness.js",

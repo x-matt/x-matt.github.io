@@ -16,6 +16,7 @@ views:
       - tags
       - domain
       - formula.last_modified
+      - file.mtime
     sort:
       - property: file.mtime
         direction: DESC
