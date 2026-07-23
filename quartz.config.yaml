@@ -152,8 +152,8 @@ plugins:
   - source: github:quartz-community/graph
     enabled: true
     layout:
-      position: left
-      priority: 50
+      position: right
+      priority: 10
   - source: github:quartz-community/search
     enabled: true
     layout:
