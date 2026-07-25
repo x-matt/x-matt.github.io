@@ -8,16 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7f5c749437d851c8",
+            "id": "cc1f8f69b017c117",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "life.base",
-                "viewName": "🧔🏻 People"
+                "file": "Daily/2026-07-25.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-grid",
-              "title": "life"
+              "icon": "lucide-file",
+              "title": "2026-07-25"
             }
           }
         ],
@@ -53,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "body 2026.excalidraw",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work.base",
+                "file": "Daily/2026-07-25.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +121,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for work"
+              "title": "Backlinks for 2026-07-25"
             }
           },
           {
@@ -149,21 +150,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work.base",
+                "file": "Daily/2026-07-25.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of work"
+              "title": "Outline of 2026-07-25"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 256.5,
-    "collapsed": true
+    "width": 256.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,22 +181,32 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7f5c749437d851c8",
+  "active": "cc1f8f69b017c117",
   "lastOpenFiles": [
+    "cloth.md",
+    "Daily/2026-07-25.md",
+    "Writings/jingwen.md",
+    "Assets/images/jingwen-0.jpg",
+    "Writings/exercise.md",
+    "Assets/settings/excalidraw/scripts/Downloaded/QuickSwitchFrame.md",
+    "Writings/body.md",
+    "Assets/excalidraw/nihaixia 2025.excalidraw.md",
+    "Writings/food.md",
+    "Writings/obsidian.md",
+    "Writings/home.md",
+    "index.md",
+    "life.base",
+    "reading.base",
     "Writings/jennifer.md",
     "work.base",
     "Assets/images/jennifer.jpg",
-    "life.base",
     "Writings/churan.md",
     "Assets/images/churan-0.jpg",
     "Writings/Darkroom/darkroom.base",
     "Daily/2026-07-23.md",
-    "reading.base",
     "Writings/Darkroom/collection.md",
     "Writings/hiddenman.md",
-    "index.md",
     "Writings/Darkroom/misscd.md",
-    "Writings/home.md",
     "Writings/android-structure.md",
     "Writings/Darkroom/barbiebrill.md",
     "Writings/Darkroom/classic model.md",
@@ -209,20 +219,11 @@
     "Assets/images/darkroom/guoyuxin-0.jpg",
     "Writings/gone.md",
     "Assets/images/gone.webp",
-    "Writings/bullet.md",
-    "Writings/areas.md",
-    "Assets/excalidraw/areas 2024.excalidraw.md",
     "Assets/images/hiddenman-0.jpg",
-    "Writings/sun.md",
     "Assets/images/bullet-0.jpg",
-    "Daily/2026-07-10.md",
-    "Writings/algo.md",
-    "Writings/testing.md",
-    "Writings/stability.md",
     "Assets/canvas/chinese history.canvas",
     "Assets/images/darkroom/sandra.jpg",
     "Assets/images/file-20250106160943809.png",
-    "Assets/images/cl.png",
     "Assets/images/cl.png.~tmp",
     "Assets/excalidraw/Gmail_Xcom_Account_Map.excalidraw",
     "Clippings",
