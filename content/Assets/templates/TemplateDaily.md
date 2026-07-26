@@ -1,36 +1,91 @@
 ---
+type: journal
+date: <% tp.date.now("YYYY-MM-DD") %>
+week: <% tp.date.now("YYYY-[W]WW") %>
+month: <% tp.date.now("YYYY-MM") %>
+quarter: <% tp.date.now("YYYY-[Q]Q") %>
 tags:
-  - daily
+  - journal/daily
 ---
 
-## Focus 
+# 📅 <% tp.date.now("YYYY-MM-DD dddd") %>
+
+> [!info] Navigation  
+> ⬅ [[<% tp.date.now("YYYY-MM-DD", -1) %>]] | 📆 [[<% tp.date.now("YYYY-[W]WW") %>]] | 📅 [[<% tp.date.now("YYYY-MM") %>]] | ➡ [[<% tp.date.now("YYYY-MM-DD", 1) %>]]
+
+---
+
+## 🎯 Top 3
+
+- [ ]
+- [ ]
+- [ ]
+
+---
+
+## 💼 Work
+
+### Today's progress 
+
+### Problems
+
+### Next Steps
+
+---
+
+## 📚 Learning
+
+### Today's Learning
+
+### Key Takeaways
+
+### Related Notes
+
+---
+
+## 📝 Journal
 
 
-## Work
-- 做了什么：
-- 相关项目 / 主题：
-- 遇到问题：
-- 输出 / 沉淀：
+---
+
+## ⭐ Daily Reflection
+
+### Today's Most Important Achievement
+
+### Today's Biggest Waste
+
+### One Thing I Learned Today
+
+### The Person/Thing I'm Most Grateful For Today
 
 
-## Life
-- 健康 / 运动：
-- 情绪 / 状态：
+---
 
-## Ideas
+## 📦 Inbox
 
+---
 
-## Learning
-- 看了 / 学了：
-- 关键点：
+## ➡ Tomorrow
 
+Must
+- [ ]
+- [ ]
 
-## Today's related
+### Should
+- [ ]
+- [ ]
 
+### Could
+- [ ]
 
-## TODO
-- [ ] 
-- [ ] 
+---
 
-## Notes
-- 
+## 🌙 Shutdown
+
+- Desktop organization
+- Git/Obsidian sync
+- Review today's Top 3
+- Write tomorrow's Must
+- Put down your phone
+
+**Today's Rating：** ⭐⭐⭐⭐⭐⭐⭐☆☆☆（7/10）

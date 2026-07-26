@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "78da8c729b45eb2b",
+        "id": "4491306ab5d8b65b",
         "type": "tabs",
         "children": [
           {
-            "id": "cc1f8f69b017c117",
+            "id": "924680f66e81afb3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2026-07-25.md",
+                "file": "Writings/Darkroom/abigaile.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-07-25"
+              "title": "abigaile"
             }
           }
         ],
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily/2026-07-25.md",
+                "file": "Assets/templates/TemplateWeekly.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2026-07-25"
+              "title": "Backlinks for TemplateWeekly"
             }
           },
           {
@@ -130,14 +130,26 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Writings/Darkroom/abigaile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from abigaile"
+            }
+          },
+          {
+            "id": "aa3cbdddd26bc0c2",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "7e9c7c78870a3a41",
@@ -150,74 +162,77 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily/2026-07-25.md",
+                "file": "Writings/Darkroom/abigaile.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2026-07-25"
+              "title": "Outline of abigaile"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 265.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "workspaces:Manage workspace layouts": false,
       "bases:Create new base": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "cc1f8f69b017c117",
+  "active": "924680f66e81afb3",
   "lastOpenFiles": [
-    "cloth.md",
-    "Daily/2026-07-25.md",
+    "Assets/images/darkroom/abigaile-0.jpg",
+    "Writings/Darkroom/alexa.md",
+    "Writings/Darkroom/abigaile.md",
+    "Writings/lingerie.md",
+    "Assets/templates/TemplateWeekly.md",
+    "Journal/Weekly/2026-W30.md",
+    "Assets/templates/TemplateDaily.md",
+    "Writings/daily.md",
+    "Journal/Daily/2026-07-23.md",
+    "Journal/Daily/2026-07-25.md",
+    "Journal/Weekly/2026-W31.md",
+    "work.base",
+    "reading.base",
+    "life.base",
+    "index.md",
+    "Clippings/perceptions.md",
+    "Writings/cloth.md",
+    "Writings/luxury.md",
+    "2026-W31.md",
+    "Journal/Daily/2026-04-08.md",
+    "Journal/Daily/2026-04-15.md",
+    "Journal/Daily/2026-04-16.md",
+    "Journal/Daily/2026-04-07.md",
+    "Journal/Daily/2026-07-10.md",
+    "Journal/Daily/2026-07-26.md",
+    "Journal/Quarterly",
+    "Assets/excalidraw/index 2026.excalidraw.md",
+    "Journal/Monthly",
+    "Journal/Weekly",
+    "Journal",
     "Writings/jingwen.md",
     "Assets/images/jingwen-0.jpg",
     "Writings/exercise.md",
     "Assets/settings/excalidraw/scripts/Downloaded/QuickSwitchFrame.md",
-    "Writings/body.md",
-    "Assets/excalidraw/nihaixia 2025.excalidraw.md",
-    "Writings/food.md",
-    "Writings/obsidian.md",
-    "Writings/home.md",
-    "index.md",
-    "life.base",
-    "reading.base",
-    "Writings/jennifer.md",
-    "work.base",
     "Assets/images/jennifer.jpg",
-    "Writings/churan.md",
     "Assets/images/churan-0.jpg",
     "Writings/Darkroom/darkroom.base",
-    "Daily/2026-07-23.md",
-    "Writings/Darkroom/collection.md",
-    "Writings/hiddenman.md",
-    "Writings/Darkroom/misscd.md",
-    "Writings/android-structure.md",
-    "Writings/Darkroom/barbiebrill.md",
-    "Writings/Darkroom/classic model.md",
-    "Assets/excalidraw/home 2026.excalidraw.md",
-    "Writings/Darkroom/sandra.md",
-    "Writings/guoyuxin.md",
-    "Writings/hanjiaren.md",
     "Assets/images/jiaren.jpg",
-    "Writings/reminder.md",
     "Assets/images/darkroom/guoyuxin-0.jpg",
-    "Writings/gone.md",
     "Assets/images/gone.webp",
     "Assets/images/hiddenman-0.jpg",
     "Assets/images/bullet-0.jpg",
@@ -226,10 +241,6 @@
     "Assets/images/file-20250106160943809.png",
     "Assets/images/cl.png.~tmp",
     "Assets/excalidraw/Gmail_Xcom_Account_Map.excalidraw",
-    "Clippings",
-    "Assets/templates/fitness.js",
-    "fitness.base",
-    "Assets/image",
     "Untitled.canvas",
     "Planning.canvas",
     "Untitled 1.canvas",

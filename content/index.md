@@ -18,3 +18,11 @@ make difference ~
 [[life.base|LIFE]]: Including all docs
 - [[work.base|WORK]]: Including docs about work
 - [[reading.base#Library|READING]]: Including docs aout reading
+
+
+Capture: Journal
+Management: PARA
+Review: Weekly/Monthly/Quartly/Yearly
+Knowledge: 
+
+![[index 2026.excalidraw]]
