@@ -7,11 +7,11 @@ make difference ~
 
 ## Structure
 
-| Level | Name     | Value                               |
-| ----- | -------- | ----------------------------------- |
-| 1     | type     | project/area/resource/archive/daily |
-| 2     | domain   | work/fitness/mind/photography       |
-| 3     | catrgory |                                     |
+| Level | Name     | Value                                      |
+| ----- | -------- | ------------------------------------------ |
+| 1     | type     | journal/project/area/resource/archive/wiki |
+| 2     | domain   | work/fitness/mind/photography              |
+| 3     | catrgory |                                            |
 
 ## Key bases
 
@@ -19,10 +19,8 @@ make difference ~
 - [[work.base|WORK]]: Including docs about work
 - [[reading.base#Library|READING]]: Including docs aout reading
 
-
-Capture: Journal
-Management: PARA
-Review: Weekly/Monthly/Quartly/Yearly
-Knowledge: 
-
-![[index 2026.excalidraw]]
+### Type logic
+1. Capture: Journal-Daily
+2. Management: PARA
+3. Review: Journal-Weekly/Monthly/Quartly/Yearly
+4. Knowledge: Wiki

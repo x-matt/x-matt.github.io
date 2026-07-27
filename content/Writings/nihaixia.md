@@ -1,5 +1,5 @@
 ---
-title: Nihaixia Intro
+title: 倪海厦
 type: area
 domain: mind
 category: people

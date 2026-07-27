@@ -40,10 +40,15 @@ tags:
 #### Scripts
 
 - QuickSwitchFrame
-
 ```excalidraw-script-install
   https://raw.githubusercontent.com/PandaNocturne/ExcalidrawScripts/master/PandaScripts/QuickSwitchFrame.md
 ```
+
+#### Mindmap
+
+![mindmapv3](https://www.youtube.com/watch?v=5G9QF-u9w0Q)
+
+![mindmap v2](https://www.youtube.com/watch?v=qY66yoobaX4)
 
 ## Ext Features
 

@@ -26119,7 +26119,152 @@
   "mdFontColor": "Black",
   "mdBorderColor": "Black",
   "mdCSS": "",
-  "scriptEngineSettings": {},
+  "scriptEngineSettings": {
+    "Downloaded/Icon Library": {
+      "filters": [
+        {
+          "name": "Icon",
+          "pattern": "^icon - (.*?)(?: - [^-]+)?$",
+          "folderPattern": "",
+          "extensions": "",
+          "maxKb": ""
+        },
+        {
+          "name": "Stickfigure",
+          "pattern": "^stickfigure - (.*?)(?: - [^-]+)?$",
+          "folderPattern": "",
+          "extensions": "",
+          "maxKb": ""
+        },
+        {
+          "name": "Logo",
+          "pattern": "^logo - (.*?)(?: - [^-]+)?$",
+          "folderPattern": "",
+          "extensions": "",
+          "maxKb": ""
+        }
+      ],
+      "excludeFolders": "",
+      "defaultIconWidth": 180,
+      "thumbSize": 100,
+      "lightBgColor": "#FFFFFF60",
+      "darkBgColor": "#FFFFFF60",
+      "activeFilterNames": [
+        "Icon",
+        "Stickfigure",
+        "Logo"
+      ]
+    },
+    "Downloaded/Mindmap Builder": {
+      "Layout Config": {
+        "value": {
+          "GAP_X": 120,
+          "GAP_Y": 25,
+          "GAP_MULTIPLIER": 0.6,
+          "ROOT_RADIUS_FACTOR": 0.8,
+          "MIN_RADIUS": 350,
+          "RADIAL_ASPECT_RATIO": 0.7,
+          "RADIAL_POLE_GAP_BONUS": 2,
+          "RADIAL_START_ANGLE": 280,
+          "RADIAL_MAX_SWEEP": 340,
+          "DIRECTIONAL_ARC_SPAN_RADIANS": 1,
+          "GAP_MULTIPLIER_DIRECTIONAL": 1.5,
+          "RADIUS_PADDING_PER_NODE": 7,
+          "VERTICAL_SUBTREE_WIDTH_BLEND_SINGLE": 0.35,
+          "VERTICAL_SUBTREE_WIDTH_BLEND_DUAL": 0.6,
+          "VERTICAL_SUBTREE_SMOOTH_THRESHOLD_MULTIPLIER": 6,
+          "VERTICAL_SUBTREE_SMOOTH_MIN_SCALE": 240,
+          "HORIZONTAL_L1_SOFTCAP_THRESHOLD": 560,
+          "HORIZONTAL_L1_COMPRESSION_MIN_SCALE": 240,
+          "VERTICAL_COMPACT_PARENT_CHILD_GAP_RATIO": 0.55,
+          "DIRECTIONAL_CROSS_AXIS_RATIO": 0.2,
+          "INDICATOR_OFFSET": 10,
+          "INDICATOR_OPACITY": 40,
+          "CONTAINER_PADDING": 10,
+          "MAX_SEGMENT_LENGTH": 80,
+          "MANUAL_GAP_MULTIPLIER": 1.3,
+          "MANUAL_JITTER_RANGE": 300
+        },
+        "hidden": true
+      },
+      "Active Preset": {
+        "value": "Default",
+        "hidden": false
+      },
+      "Growth Mode": {
+        "value": "Right-Left",
+        "valueset": [
+          "Radial",
+          "Right-facing",
+          "Left-facing",
+          "Right-Left",
+          "Up-facing",
+          "Down-facing",
+          "Up-Down"
+        ]
+      },
+      "Arrow Type": {
+        "value": "curved",
+        "hidden": false
+      },
+      "Font Sizes": {
+        "value": "Normal Scale",
+        "valueset": [
+          "Use scene fontsize",
+          "Fibonacci Scale",
+          "Normal Scale"
+        ]
+      },
+      "Multicolor Mode": {
+        "value": true,
+        "hidden": false
+      },
+      "Box Children": {
+        "value": false,
+        "hidden": false
+      },
+      "Rounded Corners": {
+        "value": false,
+        "hidden": false
+      },
+      "Max Text Width": {
+        "value": 450,
+        "hidden": false
+      },
+      "Arrow Stroke Style": {
+        "value": true,
+        "hidden": false
+      },
+      "Center text in nodes?": {
+        "value": true,
+        "hidden": false
+      },
+      "Fill Sweep": {
+        "value": false,
+        "hidden": false
+      },
+      "Branch Scale Style": {
+        "value": "Hierarchical",
+        "hidden": false
+      },
+      "Base Stroke Width": {
+        "value": 6,
+        "hidden": false
+      },
+      "Custom Palette": {
+        "value": {
+          "enabled": false,
+          "random": false,
+          "colors": []
+        },
+        "hidden": true
+      },
+      "Is Undocked": {
+        "value": false,
+        "hidden": false
+      }
+    }
+  },
   "previousRelease": "2.25.3",
   "showReleaseNotes": true,
   "excalidrawMasteryPromoCollapsed": false,
@@ -26129,8 +26274,14 @@
   "latexPreambleLocation": "preamble.sty",
   "taskboneEnabled": false,
   "taskboneAPIkey": "",
-  "pinnedScripts": [],
-  "sidepanelTabs": [],
+  "pinnedScripts": [
+    "Assets/settings/excalidraw/scripts/Downloaded/Organic Line.md",
+    "Assets/settings/excalidraw/scripts/Downloaded/Downloaded/Icon Library.md",
+    "Assets/settings/excalidraw/scripts/Downloaded/Downloaded/Mindmap Builder.md"
+  ],
+  "sidepanelTabs": [
+    "{\"script\":\"Downloaded/Mindmap Builder\",\"title\":\"Mind Map Builder\"}"
+  ],
   "customPens": [
     {
       "type": "default",
