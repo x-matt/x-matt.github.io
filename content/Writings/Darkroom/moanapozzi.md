@@ -2,7 +2,6 @@
 title: Moana Pozzi
 cover: "[[moanapozzi-0.jpg]]"
 category: actor
-image-counter: 1
 ---
 ![[moanapozzi-0.jpg]]
 

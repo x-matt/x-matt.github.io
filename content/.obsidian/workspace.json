@@ -4,20 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9e701bbe9e427098",
+        "id": "72349bee39f69ee1",
         "type": "tabs",
         "children": [
           {
-            "id": "4a0930670ccdc72a",
+            "id": "b8a76afe9d4b2761",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "work.base",
-                "viewName": "Recently"
+                "file": "Writings/theron.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "work"
+              "icon": "lucide-file",
+              "title": "theron"
             }
           }
         ],
@@ -41,7 +42,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -53,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "body 2026.excalidraw",
+                "query": "anais",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,17 +113,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work.base",
+                "file": "Assets/excalidraw/Daily 2026.excalidraw.md",
                 "collapseAll": false,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for work"
+              "title": "Backlinks"
             }
           },
           {
@@ -129,12 +132,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "work.base",
+                "file": "Writings/bullet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from work"
+              "title": "Outgoing links"
             }
           },
           {
@@ -173,21 +176,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work.base",
+                "file": "Assets/excalidraw/elonmusk 2026.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of work"
+              "title": "Outline of elonmusk 2026.excalidraw"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 265.5,
-    "collapsed": true
+    "width": 265.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,54 +206,55 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4a0930670ccdc72a",
+  "active": "c59300ad307449ca",
   "lastOpenFiles": [
+    "Assets/images/theron-0.webp",
+    "index.md",
+    "Writings/theron.md",
+    "Writings/introspection.md",
+    "Assets/excalidraw/travel 2024.excalidraw.md",
+    "Writings/travel.md",
     "life.base",
     "reading.base",
-    "Assets/excalidraw/algo 2025.excalidraw.md",
-    "Writings/obsidian.md",
-    "Writings/zengguofan.md",
-    "Journal/Daily/2026-07-27.md",
-    "Assets/images/darkroom/obsidian-0-1.svg",
-    "Assets/settings/excalidraw/scripts/Downloaded/Downloaded/Icon Library.svg",
-    "Assets/settings/excalidraw/scripts/Downloaded/Downloaded/Mindmap Builder.svg",
-    "Assets/images/darkroom/algo 2025.excalidraw-1.svg",
-    "Assets/images/darkroom/algo 2025.excalidraw-0.svg",
-    "Writings/algo.md",
-    "Assets/excalidraw/obsidian 2026.excalidraw.md",
-    "Assets/images/darkroom/obsidian 2026.excalidraw-1.svg",
-    "Assets/settings/excalidraw/scripts/Downloaded/Downloaded/Mindmap Builder.md",
-    "Assets/images/darkroom/obsidian 2026.excalidraw-0.svg",
-    "Assets/settings/excalidraw/scripts/Downloaded/Downloaded/Icon Library.md",
-    "Assets/excalidraw/car 2024.excalidraw.md",
-    "Assets/excalidraw/60q 2025.excalidraw.md",
-    "Assets/images/darkroom/obsidian-0.svg",
-    "Assets/settings/excalidraw/scripts/Downloaded/Downloaded/QuickSwitchFrame.md",
-    "Assets/settings/excalidraw/scripts/Downloaded/Downloaded",
-    "Journal/Daily/2026-07-26.md",
-    "index.md",
-    "Assets/excalidraw/index 2025.excalidraw.md",
-    "Assets/excalidraw/index 2026.excalidraw.md",
-    "Writings/nihaixia.md",
-    "Writings/Untitled.md",
-    "Writings/mao.md",
-    "Writings/Darkroom/abigaile.md",
-    "Assets/images/darkroom/abigaile-0.jpg",
-    "Writings/Darkroom/alexa.md",
-    "Writings/lingerie.md",
-    "Assets/templates/TemplateWeekly.md",
-    "Journal/Weekly/2026-W30.md",
-    "Assets/templates/TemplateDaily.md",
+    "Writings/reminder.md",
     "Writings/daily.md",
     "work.base",
+    "Clippings/perceptions.md",
+    "Assets/excalidraw/Daily 2026.excalidraw.md",
+    "Journal/Daily/2026-08-01.md",
+    "Writings/Darkroom/sybila.md",
+    "Writings/Darkroom/classic model.md",
+    "Writings/Darkroom/collection.md",
+    "Writings/Darkroom/anais.md",
+    "Writings/Darkroom/darkroom.base",
+    "Writings/Darkroom/alexa.md",
+    "Writings/Darkroom/moanapozzi.md",
+    "Writings/Darkroom/ulrike.md",
+    "Writings/Darkroom/sandra.md",
+    "Writings/Darkroom/laure.md",
+    "Writings/Darkroom/deborah.md",
+    "Writings/Darkroom/bambola.md",
+    "Writings/Darkroom/abigaile.md",
+    "Writings/Darkroom/anita.md",
+    "Assets/templates/TemplateWork.md",
+    "Assets/templates/TemplateLife.md",
+    "Assets/images/darkroom/anais-0.jpg",
+    "Assets/images/bullet-0.jpg",
+    "Assets/images/churan-0.jpg",
+    "Assets/images/cl.png",
+    "Assets/images/logo-tesla.webp",
+    "Assets/images/logo-boring.webp",
+    "Assets/images/logo-openai.svg",
+    "Assets/images/otis.jpeg",
+    "Assets/images/rv.png",
+    "Assets/images/sensor.png",
+    "Assets/icons",
+    "Assets/settings/excalidraw/scripts/Downloaded/Downloaded",
     "Journal/Quarterly",
     "Journal/Monthly",
     "Journal/Weekly",
     "Journal",
-    "Assets/images/jingwen-0.jpg",
-    "Writings/Darkroom/darkroom.base",
     "Assets/canvas/chinese history.canvas",
-    "Assets/images/cl.png.~tmp",
     "Untitled.canvas",
     "Planning.canvas",
     "Untitled 1.canvas",

@@ -176,20 +176,21 @@
       "key": "M"
     }
   ],
-  "periodic-notes:open-daily-note": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "D"
-    }
-  ],
   "obsidian-excalidraw-plugin:Downloaded/Mindmap Builder": [
     {
       "modifiers": [
         "Shift"
       ],
       "key": "Enter"
+    }
+  ],
+  "periodic-notes:open-daily-note": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "D"
     }
   ]
 }

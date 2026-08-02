@@ -1,3 +1,4 @@
+<%* await tp.file.move(`Writings/${tp.file.title}`); -%>
 ---
 title:
 type: area

@@ -10,4 +10,4 @@ director: 姜文
 cover: "[[bullet-0.jpg]]"
 birth: "2010"
 ---
-![[bullet-0.jpg]]
+![[bullet-0.jpg|225]]

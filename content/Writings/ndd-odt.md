@@ -104,4 +104,4 @@ tags:
 
 ## Flow
 
-![[ndd-odt 2025.excalidraw|600]]
+![[ndd-odt 2025.excalidraw#^frame=flow|600]]

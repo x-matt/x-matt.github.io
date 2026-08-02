@@ -90,3 +90,17 @@ tags:
       - 在一天结束时回顾你的进展，看是否需要调整明天的计划。
    1. 灵活应对：
       - 随时准备应对突发事件，调整计划以满足新的需求。
+
+## 如何听人讲话
+[倾听的四个层次 - 无限进步的铁木君](https://www.xiaohongshu.com/discovery/item/69cf92800000000023015d9b?source=webshare&xhsshare=pc_web&xsec_token=ABiEj_4qYEINvIgzBtDcQtIcCkCqYIhk2_tt59v1PXobA=&xsec_source=pc_share)
+1. 说了什么
+2. 没有说什么
+3. 为什么这样说
+4. 为什么这样表达
+
+## 张朝阳建议
+
+1. 不要负债
+2. 调用自己兴奋度：避免拖延，细化拆分
+3. 不要完美主义：二八定律
+4. 把我互联网浪潮，在互联网上做事儿

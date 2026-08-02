@@ -1,18 +1,13 @@
 {
+  "data_version": 2,
   "command_timeout": 5,
   "templates_folder": "Assets/templates",
-  "templates_pairs": [
-    [
-      "",
-      ""
-    ]
-  ],
-  "trigger_on_file_creation": true,
+  "templates_pairs": [],
+  "trigger_on_file_creation_mode": "folder",
   "auto_jump_to_cursor": false,
-  "enable_system_commands": false,
+  "jump_to_cursor_after_file_name": false,
   "shell_path": "",
   "user_scripts_folder": "",
-  "enable_folder_templates": true,
   "folder_templates": [
     {
       "folder": "Journal/Daily",
@@ -23,26 +18,15 @@
       "template": "Assets/templates/TemplateWeekly.md"
     }
   ],
-  "enable_file_templates": false,
-  "file_templates": [
-    {
-      "regex": ".*",
-      "template": ""
-    }
-  ],
+  "file_templates": [],
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
     "Assets/templates/TemplateDaily.md"
   ],
   "startup_templates": [
-    "Assets/templates/TemplateDaily.md",
-    ""
+    "Assets/templates/TemplateDaily.md"
   ],
-  "intellisense_render": 1,
-  "ignore_folders_on_creation": [
-    {
-      "folder": ""
-    }
-  ]
+  "intellisense_render": "1",
+  "ignore_folders_on_creation": []
 }
