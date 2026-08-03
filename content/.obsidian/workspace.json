@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Writings/theron.md",
+                "file": "Writings/personal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "theron"
+              "title": "personal"
             }
           }
         ],
@@ -96,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 383.5
+    "width": 383.5,
+    "collapsed": true
   },
   "right": {
     "id": "5e007910e90f3de9",
@@ -189,7 +190,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5
+    "width": 265.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,11 +208,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c59300ad307449ca",
+  "active": "b8a76afe9d4b2761",
   "lastOpenFiles": [
+    "Writings/theron.md",
+    "Assets/excalidraw/60q 2025.excalidraw.md",
     "Assets/images/theron-0.webp",
     "index.md",
-    "Writings/theron.md",
     "Writings/introspection.md",
     "Assets/excalidraw/travel 2024.excalidraw.md",
     "Writings/travel.md",
@@ -247,7 +250,6 @@
     "Assets/images/logo-openai.svg",
     "Assets/images/otis.jpeg",
     "Assets/images/rv.png",
-    "Assets/images/sensor.png",
     "Assets/icons",
     "Assets/settings/excalidraw/scripts/Downloaded/Downloaded",
     "Journal/Quarterly",

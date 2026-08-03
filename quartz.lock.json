@@ -100,8 +100,8 @@
     "encrypted-pages": {
       "source": "github:quartz-community/encrypted-pages",
       "resolved": "https://github.com/quartz-community/encrypted-pages.git",
-      "commit": "13c776d9cf16528b5ea381446541f0d9b4e3b38e",
-      "installedAt": "2026-07-27T09:18:36.705Z"
+      "commit": "6df57329de79a600f19bc1d22c347862baece0a0",
+      "installedAt": "2026-08-03T09:11:18.563Z"
     },
     "explicit-publish": {
       "source": "github:quartz-community/explicit-publish",
@@ -130,8 +130,8 @@
     "footer": {
       "source": "github:quartz-community/footer",
       "resolved": "https://github.com/quartz-community/footer.git",
-      "commit": "329ed399aca778251f604ffb8fdd3eb1c7f45f51",
-      "installedAt": "2026-07-27T09:18:37.103Z"
+      "commit": "9551f6dba23e31d75fbc43a0f78ff2c7450176a0",
+      "installedAt": "2026-08-03T09:11:19.034Z"
     },
     "github-flavored-markdown": {
       "source": "github:quartz-community/github-flavored-markdown",
@@ -178,8 +178,8 @@
     "og-image": {
       "source": "github:quartz-community/og-image",
       "resolved": "https://github.com/quartz-community/og-image.git",
-      "commit": "73dae18d4df526126d65288339f583394959b836",
-      "installedAt": "2026-07-27T09:18:39.277Z"
+      "commit": "e4363e3e3c15d6792c9c0f7f40dbabf018864de5",
+      "installedAt": "2026-08-03T09:11:20.226Z"
     },
     "ox-hugo": {
       "source": "github:quartz-community/ox-hugo",
@@ -200,9 +200,9 @@
         "subdir": "plugin"
       },
       "resolved": "https://github.com/saberzero1/quartz-themes.git",
-      "commit": "373b84fac2f0b40516cb535817a1df58b27a9002",
+      "commit": "44dd81094c0dd982b67f93d91ef8c80da3f583e6",
       "subdir": "plugin",
-      "installedAt": "2026-07-27T09:20:42.262Z"
+      "installedAt": "2026-08-03T09:13:36.508Z"
     },
     "reader-mode": {
       "source": "github:quartz-community/reader-mode",
