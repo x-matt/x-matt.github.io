@@ -8,17 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b8a76afe9d4b2761",
+            "id": "5e296c8e2b40800d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Writings/personal.md",
-                "mode": "source",
-                "source": false
+                "file": "Assets/excalidraw/algo 2025.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "personal"
+              "icon": "excalidraw-icon",
+              "title": "algo 2025.excalidraw"
             }
           }
         ],
@@ -133,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Writings/bullet.md",
+                "file": "Assets/excalidraw/algo 2025.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
@@ -142,7 +140,7 @@
             }
           },
           {
-            "id": "d34870a541b893ca",
+            "id": "1801eee7f01621a0",
             "type": "leaf",
             "state": {
               "type": "excalidraw-sidepanel",
@@ -208,8 +206,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b8a76afe9d4b2761",
+  "active": "5e296c8e2b40800d",
   "lastOpenFiles": [
+    "Writings/algo.md",
+    "Journal/Daily/2026-08-01.md",
+    "Assets/excalidraw/libraries/local-library.excalidrawlib",
+    "Assets/excalidraw/libraries",
+    "Assets/excalidraw/2026-08-01 2026.excalidraw.md",
+    "Assets/excalidraw/algo 2025.excalidraw.md",
+    "Writings/personal.md",
     "Writings/theron.md",
     "Assets/excalidraw/60q 2025.excalidraw.md",
     "Assets/images/theron-0.webp",
@@ -224,7 +229,6 @@
     "work.base",
     "Clippings/perceptions.md",
     "Assets/excalidraw/Daily 2026.excalidraw.md",
-    "Journal/Daily/2026-08-01.md",
     "Writings/Darkroom/sybila.md",
     "Writings/Darkroom/classic model.md",
     "Writings/Darkroom/collection.md",
@@ -236,11 +240,6 @@
     "Writings/Darkroom/sandra.md",
     "Writings/Darkroom/laure.md",
     "Writings/Darkroom/deborah.md",
-    "Writings/Darkroom/bambola.md",
-    "Writings/Darkroom/abigaile.md",
-    "Writings/Darkroom/anita.md",
-    "Assets/templates/TemplateWork.md",
-    "Assets/templates/TemplateLife.md",
     "Assets/images/darkroom/anais-0.jpg",
     "Assets/images/bullet-0.jpg",
     "Assets/images/churan-0.jpg",
@@ -254,8 +253,6 @@
     "Assets/settings/excalidraw/scripts/Downloaded/Downloaded",
     "Journal/Quarterly",
     "Journal/Monthly",
-    "Journal/Weekly",
-    "Journal",
     "Assets/canvas/chinese history.canvas",
     "Untitled.canvas",
     "Planning.canvas",
