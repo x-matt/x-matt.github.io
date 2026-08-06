@@ -6,7 +6,7 @@
   "phoneFooterSafeAreaPadding": false,
   "tabletFooterSafeAreaPadding": false,
   "folder": "Assets/excalidraw",
-  "libraryFolderPath": "Assets/excalidraw/libraries",
+  "libraryFolderPath": "Assets/settings/excalidraw/libraries",
   "libraryFileName": "local-library",
   "libraryStorageMode": "vault",
   "libraryMigrationStatus": "completed",
@@ -15,7 +15,7 @@
   "annotateFolder": "",
   "embedUseExcalidrawFolder": true,
   "templateFilePath": "Excalidraw/Template.excalidraw",
-  "scriptFolderPath": "Assets/settings/excalidraw/scripts/Downloaded",
+  "scriptFolderPath": "Assets/settings/excalidraw/scripts",
   "fontAssetsPath": "Excalidraw/CJK Fonts",
   "loadChineseFonts": false,
   "loadJapaneseFonts": false,
@@ -307,12 +307,9 @@
         "value": [
           {
             "action": "Add",
-            "modifiers": [
-              "Mod",
-              "Shift"
-            ],
-            "scope": 3,
-            "code": "KeyX"
+            "key": "Enter",
+            "modifiers": [],
+            "scope": 3
           },
           {
             "action": "Add Next Sibling",
@@ -599,7 +596,6 @@
   "taskboneEnabled": false,
   "taskboneAPIkey": "",
   "pinnedScripts": [
-    "Assets/settings/excalidraw/scripts/Downloaded/Organic Line.md",
     "Assets/settings/excalidraw/scripts/Downloaded/Downloaded/Icon Library.md",
     "Assets/settings/excalidraw/scripts/Downloaded/Downloaded/Mindmap Builder.md"
   ],

@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "72349bee39f69ee1",
+        "id": "562190f1385f32cc",
         "type": "tabs",
         "children": [
           {
-            "id": "5e296c8e2b40800d",
+            "id": "2135e331a5ce7db8",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Assets/excalidraw/algo 2025.excalidraw.md"
+                "file": "index.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "algo 2025.excalidraw"
+              "icon": "lucide-file",
+              "title": "index"
             }
           }
         ],
@@ -94,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 383.5,
-    "collapsed": true
+    "width": 383.5
   },
   "right": {
     "id": "5e007910e90f3de9",
@@ -188,7 +189,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5,
+    "width": 449.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -206,14 +207,31 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5e296c8e2b40800d",
+  "active": "2135e331a5ce7db8",
   "lastOpenFiles": [
+    "Assets/settings/excalidraw/scripts/QuickSwitchFrame.svg",
+    "Assets/settings/excalidraw/scripts/QuickSwitchFrame.md",
+    "Assets/excalidraw/algo 2025.excalidraw.md",
+    "Assets/images/darkroom/algo 2025.excalidraw-3-1.svg",
+    "Assets/settings/excalidraw/scripts/Downloaded/Select Elements of Type.md",
     "Writings/algo.md",
+    "Assets/settings/excalidraw/scripts/Select Elements of Type.md",
+    "Assets/settings/excalidraw/scripts/Select Elements of Type.svg",
+    "Assets/images/darkroom/algo 2025.excalidraw-3.svg",
+    "Assets/settings/excalidraw/scripts/Downloaded/Icon Library.md",
+    "Assets/images/darkroom/algo 2025.excalidraw-2.svg",
+    "Assets/settings/excalidraw/scripts/Downloaded/Mindmap Builder.md",
+    "Assets/settings/excalidraw/scripts/Downloaded",
+    "Assets/settings/excalidraw/scripts/Downloaded/Downloaded/Icon Library.md",
+    "Assets/settings/excalidraw/scripts/Downloaded/Downloaded/Mindmap Builder.md",
+    "Assets/settings/excalidraw/libraries",
+    "Assets/settings/excalidraw/scripts/Downloaded/Downloaded/Mindmap Builder.svg",
+    "Assets/settings/excalidraw/scripts/Downloaded/Downloaded/QuickSwitchFrame.md",
+    "Assets/settings/excalidraw/scripts/Downloaded/Organic Line.md",
     "Journal/Daily/2026-08-01.md",
-    "Assets/excalidraw/libraries/local-library.excalidrawlib",
+    "Assets/settings/excalidraw/libraries/local-library.excalidrawlib",
     "Assets/excalidraw/libraries",
     "Assets/excalidraw/2026-08-01 2026.excalidraw.md",
-    "Assets/excalidraw/algo 2025.excalidraw.md",
     "Writings/personal.md",
     "Writings/theron.md",
     "Assets/excalidraw/60q 2025.excalidraw.md",
@@ -230,29 +248,12 @@
     "Clippings/perceptions.md",
     "Assets/excalidraw/Daily 2026.excalidraw.md",
     "Writings/Darkroom/sybila.md",
-    "Writings/Darkroom/classic model.md",
-    "Writings/Darkroom/collection.md",
-    "Writings/Darkroom/anais.md",
     "Writings/Darkroom/darkroom.base",
-    "Writings/Darkroom/alexa.md",
-    "Writings/Darkroom/moanapozzi.md",
-    "Writings/Darkroom/ulrike.md",
-    "Writings/Darkroom/sandra.md",
-    "Writings/Darkroom/laure.md",
-    "Writings/Darkroom/deborah.md",
     "Assets/images/darkroom/anais-0.jpg",
     "Assets/images/bullet-0.jpg",
     "Assets/images/churan-0.jpg",
-    "Assets/images/cl.png",
-    "Assets/images/logo-tesla.webp",
-    "Assets/images/logo-boring.webp",
-    "Assets/images/logo-openai.svg",
-    "Assets/images/otis.jpeg",
-    "Assets/images/rv.png",
     "Assets/icons",
     "Assets/settings/excalidraw/scripts/Downloaded/Downloaded",
-    "Journal/Quarterly",
-    "Journal/Monthly",
     "Assets/canvas/chinese history.canvas",
     "Untitled.canvas",
     "Planning.canvas",
