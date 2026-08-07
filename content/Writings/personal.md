@@ -9,7 +9,6 @@ review:
 
 ## Personal name system
 
-
 | Domain      | Name       | Outlook             | Gmail                | AppleID Range(outlook) |
 | ----------- | ---------- | ------------------- | -------------------- | ---------------------- |
 | Personal    | Matt Marr  | x-matt@outlook.com  | digostar24@gmail.com | CN                     |

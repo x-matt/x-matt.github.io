@@ -22,7 +22,8 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "Assets/templates/TemplateDaily.md"
+    "Assets/templates/TemplateDaily.md",
+    "Assets/templates/quicktime.md"
   ],
   "startup_templates": [
     "Assets/templates/TemplateDaily.md"

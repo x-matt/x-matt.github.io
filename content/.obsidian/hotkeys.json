@@ -192,5 +192,14 @@
       ],
       "key": "Enter"
     }
+  ],
+  "templater-obsidian:Assets/templates/quicktime.md": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "J"
+    }
   ]
 }

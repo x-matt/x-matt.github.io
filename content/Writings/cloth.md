@@ -7,6 +7,14 @@ status: active
 review:
 tags:
 ---
+## 衣服尺寸确定
+
+[怪不得穿的衣服总是这么没质感呢](https://www.xiaohongshu.com/explore/6a48609c00000000060227d4?xsec_token=ABD9ANTZG4QKo_StwBg2qaq612D5GKPiUbYx3I4u701Zk=&xsec_source=pc_collect)
+
+1. 身高 x 0.41
+	1. -3 = 内搭叠穿
+	2. +4/5 = 长款外套衬衫
+
 
 ## 规避大头
 

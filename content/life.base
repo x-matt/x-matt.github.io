@@ -147,12 +147,14 @@ views:
     name: Express
     filters:
       and:
-        - status == "expressing"
+        - type == "wiki"
   - type: cards
     name: 🎥 Movie
     filters:
       and:
         - category == "movie"
+    order:
+      - title
     image: note.cover
     cardSize: 200
     imageAspectRatio: 0.6
@@ -161,5 +163,7 @@ views:
     filters:
       and:
         - category.containsAny("director", "actor")
+    order:
+      - title
     image: note.cover
     imageAspectRatio: 0.75
