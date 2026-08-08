@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Writings/introspection.md",
+                "file": "Writings/daily.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "introspection"
+              "title": "daily"
             }
           }
         ],
@@ -208,8 +208,12 @@
   },
   "active": "8c3e81e0ee0c86dc",
   "lastOpenFiles": [
-    "Writings/interview.md",
     "Writings/introspection.md",
+    "Writings/naval.md",
+    "Writings/weichun.md",
+    "Writings/nihaixia.md",
+    "Writings/mao.md",
+    "Writings/interview.md",
     "life.base",
     "reading.base",
     "work.base",
@@ -241,12 +245,8 @@
     "Assets/settings/excalidraw/scripts/Downloaded/Downloaded/Mindmap Builder.svg",
     "Assets/settings/excalidraw/scripts/Downloaded/Downloaded/QuickSwitchFrame.md",
     "Assets/settings/excalidraw/scripts/Downloaded/Organic Line.md",
-    "Journal/Daily/2026-08-01.md",
     "Assets/settings/excalidraw/libraries/local-library.excalidrawlib",
     "Assets/excalidraw/libraries",
-    "Assets/excalidraw/2026-08-01 2026.excalidraw.md",
-    "Writings/theron.md",
-    "Assets/excalidraw/60q 2025.excalidraw.md",
     "Assets/images/theron-0.webp",
     "Writings/Darkroom/darkroom.base",
     "Assets/images/darkroom/anais-0.jpg",
