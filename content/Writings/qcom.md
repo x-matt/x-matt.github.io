@@ -80,17 +80,17 @@ chip search: <https://phonedb.net/> #chip
 
 ### IFE
 
-| 组件名     | 含义                                                                                                                                                                                                        |
-| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Stat       | 统计                                                                                                                                                                                                        |
-| DSP        | digital signal processor , 数字信号处理器                                                                                                                                                                   |
+| 组件名        | 含义                                                                                                                                |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Stat       | 统计                                                                                                                                |
+| DSP        | digital signal processor , 数字信号处理器                                                                                                |
 | HVX        | HVX(“Hexagon矢量扩展”，Hexagon-六边形、Vector-矢量、Extensions-扩展)是Hexagon 680 DSP的典型特性，能够在执行图像处理应用中的计算负载当中发挥重要作用，比如虚拟现实、增强现实、图像处理、视频处理、计算视觉等 |
-| CSID       | 高通camera中的驱动，Camera Serial Interface Decoder Module ，摄像头串行接口解码器模块                                                                                                                       |
-| CAMIF      | Camera Interface 使外部 camera sensor 能够通过一些简单的外部协议链接到用户单元                                                                                                                              |
-| PDPC       | 过程决策程序图法， Process Decision Program Chart                                                                                                                                                           |
-| CST        | ?                                                                                                                                                                                                           |
-| Scaler     | 尺寸器， 可进行缩放                                                                                                                                                                                         |
-| extraction | 提取                                                                                                                                                                                                        |
+| CSID       | 高通camera中的驱动，Camera Serial Interface Decoder Module ，摄像头串行接口解码器模块                                                                 |
+| CAMIF      | Camera Interface 使外部 camera sensor 能够通过一些简单的外部协议链接到用户单元                                                                           |
+| PDPC       | 过程决策程序图法， Process Decision Program Chart                                                                                          |
+| CST        | ?                                                                                                                                 |
+| Scaler     | 尺寸器， 可进行缩放                                                                                                                        |
+| extraction | 提取                                                                                                                                |
 
 ### BPS
 
@@ -100,13 +100,15 @@ chip search: <https://phonedb.net/> #chip
 
 ### IPE
 
-| 组件名 | 含义                                                          |
-| ------ | ------------------------------------------------------------- |
-| EIS    | 电子防抖 warping ： 翘曲，弯曲                                |
-| ANR    | Advanced Noise Reduction , 高级降噪 ，作用 ： 空间降噪        |
-| MCTF   | Motion compensation temporal filtering ，运动补偿时间滤波     |
-| TF     | Temporal filter ，时间滤波                                    |
-| ASF    | Adaptive spatial filter ，自适应空间滤波器 ，作用 ： 细节增强 |
+![[qcom 2026.excalidraw#^frame=sm8750_ipe|750]]
+
+| 组件名  | 含义                                               |
+| ---- | ------------------------------------------------ |
+| EIS  | 电子防抖 warping ： 翘曲，弯曲                             |
+| ANR  | Advanced Noise Reduction , 高级降噪 ，作用 ： 空间降噪       |
+| MCTF | Motion compensation temporal filtering ，运动补偿时间滤波 |
+| TF   | Temporal filter ，时间滤波                            |
+| ASF  | Adaptive spatial filter ，自适应空间滤波器 ，作用 ： 细节增强     |
 
 > 每个IPE都包含NPS（Noise Processing Segment）和PPS（Post Srocessing Segment）两个部分。
 

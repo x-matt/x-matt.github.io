@@ -1,26 +1,79 @@
 ---
 title: Passion !!!
 ---
-**Man, Come on💎 !!!**
+# **Man, Come on 💎 !!!**
 
-make difference ~
+> **make difference ~**
 
-## Structure
+---
 
-| Level | Name     | Value                                      |
-| ----- | -------- | ------------------------------------------ |
-| 1     | type     | journal/project/area/resource/archive/wiki |
-| 2     | domain   | work/fitness/mind/photography              |
-| 3     | catrgory |                                            |
+## ✔️ Tasks
 
-## Key bases
+### 🔥 Unfinished
 
-[[life.base|LIFE]]: Including all docs
-- [[work.base|WORK]]: Including docs about work
-- [[reading.base#Library|READING]]: Including docs aout reading
+```tasks
+not done
+```
 
-### Type logic
-1. Capture: Journal-Daily
-2. Management: PARA
-3. Review: Journal-Weekly/Monthly/Quartly/Yearly
-4. Knowledge: Wiki
+---
+
+### 🪾 Structure
+
+| Level  | Property   | Values                                               |
+| ------ | ---------- | ---------------------------------------------------- |
+| **L1** | `type`     | journal / project / area / resource / archive / wiki |
+| **L2** | `domain`   | work / fitness / mind / photography / ...            |
+| **L3** | `category` | ...                                                  |
+
+> **Type → Domain → Category**
+> 
+> Type defines **what it is**  
+> Domain defines **where it belongs**  
+> Category defines **what it is about**
+
+---
+
+### 🧠 Type Logic
+
+| Layer          | Purpose         | Type                                            |
+| -------------- | --------------- | ----------------------------------------------- |
+| **Capture**    | Capture life    | Journal · Daily                                 |
+| **Management** | Manage life     | Project · Area · Resource · Archive             |
+| **Review**     | Review life     | Journal · Weekly / Monthly / Quarterly / Yearly |
+| **Knowledge**  | Build knowledge | Wiki                                            |
+
+---
+
+## 🧭 System
+
+## 🗝️ Key Bases
+
+### 🌎 LIFE
+
+[[life.base|LIFE]]
+
+> All documents and information.
+
+### 💼 WORK
+
+[[work.base|WORK]]
+
+> Everything related to work.
+
+### 📚 READING
+
+[[reading.base#Library|READING]]
+
+> Books, articles, notes and reading-related knowledge.
+
+---
+
+## 🔗 Quick Access
+
+- [[life.base#D.Rev|Daily Review]]
+- [[life.base#W.Rev|Weekly Review]]
+- [[life.base#M.Rev|Monthly Review]]
+- [[life.base#📌 Projects|Project]]
+- [[life.base#📂 Areas|Areas]]
+- [[life.base#📚 Resources|Resources]]
+- [[life.base#Wiki|Wiki]]

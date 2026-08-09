@@ -9,6 +9,9 @@ review:
 
 ## Learn From Video
 
+- [ ] 完成视频的观看 
+
+![](https://www.youtube.com/watch?v=l2V4g_rMo4o)
 - 幸福在于对已有的一切感到满足，不满足是前进的动力，那么成功值得吗？
 - 幸福
 	什么是我不想要的？

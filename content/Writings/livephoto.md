@@ -519,11 +519,11 @@ Reduction: 40%
 
 #### 10.2 Technical Debt
 
-- [ ] Refactor EISNode initialization
-- [ ] Standardize AIDL interfaces
-- [ ] Improve error recovery
-- [ ] Add comprehensive unit tests
-- [ ] Document all configuration parameters
+- [x] Refactor EISNode initialization ✅ 2026-08-09
+- [x] Standardize AIDL interfaces ✅ 2026-08-09
+- [x] Improve error recovery ✅ 2026-08-09
+- [x] Add comprehensive unit tests ✅ 2026-08-09
+- [x] Document all configuration parameters ✅ 2026-08-09
 
 ## 📝 Project Management
 
@@ -532,8 +532,8 @@ Reduction: 40%
 > [!todo]
 >
 > - [x] Dual-FB based on O1 performance research (2025-02-11 → 2025-02-12)
-> - [ ] EISv3 solution research
-> - [ ] Confirm OPPO LivePhoto EIS flow logic
+> - [x] EISv3 solution research
+> - [x] Confirm OPPO LivePhoto EIS flow logic
 > - [x] Hand-raise detection in ASD @Li Ya
 > - [x] Out-of-order issue mitigation @Tang Han Sheng
 > - [x] LivePhoto + ZoomEIS logic @Wang Yue ✅ 2025-03-15

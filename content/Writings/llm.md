@@ -13,6 +13,8 @@ tags:
 
 LLM（Large Language Model，大语言模型）是基于 Transformer 架构、通过海量文本数据训练的深度学习模型，能够理解和生成自然语言。
 
+![](https://www.youtube.com/watch?v=9vM4p9NN0Ts)
+- [ ] 学习llm的基础技术原理
 ### 核心概念
 
 | 概念           | 说明                                                       |

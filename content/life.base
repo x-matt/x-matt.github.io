@@ -144,7 +144,7 @@ views:
       - property: title
         direction: ASC
   - type: table
-    name: Express
+    name: Wiki
     filters:
       and:
         - type == "wiki"

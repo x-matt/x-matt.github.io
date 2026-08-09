@@ -97,10 +97,7 @@ tags:
 
 ## Habits
 
-- [ ] Exercise
-- [ ] Reading
-- [ ] Meditation
-- [ ] Early Sleep
+- [ ]
 
 ---
 
