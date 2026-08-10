@@ -130,9 +130,9 @@ UV 共享关系:
 按照存储方式分类, 假设 sensor raw 是 10bit[^6]:
 
 1. **MIPI Raw** (Mobile Industry Processor Interface)
-   ![[format 2025.excalidraw#^frame=mipi raw storage|MIPI Raw Storage|500]]
-2. **Unpacked
-   Raw**: 低 10 位被占用, 高 6 位为空 ![[format 2025.excalidraw#^frame=unpacked raw storage|Unpacked Raw Storage|500]]
+		![[format 2025.excalidraw#^frame=mipi raw storage|MIPI Raw Storage|500]]
+2. **Unpacked Raw**: 低 10 位被占用, 高 6 位为空
+		![[format 2025.excalidraw#^frame=unpacked raw storage|Unpacked Raw Storage|500]]
 
 内存占用分析:
 

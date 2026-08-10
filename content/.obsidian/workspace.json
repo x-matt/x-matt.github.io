@@ -8,19 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8c3e81e0ee0c86dc",
+            "id": "bff697fd8ad6a74b",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
-                "mode": "source",
+                "file": "Writings/format.md",
+                "mode": "preview",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "index"
+              "title": "format"
             }
           }
         ],
@@ -58,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "imagedata",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -128,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Writings/format.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +163,8 @@
               "title": "Excalidraw Sidepanel"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "7e9c7c78870a3a41",
@@ -178,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "Writings/format.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -191,7 +190,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 276.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,14 +208,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8c3e81e0ee0c86dc",
+  "active": "bff697fd8ad6a74b",
   "lastOpenFiles": [
+    "Writings/imageformat.md",
+    "Writings/colorspace.md",
+    "Writings/format.md",
+    "Assets/excalidraw/imageformat 2024.excalidraw.md",
+    "index.md",
+    "Writings/mivi-imageformat.md",
+    "Writings/introspection.md",
     "Clippings/天涯隐学：人生主线任务（普通人破局指南）.md",
     "Clippings/How to fix your entire life in 1 day.md",
     "Clippings/The Tribute System The New World Order.md",
-    "index.md",
     "Journal/Daily/2026-08-10.md",
-    "Writings/introspection.md",
     "life.base",
     "Writings/llm.md",
     "Writings/yangming.md",
@@ -234,11 +239,6 @@
     "Writings/qcom.md",
     "Assets/excalidraw/qcom 2026.excalidraw.md",
     "Assets/templates/TemplateWeekly.md",
-    "Writings/naval.md",
-    "Writings/weichun.md",
-    "Writings/nihaixia.md",
-    "Writings/mao.md",
-    "Writings/interview.md",
     "Assets/settings/excalidraw/scripts/QuickSwitchFrame.svg",
     "Assets/images/darkroom/algo 2025.excalidraw-3-1.svg",
     "Assets/settings/excalidraw/scripts/Select Elements of Type.svg",
