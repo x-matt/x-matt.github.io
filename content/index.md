@@ -50,21 +50,24 @@ not done
 
 ### 🌎 LIFE
 
-[[life.base|LIFE]]
-
 > All documents and information.
+
+![[life.base#Recently]]
+
 
 ### 💼 WORK
 
-[[work.base|WORK]]
-
 > Everything related to work.
+
+![[work.base#Recently]]
+
 
 ### 📚 READING
 
-[[reading.base#Library|READING]]
 
 > Books, articles, notes and reading-related knowledge.
+
+![[reading.base#List]]
 
 ---
 
