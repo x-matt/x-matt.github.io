@@ -11,7 +11,7 @@ tags:
 ---
 You’re probably going to quit your new years resolution.
 
-And that’s okay. Most people do (studies show 80-90% failure rates) because most people don’t actually want to change on a deep, internal level. That is, they go about changing their life in the completely wrong way. They create a new years resolution because everyone else does – humans want to impress others more than they want to impress themselves... we create a superficial meaning out of status games – but they don’t meet the requirements for true change, which goes a lot deeper than convincing yourself you’re going to be more disciplined or productive this year.
+And that’s okay. Most people do (studies show 80-90% failure rates) because most people don’t actually want to change on a deep, internal level. That is, ==they go about changing their life in the completely wrong way==. They create a new years resolution because everyone else does – ==humans want to impress others more than they want to impress themselves==... we create a superficial meaning out of status games – but they don’t meet the requirements for true change, which goes a lot deeper than convincing yourself you’re going to be more disciplined or productive this year.
 
 I’m not here to talk down on you. I’ve quit 10 times more goals than I’ve set. I think that should be the case for most people. But the fact that people try to change their lives and utterly fail almost every time holds true. So much so that it’s a meme for the gym to be crowded during January and return back to normal in February.
 
@@ -56,7 +56,9 @@ To some people, my own lifestyle seems a bit extreme and disciplined. To me, it�
 
 Do not take this next sentence lightly.
 
-If you want a specific outcome in life, you must have the *lifestyle* that creates that outcome long before you reach it.
+==If you want a specific outcome in life, you must have the *lifestyle* that creates that outcome long before you reach it.==
+>**💭 Annotation**
+>是先有促成结果的生活方式，然后才有预期的结果，不要本末倒置
 
 If someone says they want to lose 30 pounds, I often don’t believe them. Not because I don’t think they are capable, but because there are too many times when that same person says “they can’t wait until they’re done losing weight so they can start to enjoy life again.” I hate to break it to you, but if you don’t adopt the lifestyle that led to you losing the weight, for life, and find a *reason with a higher gravitational pull* than the one tying you to your previous ways, then you will go straight back to where you started, and you can unhappily say that you wasted the resource you will never get back: time.
 
@@ -84,7 +86,9 @@ On an even more unconscious and complex level, you pursue goals that can harm yo
 
 As an example, if you can’t stop procrastinating your work, you may justify it with the fact that you “lack discipline,” but in reality, you are attempting to achieve a goal like you always are. In this case, that goal could be to *protect yourself from the judgment that comes from finishing and sharing your work.*
 
-If you say you want to quit your dead-end job, but stay in it without any real reason, you may start to think you don’t have enough courage, or that you were never really a “risk taker,” but the truth is that you are pursuing the goal of safety, predictability, and an excuse to not look like a failure to everyone else in your life who also works a dead-end job.
+==If you say you want to quit your dead-end job, but stay in it without any real reason, you may start to think you don’t have enough courage, or that you were never really a “risk taker,” but the truth is that you are pursuing the goal of safety, predictability, and an excuse to not look like a failure to everyone else in your life who also works a dead-end job.==
+>**💭 Annotation**
+>想跳槽但没有做出行动十个很贴合的例子，没勇气脱离舒适区，不断为自己和他人找借口
 
 The lesson here is that real change requires changing your goals.
 
@@ -94,7 +98,7 @@ Now let’s dig a bit deeper, because if you don’t understand this, it only be
 
 ### III – You aren’t where you want to be because you’re afraid to be there
 
-> The important thing for you to remember is that it does not matter in the least how you got the idea or where it came from. You may never have met a professional hypnotist. You may never have been formally hypnotized. But if you have accepted an idea - from yourself, your teachers, your parents, friends, advertisements, from any other source - and further, if you are firmly convinced that idea is true, it has the same power over you as the hypnotist’s words have over the hypnotized subject.  
+> The important thing for you to remember is that ==it does not matter in the least how you got the idea or where it came from==. You may never have met a professional hypnotist. You may never have been formally hypnotized. But if you have accepted an idea - from yourself, your teachers, your parents, friends, advertisements, from any other source - and further, if you are firmly convinced that idea is true, it has the same power over you as the hypnotist’s words have over the hypnotized subject.  
 >   
 > – Maxwell Maltz
 
