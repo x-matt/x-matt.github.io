@@ -40,9 +40,43 @@
 }
 
 .obsidian_douban_settings_button {
-	margin: auto;
-	vertical-align: bottom;
+    margin: auto;
+    vertical-align: bottom;
 
+}
+
+.obsidian_douban_qr_login {
+	text-align: center;
+}
+
+.obsidian_douban_qr_image_container {
+	min-height: 220px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.obsidian_douban_qr_image_container img {
+	width: min(300px, 70vw);
+	max-width: 100%;
+	padding: 10px;
+	background: white;
+	border-radius: 8px;
+}
+
+.obsidian_douban_qr_status {
+	min-height: 24px;
+	margin: 12px 0;
+}
+
+.obsidian_douban_qr_status.has_error {
+	color: var(--text-error);
+}
+
+.obsidian_douban_qr_controls {
+	display: flex;
+	gap: 8px;
+	justify-content: center;
 }
 
 .obsidian_douban_search_input {
@@ -174,7 +208,6 @@
 .setting-item-control.obsidian_douban_template_file_select > div.search-input-container {
 	width: 100%;
 }
-
 
 
 

@@ -56,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "```text",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,12 +92,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 230.5,
-    "collapsed": true
+    "width": 230.5
   },
   "right": {
     "id": "5e007910e90f3de9",
@@ -203,40 +203,40 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "templater-obsidian:Templater": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open this week": false
     }
   },
   "active": "7ae316a1c0b8f77c",
   "lastOpenFiles": [
-    "Writings/algo.md",
-    "Writings/camera.md",
-    "Writings/mao.md",
-    "Assets/excalidraw/mao 2026.excalidraw.md",
-    "Assets/excalidraw/mind 2025.excalidraw.md",
-    "Writings/video stitching.md",
-    "Writings/memory.md",
-    "Clippings/How to fix your entire life in 1 day.md",
-    "Writings/learn-everything.md",
-    "Writings/Using Claude Code Session Management & 1M Context.md",
-    "Clippings/天涯隐学：人生主线任务（普通人破局指南）.md",
+    "Writings/shell.md",
     "index.md",
-    "reading.base",
+    "Writings/camera.md",
     "life.base",
-    "Writings/format.md",
-    "Writings/imageformat.md",
-    "Writings/colorspace.md",
-    "Assets/excalidraw/imageformat 2024.excalidraw.md",
-    "Writings/mivi-imageformat.md",
-    "Writings/introspection.md",
-    "Clippings/The Tribute System The New World Order.md",
-    "Journal/Daily/2026-08-10.md",
-    "Writings/llm.md",
-    "Writings/yangming.md",
-    "work.base",
-    "Journal/Daily/2026-07-26.md",
-    "Writings/food.md",
+    "Writings/body.md",
     "Writings/obsidian.md",
-    "Writings/areas.md",
+    "Journal/Daily/2026-08-12.md",
+    "Journal/Daily/2026-08-10.md",
+    "Journal/Daily/2026-08-07.md",
+    "Journal/Daily/2026-08-01.md",
+    "Journal/Daily/2026-07-31.md",
+    "Journal/Daily/2026-07-29.md",
+    "Journal/Daily/2026-07-27.md",
+    "Journal/Daily/2026-07-26.md",
+    "Journal/Daily/2026-07-25.md",
+    "Writings/tools-basic.md",
+    "Journal/Daily/2026-07-23.md",
+    "Journal/Daily/2026-07-10.md",
+    "Journal/Daily/2026-04-16.md",
+    "Journal/Daily/2026-04-15.md",
+    "Writings/oflmctf.md",
+    "Journal/Daily/2026-04-08.md",
+    "Writings/normalization.md",
+    "Journal/Daily/2026-04-07.md",
+    "Writings/his.md",
+    "Writings/eis-mtk.md",
+    "Writings/introspection.md",
+    "reading.base",
+    "work.base",
     "Assets/settings/excalidraw/scripts/QuickSwitchFrame.svg",
     "Assets/images/darkroom/algo 2025.excalidraw-3-1.svg",
     "Assets/settings/excalidraw/scripts/Select Elements of Type.svg",

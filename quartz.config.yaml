@@ -6,7 +6,7 @@ configuration:
   enablePopovers: true
   analytics:
     provider: plausible
-  locale: en-US
+  locale: zh-CN
   baseUrl: x-matt.github.io
   ignorePatterns:
     - private

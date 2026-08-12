@@ -6,7 +6,7 @@
     "format": "",
     "template": "Assets/templates/TemplateDaily.md",
     "folder": "Journal/Daily",
-    "enabled": true
+    "enabled": false
   },
   "weekly": {
     "format": "",
@@ -17,7 +17,8 @@
   "monthly": {
     "format": "",
     "template": "",
-    "folder": ""
+    "folder": "",
+    "enabled": false
   },
   "quarterly": {
     "format": "",
