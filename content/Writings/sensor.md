@@ -105,6 +105,14 @@ Hardware Feature
 3. DCG
 4. Stagger HDR
 
+### 2.7 焦距
+> 焦距决定了相机“看东西有多近、多宽”，是描述镜头成像能力的一个核心物理参数
+
+Focal Length
+- 物理焦距: 单位mm
+- 像素焦距: 单位pixel
+
+
 ## 3. Gyro
 
 - MTK: `/mnt/vendor/nvcfg/sensor`

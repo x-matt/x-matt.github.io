@@ -5,6 +5,7 @@ status: active
 domain: photography
 priority:
 review:
+image-counter: 1
 ---
 
 ## Light & Shade
@@ -18,6 +19,42 @@ review:
 | 快门时间  | $S$                 | 相机快门打开的时间长短        | 1/秒 | &#8593; | &#8593; | 运动模糊变严重 | $[4000, 1/30]$ |
 | 光圈      | $F$(与光圈大小反比) | 相机镜头的光圈大小, 用F来表示 | /    | &#8593; | &#8593; | 景深变浅       | 1.0, 1.4...    |
 | ISO感光度 | $ISO$               | 感光元件的灵敏度, 用ISO表示   | /    | &#8593; | &#8593; | 噪点增多       | $[50, 6400]$   |
+
+### 成像原理
+![[photography 2026.excalidraw]]
+
+$$
+\frac{1}{s} + \frac{1}{v} = \frac{1}{f}
+$$
+- $s$: 物距
+- $v$: 像距
+
+景深
+![[Assets/images/darkroom/photography-0.svg]]
+$$
+DOF = \frac{2FCs^{2}}{f^{2}}
+$$
+- F: 光圈值
+- C: 容许弥散圆直径
+- s：物距
+- f: 物理焦距
+#### 焦距与fov[^3]
+
+$$
+\mathrm{AFOV}[^\circ] = 2 \times \tan^{-1} \left( \frac{h}{2f} \right)
+$$
+- h: 成像传感器的高度
+	- 视场角分为垂直视场角和水平视场角，根据传感器尺寸来计算$f_{(w,h)}$=>$f$是函数的意思
+- f: 焦距
+
+#### 画幅(传感器尺寸)
+
+|**画幅类型**|**传感器尺寸（约）**|**常见应用**|
+|---|---|---|
+|**中画幅**|$44 \text{mm} \times 33 \text{mm}$ 或更大|商业摄影、极致画质需求|
+|**全画幅 (Full Frame)**|**$36 \text{mm} \times 24 \text{mm}$**|**专业单反/微单、高端影像设备**|
+|**APS-C 画幅 (半画幅)**|$23.5 \text{mm} \times 15.6 \text{mm}$|进阶相机、轻便微单|
+|**1 英寸 / 手机传感器**|$13.2 \text{mm} \times 8.8 \text{mm}$ 或更小|旗舰手机、黑卡便携机|
 
 #### Value介绍
 
@@ -94,3 +131,5 @@ review:
 [^1]: [小学生都能看懂的EV值](https://zhuanlan.zhihu.com/p/577382204)
 
 [^2]: [摄影基础入门：5分钟读懂光圈是什么？光圈大小和景深的关系！](https://zhuanlan.zhihu.com/p/617924826?utm_id=0)
+
+[^3]:[了解焦距与视场](https://www.edmundoptics.cn/knowledge-center/application-notes/imaging/understanding-focal-length-and-field-of-view/)

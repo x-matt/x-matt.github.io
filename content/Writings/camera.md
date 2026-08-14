@@ -6,6 +6,7 @@ category: algorithm
 status: active
 review:
 tags:
+image-counter: 1
 ---
 
 在计算机视觉 / 相机标定中，可以简单理解为：
@@ -14,10 +15,20 @@ tags:
 > **外参（Extrinsic）：相机在世界里处于什么位置、朝什么方向。**
 
 
-几个坐标系
-1. 相机坐标系
-2. 世界坐标系
-3. 像素坐标系
+几个坐标系[^1]
+1. 世界坐标系$\{W\}$，$P_w(x_w,y_w,z_w)$
+2. 相机坐标系$\{C\}$，$P_c(x_c,y_c,z_c)$
+3. 图像坐标系$\{I\}$
+4. 像素坐标系$\{P\}$
+
+![[camera 2026.excalidraw#^frame=coordinate_system|700]]
+
+世界坐标系一般为[惯性系](https://zhida.zhihu.com/search?content_id=241619457&content_type=Article&match_order=1&q=%E6%83%AF%E6%80%A7%E7%B3%BB&zhida_source=entity)，位置可任意指定。
+相机坐标系通常以光心$O$作为[原点](https://zhida.zhihu.com/search?content_id=241619457&content_type=Article&match_order=1&q=%E5%8E%9F%E7%82%B9&zhida_source=entity)，垂直像平面向前为z轴，x轴与图像坐标系x轴同向，y轴与图像坐标系y轴同向。
+图像坐标系以[光轴](https://zhida.zhihu.com/search?content_id=241619457&content_type=Article&match_order=1&q=%E5%85%89%E8%BD%B4&zhida_source=entity)与图像平面的交点为原点，x，y方向分别与像素坐标系的u,v方向一致。
+像素坐标系则是以图像的左上角为原点，u指向像素行的方向，v指向像素列的方向。
+
+一个物体在世界坐标系的位置到像素坐标系的位置通常是通过，[世界坐标系](https://zhida.zhihu.com/search?content_id=241619457&content_type=Article&match_order=5&q=%E4%B8%96%E7%95%8C%E5%9D%90%E6%A0%87%E7%B3%BB&zhida_source=entity)  相机坐标系  图像坐标系  像素坐标系这个流程进行转换的。
 
 ---
 
@@ -65,6 +76,8 @@ $$
 ---
 
 ### 1.2 畸变参数 Distortion
+
+> 实际光线到达 Sensor 的位置 ≠ 理想针孔模型计算的位置
 
 实际镜头通常存在畸变，因此相机标定除了 Camera Matrix，还需要估计畸变参数。
 
@@ -478,3 +491,5 @@ R + T
           ↓
         Depth
 ```
+
+[^1]: [相机成像原理](https://zhuanlan.zhihu.com/p/690700014)
