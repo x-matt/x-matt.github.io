@@ -11,14 +11,13 @@
             "id": "5afc38b290754cc4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Writings/camera.md",
-                "mode": "source",
-                "source": false
+                "file": "work.base",
+                "viewName": "Recently"
               },
-              "icon": "lucide-file",
-              "title": "camera"
+              "icon": "lucide-table",
+              "title": "work"
             }
           }
         ],
@@ -96,8 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.5,
-    "collapsed": true
+    "width": 230.5
   },
   "right": {
     "id": "5e007910e90f3de9",
@@ -126,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writings/camera.md",
+                "file": "work.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,8 +161,7 @@
               "title": "Excalidraw Sidepanel"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "7e9c7c78870a3a41",
@@ -177,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Writings/camera.md",
+                "file": "work.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -209,25 +206,26 @@
   },
   "active": "5afc38b290754cc4",
   "lastOpenFiles": [
+    "reading.base",
+    "work.base",
+    "life.base",
+    "index.md",
+    "Writings/sensor.md",
+    "Assets/excalidraw/sensor 2025.excalidraw.md",
     "Assets/excalidraw/camera 2026.excalidraw.md",
     "Writings/camera.md",
     "Assets/excalidraw/photography 2026.excalidraw.md",
     "Assets/images/darkroom/camera-0.png",
     "Writings/photography.md",
     "Assets/images/darkroom/photography-0.svg",
-    "Writings/sensor.md",
     "Writings/android-structure.md",
     "Writings/Darkroom/lanarhoades.md",
     "Writings/zemin.md",
     "Writings/mao.md",
-    "index.md",
-    "life.base",
     "Assets/excalidraw/Daily 2026.excalidraw.md",
     "Writings/daily.md",
     "Writings/introspection.md",
     "Clippings/How to fix your entire life in 1 day.md",
-    "reading.base",
-    "work.base",
     "Writings/shell.md",
     "Writings/body.md",
     "Writings/obsidian.md",
@@ -238,7 +236,6 @@
     "Journal/Daily/2026-07-31.md",
     "Journal/Daily/2026-07-29.md",
     "Journal/Daily/2026-07-27.md",
-    "Journal/Daily/2026-07-26.md",
     "Assets/settings/excalidraw/scripts/QuickSwitchFrame.svg",
     "Assets/images/darkroom/algo 2025.excalidraw-3-1.svg",
     "Assets/settings/excalidraw/scripts/Select Elements of Type.svg",

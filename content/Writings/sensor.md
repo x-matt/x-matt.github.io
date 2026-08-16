@@ -45,25 +45,25 @@ review:
 
 `adb shell getprop | grep camera`
 
-| 项目 | 模组类型 | 代号    | 描述              |
-| :--: | -------- | ------- | ----------------- |
-| L10A | WIDE     | imx582  | 48M (8000x6000)   |
-|      | UW       | ov8856  | 8M (3264x2448)    |
-|      | FRONT    | imx596  | 20M               |
-|      | MACRO    | gc02m1  | 2M                |
-| K11R | WIDE     | s5khm2  | 108M (12000x9000) |
-|      | UW       | imx355  | 8M (3264x2448)    |
-|      | FRONT    | ov16a1q | 16M               |
-|      | MACRO    | s5k5e9  | 5M                |
-|  K1  | WIDE     | s5kgn2  | 108M (12000x9000) |
-|      | UW       | imx586  | 8M (3264x2448)    |
-|      | FRONT    | s5k3t2  | 16M               |
-|      | TELE     | imx586  | 5M                |
-| L11  | WIDE     | s5khm2  | 108M (12000x9000) |
-|      | UW       | s5k4h7  | 8M (3264x2448)    |
-|      | FRONT    | imx596  | 20M               |
-|      | MACRO    | gc02m1  | 2M                |
-| L2M  | WIDE     | imx707  | 50M(4096x3072)    |
+|  项目  | 模组类型  | 代号      | 描述                |
+| :--: | ----- | ------- | ----------------- |
+| L10A | WIDE  | imx582  | 48M (8000x6000)   |
+|      | UW    | ov8856  | 8M (3264x2448)    |
+|      | FRONT | imx596  | 20M               |
+|      | MACRO | gc02m1  | 2M                |
+| K11R | WIDE  | s5khm2  | 108M (12000x9000) |
+|      | UW    | imx355  | 8M (3264x2448)    |
+|      | FRONT | ov16a1q | 16M               |
+|      | MACRO | s5k5e9  | 5M                |
+|  K1  | WIDE  | s5kgn2  | 108M (12000x9000) |
+|      | UW    | imx586  | 8M (3264x2448)    |
+|      | FRONT | s5k3t2  | 16M               |
+|      | TELE  | imx586  | 5M                |
+| L11  | WIDE  | s5khm2  | 108M (12000x9000) |
+|      | UW    | s5k4h7  | 8M (3264x2448)    |
+|      | FRONT | imx596  | 20M               |
+|      | MACRO | gc02m1  | 2M                |
+| L2M  | WIDE  | imx707  | 50M(4096x3072)    |
 
 ### 2.4. Sensor参数定义
 
@@ -111,7 +111,6 @@ Hardware Feature
 Focal Length
 - 物理焦距: 单位mm
 - 像素焦距: 单位pixel
-
 
 ## 3. Gyro
 

@@ -145,7 +145,7 @@ plugins:
   - source: github:quartz-community/tag-page
     enabled: true
   - source: github:quartz-community/explorer
-    enabled: false
+    enabled: true
     layout:
       position: left
       priority: 50

@@ -17,6 +17,8 @@ not done
 
 ---
 
+## 🧭 System
+
 ### 🪾 Structure
 
 | Level  | Property   | Values                                               |
@@ -43,8 +45,6 @@ not done
 | **Knowledge**  | Build knowledge | Wiki                                            |
 
 ---
-
-## 🧭 System
 
 ## 🗝️ Key Bases
 
