@@ -4,20 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f0a2d43a50c704d0",
+        "id": "5c0d4aa6a3b86237",
         "type": "tabs",
         "children": [
           {
-            "id": "5afc38b290754cc4",
+            "id": "2762fe3c89fa2d58",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "work.base",
-                "viewName": "Recently"
+                "file": "Writings/cameramodel.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "work"
+              "icon": "lucide-file",
+              "title": "cameramodel"
             }
           }
         ],
@@ -91,11 +92,13 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 230.5
+    "width": 230.5,
+    "collapsed": true
   },
   "right": {
     "id": "5e007910e90f3de9",
@@ -104,7 +107,7 @@
       {
         "id": "132e6b069b0be785",
         "type": "tabs",
-        "dimension": 39.55399061032864,
+        "dimension": 64.14473684210526,
         "children": [
           {
             "id": "aa3cbdddd26bc0c2",
@@ -124,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work.base",
+                "file": "Assets/excalidraw/camera 2026.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Assets/excalidraw/camera 2026.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
@@ -161,12 +164,13 @@
               "title": "Excalidraw Sidepanel"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "7e9c7c78870a3a41",
         "type": "tabs",
-        "dimension": 60.44600938967136,
+        "dimension": 35.85526315789473,
         "children": [
           {
             "id": "7ba7bdb4bbc55d00",
@@ -174,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work.base",
+                "file": "Writings/cameramodel.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -204,19 +208,31 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "5afc38b290754cc4",
+  "active": "2762fe3c89fa2d58",
   "lastOpenFiles": [
+    "Assets/excalidraw/camera 2026.excalidraw.md",
+    "Writings/cameramodel.md",
+    "Writings/sensor.md",
+    "Writings/camera.md",
+    "Assets/excalidraw/sensor 2025.excalidraw.md",
     "reading.base",
-    "work.base",
     "life.base",
     "index.md",
-    "Writings/sensor.md",
-    "Assets/excalidraw/sensor 2025.excalidraw.md",
-    "Assets/excalidraw/camera 2026.excalidraw.md",
-    "Writings/camera.md",
-    "Assets/excalidraw/photography 2026.excalidraw.md",
+    "work.base",
+    "Writings/offer.md",
     "Assets/images/darkroom/camera-0.png",
+    "Assets/settings/excalidraw/scripts/Downloaded/Mindmap Builder.md",
+    "Assets/excalidraw/livephoto 2025.excalidraw.md",
+    "Assets/excalidraw/livephoto 2025_1.excalidraw.md",
+    "Writings/interview.md",
     "Writings/photography.md",
+    "Writings/vo.md",
+    "Assets/excalidraw/vo 2026.excalidraw.md",
+    "Writings/algo.md",
+    "Assets/excalidraw/sift.excalidraw.md",
+    "Writings/sfm.md",
+    "Writings/warping.md",
+    "Assets/excalidraw/photography 2026.excalidraw.md",
     "Assets/images/darkroom/photography-0.svg",
     "Writings/android-structure.md",
     "Writings/Darkroom/lanarhoades.md",
@@ -225,17 +241,6 @@
     "Assets/excalidraw/Daily 2026.excalidraw.md",
     "Writings/daily.md",
     "Writings/introspection.md",
-    "Clippings/How to fix your entire life in 1 day.md",
-    "Writings/shell.md",
-    "Writings/body.md",
-    "Writings/obsidian.md",
-    "Journal/Daily/2026-08-12.md",
-    "Journal/Daily/2026-08-10.md",
-    "Journal/Daily/2026-08-07.md",
-    "Journal/Daily/2026-08-01.md",
-    "Journal/Daily/2026-07-31.md",
-    "Journal/Daily/2026-07-29.md",
-    "Journal/Daily/2026-07-27.md",
     "Assets/settings/excalidraw/scripts/QuickSwitchFrame.svg",
     "Assets/images/darkroom/algo 2025.excalidraw-3-1.svg",
     "Assets/settings/excalidraw/scripts/Select Elements of Type.svg",

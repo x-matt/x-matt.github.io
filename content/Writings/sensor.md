@@ -82,10 +82,13 @@ review:
 
 ### 2.5 Hardware Logic
 
-1. exp & read out ![[sensor 2025.excalidraw#^frame=exposure|700]]
+1. exp & read out 
+		![[camera 2026.excalidraw#^frame=sensor_exposure|700]]
 
-2. Processing skyview: light -> photo/video ![[sensor 2025.excalidraw#^frame=sensor_action|600]]
-3. frame value ![[sensor 2025.excalidraw#^frame=single_exp|Single Exposure]]
+2. Processing skyview: light -> photo/video
+		![[camera 2026.excalidraw#^frame=sensor_flow|500]]
+3. frame value
+		![[camera 2026.excalidraw#^frame=sensor_rolling_shutter|300]]
 
 ### 2.6 basic info
 
@@ -133,10 +136,10 @@ Focal Length
 |   L10A    | icm4x6xx     | $[1,500]$    |
 
 ```log
-(PREVIEW)
+# NOTE: PREVIEW sensormode
 03-29 20:39:31.685 20687 20687 I mtkcam-devicesessionpolicy: [0:SensorMode:SensorSettingPolicy::parseSensorParamsSetting] candidate [1] (4000x2252)@30  sensorMode:2
-(VIDEO)
+# NOTE: VIDEO sensormode
 03-29 20:39:31.685 20687 20687 I mtkcam-devicesessionpolicy: [0:SensorMode:SensorSettingPolicy::parseSensorParamsSetting] candidate [2] (4000x3000)@30  sensorMode:1
-(CAPTURE)
+# NOTE: CAPTURE sensormode
 03-29 20:39:31.685 20687 20687 I mtkcam-devicesessionpolicy: [0:SensorMode:SensorSettingPolicy::parseSensorParamsSetting] candidate [0] (4000x3000)@30  sensorMode:0
 ```
