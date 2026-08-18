@@ -9,6 +9,18 @@ tags:
   - govexam
 ---
 
+## 2027考试时间轴
+
+1. 广东省公务员
+	1. 公布：2025-10-20 09:00
+	2. [2025](https://hrss.sz.gov.cn/szksy/ztzl/gwyks/jgkszt/content/post_12444600.html)
+2. 国家公务员
+	1. 公布：十月中
+3. 深圳市事业单位集中招聘
+	1. 公布：十一月底
+	2. [2025](https://hrss.sz.gov.cn/gzryzk/content/post_12516345.html)
+4. 深圳各区事业单位
+
 ### 公告
 
 - 链接: [url](https://www.gdzz.gov.cn/tzgg/content/post_20294.html)

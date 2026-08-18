@@ -14,7 +14,7 @@ tags:
 ### [Callout](https://help.obsidian.md/Editing+and+formatting/Callouts)
 
 - list
-  1. note `> [!info]`
+  1. note `>[!info] `
   2. abstuact/summary
   3. info
   4. tip

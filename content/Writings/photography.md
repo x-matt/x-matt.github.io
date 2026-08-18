@@ -21,7 +21,7 @@ image-counter: 1
 | ISO感光度 | $ISO$               | 感光元件的灵敏度, 用ISO表示   | /    | &#8593; | &#8593; | 噪点增多       | $[50, 6400]$   |
 
 ### 成像原理
-![[photography 2026.excalidraw]]
+![[camera 2026.excalidraw#^frame=lens_params|700]]
 
 $$
 \frac{1}{s} + \frac{1}{v} = \frac{1}{f}

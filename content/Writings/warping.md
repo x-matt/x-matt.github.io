@@ -1,5 +1,5 @@
 ---
-title: Warping
+title: Image Warping
 type: area
 status: active
 domain: work

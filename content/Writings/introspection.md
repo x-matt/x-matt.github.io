@@ -25,12 +25,9 @@ tags:
 
 ### Learning
 
-- 学习Vim
 - 学习[极客笔记](https://deepinout.com/)
 - 学习摄影[[photography]]
-- 将知识笔记porting到这个系统中来
-- 增加对 table & xmind的使用
-- 关注[crossNote](https://github.com/shd101wyy/crossnote)项目
+- 增加对 table & mindmap的使用
 - 学习运营类帐号, 开通运营小红书
 
 ### Health(生命线)

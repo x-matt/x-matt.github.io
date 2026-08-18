@@ -15,6 +15,9 @@ tags:
 > 	**Extrinsic：相机在世界里处于什么位置、朝什么方向。**
 
 
+>[!question] Question
+>理想双目模型中，两颗lens的$f$得是完全一致的？
+
 ## Coordinate System
 
 几个坐标系[^1]
@@ -80,7 +83,7 @@ $$
 
 ### Distortion
 
-> 实际光线到达 Sensor 的位置 ≠ 理想针孔模型计算的位置 =》non-linear camera model
+> 实际光线到达 Sensor 的位置 ≠ 理想针孔模型计算的位置 =》==non-linear camera model==
 
 实际镜头通常存在畸变，因此相机标定除了 Camera Matrix，还需要估计畸变参数。
 
@@ -283,73 +286,15 @@ $$
 
 ---
 
-## 双目标定中的内参和外参
+## Dual Camera
 
-对于双目相机：
+### Dual Camera Model
 
-```log
-        Left Camera
-             │
-             │
-             │   R, T
-             │ ───────────→
-             │
-             │
-        Right Camera
-```
+1. 两个相机光心在同一水平线上
+2. 成像平面平行
 
-每个相机都有自己的内参：
+![[camera 2026.excalidraw#^frame=dual_cam_model|600]]
 
-$$
-K_L,K_R
-$$
-
-以及各自的畸变参数：
-
-$$
-D_L,D_R
-$$
-
-两个相机之间还有一组非常重要的**相对外参**：
-
-$$
-R_{LR},T_{LR}
-$$
-
-它表示：
-
-> **右相机坐标系相对于左相机坐标系的旋转和平移关系。**
-
-### Baseline
-
-例如：
-
-$$
-T =
-\begin{bmatrix}
-120 \\
-0 \\
-0
-\end{bmatrix}
-mm
-$$
-
-意味着两个相机之间的基线距离约为：
-
-$$
-B=120mm
-$$
-
-这个距离就是 Stereo Vision 中非常重要的：
-
-> **Baseline（双目基线）**
-
-
----
-
-## 为什么双目可以计算深度？
-
-经过双目标定和极线校正之后，同一个物体在左右图像中的位置会存在差异：
 
 ```log
 Left Image                  Right Image
@@ -386,6 +331,42 @@ $$
 所以：
 
 > **内参提供 $f$，外参提供 $B$，左右图像提供 disparity，最终得到深度。**
+
+---
+
+### Stereo Calibration
+
+每个相机都有自己的内参：
+
+$$
+K_L,K_R
+$$
+
+以及各自的畸变参数：
+
+$$
+D_L,D_R
+$$
+
+两个相机之间还有一组非常重要的**相对外参**：
+
+$$
+R_{LR},T_{LR}
+$$
+
+它表示：
+
+> **右相机坐标系相对于左相机坐标系的旋转和平移关系。**
+
+#### Online Calibration
+
+![[vo#Online Calibration]]
+
+### Stereo Rectification
+
+![[rectification#Basic]]
+
+### Stereo Matching
 
 ---
 
@@ -469,10 +450,9 @@ Intrinsics
     ↓
 K + D
 
-
 Extrinsics
     ↓
-相机与世界 / 其他相机之间的空间关系
+相机与世界其他相机之间的空间关系
     ↓
 R + T
 ```
