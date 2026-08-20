@@ -96,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.5,
-    "collapsed": true
+    "width": 230.5
   },
   "right": {
     "id": "5e007910e90f3de9",
@@ -208,7 +207,10 @@
   },
   "active": "54732cb721b3af27",
   "lastOpenFiles": [
+    "work.base",
+    "reading.base",
     "life.base",
+    "index.md",
     "Writings/vo.md",
     "Writings/customization.md",
     "Writings/power.md",
@@ -233,9 +235,6 @@
     "Writings/eis-algo.md",
     "Writings/warping.md",
     "Writings/dolbyvision.md",
-    "Writings/algo.md",
-    "work.base",
-    "reading.base",
     "Writings/Darkroom/darkroom.base",
     "Assets/settings/excalidraw/libraries/it-icons.excalidrawlib",
     "Assets/images/darkroom/camera-0.png",
