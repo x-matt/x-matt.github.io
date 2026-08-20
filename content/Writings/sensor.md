@@ -2,8 +2,8 @@
 title: Sensor
 type: area
 status: active
-domain: work
-category: hardware
+domain: knowledge
+category: sensor
 priority:
 review:
 ---

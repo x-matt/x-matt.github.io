@@ -1,9 +1,9 @@
 ---
 title: EVS
 type: area
+domain: knowledge
+category: sensor
 status: active
-domain: work
-category: hardware
 priority:
 review:
 tags:

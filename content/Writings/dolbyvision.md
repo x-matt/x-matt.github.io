@@ -1,9 +1,9 @@
 ---
 title: Dolbyvision
 type: area
-status: active
 domain: work
-category: feature
+category: dolby
+status: active
 priority:
 review:
 ---

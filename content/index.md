@@ -24,7 +24,7 @@ not done
 | Level  | Property   | Values                                               |
 | ------ | ---------- | ---------------------------------------------------- |
 | **L1** | `type`     | journal / project / area / resource / archive / wiki |
-| **L2** | `domain`   | work / fitness / mind / photography / ...            |
+| **L2** | `domain`   | knowledge/mind/self/relationship/work                |
 | **L3** | `category` | ...                                                  |
 
 > **Type → Domain → Category**
@@ -43,6 +43,15 @@ not done
 | **Management** | Manage life     | Project · Area · Resource · Archive             |
 | **Review**     | Review life     | Journal · Weekly / Monthly / Quarterly / Yearly |
 | **Knowledge**  | Build knowledge | Wiki                                            |
+
+
+**RESOURCE**
+├── Time
+├── Energy
+├── Capacity(Attention)
+├── Money
+└── Space
+
 
 ---
 

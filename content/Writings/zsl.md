@@ -2,13 +2,12 @@
 title: Zero Shutter Lag - ZSL
 type: area
 status: active
-domain: work
-category: platform
+domain: knowledge
+category: zsl
 priority:
 review:
 tags:
   - mivi
-  - zsl
 ---
 
 ### ZSLQ

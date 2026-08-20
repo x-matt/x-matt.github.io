@@ -1,9 +1,9 @@
 ---
-title: Yunnan
-type: area
-status: active
-domain: entertainment
+title: Yunnan Planning
+type: project
+domain: self
 category: travel
+status: active
 priority:
 review:
 tags:

@@ -56,19 +56,19 @@ tags:
 
 ### 3.1. MTK-自检
 
-| 测试项                                  | 验证方法                                                             | 结论 | 备注                       |
-| --------------------------------------- | -------------------------------------------------------------------- | ---- | -------------------------- |
-| EIS算法版本号                           | `adb shell "pkill camera*" && adb logcat \| grep "Vidhance version"` | PASS | 3.10.4                     |
-| EIS-debug等级的log开启方式              | `setprop vendor.vidhance.logging.level 0`                            | PASS | -                          |
-| EIS-dump方式                            | `setprop vendor.vidhance.debug.eisdump 1`                            | PASS | /data/vendor/camera_dump   |
-| EISNode处理时间(需要打开debug等级的log) | `adb logcat \| grep "Processing time"`                               | PASS | -                          |
-| 录像场景下EIS功能验证                   | `Using configuration` （log中 stabilizer: 1）                        | PASS | 短视频场景，支持与美颜同开 |
-| UW录像场景下EIS-LDC功能验证             | `Using configuration` （log中 lensDistortionCorrection: 1）          | PASS | -                          |
-| 超级防抖下超级防抖功能验证              | `Using configuration` （log中 superStabilization: 1）                | PASS | -                          |
-| 超级防抖下水平矫正功能验证              | `Using configuration` （log中 horizonCorrection: 1）                 | PASS | 仅在超级防抖模式下开启     |
-| gyro采样率                              | `Initialized sensor GYROSCOPE`                                       | PASS | -                          |
-| EISMargin                               | `Using margin scale factor \| set eisMargin =`                       | PASS | -                          |
-| 校准文件版本                            | `Parsing calibration file`                                           | PASS | -                          |
+| 测试项                          | 验证方法                                                                 | 结论   | 备注                       |
+| ---------------------------- | -------------------------------------------------------------------- | ---- | ------------------------ |
+| EIS算法版本号                     | `adb shell "pkill camera*" && adb logcat \| grep "Vidhance version"` | PASS | 3.10.4                   |
+| EIS-debug等级的log开启方式          | `setprop vendor.vidhance.logging.level 0`                            | PASS | -                        |
+| EIS-dump方式                   | `setprop vendor.vidhance.debug.eisdump 1`                            | PASS | /data/vendor/camera_dump |
+| EISNode处理时间(需要打开debug等级的log) | `adb logcat \| grep "Processing time"`                               | PASS | -                        |
+| 录像场景下EIS功能验证                 | `Using configuration` （log中 stabilizer: 1）                           | PASS | 短视频场景，支持与美颜同开            |
+| UW录像场景下EIS-LDC功能验证           | `Using configuration` （log中 lensDistortionCorrection: 1）             | PASS | -                        |
+| 超级防抖下超级防抖功能验证                | `Using configuration` （log中 superStabilization: 1）                   | PASS | -                        |
+| 超级防抖下水平矫正功能验证                | `Using configuration` （log中 horizonCorrection: 1）                    | PASS | 仅在超级防抖模式下开启              |
+| gyro采样率                      | `Initialized sensor GYROSCOPE`                                       | PASS | -                        |
+| EISMargin                    | `Using margin scale factor \| set eisMargin =`                       | PASS | -                        |
+| 校准文件版本                       | `Parsing calibration file`                                           | PASS | -                        |
 
 ### 3.2. 看现象
 
@@ -203,17 +203,15 @@ tags:
 
 ### 9.1. Power
 
-| 项目               | EIS-off-power | EIS-off-Target | superEIS-power | superEIS-Target |     |
-| ------------------ | ------------- | -------------- | -------------- | --------------- | --- |
-| K9                 | 667.2         | 650            | 811.93         | 700             |     |
-| K8                 | 785.16        | 810            | 961.88         | 960             |     |
-| K9D                | 581.92        | 650            | 898.63         | 950             |     |
-| K11R               | 617.87        | 600            | 724            | 700             |     |
-| K11R已经测试的方案 | -             | 600            | 794            | 700             |     |
+| 项目          | EIS-off-power | EIS-off-Target | superEIS-power | superEIS-Target |
+| ----------- | ------------- | -------------- | -------------- | --------------- |
+| K9          | 667.2         | 650            | 811.93         | 700             |
+| K8          | 785.16        | 810            | 961.88         | 960             |
+| K9D         | 581.92        | 650            | 898.63         | 950             |
+| K11R        | 617.87        | 600            | 724            | 700             |
+| K11R已经测试的方案 | -             | 600            | 794            | 700             |
 
 ## EIS support ITS
-
-# eis/its
 
 - 注意点:
   1. stream size 在最后一个裁剪节点前, size 必须大于 HD

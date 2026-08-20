@@ -1,7 +1,7 @@
 ---
 title: Android Structure
 type: area
-domain: work
+domain: knowledge
 category: android
 status: active
 review: daily

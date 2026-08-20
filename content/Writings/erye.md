@@ -1,8 +1,9 @@
 ---
 title: Er Ye Story
 type: area
-status: active
 domain: mind
+category:
+status: active
 priority:
 review:
 ---

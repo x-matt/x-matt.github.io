@@ -1,12 +1,12 @@
 ---
-title: English
+title: English Learning
 type: area
+domain: knowledge
+category: language
 status: active
-domain: learn
 priority:
 review:
 tags:
-  - education
 ---
 
 ## Structure

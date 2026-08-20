@@ -599,9 +599,7 @@
     "Assets/settings/excalidraw/scripts/Downloaded/Downloaded/Icon Library.md",
     "Assets/settings/excalidraw/scripts/Downloaded/Downloaded/Mindmap Builder.md"
   ],
-  "sidepanelTabs": [
-    "{\"script\":\"Downloaded/Mindmap Builder\",\"title\":\"Mind Map Builder\"}"
-  ],
+  "sidepanelTabs": [],
   "customPens": [
     {
       "type": "default",

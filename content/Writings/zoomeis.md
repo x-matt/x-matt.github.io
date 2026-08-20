@@ -1,14 +1,13 @@
 ---
-title: Zoomeis
+title: Zoomeis 设计方案
 type: area
-status: active
 domain: work
-category: feature
+category: eis
+status: active
 priority:
 review:
 tags:
-
-  - eis
+  - feature
 ---
 
 ## 1. Revision history
