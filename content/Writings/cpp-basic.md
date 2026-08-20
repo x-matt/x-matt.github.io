@@ -1,8 +1,8 @@
 ---
 title: C++ basic knowledge
 type: area
-domain: work
-category: language
+domain: knowledge
+category: programming-language
 status: active
 priority:
 review:

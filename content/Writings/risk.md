@@ -2,12 +2,11 @@
 title: Risk
 type: project
 domain: work
-category: feature
+category: livephoto
 status: active
 priority:
 review:
 tags:
-  - livp
 ---
 
 - 验证机型：O1

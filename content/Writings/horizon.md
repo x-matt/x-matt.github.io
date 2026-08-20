@@ -2,12 +2,12 @@
 title: Horizon
 type: area
 domain: work
-category: feature
+category: eis
 status: active
 priority:
 review:
 tags:
-  - eis
+  - feature
 ---
 
 ## 工作规划

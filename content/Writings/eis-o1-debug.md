@@ -1,17 +1,14 @@
 ---
-title: O1
+title: O1 Eis Debugging
 type: project
 domain: work
-category: series
+category: eis
 status: done
 priority:
 review:
 tags:
 ---
-
-## Feature
-
-### EIS #eis
+### EIS 
 
 - 关键字: `MISV2|MISV3|MISV4|MISHisAdapter`
 - 关键property

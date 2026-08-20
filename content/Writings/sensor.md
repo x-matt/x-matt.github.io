@@ -7,13 +7,8 @@ status: active
 priority:
 review:
 tags:
+  - hw
 ---
-
-## Revision history
-
-| Revision |    Data    | Description        |
-| :------: | :--------: | ------------------ |
-|   v0.1   | 2023.08.23 | Initialize release |
 
 ## 1. Sensor信息查看
 
@@ -74,14 +69,15 @@ tags:
 - remosaic: 将4cell1的图片，转化为Bayer结构
 - demosaic
 - inSensorZoom: remosic + reagionCrop
+![[format 2025.excalidraw#^frame=Raw Domain|Four Cell Sensor|700]]
 
 - **camera sensor size**
   - 以 1/2 为界, < 1/2 则 1英寸代表18mm, > 1/2则 1英寸代表16mm (抛下“1 英寸 = 25.4mm”这个基本常识)
     ![[sensor.png|500]]
   - 影像旗舰们的共同选择：索尼光喻LYTIA传感器LYT-900
-    [video](https://www.bilibili.com/video/BV15f421m75s/?vd_source=852d4ef8e14fcaf3d82391cb2461a178)
+    [video intro](https://www.bilibili.com/video/BV15f421m75s/?vd_source=852d4ef8e14fcaf3d82391cb2461a178)
 
-### 2.5 Hardware Logic
+### 2.5. Hardware Logic
 
 1. exp & read out 
 		![[camera 2026.excalidraw#^frame=sensor_exposure|700]]
@@ -91,7 +87,7 @@ tags:
 3. frame value
 		![[camera 2026.excalidraw#^frame=sensor_rolling_shutter|300]]
 
-### 2.6 basic info
+### 2.6. basic info
 
 | Factory    | Country |
 | ---------- | ------- |
@@ -109,7 +105,7 @@ Hardware Feature
 3. DCG
 4. Stagger HDR
 
-### 2.7 焦距
+### 2.7. 焦距
 > 焦距决定了相机“看东西有多近、多宽”，是描述镜头成像能力的一个核心物理参数
 
 Focal Length

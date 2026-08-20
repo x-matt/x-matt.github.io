@@ -2,13 +2,12 @@
 title: Framedelay
 type: area
 domain: work
-category: feature
+category: eis
 status: active
 priority:
 review:
 tags:
   - framedelay
-  - eis
 ---
 
 - XM MTK平台相机预研规划项

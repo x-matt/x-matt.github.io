@@ -1,7 +1,7 @@
 ---
 title: Metadata
 type: area
-domain: meta
+domain: knowledge
 category: metadata
 status: active
 priority:

@@ -4,21 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "47dbc1298b8a5831",
+        "id": "93afee4bda5c9aec",
         "type": "tabs",
         "children": [
           {
-            "id": "54732cb721b3af27",
+            "id": "87f2e179313c61f5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Writings/vpn.md",
-                "mode": "source",
-                "source": false
+                "file": "work.base",
+                "viewName": "Algorithm"
               },
-              "icon": "lucide-file",
-              "title": "vpn"
+              "icon": "lucide-table",
+              "title": "work"
             }
           }
         ],
@@ -56,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "domain: photography",
+                "query": "mctf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.5
+    "width": 230.5,
+    "collapsed": true
   },
   "right": {
     "id": "5e007910e90f3de9",
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writings/vpn.md",
+                "file": "work.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Writings/vpn.md",
+                "file": "work.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -187,8 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5,
-    "collapsed": true
+    "width": 276.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,36 +204,38 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "54732cb721b3af27",
+  "active": "87f2e179313c61f5",
   "lastOpenFiles": [
+    "Writings/sat.md",
     "work.base",
-    "reading.base",
-    "life.base",
     "index.md",
-    "Writings/vo.md",
-    "Writings/customization.md",
-    "Writings/power.md",
-    "Writings/vidhance.md",
-    "Writings/bullet.md",
-    "Writings/gone.md",
-    "Writings/mivi_structure.md",
-    "Writings/mivi-structure.md",
-    "Writings/morpho.md",
-    "Writings/naval.md",
-    "Writings/ndd-odt.md",
-    "Writings/body.md",
-    "Writings/basic-tool.md",
-    "Writings/basic.md",
-    "Writings/areas-planning.md",
-    "Writings/android-structure.md",
-    "Writings/yunnan.md",
-    "Writings/zemin.md",
-    "Writings/zengguofan.md",
-    "Writings/zoomeis.md",
-    "Writings/zsl.md",
-    "Writings/eis-algo.md",
+    "Writings/eis-qcom-overview.md",
+    "Writings/eis-qcom-architecture.md",
+    "Writings/eis-mtk-architecture.md",
+    "Writings/eis-mtk-overview.md",
+    "Writings/his.md",
+    "Writings/framedelay.md",
+    "Writings/horizon.md",
+    "Writings/mis.md",
+    "Writings/other.md",
+    "Writings/otis.md",
+    "Writings/eis-o1-debug.md",
+    "Writings/mivi-bring-up.md",
+    "Writings/eis-debug.md",
+    "Writings/route.md",
+    "Assets/excalidraw/skyview 2025.excalidraw.md",
+    "Writings/luxury.md",
     "Writings/warping.md",
+    "Writings/makefile.md",
+    "Writings/m12.md",
+    "Writings/dump.md",
+    "Writings/domain.md",
     "Writings/dolbyvision.md",
+    "Writings/diagram.md",
+    "Writings/design.md",
+    "Assets/images/image-2.png",
+    "life.base",
+    "reading.base",
     "Writings/Darkroom/darkroom.base",
     "Assets/settings/excalidraw/libraries/it-icons.excalidrawlib",
     "Assets/images/darkroom/camera-0.png",
@@ -250,7 +251,6 @@
     "Assets/settings/excalidraw/libraries/local-library.excalidrawlib",
     "Assets/excalidraw/libraries",
     "Assets/images/theron-0.webp",
-    "Assets/images/darkroom/anais-0.jpg",
     "Assets/icons",
     "Assets/canvas/chinese history.canvas",
     "Untitled.canvas",

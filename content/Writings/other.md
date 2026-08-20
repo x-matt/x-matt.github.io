@@ -2,13 +2,11 @@
 title: Other Eis Summary
 type: area
 domain: work
-category: feature
+category: eis
 status: active
 priority:
 review:
 tags:
-
-  - eis
 ---
 
 ## 1. Vidhance

@@ -2,12 +2,11 @@
 title: Eis Qcom debug
 type: area
 domain: work
-category: debug
+category: eis
 status: active
 priority:
 review:
 tags:
-  - eis
   - qcom
 ---
 

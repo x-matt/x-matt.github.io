@@ -2,12 +2,12 @@
 title: SAT Debug
 type: area
 domain: work
-category: debug
+category: sat
 status: active
 priority:
 review:
 tags:
-  - sat
+  - debug
 ---
 
 ## SensorCtrl

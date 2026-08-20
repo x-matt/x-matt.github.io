@@ -1,12 +1,13 @@
 ---
 title: Image Rectification
 type: area
-domain: work
-category: algorithm
+domain: knowledge
+category: image-transformation
 status: active
-priority: 
+priority:
 review:
 tags:
+  - algo
 ---
 ## Basic
 

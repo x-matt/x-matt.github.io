@@ -1,5 +1,5 @@
 ---
-title: Debug
+title: Camera Debug
 type: area
 domain: work
 category: tool

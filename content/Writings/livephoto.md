@@ -1,13 +1,12 @@
 ---
-title: Live Photo Architecture
+title: Livephoto Architecture
 type: project
 domain: work
-category: feature
+category: livephoto
 status: active
 priority:
 review:
 tags:
-  - livp
 ---
 
 ## 📋 项目概览

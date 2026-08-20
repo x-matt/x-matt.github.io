@@ -2,12 +2,11 @@
 title: Eis 3rd
 type: area
 domain: work
-category: feature
+category: eis
 status: active
 priority:
 review:
 tags:
-  - eis
 ---
 
 ## 1. EIS厂商
@@ -19,7 +18,7 @@ tags:
 ## 2. EIS相关测试
 
 - [[power]]
-- [[release]]
+- [[sdk-release]]
 
 ### 2.1 MTK项目EIS debug
 

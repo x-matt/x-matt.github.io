@@ -1,13 +1,12 @@
 ---
-title: Eis qcom
-type: area
+title: Eis On Qcom Platform
+type: wiki
 domain: work
-category: feature
+category: eis
 status: active
 priority:
 review:
 tags:
-  - eis
 ---
 
 ## 1. Revision history
@@ -22,8 +21,6 @@ tags:
 Qcom-EIS
 supported sensor: FRONT, WIDE, ULTRA-WIDE, TELE
 
-[ISP模块学习](https://wiki.n.miui.com/pages/viewpage.action?pageId=610853444)
-
 <https://www.canon-europe.com/pro/infobank/image-stabilisation-lenses/>
 
 ## 3. 8550-Code
@@ -31,16 +28,15 @@ supported sensor: FRONT, WIDE, ULTRA-WIDE, TELE
 ## 4. Question
 
 1. 什么是[QIS](https://docs.qualcomm.com/bundle/80-PN984-102/resource/80-PN984-102.pdf)
-   1. Qcom image stabilization
-   2. 包含 stabilization, LDC, OIS
+	1. Qcom image stabilization
+	2. 包含 stabilization, LDC, OIS
 2. 什么是DIS，基于图像的防抖 digital image stabilization
 3. 什么是GME
-   1. Doc: [EIS 3rd Party algorithm integration Guide](<[](https://security.feishu.cn/link/safety?target=https%3A%2F%2Fdocs.qualcomm.com%2Fbundle%2FKBA-211010195120%2Fresource%2FKBA-211010195120.pdf&scene=ccm&logParams=%7B%22location%22%3A%22ccm_default%22%7D&lang=zh-CN)>)
-   2. Gyro motion estimate
-   3. Output
-      1. the distortion correction grid includes rolling shutter
-      2. MCTF alignment for current frame
-   4. Can be used under photo mode separately
+	1. Gyro motion estimate
+	2. Output
+	      1. the distortion correction grid includes rolling shutter
+	      2. MCTF alignment for current frame
+	3. Can be used under photo mode separately
 
 ## 5. NOTES
 
@@ -69,7 +65,7 @@ supported sensor: FRONT, WIDE, ULTRA-WIDE, TELE
      1. perspectiveMatrix
      2. DIS grid
   2. 畸变问题 - distortion_correction_grid
-     1. LDC/ERS Grid
+	 1. LDC/ERS Grid
 - M2算法及使用场景
 
 | 算法厂商 | 应用场景                        |

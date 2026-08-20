@@ -2,7 +2,7 @@
 title: Morpho
 type: area
 domain: work
-category: feature
+category: eis
 status: done
 priority:
 review:

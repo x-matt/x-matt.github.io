@@ -2,12 +2,11 @@
 title: Eis qcom architecture
 type: area
 domain: work
-category: feature
+category: eis
 status: active
 priority:
 review:
 tags:
-  - eis
   - qcom
 ---
 

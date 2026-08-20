@@ -2,7 +2,7 @@
 title: Image Warping
 type: area
 domain: knowledge
-category: warping
+category: image-transformation
 status: active
 priority:
 review:

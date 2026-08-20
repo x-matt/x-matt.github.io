@@ -2,12 +2,12 @@
 title: Eis of Mtk
 type: area
 domain: work
-category: feature
+category: eis
 status: active
 priority:
 review:
 tags:
-  - eis
+  - sw
 ---
 
 ### 命令

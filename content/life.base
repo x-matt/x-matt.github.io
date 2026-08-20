@@ -90,6 +90,7 @@ views:
       - title
       - file.name
       - tags
+      - domain
   - type: table
     name: 📂 Areas
     filters:

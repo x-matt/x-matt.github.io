@@ -1,5 +1,5 @@
 ---
-title: Colorspace
+title: Image Colorspace
 type: area
 domain: work
 category: imagedata

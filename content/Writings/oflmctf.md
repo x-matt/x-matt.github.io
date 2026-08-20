@@ -8,7 +8,6 @@ priority:
 review:
 tags:
   - qcom
-  - livp
 ---
 
 ## Learning

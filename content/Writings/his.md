@@ -2,12 +2,11 @@
 title: His
 type: area
 domain: work
-category: feature
+category: eis
 status: active
 priority:
 review:
 tags:
-  - eis
 ---
 
 ## 1. 相关链接

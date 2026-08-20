@@ -2,12 +2,11 @@
 title: Mis Intro
 type: area
 domain: work
-category: feature
+category: eis
 status: active
 priority:
 review:
 tags:
-  - eis
 ---
 
 ## Mis 代码整体分析

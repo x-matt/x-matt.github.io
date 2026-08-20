@@ -2,12 +2,11 @@
 title: SAT Improvment
 type: area
 domain: work
-category: feature
+category: sat
 status: active
 priority:
 review:
 tags:
-  - sat
 ---
 
 ## Timeline

@@ -23,4 +23,5 @@ tags:
 
 - [ ] Weakness
 - [ ] Job Planning
-      ![[skyview 2025.excalidraw#^frame=skyview|800]]
+
+ ![[skyview 2025.excalidraw#^frame=skyview|800]]

@@ -1,5 +1,5 @@
 ---
-title: Mivi Imageformat
+title: Mivi Image Format
 type: area
 domain: work
 category: imagedata

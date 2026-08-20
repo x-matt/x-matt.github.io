@@ -2,7 +2,7 @@
 title: NDD/ODT Auto Check
 type: area
 domain: work
-category: platform
+category: simulation
 status: active
 priority:
 review:

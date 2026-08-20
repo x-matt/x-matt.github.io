@@ -1,8 +1,8 @@
 ---
 title: Cpp
 type: area
-domain: work
-category: language
+domain: knowledge
+category: programming-language
 status: active
 priority:
 review:

@@ -2,12 +2,11 @@
 title: Livephoto 4.0
 type: project
 domain: work
-category: feature
+category: livephoto
 status: active
 priority:
 review:
 tags:
-  - livp
 ---
 
 ## Debug

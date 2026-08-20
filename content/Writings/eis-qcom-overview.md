@@ -2,12 +2,11 @@
 title: Eis Qcom Overview
 type: area
 domain: work
-category: feature
+category: eis
 status: active
 priority:
 review:
 tags:
-  - eis
   - qcom
 ---
 

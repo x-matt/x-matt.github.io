@@ -1,5 +1,5 @@
 ---
-title: Mivi Apply
+title: Mivi Bring Up
 type: area
 domain: work
 category: platform
@@ -8,7 +8,6 @@ priority:
 review:
 tags:
   - mivi
-  - eis
 ---
 
 ## MIVI 3.0

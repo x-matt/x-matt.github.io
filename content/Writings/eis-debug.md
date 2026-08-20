@@ -1,13 +1,12 @@
 ---
-title: Commands
+title: Eis Debug
 type: area
 domain: work
-category: debug
+category: eis
 status: active
 priority:
 review:
 tags:
-  - eis
 ---
 
 ## 1. 基础命令

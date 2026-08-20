@@ -35,4 +35,4 @@ tags:
 	1. Vision -> 1 Year -> 1 Month -> Daily
 	2. 把巨大的抽象问题变成**今天可以执行的 2～3 个动作**
 
-![[Daily 2026.excalidraw#^frame=fix_life|100]]
+![[Daily 2026.excalidraw#^frame=fix_life|500]]

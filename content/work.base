@@ -150,7 +150,7 @@ views:
     name: Eis
     filters:
       and:
-        - file.tags.contains("eis")
+        - category == "eis"
     groupBy:
       property: category
       direction: ASC
@@ -158,8 +158,10 @@ views:
       - title
       - file.name
       - status
-      - category
       - tags
+      - domain
+      - type
+    sort: []
   - type: table
     name: Sat
     filters:

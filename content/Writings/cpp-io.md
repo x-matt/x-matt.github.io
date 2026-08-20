@@ -2,7 +2,7 @@
 title: C++ I/O
 type: area
 domain: work
-category: language
+category: programming-language
 status: active
 priority:
 review:

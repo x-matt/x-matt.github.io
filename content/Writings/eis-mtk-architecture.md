@@ -2,12 +2,11 @@
 title: Eis mtk architecture
 type: area
 domain: work
-category: feature
+category: eis
 status: active
 priority:
 review:
 tags:
-  - eis
   - mtk
 ---
 

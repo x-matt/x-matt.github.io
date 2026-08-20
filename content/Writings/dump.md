@@ -117,7 +117,7 @@ autoImageDumpIPEoutputPortMask=0x100
   };
   ```
 
-![[mivi#VideoNight]]
+![[mivi-bring-up#VideoNight]]
 
 ### P2
 
