@@ -1,9 +1,9 @@
 ---
 title: Qcom Basic Info
 type: area
-status: active
 domain: work
 category: platform
+status: active
 priority:
 review: daily
 tags:

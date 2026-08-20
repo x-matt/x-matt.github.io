@@ -1,6 +1,12 @@
 ---
-domain: fitness
+title: 🏊 Swimming
+type: area
+domain: self
 category: cardio
+status: active
+priority: 
+review: 
+tags:
 duration: 45
 ---
 # 🏊 Swimming

@@ -1,9 +1,10 @@
 ---
 title: 让子弹飞
 type: area
-domain: entertainment
+domain: self
 category: movie
 status: active
+priority:
 review:
 tags:
 director: 姜文

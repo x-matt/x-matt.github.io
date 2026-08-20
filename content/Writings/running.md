@@ -1,6 +1,12 @@
 ---
-domain: fitness
+title: ❤️ Interval Running
+type: area
+domain: self
 category: cardio
+status: active
+priority: 
+review: 
+tags:
 duration: 35
 ---
 # ❤️ Interval Running

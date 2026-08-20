@@ -1,11 +1,12 @@
 ---
 title: Format
 type: area
-status: active
 domain: work
 category: imagedata
+status: active
 priority:
 review:
+tags:
 ---
 
 ## 图片格式

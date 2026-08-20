@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Writings/yunnan.md",
+                "file": "Writings/vpn.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "yunnan"
+              "title": "vpn"
             }
           }
         ],
@@ -96,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.5
+    "width": 230.5,
+    "collapsed": true
   },
   "right": {
     "id": "5e007910e90f3de9",
@@ -123,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writings/yunnan.md",
+                "file": "Writings/vpn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Writings/yunnan.md",
+                "file": "Writings/vpn.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -187,7 +188,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 276.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,35 +208,34 @@
   },
   "active": "54732cb721b3af27",
   "lastOpenFiles": [
+    "life.base",
+    "Writings/vo.md",
+    "Writings/customization.md",
+    "Writings/power.md",
+    "Writings/vidhance.md",
+    "Writings/bullet.md",
+    "Writings/gone.md",
+    "Writings/mivi_structure.md",
+    "Writings/mivi-structure.md",
+    "Writings/morpho.md",
+    "Writings/naval.md",
+    "Writings/ndd-odt.md",
+    "Writings/body.md",
+    "Writings/basic-tool.md",
+    "Writings/basic.md",
+    "Writings/areas-planning.md",
+    "Writings/android-structure.md",
+    "Writings/yunnan.md",
     "Writings/zemin.md",
     "Writings/zengguofan.md",
     "Writings/zoomeis.md",
     "Writings/zsl.md",
     "Writings/eis-algo.md",
     "Writings/warping.md",
-    "Writings/android-structure.md",
-    "Writings/areas-planning.md",
     "Writings/dolbyvision.md",
     "Writings/algo.md",
-    "Writings/sensor.md",
-    "Writings/evs.md",
-    "Writings/erye.md",
-    "Writings/english.md",
-    "Writings/eis-qcom-overview.md",
-    "Writings/eis-mtk.md",
-    "Writings/eis.md",
-    "Writings/eis-overview.md",
-    "Writings/domain.md",
-    "Assets/templates/TemplateLife.md",
-    "domain 2024.excalidraw.md",
-    "Assets/excalidraw/domain 2024.excalidraw.md",
-    "index.md",
-    "Writings/introspection.md",
-    "Writings/yangming.md",
-    "Writings/yjango.md",
     "work.base",
     "reading.base",
-    "life.base",
     "Writings/Darkroom/darkroom.base",
     "Assets/settings/excalidraw/libraries/it-icons.excalidrawlib",
     "Assets/images/darkroom/camera-0.png",

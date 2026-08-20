@@ -1,9 +1,10 @@
 ---
 title: Cloth
 type: area
-domain: material
-category:
+domain: self
+category: clothing
 status: active
+priority: 
 review:
 tags:
 ---

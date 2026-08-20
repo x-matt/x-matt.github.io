@@ -1,8 +1,9 @@
 ---
 title: Travelling
 type: area
+domain: self
+category: entertainment
 status: active
-domain: entertainment
 priority:
 review:
 tags:

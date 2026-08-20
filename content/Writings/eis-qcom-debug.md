@@ -1,9 +1,9 @@
 ---
 title: Eis Qcom debug
 type: area
-status: active
 domain: work
 category: debug
+status: active
 priority:
 review:
 tags:

@@ -1,11 +1,12 @@
 ---
 title: System Division
 type: area
-status: active
 domain: work
 category: android
+status: active
 priority:
 review:
+tags:
 ---
 
 ## Android系统分区 [^1]

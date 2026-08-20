@@ -1,9 +1,9 @@
 ---
 title: Metadata
 type: area
-status: active
-domain: work
+domain: meta
 category: metadata
+status: active
 priority:
 review:
 tags:

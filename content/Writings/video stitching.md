@@ -1,14 +1,13 @@
 ---
 title: Video Stitching
 type: area
-status: active
 domain: work
 category: algorithm
+status: active
 priority:
 review:
 tags:
   - stitching
-
 ---
 
 > 研究时间：2026年4月 | 所属领域：计算机视觉 / 多媒体技术 | 研究对象类型：技术概念

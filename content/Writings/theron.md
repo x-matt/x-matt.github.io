@@ -1,9 +1,10 @@
 ---
 title: Charlize Theron
 type: area
-domain: entertainment
+domain: self
 category: actor
 status: active
+priority: 
 review:
 tags:
 cover: "[[theron-0.webp]]"

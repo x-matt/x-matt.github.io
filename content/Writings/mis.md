@@ -1,9 +1,9 @@
 ---
 title: Mis Intro
 type: area
-status: active
 domain: work
 category: feature
+status: active
 priority:
 review:
 tags:

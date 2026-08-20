@@ -1,9 +1,9 @@
 ---
 title: Live Photo Architecture
 type: project
-status: active
 domain: work
 category: feature
+status: active
 priority:
 review:
 tags:

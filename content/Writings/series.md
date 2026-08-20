@@ -1,9 +1,9 @@
 ---
 title: Series
 type: project
-status: active
 domain: work
 category: series
+status: active
 priority:
 review:
 tags:

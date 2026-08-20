@@ -1,10 +1,11 @@
 ---
 title: Small ideas
 type: area
-status: active
 domain: mind
+status: active
 priority:
 review:
+tags:
 ---
 
 ### 人与感知类比

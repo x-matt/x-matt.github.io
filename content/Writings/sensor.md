@@ -1,11 +1,12 @@
 ---
 title: Sensor
 type: area
-status: active
 domain: knowledge
 category: sensor
+status: active
 priority:
 review:
+tags:
 ---
 
 ## Revision history

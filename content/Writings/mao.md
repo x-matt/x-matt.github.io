@@ -1,7 +1,14 @@
 ---
-doubanId: 1139360
 title: 毛泽东选集
-domain: book
+type: area
+domain: knowledge
+category: book
+status: active
+priority: 
+review: 
+tags:
+  - book
+doubanId: 1139360
 author:
   - 毛泽东
 score: 9.6
@@ -14,12 +21,9 @@ isbn: 9787010009148
 url: https://book.douban.com/subject/1139360/
 totalPage: 340
 price: 40
-tags:
-  - book
 binding: 精装
 desc: 这部选集包括了毛泽东同志在中国革命各个时期中的重要著作，是按照中国共产党成立后所经历的各个历史时期并且按照著作年月次序而编辑的。本卷包括第一次国内革命战争时期和第二次国内革命战争时期的著作。
 cover: "[[mao.jpg]]"
-type: area
 ---
 
   - 中国社会各阶级的分析

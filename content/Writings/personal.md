@@ -1,10 +1,12 @@
 ---
 title: Personal Info System
 type: area
+domain: meta
+category: personal-system
 status: active
-domain: planning
 priority:
 review:
+tags:
 ---
 
 ## Personal name system

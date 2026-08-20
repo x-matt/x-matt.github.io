@@ -1,11 +1,12 @@
 ---
 title: C++ basic knowledge
 type: area
-status: active
 domain: work
 category: language
+status: active
 priority:
 review:
+tags:
 ---
 
 ## C++特性

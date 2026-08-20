@@ -4,6 +4,7 @@ type: area
 domain: mind
 category:
 status: active
+priority: 
 review:
 tags:
   - reminder

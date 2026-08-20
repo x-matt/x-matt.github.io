@@ -1,10 +1,11 @@
 ---
 title: Beautiful Mind
 type: area
-status: active
 domain: mind
+status: active
 priority:
 review:
+tags:
 ---
 
 ## Symmary

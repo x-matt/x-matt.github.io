@@ -1,10 +1,11 @@
 ---
 title: YJango
 type: area
-status: active
 domain: mind
+status: active
 priority:
 review:
+tags:
 ---
 
 - 网址: [渐构](https://www.modevol.com/)

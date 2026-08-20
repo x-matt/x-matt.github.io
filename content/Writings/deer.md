@@ -1,10 +1,12 @@
 ---
 title: Deer
 type: area
+domain: relationship
+category: intimacy
 status: active
-domain: love
 priority:
 review:
+tags:
 ---
 
 ## 璐

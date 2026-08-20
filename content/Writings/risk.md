@@ -1,14 +1,13 @@
 ---
 title: Risk
 type: project
-status: active
 domain: work
 category: feature
+status: active
 priority:
 review:
 tags:
   - livp
-
 ---
 
 - 验证机型：O1

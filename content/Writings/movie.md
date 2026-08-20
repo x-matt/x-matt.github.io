@@ -1,10 +1,12 @@
 ---
 title: Movie
 type: area
+domain: self
+category: movie
 status: active
-domain: entertainment
 priority:
 review:
+tags:
 ---
 
 > 电影是历史的遗产

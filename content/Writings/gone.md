@@ -1,9 +1,10 @@
 ---
 title: 一步之遥
 type: area
-domain: entertainment
+domain: self
 category: movie
 status: active
+priority: 
 review:
 tags:
 birth: "2014"

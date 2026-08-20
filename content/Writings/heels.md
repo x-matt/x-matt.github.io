@@ -1,8 +1,9 @@
 ---
 title: Heels
 type: area
+domain: self
+category: fashion
 status: active
-domain: hobby
 priority:
 review:
 tags:

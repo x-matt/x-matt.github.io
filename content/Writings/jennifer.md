@@ -1,9 +1,10 @@
 ---
 title: Jennifer Connelly
 type: area
-domain: entertainment
+domain: self
 category: actor
 status: active
+priority: 
 review:
 tags:
 cover: "[[jennifer.jpg]]"

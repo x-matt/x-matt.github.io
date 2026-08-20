@@ -1,13 +1,12 @@
 ---
 title: Vidhance
 type: area
-status: done
 domain: work
-category: feature
+category: eis
+status: done
 priority:
 review:
 tags:
-  - eis
 ---
 
 ### 开启Log

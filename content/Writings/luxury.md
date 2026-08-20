@@ -1,9 +1,10 @@
 ---
 title: Luxury Brand
 type: area
-domain: entertainment
-category:
+domain: self
+category: fashion
 status: active
+priority: 
 review:
 tags:
 ---

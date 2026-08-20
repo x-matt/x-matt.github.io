@@ -1,9 +1,10 @@
 ---
 title: 王楚然
 type: area
-domain: entertainment
+domain: self
 category: actor
 status: active
+priority: 
 review:
 tags:
 cover: "[[churan-0.jpg]]"

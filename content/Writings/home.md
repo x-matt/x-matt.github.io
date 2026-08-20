@@ -1,8 +1,9 @@
 ---
 title: House Design
 type: area
+domain: self
+category: home
 status: active
-domain: material
 priority:
 review:
 tags:

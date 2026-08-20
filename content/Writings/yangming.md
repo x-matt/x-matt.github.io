@@ -4,6 +4,7 @@ type: area
 domain: mind
 category: people
 status: active
+priority: 
 review:
 tags:
 ---

@@ -1,11 +1,12 @@
 ---
 title: Interview
 type: area
-status: active
 domain: work
 category: personal
+status: active
 priority:
 review: daily
+tags:
 ---
 
 # 面试准备 - 技术痛点梳理

@@ -1,10 +1,12 @@
 ---
 title: GTD
 type: area
+domain: meta
+category: productivity
 status: active
-domain: mind
 priority:
 review:
+tags:
 ---
 
 - 翻译: 把需要做的事情做好

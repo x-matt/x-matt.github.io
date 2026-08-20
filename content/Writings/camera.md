@@ -4,6 +4,7 @@ type: area
 domain: work
 category: camera
 status: active
+priority: 
 review:
 tags:
   - skyview

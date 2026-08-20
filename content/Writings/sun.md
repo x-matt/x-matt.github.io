@@ -1,13 +1,14 @@
 ---
 title: 太阳照常升起
 type: area
-domain: entertainment
+domain: self
 category: movie
 status: active
+priority: 
 review:
+tags:
 director: 姜文
 birth: "2007"
-tags:
 cover: "[[sun.jpg]]"
 ---
 ![[sun.jpg|300]]

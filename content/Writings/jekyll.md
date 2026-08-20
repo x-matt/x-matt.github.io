@@ -1,9 +1,9 @@
 ---
 title: Jekyll
 type: resource
-status: done
 domain: work
 category: tool
+status: done
 priority:
 review:
 tags:

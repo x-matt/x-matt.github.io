@@ -1,10 +1,12 @@
 ---
 title: Photography
 type: area
+domain: self
+category: photography
 status: active
-domain: photography
 priority:
 review:
+tags:
 image-counter: 1
 ---
 

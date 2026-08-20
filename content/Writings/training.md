@@ -1,9 +1,9 @@
 ---
 title: Training
 type: resource
-status: active
 domain: work
 category: debug
+status: active
 priority:
 review:
 tags:

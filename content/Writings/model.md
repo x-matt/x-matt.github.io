@@ -1,9 +1,9 @@
 ---
 title: Camera Model
 type: area
-status: active
 domain: work
 category: algorithm
+status: active
 priority:
 review:
 tags:

@@ -1,9 +1,10 @@
 ---
 title: 韩佳人
 type: area
-domain: entertainment
+domain: self
 category: actor
 status: active
+priority: 
 review:
 tags:
 cover: "[[jiaren.jpg]]"

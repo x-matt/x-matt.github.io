@@ -1,9 +1,9 @@
 ---
 title: Qcom related resource
 type: resource
-status: active
 domain: work
 category: platform
+status: active
 priority:
 review:
 tags:

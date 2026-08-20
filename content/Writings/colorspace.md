@@ -1,11 +1,12 @@
 ---
 title: Colorspace
 type: area
-status: active
 domain: work
 category: imagedata
+status: active
 priority:
 review:
+tags:
 ---
 
 - [色彩管理介绍](https://www.bilibili.com/video/BV1U541177tS?from=search&seid=14827254789180749033)

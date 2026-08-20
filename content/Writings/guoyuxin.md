@@ -1,9 +1,10 @@
 ---
 title: 郭宇欣
 type: area
-domain: entertainment
+domain: self
 category: actor
 status: active
+priority: 
 review:
 tags:
 cover: "[[guoyuxin-0.jpg]]"

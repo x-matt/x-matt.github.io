@@ -1,10 +1,12 @@
 ---
 title: Business
 type: project
+domain: work
+category: business
 status: active
-domain: business
 priority:
 review:
+tags:
 ---
 
 ## 系列

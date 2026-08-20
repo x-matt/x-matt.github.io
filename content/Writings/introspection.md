@@ -1,8 +1,8 @@
 ---
 title: Introspection
 type: area
-status: active
 domain: mind
+status: active
 priority:
 review: daily
 tags:

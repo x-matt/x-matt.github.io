@@ -1,11 +1,12 @@
 ---
 title: Log
 type: area
-status: active
 domain: work
 category: debug
+status: active
 priority:
 review:
+tags:
 ---
 
 ## Log Filter

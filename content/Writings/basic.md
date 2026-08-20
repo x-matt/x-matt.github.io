@@ -1,14 +1,13 @@
 ---
 title: C++ basic knowledge
 type: area
-status: active
 domain: work
 category: language
+status: active
 priority:
 review:
 tags:
   - cpp
-
 ---
 ## C++特性
 1. 封装：隐藏实现细节，使得代码模块化

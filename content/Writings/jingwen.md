@@ -1,9 +1,10 @@
 ---
 title: 贾静雯
 type: area
-domain: entertainment
+domain: self
 category: actor
 status: active
+priority: 
 review:
 tags:
 cover: "[[jingwen-0.jpg]]"

@@ -1,9 +1,9 @@
 ---
 title: Video
 type: area
-status: active
 domain: work
 category: feature
+status: active
 priority:
 review: daily
 tags:

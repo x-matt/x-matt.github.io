@@ -1,10 +1,12 @@
 ---
 title: Music
 type: area
+domain: self
+category: music
 status: active
-domain: entertainment
 priority:
 review:
+tags:
 ---
 
 | Song           | Singer      |

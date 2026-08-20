@@ -1,9 +1,9 @@
 ---
 title: Zero Shutter Lag - ZSL
 type: area
-status: active
 domain: knowledge
 category: zsl
+status: active
 priority:
 review:
 tags:

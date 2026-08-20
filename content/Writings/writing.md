@@ -1,8 +1,9 @@
 ---
 title: Writing
 type: project
+domain: knowledge
+category: exam
 status: waiting
-domain: learn
 priority:
 review:
 tags:

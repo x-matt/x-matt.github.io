@@ -1,9 +1,9 @@
 ---
 title: Structure from Motion
 type: area
-status: active
 domain: work
 category: algorithm
+status: active
 priority:
 review:
 tags:

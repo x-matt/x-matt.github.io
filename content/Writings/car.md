@@ -1,10 +1,12 @@
 ---
 title: Car
 type: area
+domain: self
+category: vehicle
 status: active
-domain: material
 priority:
 review:
+tags:
 ---
 
 ## EV

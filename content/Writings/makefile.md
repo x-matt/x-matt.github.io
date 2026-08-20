@@ -1,9 +1,9 @@
 ---
 title: Makefile
 type: area
-status: active
 domain: work
 category: android
+status: active
 priority:
 review:
 tags:

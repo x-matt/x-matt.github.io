@@ -1,10 +1,11 @@
 ---
 title: Naval Ravikant
 type: area
-status: active
 domain: mind
+status: active
 priority:
 review:
+tags:
 ---
 
 ## Learn From Video

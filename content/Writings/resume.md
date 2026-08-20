@@ -1,11 +1,12 @@
 ---
 title: Resume
 type: area
-status: waiting
 domain: work
 category: personal
+status: waiting
 priority:
 review:
+tags:
 ---
 
 ## 马滔

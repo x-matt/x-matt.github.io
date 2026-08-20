@@ -1,10 +1,11 @@
 ---
 title: Reading
 type: area
-status: active
 domain: mind
+status: active
 priority:
 review:
+tags:
 ---
 
 知识, 流淌

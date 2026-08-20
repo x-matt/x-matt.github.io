@@ -1,11 +1,12 @@
 ---
 title: Quartz
 type: area
-status: active
-domain: work
+domain: meta
 category: tool
+status: active
 priority:
 review:
+tags:
 ---
 ## Install
 

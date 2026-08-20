@@ -1,9 +1,9 @@
 ---
 title: MIVI V3.0 - MIVI3
 type: area
-status: active
 domain: work
 category: platform
+status: active
 priority:
 review:
 tags:

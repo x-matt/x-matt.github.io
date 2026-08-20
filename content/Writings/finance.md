@@ -1,10 +1,12 @@
 ---
 title: Finance
 type: area
+domain: work
+category: finance
 status: active
-domain: finance
 priority:
 review:
+tags:
 ---
 
 ## 美联储利息

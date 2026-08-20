@@ -1,8 +1,9 @@
 ---
 title: Food
 type: area
+domain: self
+category: food
 status: active
-domain: material
 priority:
 review:
 tags:

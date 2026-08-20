@@ -1,13 +1,17 @@
 ---
 title: Learn Everything Within Half an Hour
+type: resource
+domain: knowledge
+category: learning
+status: active
+priority: 
+review: 
+tags:
+  - clippings
 source: https://x.com/Khazix0918/status/2043555868902637845
 author:
 published: 2026-04-16
 description:
-tags:
-  - clippings
-type: resource
-domain: learn
 ---
 
 前两天办完大会，然后昨天周末跟一个朋友吃饭，聊着聊着他突然放下筷子看着我说了一句，不是哥们，你怎么什么都懂一点？

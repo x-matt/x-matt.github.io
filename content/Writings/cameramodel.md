@@ -4,6 +4,7 @@ type: area
 domain: work
 category: algorithm
 status: active
+priority: 
 review:
 tags:
 ---

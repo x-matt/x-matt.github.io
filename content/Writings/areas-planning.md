@@ -1,9 +1,9 @@
 ---
 title: Core Areas
 type: area
-status: active
 domain: work
 category: planning
+status: active
 priority:
 review: daily
 tags:

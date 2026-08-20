@@ -4,10 +4,10 @@ type: area
 domain: knowledge
 category: android
 status: active
+priority:
 review: daily
 tags:
   - skyview
-priority:
 ---
 
 ![[structure 2025.excalidraw#^frame=Android Abstract|600]]

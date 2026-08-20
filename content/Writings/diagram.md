@@ -1,11 +1,12 @@
 ---
 title: Diagram
 type: area
-status: active
 domain: work
 category: tool
+status: active
 priority:
 review:
+tags:
 ---
 
 ## Mermaid

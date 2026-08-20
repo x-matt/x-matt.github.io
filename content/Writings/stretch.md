@@ -1,6 +1,12 @@
 ---
-domain: fitness
+title: 🧘 Stretch
+type: area
+domain: self
 category: recovery
+status: active
+priority: 
+review: 
+tags:
 duration: 15
 ---
 # 🧘 Stretch

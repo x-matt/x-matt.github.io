@@ -1,11 +1,12 @@
 ---
 title: Stability
 type: area
-status: active
 domain: work
 category: platform
+status: active
 priority:
 review:
+tags:
 ---
 
 ## Memory safety tools

@@ -1,8 +1,9 @@
 ---
 title: Body
 type: area
+domain: self
+category: health
 status: active
-domain: mind
 priority:
 review:
 tags:

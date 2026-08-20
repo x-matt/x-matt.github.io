@@ -1,8 +1,12 @@
 ---
 title: Upper A
 type: area
-domain: fitness
+domain: self
 category: workout
+status: active
+priority: 
+review: 
+tags:
 focus:
   - chest
   - back

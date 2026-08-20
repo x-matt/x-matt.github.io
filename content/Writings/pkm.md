@@ -1,10 +1,12 @@
 ---
 title: PKM
 type: area
+domain: meta
+category: knowledge-management
 status: active
-domain: mind
 priority:
 review:
+tags:
 ---
 
 1. [PKMer](https://pkmer.cn/)

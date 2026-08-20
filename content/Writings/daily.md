@@ -1,10 +1,11 @@
 ---
 title: Daily
 type: area
-status: active
 domain: mind
+status: active
 priority:
 review:
+tags:
 ---
 
 ## 精力分配

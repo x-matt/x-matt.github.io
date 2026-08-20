@@ -1,11 +1,12 @@
 ---
 title: Normalization
 type: area
-status: active
 domain: work
 category: tool
+status: active
 priority:
 review:
+tags:
 ---
 
 ### 提交前统一格式

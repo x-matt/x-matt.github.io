@@ -1,13 +1,12 @@
 ---
 title: Customization
 type: area
-status: active
 domain: work
-category: feature
+category: eis
+status: active
 priority:
 review:
 tags:
-  - eis
 ---
 
 ## 1. 配置文件

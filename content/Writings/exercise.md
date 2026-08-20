@@ -1,10 +1,12 @@
 ---
 title: Exercise
 type: area
+domain: self
+category: health
 status: active
-domain: health
 priority:
 review:
+tags:
 ---
 
 ## 运动类型

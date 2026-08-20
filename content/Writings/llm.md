@@ -1,8 +1,9 @@
 ---
 title: LLM
 type: area
+domain: knowledge
+category: ai
 status: active
-domain: learn
 priority:
 review:
 tags:

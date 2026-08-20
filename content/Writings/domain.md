@@ -3,8 +3,8 @@ title: Domain Intro
 type: area
 domain: meta
 category: knowledge-management
-priority:
 status: active
+priority:
 review: weekly
 tags:
   - skyview

@@ -1,11 +1,12 @@
 ---
 title: Image Format
 type: area
-status: active
 domain: work
 category: imagedata
+status: active
 priority:
 review:
+tags:
 ---
 ## Common Format
 | **Domain**            | **Characteristics**                                                  | **Common Formats**                     | **Applications**                                                     | **Advantages**                                   | **Disadvantages**                                                |
