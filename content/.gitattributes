@@ -1,0 +1,6 @@
+# 默认：content 下所有文件都不处理文本和换行
+** -text
+
+Writings/**/*.md text eol=lf
+Daily/**/*.md text eol=lf
+Assets/canvas/**/*.canvas text eol=lf

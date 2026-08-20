@@ -1,0 +1,198 @@
+filters:
+  and:
+    - file.inFolder("Writings")
+    - domain == "work"
+    - '!file.inFolder("Writings/Darkroom")'
+formulas:
+  last_modified: file.mtime.relative()
+properties:
+  formula.last_modified:
+    displayName: updated
+views:
+  - type: table
+    name: Recently
+    order:
+      - title
+      - file.name
+      - category
+      - tags
+      - formula.last_modified
+      - file.mtime
+    sort:
+      - property: formula.last_modified
+        direction: DESC
+    limit: 20
+  - type: table
+    name: D.Rev
+    filters:
+      and:
+        - review == "daily"
+    order:
+      - title
+      - file.name
+      - tags
+      - formula.last_modified
+  - type: table
+    name: W.Rev
+    filters:
+      and:
+        - review == "weekly"
+    order:
+      - title
+      - file.name
+      - tags
+      - formula.last_modified
+  - type: table
+    name: M.Rev
+    filters:
+      and:
+        - review == "monthly"
+    order:
+      - title
+      - file.name
+      - tags
+      - formula.last_modified
+  - type: table
+    name: All
+    groupBy:
+      property: type
+      direction: ASC
+    order:
+      - title
+      - file.name
+      - tags
+      - category
+      - formula.last_modified
+    sort:
+      - property: category
+        direction: ASC
+      - property: title
+        direction: ASC
+      - property: type
+        direction: ASC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      note.title: 280
+      file.name: 220
+  - type: table
+    name: 📌 Projects
+    filters:
+      and:
+        - type == "project"
+        - status != "done"
+    order:
+      - title
+      - file.name
+      - tags
+      - formula.last_modified
+    sort:
+      - property: tags
+        direction: ASC
+      - property: file.name
+        direction: DESC
+  - type: table
+    name: 📂 Areas
+    filters:
+      and:
+        - type == "area"
+    groupBy:
+      property: category
+      direction: ASC
+    order:
+      - title
+      - file.name
+      - tags
+      - status
+    sort:
+      - property: title
+        direction: DESC
+      - property: tags
+        direction: DESC
+      - property: category
+        direction: ASC
+    columnSize:
+      file.name: 220
+      note.title: 280
+      file.category: 160
+  - type: table
+    name: 📚 Resources
+    filters:
+      and:
+        - type == "resource"
+    order:
+      - title
+      - file.name
+      - tags
+      - category
+    sort:
+      - property: title
+        direction: ASC
+  - type: table
+    name: 🗃️ Archives
+    filters:
+      and:
+        - status == "done"
+    order:
+      - title
+      - file.name
+      - tags
+      - formula.last_modified
+    sort:
+      - property: title
+        direction: ASC
+  - type: table
+    name: Express
+    filters:
+      and:
+        - status == "expressing"
+  - type: table
+    name: Eis
+    filters:
+      and:
+        - file.tags.contains("eis")
+    groupBy:
+      property: category
+      direction: ASC
+    order:
+      - title
+      - file.name
+      - status
+      - category
+      - tags
+  - type: table
+    name: Sat
+    filters:
+      and:
+        - file.tags.contains("sat")
+    groupBy:
+      property: category
+      direction: ASC
+    order:
+      - title
+      - file.name
+      - status
+      - category
+      - tags
+  - type: table
+    name: Mivi
+    filters:
+      and:
+        - file.tags.contains("mivi")
+    order:
+      - title
+      - file.name
+      - type
+      - category
+  - type: table
+    name: Algorithm
+    filters:
+      and:
+        - category == "algorithm"
+    order:
+      - title
+      - file.name
+      - type
+      - formula.last_modified
+    columnSize:
+      note.title: 280

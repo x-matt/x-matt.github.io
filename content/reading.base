@@ -1,0 +1,31 @@
+filters:
+  and:
+    - file.inFolder("Writings")
+    - domain == "book"
+formulas:
+  last_modified: file.mtime.relative()
+properties:
+  formula.last_modified:
+    displayName: updated
+views:
+  - type: table
+    name: List
+    order:
+      - title
+      - file.name
+      - score
+      - scoreStar
+    sort:
+      - property: score
+        direction: DESC
+      - property: title
+        direction: DESC
+    columnSize:
+      note.title: 202
+  - type: cards
+    name: Library
+    order:
+      - title
+      - author
+    image: note.cover
+    imageAspectRatio: 0.7
