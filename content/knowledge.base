@@ -1,0 +1,18 @@
+filters:
+  and:
+    - domain == "knowledge"
+views:
+  - type: table
+    name: Algorithm
+    filters:
+      and:
+        - file.tags.contains("algo")
+    order:
+      - title
+      - file.name
+      - category
+      - type
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC

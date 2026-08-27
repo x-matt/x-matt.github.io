@@ -1,10 +1,10 @@
 ---
 title: Camera Model
 type: area
-domain: work
-category: algorithm
+domain: knowledge
+category: geometry
 status: active
-priority: 
+priority:
 review:
 tags:
 ---
@@ -27,7 +27,7 @@ tags:
 3. 图像坐标系$\{I\}$
 4. 像素坐标系$\{P\}$
 
-![[camera 2026.excalidraw#^frame=coordinate_system|700]]
+![[camera 2026.excalidraw#^frame=pinhole_camera|700]]
 
 规律：
 1. 世界坐标系一般为[惯性系](https://zhida.zhihu.com/search?content_id=241619457&content_type=Article&match_order=1&q=%E6%83%AF%E6%80%A7%E7%B3%BB&zhida_source=entity)，位置可任意指定。
@@ -163,42 +163,7 @@ Z_w
 $$
 
 ---
-
-## 一个非常直观的理解
-
-假设在房间里面放一台相机。
-
-### 内参回答：
-
-> **“这台相机本身是什么样？”**
-
-例如：
-
-- 焦距是多少？
-- 图像中心在哪里？
-- 像素是否存在非正方形问题？
-- 镜头有多大畸变？
-
-这些都是**内参**。
-
----
-
-### 外参回答：
-
-> **“这台相机现在放在哪里？”**
-
-例如：
-
-- 相机距离地面 1.5 m
-- 向左旋转 20°
-- 向下俯视 10°
-- 相机在房间坐标系中的位置是多少？
-
-这些都是**外参**。
-
----
-
-## 内参 + 外参如何一起使用？
+## Intrinsics + Extrinsics
 
 这是计算机视觉中非常核心的一条公式：
 
@@ -219,23 +184,6 @@ Z_w\\
 1
 \end{bmatrix}
 $$
-
-也就是：
-
-**世界坐标 → 相机坐标 → 图像坐标**
-
-整个过程可以理解为：
-
-```log
-          外参
-世界坐标 ───────→ 相机坐标
-                    │
-                    │ 内参
-                    ↓
-                 图像坐标
-```
----
-## 举个具体例子
 
 假设空间中有一个点：
 
@@ -294,7 +242,7 @@ $$
 1. 两个相机光心在同一水平线上
 2. 成像平面平行
 
-![[camera 2026.excalidraw#^frame=dual_cam_model|600]]
+![[camera 2026.excalidraw#^frame=rectified_camera|600]]
 
 
 ```log
@@ -335,6 +283,21 @@ $$
 
 ---
 
+### Epipolar Constraint
+
+> **极线约束解决的是：当我在一个相机里看到一个 2D 点时，它在另一个相机里“不可能出现在任意位置”，而只能落在一条特定的极线上。**
+
+Stereo Matching 时候使用
+
+![[camera 2026.excalidraw#^frame=epipolar_constraint|700]]
+
+已知：
+image 1, image 2, $p_1,K_1, K_2, R_{12}, t_{12}$
+则：$\overline{{O_1}{O_2}}$,  $\overrightarrow{{O_1}{p_1}}$, $\overrightarrow{{e_2}{p_b}}$ 均可推算出
+=》 **$p_1$已知，$p_2$一定在射线 $\overrightarrow{{e_2}{p_b}}$上, 反之亦然**
+
+
+---
 ### Stereo Calibration
 
 每个相机都有自己的内参：

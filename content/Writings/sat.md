@@ -101,3 +101,7 @@ graph TD
 #### SAT Node change
 
 ![[sat 2025.excalidraw#^frame=2_in_2_out|700]]
+
+## Algo Pipeline
+
+![[cv 2025.excalidraw#^frame=sat_pipeline|200]]

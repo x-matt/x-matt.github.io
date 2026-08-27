@@ -168,3 +168,25 @@ views:
       - title
     image: note.cover
     imageAspectRatio: 0.75
+  - type: table
+    name: Geometry
+    filters:
+      and:
+        - category == "geometry"
+    order:
+      - title
+      - file.name
+      - tags
+  - type: table
+    name: Reconstruction
+    filters:
+      and:
+        - category == "reconstruction"
+    order:
+      - title
+      - file.name
+  - type: table
+    name: Motion
+    filters:
+      and:
+        - category.contains("motion")

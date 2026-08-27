@@ -232,7 +232,7 @@
         "hidden": false
       },
       "Growth Mode": {
-        "value": "Right-Left",
+        "value": "Right-facing",
         "valueset": [
           "Radial",
           "Right-facing",
@@ -583,6 +583,10 @@
           }
         ],
         "hidden": true
+      },
+      "Group Branches": {
+        "value": false,
+        "hidden": false
       }
     }
   },

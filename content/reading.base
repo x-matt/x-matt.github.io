@@ -1,7 +1,7 @@
 filters:
   and:
     - file.inFolder("Writings")
-    - domain == "book"
+    - category == "book"
 formulas:
   last_modified: file.mtime.relative()
 properties:

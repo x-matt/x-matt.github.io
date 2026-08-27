@@ -4,20 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "93afee4bda5c9aec",
+        "id": "8171cbe97626ab11",
         "type": "tabs",
         "children": [
           {
-            "id": "87f2e179313c61f5",
+            "id": "37a7bdbdcbfddef4",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "work.base",
-                "viewName": "Algorithm"
+                "file": "Writings/stitching.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "work"
+              "icon": "lucide-file",
+              "title": "stitching"
             }
           }
         ],
@@ -55,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mctf",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -123,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work.base",
+                "file": "Assets/excalidraw/cv 2025.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "7e9c7c78870a3a41",
@@ -174,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work.base",
+                "file": "Writings/stitching.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -204,38 +205,40 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "87f2e179313c61f5",
+  "active": "37a7bdbdcbfddef4",
   "lastOpenFiles": [
+    "Writings/eis-algo.md",
+    "Writings/video stitching.md",
+    "Writings/stitching.md",
+    "Assets/excalidraw/cv 2025.excalidraw.md",
     "Writings/sat.md",
-    "work.base",
-    "index.md",
-    "Writings/eis-qcom-overview.md",
-    "Writings/eis-qcom-architecture.md",
-    "Writings/eis-mtk-architecture.md",
-    "Writings/eis-mtk-overview.md",
-    "Writings/his.md",
-    "Writings/framedelay.md",
-    "Writings/horizon.md",
-    "Writings/mis.md",
-    "Writings/other.md",
-    "Writings/otis.md",
-    "Writings/eis-o1-debug.md",
-    "Writings/mivi-bring-up.md",
-    "Writings/eis-debug.md",
-    "Writings/route.md",
-    "Assets/excalidraw/skyview 2025.excalidraw.md",
-    "Writings/luxury.md",
+    "Writings/crop.md",
+    "Writings/cv.md",
+    "Writings/eis.md",
+    "Writings/vo.md",
+    "Writings/camera-model.md",
+    "Writings/sfm.md",
+    "Writings/rectification.md",
     "Writings/warping.md",
-    "Writings/makefile.md",
-    "Writings/m12.md",
-    "Writings/dump.md",
-    "Writings/domain.md",
-    "Writings/dolbyvision.md",
-    "Writings/diagram.md",
-    "Writings/design.md",
-    "Assets/images/image-2.png",
-    "life.base",
+    "Writings/algo.md",
+    "Assets/excalidraw/camera 2026.excalidraw.md",
+    "Writings/online-calib.md",
+    "Writings/online-calib-ex.md",
+    "Assets/excalidraw/calibration 2026.excalidraw.md",
+    "Writings/obsidian.md",
+    "Assets/excalidraw/sfm 2026.excalidraw.md",
+    "Writings/his.md",
+    "Assets/canvas/chinese history.canvas",
+    "Writings/hdr.md",
+    "Assets/excalidraw/sift.excalidraw.md",
+    "Writings/eis-overview.md",
+    "Writings/eis-qcom.md",
+    "Writings/horizon.md",
+    "knowledge.base",
     "reading.base",
+    "work.base",
+    "life.base",
+    "Assets/images/image-2.png",
     "Writings/Darkroom/darkroom.base",
     "Assets/settings/excalidraw/libraries/it-icons.excalidrawlib",
     "Assets/images/darkroom/camera-0.png",
@@ -251,8 +254,6 @@
     "Assets/settings/excalidraw/libraries/local-library.excalidrawlib",
     "Assets/excalidraw/libraries",
     "Assets/images/theron-0.webp",
-    "Assets/icons",
-    "Assets/canvas/chinese history.canvas",
     "Untitled.canvas",
     "Planning.canvas",
     "Untitled 1.canvas",

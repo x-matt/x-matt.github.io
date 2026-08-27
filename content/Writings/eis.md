@@ -8,7 +8,39 @@ priority:
 review:
 tags:
 ---
-
+EIS
+│
+├── Theory
+│   ├── Camera Model
+│   ├── Motion Model
+│   └── Coordinate System
+│
+├── Problem
+│   ├── Hand Shake
+│   ├── Rolling Shutter
+│   └── Motion Blur
+│
+├── Method
+│   ├── IMU-based
+│   ├── Vision-based
+│   └── Hybrid
+│
+├── Algorithm
+│   ├── Motion Estimation
+│   ├── Path Smoothing
+│   └── Crop / Warp
+│
+├── Implementation
+│   ├── HAL
+│   ├── QCOM / MTK
+│   ├── Buffer
+│   └── 21×11 Mesh
+│
+└── Product
+    ├── Normal EIS
+    ├── Super EIS
+    └── Night Video EIS
+- [ ] 完善eis的笔记逻辑，eis为image capability 
 ## 1. EIS厂商
 
 - [[vidhance]]

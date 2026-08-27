@@ -190,7 +190,7 @@ views:
     name: Algorithm
     filters:
       and:
-        - category == "algorithm"
+        - file.tags.contains("algo")
     order:
       - title
       - file.name

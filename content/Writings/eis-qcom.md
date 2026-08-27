@@ -40,15 +40,15 @@ supported sensor: FRONT, WIDE, ULTRA-WIDE, TELE
 
 ## 5. NOTES
 
-| Node  | 解决的问题     | 实时性   | Out Param                                                                | Out子项说明                                                       |
-| ----- | -------------- | -------- | ------------------------------------------------------------------------ | ----------------------------------------------------------------- |
-| EISV2 | 1. FOV抖动问题 | RealTime | stabilization_transform                                                  | 1. perspectiveMatrix                                              |
-|       | 2. 畸变问题    | RealTime | distortion_correction_grid                                               | 2. LDC/ERS Grid                                                   |
-|       | 3. for MCTF    | RealTime | alignment_matrix_domain_undistorted & alignment_matrix_domain_stabilized | 3. Gyro Alignment Matrix                                          |
-| GME   | 1. 畸变问题    | RealTime | distortion_correction_grid                                               | 1. LDC/ERS Grid                                                   |
-|       | 2. for MCTF    | RealTime | alignment_matrix_domain_undistorted                                      | 2. Gyro Alignment Matrix                                          |
-| EISV3 | 1. FOV抖动问题 | Delayed  | stabilization_transformrdistortion_correction_grid                       | 1. perspectiveMatrix<br>2. DIS Grid<br>3. LDC/ERS Grid (from GME) |
-|       | 2. for MCTF    | Delayed  | alignment_matrix_domain_stabilized                                       | 4. Gyro Alignment Matrix                                          |
+| Node  | 解决的问题       | 实时性      | Out Param                                                                | Out子项说明                                                           |
+| ----- | ----------- | -------- | ------------------------------------------------------------------------ | ----------------------------------------------------------------- |
+| EISV2 | 1. FOV抖动问题  | RealTime | stabilization_transform                                                  | 1. perspectiveMatrix                                              |
+|       | 2. 畸变问题     | RealTime | distortion_correction_grid                                               | 2. LDC/ERS Grid                                                   |
+|       | 3. for MCTF | RealTime | alignment_matrix_domain_undistorted & alignment_matrix_domain_stabilized | 3. Gyro Alignment Matrix                                          |
+| GME   | 1. 畸变问题     | RealTime | distortion_correction_grid                                               | 1. LDC/ERS Grid                                                   |
+|       | 2. for MCTF | RealTime | alignment_matrix_domain_undistorted                                      | 2. Gyro Alignment Matrix                                          |
+| EISV3 | 1. FOV抖动问题  | Delayed  | stabilization_transformrdistortion_correction_grid                       | 1. perspectiveMatrix<br>2. DIS Grid<br>3. LDC/ERS Grid (from GME) |
+|       | 2. for MCTF | Delayed  | alignment_matrix_domain_stabilized                                       | 4. Gyro Alignment Matrix                                          |
 
 | Variable                            | Description                                                                                                                    |
 | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
@@ -61,19 +61,19 @@ supported sensor: FRONT, WIDE, ULTRA-WIDE, TELE
 | has_output                          | Indicate if the output data is valid. Required for EISV2, GME and EISV3                                                        |
 
 - EIS解决的问题
-  1. FOV反复交替问题 - stabilization_transform
-     1. perspectiveMatrix
-     2. DIS grid
-  2. 畸变问题 - distortion_correction_grid
-	 1. LDC/ERS Grid
+	1. FOV反复交替问题 - stabilization_transform
+		 1. perspectiveMatrix
+		 2. DIS grid
+	2. 畸变问题 - distortion_correction_grid
+		 1. LDC/ERS Grid
 - M2算法及使用场景
 
-| 算法厂商 | 应用场景                        |
-| -------- | ------------------------------- |
-| Vidhance | FRONT、SuperEIS、SuperEISPro    |
+| 算法厂商     | 应用场景                           |
+| -------- | ------------------------------ |
+| Vidhance | FRONT、SuperEIS、SuperEISPro     |
 | Morpho   | Capture Preview Zoom、Moon Mode |
-| HIS      | 4K60                            |
-| Qcom     | Others                          |
+| HIS      | 4K60                           |
+| Qcom     | Others                         |
 
 - EIS的output
   1. alignment Matrix： MCTF用来提升画质 ，以前是用的GME但是现在这个工作由EIS做了，所以现在GMEnode不用了
@@ -219,17 +219,17 @@ typedef struct is_output_stabilize_s
 8450新增EVA计算模块，代替之前的CVP，用于矩阵计算，相比之前的CVP模块，功能更强大，新增SGM，可以对图像分块做对齐，但Video暂时未使用
 
 1. 对齐模式的选择：可以在dmm模块中设置：
-   1. mode = 0：image based only，对齐方式在 image 和 单位阵 之间切换
-   2. mode = 1：gyro based only，对齐方式在 gyro 和 单位阵 之间切换
-   3. mode = 2：auto calculate，对齐方式在 image 和 gyro 之间切换
+	1. mode = 0：image based only，对齐方式在 image 和 单位阵 之间切换
+	2. mode = 1：gyro based only，对齐方式在 gyro 和 单位阵 之间切换
+	3. mode = 2：auto calculate，对齐方式在 image 和 gyro 之间切换
 2. 切换阈值：
-   1. mode = 0 :
-      1. confidence < `<transform_confidence_thr_to_force_identity_transform>`时，使用单位阵
-      2. confidence >`<transform_confidence_thr_to_force_identity_transform>`时，使用image align
-   2. mode = 2：
-      1. confidence <`<image_conf_low_threshold>`时，使用gyro align
-      2. confidence >`<image_conf_high_threshold>`时，使用image align
-      3. `<image_conf_low_threshold>`/`<image_conf_high_threshold>`之间为缓冲区，防止频繁切换
+	1. mode = 0 :
+		  1. confidence < `<transform_confidence_thr_to_force_identity_transform>`时，使用单位阵
+		  2. confidence >`<transform_confidence_thr_to_force_identity_transform>`时，使用image align
+	2. mode = 2：
+		  1. confidence <`<image_conf_low_threshold>`时，使用gyro align
+		  2. confidence >`<image_conf_high_threshold>`时，使用image align
+		  3. `<image_conf_low_threshold>`/`<image_conf_high_threshold>`之间为缓冲区，防止频繁切换
 
 ## 7. 其他模块
 
@@ -241,7 +241,6 @@ typedef struct is_output_stabilize_s
   - 子模块
     1. Image Warping
        - Geometric Correct Engine (GCE)
-
     1. Depth from Stereo (DFS)
        - **Semi-Global Matching (SGM ) 相较于CVP改进的核心点**
     1. Normalized Cross Correlation (NCC)

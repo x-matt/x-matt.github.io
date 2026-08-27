@@ -1,17 +1,22 @@
 ---
 title: Structure from Motion
 type: area
-domain: work
-category: algorithm
+domain: knowledge
+category: reconstruction
 status: active
 priority:
 review:
 tags:
   - sfm
+  - algo
 ---
+Space+Time(Geometry+Motion)
 
+Structure from Motion  
 - input: 多帧图像或视频
 - output: 三维结构和相机运动
+	- a 3-D reconstruction of the object of all images => pose
+	- the reconstructed intrinsic and extrinsic camera parameters of all images => sparse 3D
 
 ```mermaid
 flowchart LR
@@ -71,17 +76,22 @@ flowchart LR
     O3 --> Z
     P2 --> Z
 ```
-
+![[sfm 2026.excalidraw|100]]
 ## SIFT
 
 Scale-Invariant Feature Transform
+> 负责完成 feature extraction & feature matching
 
-| 阶段   | 内容                                                     | 颜色        |
-| ------ | -------------------------------------------------------- | ----------- |
-| Step 1 | 尺度空间构建：Gaussian金字塔 → 相减 → DoG金字塔          | 蓝色系      |
-| Step 2 | 关键点检测：3层DoG中26邻域极值比较                       | 绿色系      |
+keypoint -> descriptor -> matching -> correspondence
+
+descriptor: 对keypoint 周围的图片问题的向量描述
+
+| 阶段     | 内容                                 | 颜色     |
+| ------ | ---------------------------------- | ------ |
+| Step 1 | 尺度空间构建：Gaussian金字塔 → 相减 → DoG金字塔   | 蓝色系    |
+| Step 2 | 关键点检测：3层DoG中26邻域极值比较               | 绿色系    |
 | Step 3 | 关键点精确定位：Taylor展开 → 低对比度滤除 → 边缘响应滤除 | 黄色/橙色系 |
-| Step 4 | 方向分配：梯度采样 → 36-bin方向直方图 → 主方向           | 紫色系      |
-| Step 5 | 描述符生成：4x4子区域 × 8方向 = 128维向量                | 红色/绿色系 |
+| Step 4 | 方向分配：梯度采样 → 36-bin方向直方图 → 主方向      | 紫色系    |
+| Step 5 | 描述符生成：4x4子区域 × 8方向 = 128维向量        | 红色/绿色系 |
 
 ![[sift.excalidraw| 1000]]

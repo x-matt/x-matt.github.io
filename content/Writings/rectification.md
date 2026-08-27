@@ -2,7 +2,7 @@
 title: Image Rectification
 type: area
 domain: knowledge
-category: image-transformation
+category: image-processing
 status: active
 priority:
 review:

@@ -2,13 +2,16 @@
 title: Image Warping
 type: area
 domain: knowledge
-category: image-transformation
+category: image-processing
 status: active
 priority:
 review:
 tags:
   - algo
 ---
+## Forward Warping[^1]
+
+## Backward Warping
 
 Inverse warping（逆向变形）是一种图像处理技术，通常用于将图像从一个空间映射到另一个空间。在计算机视觉和图形学中，它经常用于图像校正、图像配准和图像变形等任务中。要在C++中实现逆向变形，你可以按照以下步骤进行：
 
@@ -213,3 +216,5 @@ int main() {
 ```
 
 这个示例中，逆向变形函数和插值函数保持不
+
+[^1]:[cs426-image-warping](https://www.cs.princeton.edu/courses/archive/fall00/cs426/lectures/warp/warp.pdf)

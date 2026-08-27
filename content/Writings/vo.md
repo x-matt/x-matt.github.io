@@ -2,7 +2,7 @@
 title: Visual Odometry
 type: area
 domain: knowledge
-category: calibration
+category: motion
 status: active
 priority:
 review:
@@ -17,4 +17,3 @@ tags:
 
 > Online Stereo Camera Calibration From Scratch
 
-![[vo 2026.excalidraw]]

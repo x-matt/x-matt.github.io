@@ -12,7 +12,7 @@ tags:
 
 ## 算法分类
 
-  ![[algo 2025.excalidraw|800]]
+  ![[cv 2025.excalidraw|800]]
 ### Streaming
 1. [[eis-overview|Eis]]
 2. [[dolbyvision|Dolby Vision]]
@@ -40,8 +40,11 @@ tags:
 - [360Anything Google DeepMind](https://360anything.github.io/)
 - DiT360
 
-### 拼接 - 点线稀疏增稳
+### 拼接
 
+点线稀疏增稳
+稠密光流增稳
+全景生成式NNGS
 ### VIO - Calibration
 
 1. 内外参：Online Stereo Camera Calibration From Scratch
@@ -52,10 +55,6 @@ tags:
 
 ### 全景3D视频生成
 
-### 拼接 - 全景生成式NNGS
-
-### 拼接 - 稠密光流增稳
-
 ### 插帧网络 - VFI
 
 ### 全景拼接方向
@@ -65,3 +64,5 @@ tags:
 ### TONE
 
 Tone-mapping high dynamic range images by novel histogram 
+
+
