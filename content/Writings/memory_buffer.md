@@ -1,13 +1,17 @@
 ---
-title: Memory
+title: Memory & Buffer System
 type: area
-domain: work
+domain: knowledge
 category: platform
 status: active
 priority:
 review:
 tags:
 ---
+
+## Skyview
+
+
 
 ## 基础理论
 
@@ -46,16 +50,16 @@ tags:
 
 ## 处理单元
 
-| Unit | Full Name                   | Desc                               |
-| ---- | --------------------------- | ---------------------------------- |
-| CPU  | Central Processing Unit     | 组成: 控制, 存储, 计算             |
-| GPU  | Graphic Processing Unit     | 工作内容: 图像                     |
+| Unit | Full Name                   | Desc                  |
+| ---- | --------------------------- | --------------------- |
+| CPU  | Central Processing Unit     | 组成: 控制, 存储, 计算        |
+| GPU  | Graphic Processing Unit     | 工作内容: 图像              |
 | DPU  | Data Processing Unit        | 工作内容: 虚拟化, 网络, 存储, 安全 |
-| APU  | Accelerated Processing Unit |                                    |
+| APU  | Accelerated Processing Unit |                       |
 
 ## 内存类型
 
-![[memory 2025.excalidraw#^frame=memory|700]]
+![[memory_buffer 2025.excalidraw#^frame=memory|700]]
 
 | Type[^5] | Full Name            | Deac                                                                      |
 | -------- | -------------------- | ------------------------------------------------------------------------- |
@@ -70,7 +74,7 @@ tags:
 
 ### Memory Usage
 
-![[memory 2025.excalidraw#^frame=memory usage|600]]
+![[memory_buffer 2025.excalidraw#^frame=memory usage|600]]
 
 | 名称[^6] | 全称                  | 含义                                                 |
 | -------- | --------------------- | ---------------------------------------------------- |
@@ -94,24 +98,26 @@ tags:
 
 ## Buffer
 
-| 概念         | 描述                                          | 应用模块   | 目的                                 |
-| :----------- | :-------------------------------------------- | :--------- | :----------------------------------- |
-| DMA          | 一种技术                                      | 计算机系统 | 将CPU负责数据转移的工作剥离出来给DMA |
-| DMA-BUF      | 一个内存共享机制                              | Linux 内核 | 不同模块/设备共享内存                |
-| dma-buffer   | 一块允许在CPU和其他子系统之间共享的buffer[^4] | Linux 内核 | 内存共享的实际载体                   |
-| DMA-BUF Heap | 一种基于DMA-BUF的内存管理框架                 | Linux 内核 | 不同进程直接共享内存                 |
-| ION          | 一种基于DMA-BUF的内存管理框架                 | Android    | 不同进程直接共享内存                 |
-| gralloc      | 一种图形内存分配器                            | Android    | 分配和管理图形数据的内存             |
+| 概念           | 描述                            | 应用模块     | 目的                    |
+| :----------- | :---------------------------- | :------- | :-------------------- |
+| DMA          | 一种技术                          | 计算机系统    | 将CPU负责数据转移的工作剥离出来给DMA |
+| DMA-BUF      | 一个内存共享机制                      | Linux 内核 | 不同模块/设备共享内存           |
+| dma-buffer   | 一块允许在CPU和其他子系统之间共享的buffer[^4] | Linux 内核 | 内存共享的实际载体             |
+| DMA-BUF Heap | 一种基于DMA-BUF的内存管理框架            | Linux 内核 | 不同进程直接共享内存            |
+| ION          | 一种基于DMA-BUF的内存管理框架            | Android  | 不同进程直接共享内存            |
+| gralloc      | 一种图形内存分配器                     | Android  | 分配和管理图形数据的内存          |
+
+![[memory_buffer 2025.excalidraw#^frame=buffer_core_logic]]
 
 ### cache #cache
 
 #### 与内存的相互关系
 
-![[memory 2025.excalidraw#^frame=skyview|700]]
+![[memory_buffer 2025.excalidraw#^frame=skyview|700]]
 
 #### 内存的相关操作
 
-![[memory 2025.excalidraw#^frame=flow_diagram|700]]
+![[memory_buffer 2025.excalidraw#^frame=flow_diagram|700]]
 
 #### 各缓存操作的功能和作用
 
@@ -159,7 +165,7 @@ tags:
     - ION Buffer & DMA-Buffer Heaps 都是基于DMA-BUF实现的内存分配/管理器, 其均为对exporter的封装
     - 设备目录 `dev/dma_heap/`
 
-![[memory 2025.excalidraw#^frame=dma_buffer_structure|DMA-BUF 架构示意图|500]]
+![[memory_buffer 2025.excalidraw#^frame=dma_buffer_structure|DMA-BUF 架构示意图|500]]
 
 ### 内存分配器: ION (DAM-BUF exporter)
 
@@ -241,7 +247,7 @@ int fd = nativeHandle->data[0]; // 获取 DMA-BUF 文件描述符
 
 ## BufferQueue
 
-![[memory 2025.excalidraw#^frame=sequence|Buffer Queue]]
+![[memory_buffer 2025.excalidraw#^frame=sequence|Buffer Queue]]
 
 buffer的5种状态 -
 [struct BufferState](https://android.googlesource.com/platform/frameworks/native/+/refs/heads/main/libs/gui/include/gui/BufferSlot.h)
@@ -323,7 +329,7 @@ public:
 
 ## BufferQueue Intro
 
-![[memory 2025.excalidraw#^frame=communication|Communication|600]]
+![[memory_buffer 2025.excalidraw#^frame=communication|Communication|600]]
 
 通信过程[^1][^2]
 

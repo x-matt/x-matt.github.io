@@ -2,7 +2,7 @@
 title: Sensor
 type: area
 domain: knowledge
-category: sensor
+category: hardware
 status: active
 priority:
 review:

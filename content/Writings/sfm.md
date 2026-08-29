@@ -2,13 +2,12 @@
 title: Structure from Motion
 type: area
 domain: knowledge
-category: reconstruction
+category: perception
 status: active
 priority:
 review:
 tags:
   - sfm
-  - algo
 ---
 Space+Time(Geometry+Motion)
 

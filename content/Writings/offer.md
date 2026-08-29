@@ -1,7 +1,7 @@
 ---
 title: Lead to offer
 type: area
-domain: work
+domain: knowledge
 category: lanuage
 status: active
 priority:

@@ -3,14 +3,16 @@ filters:
     - domain == "knowledge"
 views:
   - type: table
-    name: Algorithm
+    name: Computer Vision
     filters:
       and:
-        - file.tags.contains("algo")
+        - category.containsAny("geometry", "motion", "image-processing", "vision-task", "perception")
+    groupBy:
+      property: category
+      direction: ASC
     order:
       - title
       - file.name
-      - category
       - type
       - file.mtime
     sort:

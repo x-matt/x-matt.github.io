@@ -1,7 +1,7 @@
 ---
 title: Business
 type: project
-domain: work
+domain: knowledge
 category: business
 status: active
 priority:

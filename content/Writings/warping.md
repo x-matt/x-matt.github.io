@@ -7,7 +7,6 @@ status: active
 priority:
 review:
 tags:
-  - algo
 ---
 ## Forward Warping[^1]
 

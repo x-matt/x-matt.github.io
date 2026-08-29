@@ -4,24 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "8171cbe97626ab11",
+        "id": "dd001d4924866156",
         "type": "tabs",
         "children": [
           {
-            "id": "37a7bdbdcbfddef4",
+            "id": "e338ba8a42671e0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Writings/stitching.md",
+                "file": "Writings/soc.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "stitching"
+              "title": "soc"
+            }
+          },
+          {
+            "id": "e3787d81637cd0e8",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Assets/excalidraw/soc 2026.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "soc 2026.excalidraw"
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -92,7 +105,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -106,7 +120,7 @@
       {
         "id": "132e6b069b0be785",
         "type": "tabs",
-        "dimension": 64.14473684210526,
+        "dimension": 34.392113910186204,
         "children": [
           {
             "id": "aa3cbdddd26bc0c2",
@@ -124,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Assets/excalidraw/cv 2025.excalidraw.md",
+                "file": "Assets/excalidraw/soc 2026.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,12 +176,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "7e9c7c78870a3a41",
         "type": "tabs",
-        "dimension": 35.85526315789473,
+        "dimension": 65.6078860898138,
         "children": [
           {
             "id": "7ba7bdb4bbc55d00",
@@ -175,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Writings/stitching.md",
+                "file": "Assets/excalidraw/soc 2026.excalidraw.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -205,41 +219,41 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "37a7bdbdcbfddef4",
+  "active": "e3787d81637cd0e8",
   "lastOpenFiles": [
-    "Writings/eis-algo.md",
-    "Writings/video stitching.md",
-    "Writings/stitching.md",
-    "Assets/excalidraw/cv 2025.excalidraw.md",
-    "Writings/sat.md",
-    "Writings/crop.md",
+    "Writings/soc.md",
+    "Assets/excalidraw/memory_buffer 2025.excalidraw.md",
+    "Writings/memory_buf.md",
+    "Writings/areas-planning.md",
+    "Assets/excalidraw/skyview 2025.excalidraw.md",
+    "Writings/route.md",
     "Writings/cv.md",
-    "Writings/eis.md",
-    "Writings/vo.md",
-    "Writings/camera-model.md",
-    "Writings/sfm.md",
-    "Writings/rectification.md",
-    "Writings/warping.md",
-    "Writings/algo.md",
-    "Assets/excalidraw/camera 2026.excalidraw.md",
-    "Writings/online-calib.md",
-    "Writings/online-calib-ex.md",
-    "Assets/excalidraw/calibration 2026.excalidraw.md",
-    "Writings/obsidian.md",
-    "Assets/excalidraw/sfm 2026.excalidraw.md",
-    "Writings/his.md",
-    "Assets/canvas/chinese history.canvas",
-    "Writings/hdr.md",
-    "Assets/excalidraw/sift.excalidraw.md",
-    "Writings/eis-overview.md",
-    "Writings/eis-qcom.md",
-    "Writings/horizon.md",
-    "knowledge.base",
-    "reading.base",
-    "work.base",
-    "life.base",
-    "Assets/images/image-2.png",
+    "Writings/Darkroom/ralphs.md",
     "Writings/Darkroom/darkroom.base",
+    "Writings/Darkroom/lanarhoades.md",
+    "Writings/Darkroom/melaniemarie.md",
+    "Writings/memory_buffer.md",
+    "Writings/testing.md",
+    "life.base",
+    "Writings/business.md",
+    "Writings/domain.md",
+    "Writings/obsidian.md",
+    "Writings/bullet.md",
+    "Writings/photography.md",
+    "Writings/otis.md",
+    "Writings/offer.md",
+    "Writings/mctf.md",
+    "Writings/film-gone.md",
+    "Writings/cloth.md",
+    "index.md",
+    "Writings/stitching.md",
+    "Writings/video stitching.md",
+    "Assets/excalidraw/cv 2025.excalidraw.md",
+    "knowledge.base",
+    "work.base",
+    "reading.base",
+    "Assets/canvas/chinese history.canvas",
+    "Assets/images/image-2.png",
     "Assets/settings/excalidraw/libraries/it-icons.excalidrawlib",
     "Assets/images/darkroom/camera-0.png",
     "Assets/images/darkroom/photography-0.svg",

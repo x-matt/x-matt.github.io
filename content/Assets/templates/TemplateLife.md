@@ -2,8 +2,8 @@
 ---
 title:
 type: area
-domain: 
-category: 
+domain: knowledge
+category:
 status: active
 review: 
 tags:

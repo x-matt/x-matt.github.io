@@ -22,14 +22,14 @@ tags:
 
 ## 3. 缩略词说明
 
-| 缩写 | 全称                           | 说明                                                                                    |
-| ---- | ------------------------------ | --------------------------------------------------------------------------------------- |
-| FOV  | Filed of View                  | 视场角                                                                                  |
-| EIS  | Electronic Image Stabilization | 电子防抖                                                                                |
-| P1   | Pass 1                         | MTK的pileline模块，用于接收sensor的图，转换成RAW/YUV                                    |
-| P2   | Pass 2                         | MTK的pileline模块，接收P1出的图，内部串接三方算法                                       |
-| P2S  | P2-Streaming                   | 针对recording & preview的P2子模块                                                       |
-| P2C  | P2-Capture                     | 针对snapshot的P2子模块                                                                  |
+| 缩写   | 全称                             | 说明                                               |
+| ---- | ------------------------------ | ------------------------------------------------ |
+| FOV  | Filed of View                  | 视场角                                              |
+| EIS  | Electronic Image Stabilization | 电子防抖                                             |
+| P1   | Pass 1                         | MTK的pileline模块，用于接收sensor的图，转换成RAW/YUV           |
+| P2   | Pass 2                         | MTK的pileline模块，接收P1出的图，内部串接三方算法                  |
+| P2S  | P2-Streaming                   | 针对recording & preview的P2子模块                      |
+| P2C  | P2-Capture                     | 针对snapshot的P2子模块                                 |
 | VMDP | Vendor Multimedia Data Path    | MTK的一个模块，用于三方算法后处理，可以完成色彩转换，裁切，resize，旋转，图像增强等工作 |
 
 ## 4. 文档需求

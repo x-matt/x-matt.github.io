@@ -1,8 +1,8 @@
 ---
 title: MCTF
 type: area
-domain: work
-category: feature
+domain: knowledge
+category: vision-task
 status: active
 priority:
 review:

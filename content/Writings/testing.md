@@ -17,5 +17,5 @@ tags:
 | --------------- | ------------- | ------------------- |
 | Basic Resources | performance   | Time Consumption    |
 |                 | power         | Energy Consumption  |
-|                 | [[memory]]    | Spatial Consumption |
+|                 | [[memory_buffer]]    | Spatial Consumption |
 |                 | [[stability]] |                     |

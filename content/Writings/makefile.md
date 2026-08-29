@@ -1,7 +1,7 @@
 ---
 title: Makefile
 type: area
-domain: work
+domain: knowledge
 category: android
 status: active
 priority:

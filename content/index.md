@@ -55,30 +55,6 @@ not done
 
 ---
 
-## 🗝️ Key Bases
-
-### 🌎 LIFE
-
-> All documents and information.
-
-![[life.base#Recently]]
-
-
-### 💼 WORK
-
-> Everything related to work.
-
-![[work.base#Recently]]
-
-
-### 📚 READING
-
-
-> Books, articles, notes and reading-related knowledge.
-
-![[reading.base#List]]
-
----
 ## Flow
 
 ```log

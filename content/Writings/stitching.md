@@ -1,11 +1,12 @@
 ---
 title: Stitching
 type: area
-domain: work
+domain: knowledge
 category: vision-task
 status: active
 review:
 tags:
+  - stitching
 ---
 ## 横纵分析
 

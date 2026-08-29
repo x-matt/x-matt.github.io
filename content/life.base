@@ -190,3 +190,63 @@ views:
     filters:
       and:
         - category.contains("motion")
+  - type: table
+    name: 🔖 Knowledge
+    filters:
+      and:
+        - domain == "knowledge"
+    groupBy:
+      property: category
+      direction: ASC
+    order:
+      - title
+      - file.name
+      - file.tags
+  - type: table
+    name: 🔖 Mind
+    filters:
+      and:
+        - domain == "mind"
+    groupBy:
+      property: category
+      direction: ASC
+    order:
+      - title
+      - file.name
+      - file.tags
+  - type: table
+    name: 🔖 Self
+    filters:
+      and:
+        - domain == "self"
+    groupBy:
+      property: category
+      direction: ASC
+    order:
+      - title
+      - file.name
+      - file.tags
+  - type: table
+    name: 🔖 Relationship
+    filters:
+      and:
+        - domain == "relationship"
+    groupBy:
+      property: category
+      direction: ASC
+    order:
+      - title
+      - file.name
+      - file.tags
+  - type: table
+    name: 🔖 Work
+    filters:
+      and:
+        - domain == "work"
+    groupBy:
+      property: category
+      direction: ASC
+    order:
+      - title
+      - file.name
+      - file.tags
