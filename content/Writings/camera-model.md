@@ -334,6 +334,55 @@ $$
 
 ---
 
+## Projection
+
+1. Image Projection: 3D 世界 → Camera Sensor 2D
+    1. Perspective
+    1. Equidistant
+    1. Equisolid
+    1. Stereographic
+    1. Orthographic
+    1. Kannala-Brandt
+    1. Double Sphere / EUCM
+2. Panorama Projection: 3D 世界 → Panorama Image 2D
+    1. Equirectangular (ERP)
+    1. Cylindrical
+    1. Cubemap
+    1. Perspective
+
+> Panorama Projection 通常不是从“任意 3D 点”直接投影，而是从**单位球面上的方向 / 3D Ray**映射到最终全景图的 (u,v)(u,v)。
+
+## Fish Eye Camera
+
+原理：
+针孔：$r=f\cdot tan\theta$
+鱼眼：$r=f\cdot g(\theta)$
+
+| 符号          | 含义                                      |
+| ----------- | --------------------------------------- |
+| $\theta$    | 空间光线与 optical axis 的夹角                  |
+| $r$         | 该光线在 image plane 上距离 principal point 的半 |
+| $g(\theta)$ | 不同鱼眼模型定义的函数                             |
+|             |                                         |
+
+| Model                               | 公式 r(θ)r(\theta)               | 主要特点      | 常见用途    |
+| ----------------------------------- | ------------------------------ | --------- | ------- |
+| **Perspective / Rectilinear** 透视/针孔 | $r=f\cdot\tan\theta$           | 直线保持直线    | 普通相机、CV |
+| **Equidistant** 等距                  | $r=f\cdot\theta$               | 角度与半径线性   | 鱼眼、全景   |
+| **Equisolid-angle** 等立体角            | $r=f\cdot2\cdot\sin(\theta/2)$ | 更接近等立体角   | 鱼眼      |
+| **Stereographic** 立体投影              | $r=f\cdot2\cdot\tan(\theta/2)$ | 保角、局部形状较好 | 鱼眼      |
+| **Orthographic** 正交投影               | $r=f\cdot\sin\theta$           | 边缘压缩很强    | 鱼眼      |
+
+azimuth angle $\phi=atan2(Y,X)$
+polar angle $\theta=atan(\frac{\sqrt{X^2+Y^2}}{Z})$
+
+### Kannala-Brandt Model
+
+$r = f(\theta + k_1{\theta}^3 + k_2{\theta}^5) + k_3{\theta}^7 + k_4{\theta}^9$
+
+
+---
+
 ## 和 Camera / EIS / OIS 的关系
 
 从 Camera HAL / 视频算法的角度，可以这样理解：

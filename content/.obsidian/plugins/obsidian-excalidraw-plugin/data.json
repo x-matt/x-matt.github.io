@@ -16,6 +16,8 @@
   "embedUseExcalidrawFolder": true,
   "templateFilePath": "Excalidraw/Template.excalidraw",
   "scriptFolderPath": "Assets/settings/excalidraw/scripts",
+  "allowJavaScriptFiles": false,
+  "storeScriptFilesAsJavaScript": false,
   "fontAssetsPath": "Excalidraw/CJK Fonts",
   "loadChineseFonts": false,
   "loadJapaneseFonts": false,
@@ -23,8 +25,6 @@
   "compress": true,
   "decompressForMDView": false,
   "onceOffCompressFlagReset": true,
-  "onceOffGPTVersionReset": true,
-  "autosave": true,
   "autosaveIntervalDesktop": 60000,
   "autosaveIntervalMobile": 30000,
   "drawingFilenamePrefix": "Drawing ",
@@ -159,6 +159,7 @@
       }
     }
   },
+  "markdownImageDeletionPreference": "ask",
   "scriptEngineSettings": {
     "Downloaded/Icon Library": {
       "filters": [
@@ -590,8 +591,11 @@
       }
     }
   },
-  "previousRelease": "2.26.4",
+  "autostartScripts": {},
+  "autostartScriptFailures": {},
+  "previousRelease": "2.27.3",
   "showReleaseNotes": true,
+  "useDeclarativeSettings": true,
   "excalidrawMasteryPromoCollapsed": false,
   "compareManifestToPluginVersion": true,
   "showNewVersionNotification": true,
@@ -1127,6 +1131,7 @@
     }
   },
   "aiDefaultTextModel": "gpt-3.5-turbo-1106",
+  "aiDefaultMultimodalModel": "gpt-5-mini",
   "aiDefaultImageGenerationModel": "dall-e-3",
   "aiDefaultMaxOutgoingTokens": 0,
   "aiDefaultMaxResponseTokens": 4096,
@@ -1451,6 +1456,8 @@
     "margin": "normal"
   },
   "disableContextMenu": false,
+  "onceOffGPTVersionReset": true,
+  "autosave": true,
   "isDebugMode": false,
   "defaultTrayMode": false,
   "compactModeOnTablets": true
