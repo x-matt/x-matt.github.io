@@ -4,21 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "dd001d4924866156",
+        "id": "e14d3eadc8e7606c",
         "type": "tabs",
         "children": [
           {
-            "id": "8bf875cc4e63e3f8",
+            "id": "94f299be0726051b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Writings/camera-model.md",
-                "mode": "source",
-                "source": false
+                "file": "work.base",
+                "viewName": "Recently"
               },
-              "icon": "lucide-file",
-              "title": "camera-model"
+              "icon": "lucide-table",
+              "title": "work"
             }
           }
         ],
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writings/camera-model.md",
+                "file": "work.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,8 +149,7 @@
               "title": "Outgoing links"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "7e9c7c78870a3a41",
@@ -164,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Writings/camera-model.md",
+                "file": "work.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -194,16 +192,21 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "8bf875cc4e63e3f8",
+  "active": "aa3cbdddd26bc0c2",
   "lastOpenFiles": [
+    "reading.base",
+    "life.base",
+    "knowledge.base",
+    "Writings/Darkroom/darkroom.base",
+    "Writings/Darkroom/anna.md",
+    "Writings/Darkroom/anais.md",
+    "Writings/Darkroom/melaniemarie.md",
+    "Assets/images/darkroom/ralphs-0.jpg",
+    "Writings/camera-model.md",
     "Assets/excalidraw/camera 2026.excalidraw.md",
     "Writings/stitching.md",
     "Writings/video stitching.md",
-    "Writings/camera-model.md",
-    "life.base",
-    "knowledge.base",
     "Writings/vo.md",
-    "reading.base",
     "work.base",
     "index.md",
     "Clippings/The Tribute System The New World Order.md",
@@ -216,17 +219,12 @@
     "Assets/excalidraw/skyview 2025.excalidraw.md",
     "Writings/route.md",
     "Writings/cv.md",
-    "Writings/Darkroom/ralphs.md",
-    "Writings/Darkroom/darkroom.base",
     "Writings/Darkroom/lanarhoades.md",
-    "Writings/Darkroom/melaniemarie.md",
     "Writings/memory_buffer.md",
     "Writings/testing.md",
     "Writings/business.md",
     "Writings/domain.md",
     "Writings/obsidian.md",
-    "Writings/bullet.md",
-    "Writings/photography.md",
     "Assets/canvas/chinese history.canvas",
     "Assets/images/image-2.png",
     "Assets/settings/excalidraw/libraries/it-icons.excalidrawlib",
@@ -242,7 +240,6 @@
     "Assets/settings/excalidraw/scripts/Downloaded/Downloaded/Mindmap Builder.svg",
     "Assets/settings/excalidraw/libraries/local-library.excalidrawlib",
     "Assets/excalidraw/libraries",
-    "Assets/images/theron-0.webp",
     "Untitled.canvas",
     "Planning.canvas",
     "Untitled 1.canvas",
