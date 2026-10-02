@@ -13,11 +13,11 @@
             "state": {
               "type": "bases",
               "state": {
-                "file": "work.base",
-                "viewName": "Recently"
+                "file": "Writings/Darkroom/darkroom.base",
+                "viewName": "🎭 Blogger"
               },
-              "icon": "lucide-table",
-              "title": "work"
+              "icon": "lucide-layout-grid",
+              "title": "darkroom"
             }
           }
         ],
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "work.base",
+                "file": "Writings/Darkroom/darkroom.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -192,8 +192,11 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "aa3cbdddd26bc0c2",
+  "active": "94f299be0726051b",
   "lastOpenFiles": [
+    "Writings/Darkroom/zmbaoer.md",
+    "Assets/images/darkroom/zmbaoer-0.png",
+    "work.base",
     "reading.base",
     "life.base",
     "knowledge.base",
@@ -207,7 +210,6 @@
     "Writings/stitching.md",
     "Writings/video stitching.md",
     "Writings/vo.md",
-    "work.base",
     "index.md",
     "Clippings/The Tribute System The New World Order.md",
     "Clippings/How to fix your entire life in 1 day.md",
@@ -237,7 +239,6 @@
     "Assets/images/darkroom/algo 2025.excalidraw-2.svg",
     "Assets/settings/excalidraw/scripts/Downloaded",
     "Assets/settings/excalidraw/libraries",
-    "Assets/settings/excalidraw/scripts/Downloaded/Downloaded/Mindmap Builder.svg",
     "Assets/settings/excalidraw/libraries/local-library.excalidrawlib",
     "Assets/excalidraw/libraries",
     "Untitled.canvas",
