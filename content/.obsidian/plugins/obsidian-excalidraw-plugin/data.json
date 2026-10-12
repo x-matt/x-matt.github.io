@@ -300,7 +300,7 @@
         "hidden": true
       },
       "Is Undocked": {
-        "value": true,
+        "value": false,
         "hidden": false
       },
       "Hotkeys": {
@@ -590,7 +590,9 @@
       }
     }
   },
-  "autostartScripts": {},
+  "autostartScripts": {
+    "Downloaded/Slideshow": "allow"
+  },
   "autostartScriptFailures": {},
   "previousRelease": "2.28.1",
   "showReleaseNotes": true,
@@ -603,10 +605,14 @@
   "taskboneEnabled": false,
   "taskboneAPIkey": "",
   "pinnedScripts": [
-    "Assets/settings/excalidraw/scripts/Downloaded/Downloaded/Icon Library.md",
-    "Assets/settings/excalidraw/scripts/Downloaded/Downloaded/Mindmap Builder.md"
+    "Assets/settings/excalidraw/scripts/Downloaded/Slideshow.md",
+    "Assets/settings/excalidraw/scripts/Downloaded/Mindmap Builder.md",
+    "Assets/settings/excalidraw/scripts/Downloaded/Select Elements of Type.md",
+    "Assets/settings/excalidraw/scripts/Downloaded/Icon Library.md"
   ],
-  "sidepanelTabs": [],
+  "sidepanelTabs": [
+    "{\"script\":\"Downloaded/Mindmap Builder\",\"title\":\"Mind Map Builder\"}"
+  ],
   "customPens": [
     {
       "type": "default",

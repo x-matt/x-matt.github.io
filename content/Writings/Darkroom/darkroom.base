@@ -26,10 +26,10 @@ views:
     imageAspectRatio: 0.6
     cardSize: 150
   - type: cards
-    name: 🧔🏻 People
+    name: 👱🏻‍♀️ Actor
     filters:
       and:
-        - category.containsAny("actor", "director")
+        - category.containsAny("actor")
     limit: 30
     image: note.cover
     cardSize: 200
@@ -59,7 +59,7 @@ views:
       - scoreStar
     sort: []
     image: note.cover
-    imageAspectRatio: 1.42
+    imageAspectRatio: 0.7
   - type: table
     name: 📝 Blog
     filters:

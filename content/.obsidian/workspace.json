@@ -8,16 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "94f299be0726051b",
+            "id": "1444aa4f5fe278da",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Writings/Darkroom/darkroom.base",
-                "viewName": "🎭 Blogger"
+                "file": "Writings/pano_flow.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-grid",
-              "title": "darkroom"
+              "icon": "lucide-file",
+              "title": "pano_flow"
             }
           }
         ],
@@ -55,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "QuickSwitchFrame",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.5
+    "width": 316.5
   },
   "right": {
     "id": "5e007910e90f3de9",
@@ -122,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "work.base",
+                "file": "Writings/pano_flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,15 +142,26 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Writings/camera-model.md",
+                "file": "Assets/settings/excalidraw/scripts/QuickSwitchFrame.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
               "title": "Outgoing links"
             }
+          },
+          {
+            "id": "3af228c99c6c3f24",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw-sidepanel",
+              "state": {},
+              "icon": "excalidraw-icon",
+              "title": "Excalidraw Sidepanel"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "7e9c7c78870a3a41",
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Writings/Darkroom/darkroom.base",
+                "file": "Writings/pano_flow.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -192,51 +204,50 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "94f299be0726051b",
+  "active": "c59300ad307449ca",
   "lastOpenFiles": [
-    "Writings/Darkroom/zmbaoer.md",
-    "Assets/images/darkroom/zmbaoer-0.png",
+    "Writings/framedelay.md",
+    "Writings/pano_flow.md",
+    "flow.md",
+    "Assets/excalidraw/60q 2025.excalidraw.md",
+    "Assets/settings/excalidraw/scripts/QuickSwitchFrame.svg",
+    "Assets/settings/excalidraw/scripts/Downloaded/Slideshow.svg",
+    "Assets/settings/excalidraw/scripts/Downloaded/Select Elements of Type.svg",
+    "Assets/settings/excalidraw/scripts/Downloaded/Mindmap Builder.svg",
+    "Assets/settings/excalidraw/scripts/Downloaded/Icon Library.svg",
+    "Assets/settings/excalidraw/scripts/QuickSwitchFrame.md",
+    "Writings/obsidian.md",
+    "Assets/settings/excalidraw/scripts/Downloaded/Select Elements of Type.md",
+    "Assets/settings/excalidraw/scripts/Downloaded/Icon Library.md",
+    "Assets/settings/excalidraw/scripts/Downloaded/Slideshow.md",
+    "Assets/images/darkroom/60q 2025.excalidraw-1-1.svg",
+    "Assets/images/darkroom/60q 2025.excalidraw-1.svg",
+    "Assets/images/darkroom/60q 2025.excalidraw-0.svg",
+    "index.md",
     "work.base",
     "reading.base",
     "life.base",
     "knowledge.base",
     "Writings/Darkroom/darkroom.base",
-    "Writings/Darkroom/anna.md",
+    "Assets/excalidraw/structure 2025.excalidraw.md",
+    "Assets/images/darkroom/structure 2025.excalidraw-2.svg",
+    "Writings/mivi3.md",
+    "Writings/mivi-structure.md",
+    "Writings/interview.md",
+    "Writings/image-resolution.md",
+    "Writings/eis-qcom-architecture.md",
+    "Writings/eis-overview.md",
+    "Writings/eis-o1-debug.md",
+    "Writings/cloth.md",
+    "Writings/cli.md",
+    "Writings/car.md",
     "Writings/Darkroom/anais.md",
-    "Writings/Darkroom/melaniemarie.md",
-    "Assets/images/darkroom/ralphs-0.jpg",
-    "Writings/camera-model.md",
-    "Assets/excalidraw/camera 2026.excalidraw.md",
-    "Writings/stitching.md",
-    "Writings/video stitching.md",
-    "Writings/vo.md",
-    "index.md",
-    "Clippings/The Tribute System The New World Order.md",
-    "Clippings/How to fix your entire life in 1 day.md",
-    "Writings/soc.md",
-    "Assets/excalidraw/soc 2026.excalidraw.md",
-    "Assets/excalidraw/memory_buffer 2025.excalidraw.md",
-    "Writings/memory_buf.md",
-    "Writings/areas-planning.md",
-    "Assets/excalidraw/skyview 2025.excalidraw.md",
-    "Writings/route.md",
-    "Writings/cv.md",
-    "Writings/Darkroom/lanarhoades.md",
-    "Writings/memory_buffer.md",
-    "Writings/testing.md",
-    "Writings/business.md",
-    "Writings/domain.md",
-    "Writings/obsidian.md",
+    "Writings/Darkroom/ulrike.md",
+    "Writings/Darkroom/andrew.md",
+    "Writings/Darkroom/lyainevan.md",
+    "Writings/Darkroom/zmbaoer.md",
     "Assets/canvas/chinese history.canvas",
-    "Assets/images/image-2.png",
     "Assets/settings/excalidraw/libraries/it-icons.excalidrawlib",
-    "Assets/images/darkroom/camera-0.png",
-    "Assets/images/darkroom/photography-0.svg",
-    "Assets/settings/excalidraw/scripts/QuickSwitchFrame.svg",
-    "Assets/images/darkroom/algo 2025.excalidraw-3-1.svg",
-    "Assets/settings/excalidraw/scripts/Select Elements of Type.svg",
-    "Assets/images/darkroom/algo 2025.excalidraw-3.svg",
-    "Assets/images/darkroom/algo 2025.excalidraw-2.svg",
     "Assets/settings/excalidraw/scripts/Downloaded",
     "Assets/settings/excalidraw/libraries",
     "Assets/settings/excalidraw/libraries/local-library.excalidrawlib",
