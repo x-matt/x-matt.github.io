@@ -92,6 +92,7 @@ tags:
 | 状态维度                         | 5 DOF                                 | 通常更多                                 |
 | 时序处理                         | Kalman Filter                         | 分阶段 optimization                     |
 | 核心思想                         | **把 calibration 变成轻量状态跟踪**            | **把 BA 拆解成更快的优化流程**                  |
+|                              |                                       |                                      |
 
 >[!tips] 视觉系统向 realtime 优化的两个方向
 >1. 重新思考：到底需要优化哪些变量、需要哪些约束、哪些变量其实可以直接消掉[[online-calib-ex]]

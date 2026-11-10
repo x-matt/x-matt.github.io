@@ -4,21 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "e14d3eadc8e7606c",
+        "id": "5833877fbb2aef1c",
         "type": "tabs",
         "children": [
           {
-            "id": "1444aa4f5fe278da",
+            "id": "bd825ff6f0f2884b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Writings/pano_flow.md",
-                "mode": "source",
-                "source": false
+                "file": "reading.base",
+                "viewName": "List"
               },
-              "icon": "lucide-file",
-              "title": "pano_flow"
+              "icon": "lucide-table",
+              "title": "reading"
             }
           }
         ],
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writings/pano_flow.md",
+                "file": "Writings/image-format.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,26 +141,15 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Assets/settings/excalidraw/scripts/QuickSwitchFrame.svg",
+                "file": "Writings/image-format.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
               "title": "Outgoing links"
             }
-          },
-          {
-            "id": "3af228c99c6c3f24",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw-sidepanel",
-              "state": {},
-              "icon": "excalidraw-icon",
-              "title": "Excalidraw Sidepanel"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "7e9c7c78870a3a41",
@@ -174,7 +162,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Writings/pano_flow.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -187,7 +174,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 276.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,48 +192,47 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "c59300ad307449ca",
+  "active": "bd825ff6f0f2884b",
   "lastOpenFiles": [
-    "Writings/framedelay.md",
+    "index.md",
+    "knowledge.base",
+    "life.base",
+    "work.base",
+    "reading.base",
+    "Assets/excalidraw/format 2025.excalidraw.md",
+    "Writings/image-format.md",
+    "Writings/online-calib-ex.md",
+    "Writings/cv.md",
+    "Writings/crop.md",
+    "Writings/cpp-io.md",
+    "Writings/cpp-design-pattern.md",
+    "Writings/cpp-basic.md",
+    "Writings/cli.md",
+    "Writings/cloth.md",
+    "Writings/chip.md",
+    "Writings/body.md",
+    "Writings/areas-planning.md",
+    "Writings/android-structure.md",
+    "Writings/algo.md",
+    "Writings/Darkroom/classic model.md",
+    "Writings/Darkroom/buer_two.md",
+    "Writings/Darkroom/bambola.md",
+    "Writings/Darkroom/alexa.md",
+    "Writings/Darkroom/ambermoore.md",
+    "Writings/Darkroom/abigaile.md",
+    "Writings/bullet.md",
+    "Writings/zemin.md",
     "Writings/pano_flow.md",
-    "flow.md",
-    "Assets/excalidraw/60q 2025.excalidraw.md",
+    "Writings/Darkroom/darkroom.base",
     "Assets/settings/excalidraw/scripts/QuickSwitchFrame.svg",
     "Assets/settings/excalidraw/scripts/Downloaded/Slideshow.svg",
     "Assets/settings/excalidraw/scripts/Downloaded/Select Elements of Type.svg",
     "Assets/settings/excalidraw/scripts/Downloaded/Mindmap Builder.svg",
     "Assets/settings/excalidraw/scripts/Downloaded/Icon Library.svg",
-    "Assets/settings/excalidraw/scripts/QuickSwitchFrame.md",
-    "Writings/obsidian.md",
-    "Assets/settings/excalidraw/scripts/Downloaded/Select Elements of Type.md",
-    "Assets/settings/excalidraw/scripts/Downloaded/Icon Library.md",
-    "Assets/settings/excalidraw/scripts/Downloaded/Slideshow.md",
     "Assets/images/darkroom/60q 2025.excalidraw-1-1.svg",
     "Assets/images/darkroom/60q 2025.excalidraw-1.svg",
     "Assets/images/darkroom/60q 2025.excalidraw-0.svg",
-    "index.md",
-    "work.base",
-    "reading.base",
-    "life.base",
-    "knowledge.base",
-    "Writings/Darkroom/darkroom.base",
-    "Assets/excalidraw/structure 2025.excalidraw.md",
     "Assets/images/darkroom/structure 2025.excalidraw-2.svg",
-    "Writings/mivi3.md",
-    "Writings/mivi-structure.md",
-    "Writings/interview.md",
-    "Writings/image-resolution.md",
-    "Writings/eis-qcom-architecture.md",
-    "Writings/eis-overview.md",
-    "Writings/eis-o1-debug.md",
-    "Writings/cloth.md",
-    "Writings/cli.md",
-    "Writings/car.md",
-    "Writings/Darkroom/anais.md",
-    "Writings/Darkroom/ulrike.md",
-    "Writings/Darkroom/andrew.md",
-    "Writings/Darkroom/lyainevan.md",
-    "Writings/Darkroom/zmbaoer.md",
     "Assets/canvas/chinese history.canvas",
     "Assets/settings/excalidraw/libraries/it-icons.excalidrawlib",
     "Assets/settings/excalidraw/scripts/Downloaded",
