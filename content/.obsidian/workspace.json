@@ -13,11 +13,11 @@
             "state": {
               "type": "bases",
               "state": {
-                "file": "reading.base",
-                "viewName": "List"
+                "file": "Writings/Darkroom/darkroom.base",
+                "viewName": "👱🏻‍♀️ Actor"
               },
-              "icon": "lucide-table",
-              "title": "reading"
+              "icon": "lucide-layout-grid",
+              "title": "darkroom"
             }
           }
         ],
@@ -194,11 +194,11 @@
   },
   "active": "bd825ff6f0f2884b",
   "lastOpenFiles": [
+    "life.base",
+    "reading.base",
     "index.md",
     "knowledge.base",
-    "life.base",
     "work.base",
-    "reading.base",
     "Assets/excalidraw/format 2025.excalidraw.md",
     "Writings/image-format.md",
     "Writings/online-calib-ex.md",

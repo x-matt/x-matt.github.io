@@ -23,7 +23,7 @@ views:
         - category == "movie"
     order: []
     image: note.cover
-    imageAspectRatio: 0.6
+    imageAspectRatio: 1.65
     cardSize: 150
   - type: cards
     name: 👱🏻‍♀️ Actor
@@ -33,7 +33,7 @@ views:
     limit: 30
     image: note.cover
     cardSize: 200
-    imageAspectRatio: 1.42
+    imageAspectRatio: 0.7
   - type: table
     name: All
     groupBy:
