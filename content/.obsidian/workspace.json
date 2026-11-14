@@ -11,13 +11,14 @@
             "id": "bd825ff6f0f2884b",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Writings/Darkroom/darkroom.base",
-                "viewName": "👱🏻‍♀️ Actor"
+                "file": "Writings/tools-debug.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-grid",
-              "title": "darkroom"
+              "icon": "lucide-file",
+              "title": "tools-debug"
             }
           }
         ],
@@ -194,11 +195,12 @@
   },
   "active": "bd825ff6f0f2884b",
   "lastOpenFiles": [
-    "life.base",
+    "work.base",
     "reading.base",
+    "Writings/Darkroom/darkroom.base",
+    "life.base",
     "index.md",
     "knowledge.base",
-    "work.base",
     "Assets/excalidraw/format 2025.excalidraw.md",
     "Writings/image-format.md",
     "Writings/online-calib-ex.md",
@@ -223,7 +225,6 @@
     "Writings/bullet.md",
     "Writings/zemin.md",
     "Writings/pano_flow.md",
-    "Writings/Darkroom/darkroom.base",
     "Assets/settings/excalidraw/scripts/QuickSwitchFrame.svg",
     "Assets/settings/excalidraw/scripts/Downloaded/Slideshow.svg",
     "Assets/settings/excalidraw/scripts/Downloaded/Select Elements of Type.svg",
