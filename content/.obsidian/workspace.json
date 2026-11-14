@@ -4,20 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "5833877fbb2aef1c",
+        "id": "f46d44406c4a3f85",
         "type": "tabs",
         "children": [
           {
-            "id": "bd825ff6f0f2884b",
+            "id": "a0d10452b4947320",
             "type": "leaf",
             "state": {
               "type": "bases",
               "state": {
-                "file": "work.base",
-                "viewName": "Recently"
+                "file": "reading.base",
+                "viewName": "Library"
               },
-              "icon": "lucide-table",
-              "title": "work"
+              "icon": "lucide-layout-grid",
+              "title": "reading"
             }
           }
         ],
@@ -194,18 +194,25 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "bd825ff6f0f2884b",
+  "active": "a0d10452b4947320",
   "lastOpenFiles": [
-    "reading.base",
+    "Writings/Darkroom/darkroom.base",
     "life.base",
+    "Writings/theron.md",
+    "Writings/movie.md",
+    "Assets/images/movie.jpg",
+    "Assets/images/bullet-0.jpg",
+    "Writings/bullet.md",
+    "Assets/images/darkroom/bullet-0-0.jpg",
+    "Writings/hiddenman.md",
+    "reading.base",
+    "work.base",
     "knowledge.base",
     "Writings/online-calib-ex.md",
     "Clippings/天涯隐学：人生主线任务（普通人破局指南）.md",
     "index.md",
-    "work.base",
     "Writings/tools-debug.md",
     "Assets/canvas/chinese history.canvas",
-    "Writings/Darkroom/darkroom.base",
     "Assets/excalidraw/format 2025.excalidraw.md",
     "Writings/image-format.md",
     "Writings/cv.md",
@@ -223,10 +230,6 @@
     "Writings/Darkroom/classic model.md",
     "Writings/Darkroom/buer_two.md",
     "Writings/Darkroom/bambola.md",
-    "Writings/Darkroom/alexa.md",
-    "Writings/Darkroom/ambermoore.md",
-    "Writings/Darkroom/abigaile.md",
-    "Writings/bullet.md",
     "Assets/settings/excalidraw/scripts/QuickSwitchFrame.svg",
     "Assets/settings/excalidraw/scripts/Downloaded/Slideshow.svg",
     "Assets/settings/excalidraw/scripts/Downloaded/Select Elements of Type.svg",
@@ -234,8 +237,6 @@
     "Assets/settings/excalidraw/scripts/Downloaded/Icon Library.svg",
     "Assets/images/darkroom/60q 2025.excalidraw-1-1.svg",
     "Assets/images/darkroom/60q 2025.excalidraw-1.svg",
-    "Assets/images/darkroom/60q 2025.excalidraw-0.svg",
-    "Assets/images/darkroom/structure 2025.excalidraw-2.svg",
     "Assets/settings/excalidraw/libraries/it-icons.excalidrawlib",
     "Assets/settings/excalidraw/scripts/Downloaded",
     "Assets/settings/excalidraw/libraries",

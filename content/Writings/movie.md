@@ -7,6 +7,7 @@ status: active
 priority:
 review:
 tags:
+cover: "[[movie.jpg]]"
 ---
 
 > 电影是历史的遗产
