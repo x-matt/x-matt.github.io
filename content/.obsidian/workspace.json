@@ -11,14 +11,13 @@
             "id": "bd825ff6f0f2884b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Writings/tools-debug.md",
-                "mode": "source",
-                "source": false
+                "file": "work.base",
+                "viewName": "Recently"
               },
-              "icon": "lucide-file",
-              "title": "tools-debug"
+              "icon": "lucide-table",
+              "title": "work"
             }
           }
         ],
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Writings/image-format.md",
+                "file": "work.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Writings/image-format.md",
+                "file": "work.base",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -150,7 +149,8 @@
               "title": "Outgoing links"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "7e9c7c78870a3a41",
@@ -163,6 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "work.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -195,15 +196,18 @@
   },
   "active": "bd825ff6f0f2884b",
   "lastOpenFiles": [
-    "work.base",
     "reading.base",
-    "Writings/Darkroom/darkroom.base",
     "life.base",
-    "index.md",
     "knowledge.base",
+    "Writings/online-calib-ex.md",
+    "Clippings/天涯隐学：人生主线任务（普通人破局指南）.md",
+    "index.md",
+    "work.base",
+    "Writings/tools-debug.md",
+    "Assets/canvas/chinese history.canvas",
+    "Writings/Darkroom/darkroom.base",
     "Assets/excalidraw/format 2025.excalidraw.md",
     "Writings/image-format.md",
-    "Writings/online-calib-ex.md",
     "Writings/cv.md",
     "Writings/crop.md",
     "Writings/cpp-io.md",
@@ -223,8 +227,6 @@
     "Writings/Darkroom/ambermoore.md",
     "Writings/Darkroom/abigaile.md",
     "Writings/bullet.md",
-    "Writings/zemin.md",
-    "Writings/pano_flow.md",
     "Assets/settings/excalidraw/scripts/QuickSwitchFrame.svg",
     "Assets/settings/excalidraw/scripts/Downloaded/Slideshow.svg",
     "Assets/settings/excalidraw/scripts/Downloaded/Select Elements of Type.svg",
@@ -234,7 +236,6 @@
     "Assets/images/darkroom/60q 2025.excalidraw-1.svg",
     "Assets/images/darkroom/60q 2025.excalidraw-0.svg",
     "Assets/images/darkroom/structure 2025.excalidraw-2.svg",
-    "Assets/canvas/chinese history.canvas",
     "Assets/settings/excalidraw/libraries/it-icons.excalidrawlib",
     "Assets/settings/excalidraw/scripts/Downloaded",
     "Assets/settings/excalidraw/libraries",
