@@ -74,9 +74,11 @@ Frame slides support a build sequence stored on the frame's slideshow metadata. 
 - **Slide in:** animate an SVG overlay from the chosen direction.
 - **Zoom in:** animate an SVG overlay from approximately 5% scale at the target center.
 
-Steps can trigger on presenter advance or sequentially after a delay. Fade, slide, and zoom default to 350 ms; timed steps default to a 1000 ms delay. Steps can be reordered with drag/drop, buttons, or `Alt+Arrow Up/Down`, previewed, edited, and deleted. Editor previews position SVG motion overlays in the drawing host coordinate space, matching presentation geometry even when the Excalidraw leaf is offset by sidepanels or other workspace chrome.
+Choose effects and slide directions with the editor's buttons. After **Add step**, the form is ready to add another animation and retains your effect, direction, and timing choices for the editing session. Selecting a different element or group opens its first animation, or prepares a new step if it has none. Use **New step** to animate the same selection again; select any sequence row to edit a later animation. Sequence rows include thumbnails of their targets.
 
-Groups are stored by group ID and resolved dynamically when the presentation runs. Bound text and its container are treated as one visual unit. Marker frames do not own their contents, so animation eligibility is determined by geometric overlap between each element rectangle and the marker-frame rectangle rather than by `frameId`. Adding a target that already belongs to another animation step moves it to the new step instead of creating conflicting builds.
+Steps can trigger on presenter advance or sequentially after a delay. Fade, slide, and zoom default to 350 ms; timed steps default to a 1000 ms delay. Steps can be reordered with drag/drop, buttons, or `Alt+Arrow Up/Down`, previewed, edited, and deleted. Editor previews position SVG motion overlays in the drawing host coordinate space, matching presentation geometry even when the Excalidraw leaf is offset by sidepanels or other workspace chrome. Motion overlays remain in place while the canvas paints the completed animation, avoiding a blank frame at the handoff.
+
+Groups are stored by group ID and resolved dynamically when the presentation runs. Bound text and its container are treated as one visual unit. Marker frames do not own their contents, so animation eligibility is determined by geometric overlap between each element rectangle and the marker-frame rectangle rather than by `frameId`. A target can appear in multiple steps, including repeated entrances and exits. Adding or editing a step preserves the target's other animations.
 
 Presentation navigation is hierarchical: Forward reveals the next pending build before advancing the slide; Backward reverses the most recently completed build before moving to the previous slide. Previous slides entered while navigating backward start fully built, while direct jumps enter the destination in its initial build state. Timed callbacks and animation frames are invalidated on navigation and exit. Temporary scene changes use `captureUpdate: "NEVER"`; real elements are changed only through opacity, while slide/zoom motion uses disposable SVG overlays. Any interruption or presentation exit explicitly restores every animated target to its final/original visibility before cleanup.
 
@@ -129,10 +131,11 @@ Select **Print slideshow to PDF** in the sidepanel or presentation toolbar to op
 - The **Print only visible slides** toggle is on by default. Turn it off to include excluded slides, including decks whose slides are all excluded.
 - Choose the configured slide size, **A4**, **Letter**, **16:9**, or **Custom**, then select **Landscape** or **Portrait**. Width and height are editable in pixels (96 pixels per inch), from 320 to 14400 pixels. Holding Shift while opening setup starts with the current viewport dimensions.
 - Each slide is clipped to its own rectangle and fitted intact inside its page or handout slot. Changing paper aspect ratio never pulls neighboring slides into the printout or splits a slide across pages. Handout slots retain the configured presentation aspect ratio.
+- **Include frames around slides** adds a border using the configured slide aspect ratio in notes and handout layouts, including notes continuations. It is off by default and hidden for **Slides only**, which always prints without added frames.
 - **Margins** offers **None** (default, edge-to-edge slides), **Minimal** (10 px), and **Normal** (60 px). Margins apply to slides and handouts without adding a second inset in the PDF exporter.
 - Notes use Obsidian's Markdown renderer, preserving headings, emphasis, links, lists, tables, and code as formatted HTML. Long notes continue in another slot with the slide repeated.
 - **Page ranges** accepts output-page selections such as `1-3;5;9-`; leave it blank for all pages. Ranges count final pages, including notes continuation pages, and preserve their original order.
-- Confirmed print preferences (layout, visibility, page size, orientation/dimensions, margins, and page ranges) are saved in script settings and restored the next time print setup opens. The slideshow source initially follows the current drawing.
+- Confirmed print preferences (layout, visibility, handout frames, page size, orientation/dimensions, margins, and page ranges) are saved in script settings and restored the next time print setup opens. The slideshow source initially follows the current drawing.
 
 PDF creation uses Excalidraw's existing desktop PDF export and its normal save dialog.
 
@@ -159,7 +162,7 @@ The note includes every frame slide in sorter order, including excluded slides. 
   Alt/Option.
 - **Open the Slideshow sidepanel:** Hold Cmd on macOS or Ctrl on Windows/Linux while invoking the script.
 
-Build version: 2026-11-04T07:18:10.636Z
+Build version: 2026-11-16T17:57:13.580Z
 
 ```javascript
 */
@@ -203,6 +206,7 @@ Build version: 2026-11-04T07:18:10.636Z
     printNotesPage: "Notes \u2014 one slide per page",
     printHandout2: "Handout \u2014 two slides with notes per page",
     printHandout3: "Handout \u2014 three slides with notes per page",
+    printIncludeFrames: "Include frames around slides",
     printVisibleOnly: "Print only visible slides",
     printVisibleOnlyHint: "Turn off to include excluded slides.",
     printPageRanges: "Page ranges",
@@ -356,7 +360,7 @@ Build version: 2026-11-04T07:18:10.636Z
     animationCheckpoint3: "Animation editing is available for frame slides.",
     animationEditorTitle: "Animations \u2014 {title}",
     closeAnimationEditor: "Close animation editor",
-    animationSelectionHint: "Select elements or groups in the drawing, then configure and add them as a build step.",
+    animationSelectionHint: "Select an element or group to edit its first animation or add a new one. Add step readies the next animation; New step animates the same selection again.",
     animationOutsideFrameIgnored: "Ignored {count} selected item(s) outside this frame.",
     animationOutsideSlideIgnored: "Ignored {count} selected item(s) outside this slide.",
     animationTargets: "Targets",
@@ -836,8 +840,29 @@ Build version: 2026-11-04T07:18:10.636Z
   }
 
   // src/scripts/slideshow/icons.ts
+  var ANIMATION_ICON_NAMES = {
+    appear: "eye",
+    fade: "circle-fading-plus",
+    slide: "arrow-right-to-line",
+    zoom: "zoom-in",
+    disappear: "eye-off",
+    "slide-out": "arrow-right-from-line",
+    "zoom-out": "zoom-out",
+    left: "arrow-big-left-dash",
+    right: "arrow-big-right-dash",
+    up: "arrow-big-up-dash",
+    down: "arrow-big-down-dash",
+    "after-delay": "timer",
+    advance: "step-forward"
+  };
+  var FADE_OUT_ICON = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-fading-minus preview-icon"><path d="M12 2a10 10 0 0 1 7.38 16.75"/><path d="M8 12h8"/><path d="M2.5 8.875a10 10 0 0 0-.5 3"/><path d="M2.83 16a10 10 0 0 0 2.43 3.4"/><path d="M4.636 5.235a10 10 0 0 1 .891-.857"/><path d="M8.644 21.42a10 10 0 0 0 7.631-.38"/></svg>';
   function iconMarkup(ea2, iconName) {
     return ea2.obsidian.getIcon(iconName)?.outerHTML ?? "";
+  }
+  function getAnimationEditorIcon(ea2, choice, exits) {
+    if (choice === "fade-out") return FADE_OUT_ICON;
+    const direction = exits ? choice : choice === "left" ? "right" : choice === "right" ? "left" : choice === "up" ? "down" : choice === "down" ? "up" : choice;
+    return iconMarkup(ea2, `lucide-${ANIMATION_ICON_NAMES[direction]}`);
   }
   function getSlideshowIcons(ea2) {
     return {
@@ -1830,22 +1855,6 @@ Build version: 2026-11-04T07:18:10.636Z
     }
     return { targets, ignoredSelectionCount };
   }
-  function targetsOverlap(slideScope, left, right, elements) {
-    const leftIds = new Set(resolveAnimationTargetElementIds(slideScope, [left], elements));
-    return resolveAnimationTargetElementIds(slideScope, [right], elements).some((id) => leftIds.has(id));
-  }
-  function removeAnimationTargetConflicts(slideScope, steps, incomingTargets, elements, editedStepId, incomingEffect) {
-    return steps.flatMap((step) => {
-      if (step.id === editedStepId) return [structuredClone(step)];
-      if (incomingEffect !== void 0 && isExitAnimationEffect(step.effect) !== isExitAnimationEffect(incomingEffect)) {
-        return [structuredClone(step)];
-      }
-      const targets = step.targets.filter(
-        (target) => !incomingTargets.some((incoming) => targetsOverlap(slideScope, target, incoming, elements))
-      );
-      return targets.length === 0 ? [] : [{ ...structuredClone(step), targets }];
-    });
-  }
   function getOpacity(element) {
     return asAnimationShape(element).opacity;
   }
@@ -1854,14 +1863,6 @@ Build version: 2026-11-04T07:18:10.636Z
       step: structuredClone(step),
       elementIds: resolveAnimationTargetElementIds(slideScope, step.targets, elements)
     }));
-    const claimedByLaterStep = /* @__PURE__ */ new Set();
-    for (let index = resolved.length - 1; index >= 0; index -= 1) {
-      const current = resolved[index];
-      if (!current) continue;
-      const phase = isExitAnimationEffect(current.step.effect) ? "exit" : "enter";
-      current.elementIds = current.elementIds.filter((id) => !claimedByLaterStep.has(`${phase}:${id}`));
-      for (const id of current.elementIds) claimedByLaterStep.add(`${phase}:${id}`);
-    }
     return resolved.filter((step) => step.elementIds.length > 0);
   }
   var AnimationRuntime = class {
@@ -1993,6 +1994,7 @@ Build version: 2026-11-04T07:18:10.636Z
         await this.runStepEffect(resolved, true, generation);
         if (!this.active || generation !== this.generation) return true;
         this.active.completedSteps -= 1;
+        this.applyBuildState();
         this.emitState();
         return true;
       } catch (error) {
@@ -2197,7 +2199,13 @@ Build version: 2026-11-04T07:18:10.636Z
         overlay.style.opacity = "0";
       }
       await this.wait(duration + 24, generation);
-      if (generation === this.generation) this.applyResolvedOpacity(resolved, endsHidden ? 0 : null);
+      if (generation === this.generation) {
+        this.applyResolvedOpacity(resolved, endsHidden ? 0 : null);
+        if (!endsHidden) {
+          await this.nextFrame(generation);
+          await this.nextFrame(generation);
+        }
+      }
       overlay.remove();
       this.overlays.delete(overlay);
     }
@@ -2809,8 +2817,14 @@ Build version: 2026-11-04T07:18:10.636Z
     }
   };
 
+  // src/scripts/slideshow/previewAppearance.ts
+  function getPreviewAppearance(state) {
+    const color = typeof state.viewBackgroundColor === "string" ? state.viewBackgroundColor : "#ffffff";
+    const backgroundColor = state.theme === "dark" ? window.ExcalidrawLib.applyDarkModeFilter(color) : color;
+    return { theme: state.theme, backgroundColor, key: `${state.theme}|${color}` };
+  }
+
   // src/scripts/slideshow/SlidePreviewService.ts
-  var FALLBACK_BACKGROUND = "#ffffff";
   var PREVIEW_CACHE_BYTES = 64 * 1024 * 1024;
   var DEFAULT_PREVIEW_WIDTH = 960;
   var PREVIEW_EXPORT_CONCURRENCY = 2;
@@ -2825,9 +2839,6 @@ Build version: 2026-11-04T07:18:10.636Z
     return getSceneVisualFingerprint(
       slide.kind === "path" ? elements.filter((element) => element.id !== slide.pathId) : elements
     );
-  }
-  function readBackgroundColor(appState) {
-    return typeof appState.viewBackgroundColor === "string" ? appState.viewBackgroundColor : FALLBACK_BACKGROUND;
   }
   function getHiddenBuildElementIds(slide, completedAnimationSteps, elements, config) {
     if (slide.animationSteps.length === 0) return [];
@@ -2846,14 +2857,6 @@ Build version: 2026-11-04T07:18:10.636Z
       step,
       ids: resolveAnimationTargetElementIds(scope, step.targets, elements)
     }));
-    const claimedByLaterStep = /* @__PURE__ */ new Set();
-    for (let index = resolved.length - 1; index >= 0; index -= 1) {
-      const current = resolved[index];
-      if (!current) continue;
-      const phase = isExitAnimationEffect(current.step.effect) ? "exit" : "enter";
-      current.ids = current.ids.filter((id) => !claimedByLaterStep.has(`${phase}:${id}`));
-      for (const id of current.ids) claimedByLaterStep.add(`${phase}:${id}`);
-    }
     const hiddenIds = /* @__PURE__ */ new Set();
     const initialized = /* @__PURE__ */ new Set();
     for (const current of resolved) {
@@ -2890,7 +2893,7 @@ Build version: 2026-11-04T07:18:10.636Z
     generation = 0;
     /** Returns the drawing background used behind previews. */
     getBackgroundColor() {
-      return readBackgroundColor(this.api.getAppState());
+      return getPreviewAppearance(this.api.getAppState()).backgroundColor;
     }
     /** Returns the configured presentation aspect ratio used by sorter previews. */
     getAspectRatio() {
@@ -2919,8 +2922,7 @@ Build version: 2026-11-04T07:18:10.636Z
       image.style.backgroundColor = cached.backgroundColor;
       return image;
     }
-    async exportPreview(localElements, slide, hiddenElementIds, originalOpacities, targetWidth, generation, cacheKey) {
-      const appState = this.api.getAppState();
+    async exportPreview(localElements, slide, hiddenElementIds, originalOpacities, targetWidth, generation, cacheKey, appearance = getPreviewAppearance(this.api.getAppState())) {
       const rect = getPreviewNavigationRect(
         slide,
         this.config.maxZoom,
@@ -2933,7 +2935,7 @@ Build version: 2026-11-04T07:18:10.636Z
         width: Math.abs(rect.right - rect.left),
         height: Math.abs(rect.bottom - rect.top)
       };
-      if (generation !== this.generation) return void 0;
+      if (generation !== this.generation || getPreviewAppearance(this.api.getAppState()).key !== appearance.key) return void 0;
       const hiddenIds = new Set(hiddenElementIds);
       const exportElements = localElements.map((element) => {
         let opacity = element.opacity;
@@ -2948,12 +2950,12 @@ Build version: 2026-11-04T07:18:10.636Z
         elements: exportElements,
         area: exportArea,
         targetWidth,
-        theme: appState.theme
+        theme: appearance.theme
       });
-      if (generation !== this.generation) return void 0;
+      if (generation !== this.generation || getPreviewAppearance(this.api.getAppState()).key !== appearance.key) return void 0;
       const cached = {
         objectUrl: URL.createObjectURL(blob),
-        backgroundColor: readBackgroundColor(appState)
+        backgroundColor: appearance.backgroundColor
       };
       this.cached.set(cacheKey, cached, blob.size);
       return cached;
@@ -2969,6 +2971,7 @@ Build version: 2026-11-04T07:18:10.636Z
         this.config
       );
       const appState = this.api.getAppState();
+      const appearance = getPreviewAppearance(appState);
       const targetWidth = Math.max(Math.trunc(state.targetWidth ?? DEFAULT_PREVIEW_WIDTH), 1);
       const opacityKey = state.originalOpacities ? [...state.originalOpacities.entries()].sort(([left], [right]) => left.localeCompare(right)).map(([id, opacity]) => `${id}:${opacity}`).join(",") : "none";
       const rect = getPreviewNavigationRect(
@@ -2987,8 +2990,7 @@ Build version: 2026-11-04T07:18:10.636Z
         includeBoundElements: true
       });
       const cacheKey = [
-        appState.theme,
-        readBackgroundColor(appState),
+        appearance.key,
         slide.kind === "path" ? `path:${slide.pathId}` : "frame",
         `hidden:${hiddenElementIds.join(",")}`,
         `opacity:${opacityKey}`,
@@ -3008,7 +3010,8 @@ Build version: 2026-11-04T07:18:10.636Z
           state.originalOpacities,
           targetWidth,
           generation,
-          cacheKey
+          cacheKey,
+          appearance
         ),
         () => generation === this.generation
       );
@@ -3458,17 +3461,27 @@ Build version: 2026-11-04T07:18:10.636Z
 .slideshow-animation-editor__section { display:flex; flex-direction:column; gap:6px; }
 .slideshow-animation-editor__section-title { font-weight:600; font-size:var(--font-ui-small); }
 .slideshow-animation-editor__targets { display:flex; flex-wrap:wrap; gap:5px; }
-.slideshow-animation-editor__target { display:inline-flex; align-items:center; gap:4px; padding:3px 4px 3px 7px; border-radius:999px; background:var(--background-secondary); font-size:var(--font-ui-smaller); }
+.slideshow-animation-editor__target { display:inline-flex; align-items:center; gap:4px; padding:4px; border-radius:8px; background:var(--background-secondary); }
+.slideshow-animation-editor__target-preview { width:64px; height:56px; display:flex; align-items:center; justify-content:center; overflow:hidden; border-radius:4px; }
+.slideshow-animation-editor__target-preview img { width:100%; height:100%; object-fit:contain; }
 .slideshow-animation-editor__target button { width:22px; height:22px; min-width:22px; padding:3px; display:flex; align-items:center; justify-content:center; }
 .slideshow-animation-editor__form { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; }
 .slideshow-animation-editor__form label { display:flex; flex-direction:column; gap:4px; color:var(--text-muted); font-size:var(--font-ui-smaller); }
 .slideshow-animation-editor__form select, .slideshow-animation-editor__form input { width:100%; box-sizing:border-box; }
+.slideshow-animation-editor__choices-section { grid-column:1/-1; display:flex; flex-direction:column; gap:5px; color:var(--text-muted); font-size:var(--font-ui-smaller); }
+.slideshow-animation-editor__choices { display:grid; grid-template-columns:repeat(auto-fit,minmax(90px,1fr)); gap:5px; }
+.slideshow-animation-editor__choices button { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:5px; min-height:64px; height:auto; padding:7px; white-space:normal; }
+.slideshow-animation-editor__choice-icon { display:flex; flex:0 0 24px; align-items:center; justify-content:center; }
+.slideshow-animation-editor .slideshow-animation-editor__choice-icon svg { width:24px; height:24px; }
+.slideshow-animation-editor__choices button[aria-pressed="true"] { color:var(--text-accent); border:1px solid var(--interactive-accent); background:var(--background-modifier-hover); box-shadow:0 0 0 1px var(--interactive-accent); }
 .slideshow-animation-editor__form-actions { display:flex; flex-wrap:wrap; gap:6px; }
 .slideshow-animation-editor__form-actions button { display:inline-flex; align-items:center; gap:5px; }
 .slideshow-animation-editor__steps { display:flex; flex-direction:column; gap:6px; }
 .slideshow-animation-editor__step { display:grid; grid-template-columns:minmax(0,1fr) auto; gap:6px; padding:6px; border:1px solid var(--background-modifier-border); border-radius:6px; background:var(--background-primary); }
 .slideshow-animation-editor__step.is-selected { border-color:var(--interactive-accent); box-shadow:0 0 0 1px var(--interactive-accent); }
-.slideshow-animation-editor__step-summary { min-width:0; text-align:left; white-space:normal; }
+.slideshow-animation-editor__step-summary { display:flex; align-items:center; gap:10px; min-width:0; height:auto; text-align:left; white-space:normal; }
+.slideshow-animation-editor__step-preview { flex:0 0 64px; height:56px; display:flex; align-items:center; justify-content:center; overflow:hidden; border-radius:4px; background:var(--background-secondary); }
+.slideshow-animation-editor__step-preview img { width:100%; height:100%; object-fit:contain; }
 .slideshow-animation-editor__step-actions { display:grid; grid-template-columns:repeat(2,28px); gap:3px; }
 .slideshow-animation-editor__step-actions button { width:28px; height:28px; padding:4px; display:flex; align-items:center; justify-content:center; }
 
@@ -4295,6 +4308,7 @@ Build version: 2026-11-04T07:18:10.636Z
     const defaults = {
       layout: "slides",
       visibleOnly: true,
+      includeFrames: false,
       margin: "none",
       width,
       height,
@@ -4308,6 +4322,7 @@ Build version: 2026-11-04T07:18:10.636Z
     if (["slides", "notes", "handout-2", "handout-3"].includes(String(saved.layout)))
       defaults.layout = saved.layout;
     if (typeof saved.visibleOnly === "boolean") defaults.visibleOnly = saved.visibleOnly;
+    if (typeof saved.includeFrames === "boolean") defaults.includeFrames = saved.includeFrames;
     if (["none", "minimal", "normal"].includes(String(saved.margin)))
       defaults.margin = saved.margin;
     if (["configured", "A4", "Letter", "16:9", "custom"].includes(String(saved.preset)))
@@ -4396,6 +4411,15 @@ Build version: 2026-11-04T07:18:10.636Z
         ["handout-3", t("printHandout3")]
       ]);
       layout.value = preferences.layout;
+      let includeFrames = preferences.includeFrames ?? false;
+      const framesRow = new ea2.obsidian.Setting(modal.contentEl).setName(t("printIncludeFrames")).addToggle(
+        (toggle) => toggle.setValue(includeFrames).onChange((value) => {
+          includeFrames = value;
+        })
+      );
+      const updateFramesVisibility = () => framesRow.settingEl.toggle(layout.value !== "slides");
+      layout.addEventListener("change", updateFramesVisibility);
+      updateFramesVisibility();
       const theme = select(t("printTheme"), [
         ["light", t("printThemeLight")],
         ["dark", t("printThemeDark")]
@@ -4482,6 +4506,7 @@ Build version: 2026-11-04T07:18:10.636Z
           sourceKey: source.value,
           layout: layout.value,
           visibleOnly,
+          includeFrames: layout.value !== "slides" && includeFrames,
           theme: theme.value,
           pageRanges: ranges.value.trim(),
           margin: margin.value
@@ -4489,6 +4514,7 @@ Build version: 2026-11-04T07:18:10.636Z
         void savePrintPreferences(ea2, {
           layout: result.layout,
           visibleOnly,
+          includeFrames,
           margin: result.margin,
           width: result.width,
           height: result.height,
@@ -4661,6 +4687,19 @@ Build version: 2026-11-04T07:18:10.636Z
             clone.setAttribute("x", String(boxes.slide.x));
             clone.setAttribute("y", String(boxes.slide.y + y));
             page.appendChild(clone);
+            if (settings.includeFrames) {
+              page.createSvg("rect", {
+                attr: {
+                  x: slideBox.x,
+                  y: slideBox.y + y,
+                  width: slideBox.width,
+                  height: slideBox.height,
+                  fill: "none",
+                  stroke: colors.border,
+                  "stroke-width": 1
+                }
+              });
+            }
             appendPrintNotes(page, notes, { ...boxes.notes, y: boxes.notes.y + y });
             slot += 1;
           }
@@ -5395,6 +5434,70 @@ Build version: 2026-11-04T07:18:10.636Z
     });
   }
 
+  // src/scripts/slideshow/AnimationTargetPreviewService.ts
+  var AnimationTargetPreviewService = class {
+    constructor(ea2, api) {
+      this.ea = ea2;
+      this.api = api;
+    }
+    ea;
+    api;
+    queue = new AsyncTaskQueue(1);
+    cache = new ByteBudgetLruCache(
+      4 * 1024 * 1024,
+      (url) => URL.revokeObjectURL(url)
+    );
+    destroyed = false;
+    /** Exports only the scoped visual targets, including bound text, at at most 160px per side. */
+    async createPreview(scope, targets, doc, isRelevant, originalOpacities) {
+      if (this.destroyed) return null;
+      const elements = this.ea.getViewElements();
+      const ids = new Set(resolveAnimationTargetElementIds(scope, targets, elements));
+      const selected = elements.filter((element) => ids.has(element.id)).map((element) => {
+        const opacity = originalOpacities?.get(element.id) ?? element.opacity;
+        return opacity === element.opacity ? element : { ...element, opacity };
+      });
+      if (selected.length === 0) return null;
+      const appearance = getPreviewAppearance(this.api.getAppState());
+      const key = `${appearance.key}|${getSceneVisualFingerprint(selected)}`;
+      let url = this.cache.get(key);
+      if (!url) {
+        url = await this.queue.enqueue(key, async () => {
+          if (getPreviewAppearance(this.api.getAppState()).key !== appearance.key) return void 0;
+          const bounds = this.ea.getBoundingBox(selected);
+          const blob = await this.ea.createViewPNG({
+            withBackground: true,
+            theme: appearance.theme,
+            frameRendering: { enabled: false, name: false, outline: false, clip: false },
+            padding: 4,
+            selectedOnly: false,
+            embedScene: false,
+            elementsOverride: selected,
+            scale: Math.min(2, 160 / Math.max(bounds.width + 8, bounds.height + 8, 1))
+          });
+          if (this.destroyed || getPreviewAppearance(this.api.getAppState()).key !== appearance.key) return void 0;
+          const objectUrl = URL.createObjectURL(blob);
+          this.cache.set(key, objectUrl, blob.size);
+          return objectUrl;
+        }, () => !this.destroyed);
+      }
+      await Promise.resolve();
+      if (!url || this.destroyed || !isRelevant()) return null;
+      const image = doc.createElement("img");
+      image.src = url;
+      image.alt = "";
+      image.draggable = false;
+      image.style.backgroundColor = appearance.backgroundColor;
+      return image;
+    }
+    /** Invalidates queued exports and releases URLs, including when a running export finishes later. */
+    destroy() {
+      this.destroyed = true;
+      this.queue.clear();
+      this.cache.clear();
+    }
+  };
+
   // src/scripts/slideshow/slideDeckMutations.ts
   function normalizeNotes2(notes) {
     return notes.trim().length === 0 ? void 0 : notes;
@@ -5909,7 +6012,8 @@ Build version: 2026-11-04T07:18:10.636Z
   }
   function sameTargets(left, right) {
     if (left.length !== right.length) return false;
-    return left.every((target, index) => targetKey(target) === targetKey(right[index] ?? target));
+    const keys = new Set(right.map(targetKey));
+    return left.every((target) => keys.has(targetKey(target)));
   }
   function uniqueStepId(steps) {
     const used = new Set(steps.map((step) => step.id));
@@ -5932,6 +6036,7 @@ Build version: 2026-11-04T07:18:10.636Z
       this.options = options;
       this.steps = options.slide.animationSteps.map((step) => structuredClone(step));
       this.drawingFile = options.hostView.file;
+      this.targetPreviews = new AnimationTargetPreviewService(options.ea, options.api);
       this.previewRuntime = new AnimationRuntime({
         ea: options.ea,
         api: options.api,
@@ -5949,18 +6054,33 @@ Build version: 2026-11-04T07:18:10.636Z
     delayMs = 1e3;
     durationMs = 350;
     direction = "left";
+    newStepDefaults = {
+      effect: this.effect,
+      trigger: this.trigger,
+      delayMs: this.delayMs,
+      durationMs: this.durationMs,
+      direction: this.direction
+    };
+    lastSelectionTargets = null;
     destroyed = false;
     saving = false;
-    ignoreSelectionUntil = 0;
+    selectingStep = false;
     recycleTimer = 0;
     pendingRecycleElements = null;
     previewRuntime;
+    targetPreviews;
     drawingFile;
+    targetPreviewBindings = /* @__PURE__ */ new Map();
+    previewAppearanceKey = "";
+    previewGeneration = 0;
     /** Renders the editor into its current sidepanel container. */
     render() {
       if (this.destroyed) return;
       const { container, icons, t } = this.options;
       const doc = container.ownerDocument;
+      this.targetPreviewBindings.clear();
+      this.previewGeneration += 1;
+      this.previewAppearanceKey = getPreviewAppearance(this.options.api.getAppState()).key;
       container.replaceChildren();
       container.className = "slideshow-animation-editor";
       const instructions = doc.createElement("div");
@@ -5990,9 +6110,10 @@ Build version: 2026-11-04T07:18:10.636Z
         this.targets.forEach((target, index) => {
           const chip = doc.createElement("span");
           chip.className = "slideshow-animation-editor__target";
-          const label = doc.createElement("span");
-          label.textContent = this.getTargetLabel(target);
-          chip.appendChild(label);
+          const preview = this.createTargetPreview(doc, [target], "slideshow-animation-editor__target-preview");
+          preview.setAttribute("role", "img");
+          preview.setAttribute("aria-label", this.getTargetLabel(target));
+          chip.appendChild(preview);
           const remove = this.iconButton(doc, icons.close, t("removeAnimationTarget"), false, () => {
             this.targets.splice(index, 1);
             this.render();
@@ -6005,7 +6126,7 @@ Build version: 2026-11-04T07:18:10.636Z
       container.appendChild(targetSection);
       const form = doc.createElement("div");
       form.className = "slideshow-animation-editor__form";
-      const effectSelect = this.createSelect(doc, t("animationEffect"), [
+      const effectSelect = this.createChoices(doc, t("animationEffect"), [
         ["appear", t("animationEffectAppear")],
         ["fade", t("animationEffectFade")],
         ["slide", t("animationEffectSlide")],
@@ -6016,14 +6137,16 @@ Build version: 2026-11-04T07:18:10.636Z
         ["zoom-out", t("animationEffectZoomOut")]
       ], this.effect, (value) => {
         this.effect = value;
+        this.rememberFormDefaults();
         this.render();
       });
       form.appendChild(effectSelect);
-      const triggerSelect = this.createSelect(doc, t("animationTrigger"), [
+      const triggerSelect = this.createChoices(doc, t("animationTrigger"), [
         ["advance", t("animationTriggerAdvance")],
         ["after-delay", t("animationTriggerDelay")]
       ], this.trigger, (value) => {
         this.trigger = value;
+        this.rememberFormDefaults();
         this.render();
       });
       form.appendChild(triggerSelect);
@@ -6031,6 +6154,7 @@ Build version: 2026-11-04T07:18:10.636Z
         form.appendChild(
           this.numberField(doc, t("animationDelayMs"), this.delayMs, 0, (value) => {
             this.delayMs = value;
+            this.rememberFormDefaults();
           })
         );
       }
@@ -6038,6 +6162,7 @@ Build version: 2026-11-04T07:18:10.636Z
         form.appendChild(
           this.numberField(doc, t("animationDurationMs"), this.durationMs, 0, (value) => {
             this.durationMs = value;
+            this.rememberFormDefaults();
           })
         );
       }
@@ -6054,8 +6179,10 @@ Build version: 2026-11-04T07:18:10.636Z
           ["down", t("animationDirectionDown")]
         ];
         form.appendChild(
-          this.createSelect(doc, t("animationDirection"), directionOptions, this.direction, (value) => {
+          this.createChoices(doc, t("animationDirection"), directionOptions, this.direction, (value) => {
             this.direction = value;
+            this.rememberFormDefaults();
+            this.render();
           })
         );
       }
@@ -6103,12 +6230,19 @@ Build version: 2026-11-04T07:18:10.636Z
     }
     /** Processes live scene changes while animation editing is active. */
     handleSceneChange(elements, appState) {
+      if (this.destroyed || !this.isCurrentDrawing()) return;
+      const appearanceKey = getPreviewAppearance(this.options.api.getAppState()).key;
+      if (appearanceKey !== this.previewAppearanceKey) {
+        this.previewAppearanceKey = appearanceKey;
+        this.previewGeneration += 1;
+        for (const [preview, targets] of this.targetPreviewBindings) this.loadTargetPreview(preview, targets);
+      }
       this.captureSelection(elements, appState);
       this.scheduleMissingTargetRecycle(elements);
     }
     /** Captures the live canvas selection while animation editing is active. */
     captureSelection(elements, appState) {
-      if (this.destroyed || !this.isCurrentDrawing() || Date.now() < this.ignoreSelectionUntil) {
+      if (this.destroyed || !this.isCurrentDrawing() || this.selectingStep) {
         return;
       }
       const captured = captureAnimationTargets(
@@ -6117,10 +6251,22 @@ Build version: 2026-11-04T07:18:10.636Z
         appState.selectedElementIds,
         appState.selectedGroupIds
       );
-      if (sameTargets(captured.targets, this.targets) && captured.ignoredSelectionCount === this.ignoredSelectionCount) {
+      if (this.lastSelectionTargets !== null && sameTargets(captured.targets, this.lastSelectionTargets) && captured.ignoredSelectionCount === this.ignoredSelectionCount) {
         return;
       }
-      this.targets = captured.targets;
+      const selectionChanged = this.lastSelectionTargets === null || !sameTargets(captured.targets, this.lastSelectionTargets);
+      this.lastSelectionTargets = captured.targets;
+      if (selectionChanged) {
+        const ids = new Set(resolveAnimationTargetElementIds(this.getSlideScope(), captured.targets, elements));
+        const firstStep = this.steps.find(
+          (step) => resolveAnimationTargetElementIds(this.getSlideScope(), step.targets, elements).some((id) => ids.has(id))
+        );
+        if (firstStep) this.loadStepForm(firstStep);
+        else {
+          this.startNewStep();
+          this.targets = captured.targets;
+        }
+      }
       this.ignoredSelectionCount = captured.ignoredSelectionCount;
       this.render();
     }
@@ -6131,6 +6277,9 @@ Build version: 2026-11-04T07:18:10.636Z
       if (this.recycleTimer) this.options.hostView.ownerWindow.clearTimeout(this.recycleTimer);
       this.recycleTimer = 0;
       this.pendingRecycleElements = null;
+      this.targetPreviewBindings.clear();
+      this.previewGeneration += 1;
+      this.targetPreviews.destroy();
       if (this.isCurrentDrawing()) await this.previewRuntime.leaveSlide();
       else this.previewRuntime.abandonActiveSlide();
     }
@@ -6166,7 +6315,7 @@ Build version: 2026-11-04T07:18:10.636Z
           } else {
             this.selectedStepId = null;
             this.targets = [];
-            this.resetFormDefaults();
+            this.startNewStep();
           }
         }
         this.options.onSaved(this.steps);
@@ -6188,11 +6337,14 @@ Build version: 2026-11-04T07:18:10.636Z
       const summary = doc.createElement("button");
       summary.type = "button";
       summary.className = "slideshow-animation-editor__step-summary";
-      summary.textContent = t("animationStepSummary", {
+      const label = doc.createElement("span");
+      label.textContent = t("animationStepSummary", {
         number: index + 1,
         effect: this.effectLabel(step.effect),
         targets: step.targets.length
       });
+      const preview = this.createTargetPreview(doc, step.targets, "slideshow-animation-editor__step-preview");
+      summary.append(preview, label);
       summary.addEventListener("click", () => this.selectStep(step));
       row.appendChild(summary);
       const actions = doc.createElement("div");
@@ -6245,7 +6397,8 @@ Build version: 2026-11-04T07:18:10.636Z
       });
       return row;
     }
-    selectStep(step) {
+    /** Loads a saved step without changing the user's defaults for the next new step. */
+    loadStepForm(step) {
       this.selectedStepId = step.id;
       this.targets = step.targets.map((target) => structuredClone(target));
       this.effect = step.effect;
@@ -6254,14 +6407,56 @@ Build version: 2026-11-04T07:18:10.636Z
       this.durationMs = step.durationMs ?? 350;
       this.direction = step.direction ?? "left";
       this.ignoredSelectionCount = 0;
+    }
+    /** Shares the bounded thumbnail cache between selected-target cards and sequence rows. */
+    createTargetPreview(doc, targets, className) {
+      const preview = doc.createElement("span");
+      preview.className = className;
+      this.targetPreviewBindings.set(preview, targets);
+      this.loadTargetPreview(preview, targets);
+      return preview;
+    }
+    /** Updates image content in place so appearance changes preserve the mounted form controls. */
+    loadTargetPreview(preview, targets) {
+      const generation = this.previewGeneration;
+      void this.targetPreviews.createPreview(
+        this.getSlideScope(),
+        targets,
+        preview.ownerDocument,
+        () => !this.destroyed && generation === this.previewGeneration && preview.isConnected && this.isCurrentDrawing(),
+        this.previewRuntime.getOriginalOpacities()
+      ).then((image) => {
+        if (image && !this.destroyed && generation === this.previewGeneration && preview.isConnected) preview.replaceChildren(image);
+      }).catch((error) => console.error("Slideshow animation thumbnail failed", error));
+    }
+    selectStep(step) {
+      this.loadStepForm(step);
       const ids = resolveAnimationTargetElementIds(
         this.getSlideScope(),
         step.targets,
         this.options.ea.getViewElements()
       );
       const elements = this.options.ea.getViewElements().filter((element) => ids.includes(element.id));
-      this.ignoreSelectionUntil = Date.now() + 500;
-      if (elements.length > 0) this.options.ea.selectElementsInView(elements);
+      this.selectingStep = true;
+      try {
+        if (elements.length > 0) this.options.ea.selectElementsInView(elements);
+        this.options.api.updateScene({
+          appState: {
+            selectedGroupIds: Object.fromEntries(step.targets.filter((target) => target.type === "group").map((target) => [target.id, true]))
+          },
+          captureUpdate: "NEVER",
+          forceFlushSync: true
+        });
+        const state = this.options.api.getAppState();
+        this.lastSelectionTargets = captureAnimationTargets(
+          this.getSlideScope(),
+          this.options.ea.getViewElements(),
+          state.selectedElementIds,
+          state.selectedGroupIds
+        ).targets;
+      } finally {
+        this.selectingStep = false;
+      }
       this.render();
     }
     async saveCurrentStep() {
@@ -6269,17 +6464,10 @@ Build version: 2026-11-04T07:18:10.636Z
       this.saving = true;
       this.render();
       try {
-        const elements = this.options.ea.getViewElements();
         const selectedId = this.selectedStepId;
-        let steps = removeAnimationTargetConflicts(
-          this.getSlideScope(),
-          this.steps,
-          this.targets,
-          elements,
-          selectedId ?? void 0,
-          this.effect
-        );
+        const steps = this.steps.map((step2) => structuredClone(step2));
         const step = this.buildFormStep(selectedId ?? uniqueStepId(steps));
+        this.rememberFormDefaults();
         if (selectedId) {
           const index = steps.findIndex((candidate) => candidate.id === selectedId);
           if (index >= 0) steps[index] = step;
@@ -6290,8 +6478,9 @@ Build version: 2026-11-04T07:18:10.636Z
         await this.saveAnimationSteps(steps);
         if (!this.isCurrentDrawing()) return;
         this.steps = steps;
-        this.selectedStepId = step.id;
-        this.targets = step.targets.map((target) => structuredClone(target));
+        if (!selectedId && this.selectedStepId === null && sameTargets(this.targets, step.targets)) {
+          this.startNewStep();
+        }
         this.options.onSaved(this.steps);
       } catch (error) {
         console.error("Slideshow animation metadata save failed", error);
@@ -6314,7 +6503,7 @@ Build version: 2026-11-04T07:18:10.636Z
       if (this.selectedStepId === stepId) {
         this.selectedStepId = null;
         this.targets = [];
-        this.resetFormDefaults();
+        this.startNewStep();
       }
       this.render();
     }
@@ -6360,7 +6549,7 @@ Build version: 2026-11-04T07:18:10.636Z
     }
     startNewStep() {
       this.selectedStepId = null;
-      this.resetFormDefaults();
+      Object.assign(this, this.newStepDefaults);
     }
     getSlideScope() {
       const appState = this.options.api.getAppState();
@@ -6372,12 +6561,15 @@ Build version: 2026-11-04T07:18:10.636Z
     isCurrentDrawing() {
       return this.options.hostView.file === this.drawingFile;
     }
-    resetFormDefaults() {
-      this.effect = "appear";
-      this.trigger = "advance";
-      this.delayMs = 1e3;
-      this.durationMs = 350;
-      this.direction = "left";
+    /** Remembers explicit form choices independently of saved-step selection. */
+    rememberFormDefaults() {
+      this.newStepDefaults = {
+        effect: this.effect,
+        trigger: this.trigger,
+        delayMs: this.delayMs,
+        durationMs: this.durationMs,
+        direction: this.direction
+      };
     }
     getTargetLabel(target) {
       if (target.type === "group") {
@@ -6419,22 +6611,32 @@ Build version: 2026-11-04T07:18:10.636Z
       button.addEventListener("click", callback);
       return button;
     }
-    createSelect(doc, labelText, options, value, onChange) {
-      const label = doc.createElement("label");
-      const text = doc.createElement("span");
-      text.textContent = labelText;
-      label.appendChild(text);
-      const select = doc.createElement("select");
-      for (const [optionValue, optionLabel] of options) {
-        const option = doc.createElement("option");
-        option.value = optionValue;
-        option.textContent = optionLabel;
-        select.appendChild(option);
+    /** Renders accessible effect/direction buttons using the same form state as timing controls. */
+    createChoices(doc, labelText, choices, value, onChange) {
+      const section = doc.createElement("div");
+      section.className = "slideshow-animation-editor__choices-section";
+      const heading = doc.createElement("span");
+      heading.textContent = labelText;
+      const buttons = doc.createElement("div");
+      buttons.className = "slideshow-animation-editor__choices";
+      buttons.setAttribute("role", "group");
+      buttons.setAttribute("aria-label", labelText);
+      for (const [choice, label] of choices) {
+        const button = doc.createElement("button");
+        button.type = "button";
+        const icon = doc.createElement("span");
+        icon.className = "slideshow-animation-editor__choice-icon";
+        icon.setAttribute("aria-hidden", "true");
+        icon.innerHTML = getAnimationEditorIcon(this.options.ea, choice, isExitAnimationEffect(this.effect));
+        const text = doc.createElement("span");
+        text.textContent = label;
+        button.append(icon, text);
+        button.setAttribute("aria-pressed", String(choice === value));
+        button.addEventListener("click", () => onChange(choice));
+        buttons.appendChild(button);
       }
-      select.value = value;
-      select.addEventListener("change", () => onChange(select.value));
-      label.appendChild(select);
-      return label;
+      section.append(heading, buttons);
+      return section;
     }
     numberField(doc, labelText, value, min, onChange) {
       const label = doc.createElement("label");
@@ -6595,6 +6797,13 @@ Build version: 2026-11-04T07:18:10.636Z
         if (this.previewObserver) this.previewObserver.observe(host);
         else this.renderPreview(host, slide, generation);
       }
+    }
+    /** Marks appearance changes for a fresh export even while ordinary scene refreshes are paused. */
+    invalidatePreviewAppearance() {
+      this.options.container.querySelectorAll(".slideshow-sorter__preview").forEach((host) => {
+        host.dataset.previewDirty = "true";
+      });
+      this.refreshPreviews();
     }
     /** Re-establishes lazy loading after focus returns, without touching already-populated thumbnails. */
     resumePreviewRendering() {
@@ -7103,6 +7312,7 @@ Build version: 2026-11-04T07:18:10.636Z
       row.appendChild(content);
       const preview = doc.createElement("div");
       preview.className = "slideshow-sorter__preview";
+      preview.dataset.slideId = slide.id;
       preview.style.backgroundColor = this.options.previewService.getBackgroundColor();
       preview.style.aspectRatio = this.options.previewService.getAspectRatio();
       content.appendChild(preview);
@@ -7775,6 +7985,7 @@ Build version: 2026-11-04T07:18:10.636Z
     ownerWindow;
     lastFingerprint = "";
     lastPreviewFingerprint = "";
+    lastPreviewAppearanceKey = "";
     lastChromeFingerprint = "";
     pendingRefresh = false;
     sorterMutationDepth = 0;
@@ -7951,6 +8162,12 @@ Build version: 2026-11-04T07:18:10.636Z
           if (view.file !== this.boundDrawingFile) {
             this.bindView(view);
             return;
+          }
+          const appearanceKey = getPreviewAppearance(appState).key;
+          if (appearanceKey !== this.lastPreviewAppearanceKey) {
+            this.lastPreviewAppearanceKey = appearanceKey;
+            this.sorter?.invalidatePreviewAppearance();
+            this.refreshPreviewsOnce();
           }
           if (this.sorterMutationDepth > 0) {
             this.pendingRefresh = true;

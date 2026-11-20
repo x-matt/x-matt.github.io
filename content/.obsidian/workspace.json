@@ -4,20 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f46d44406c4a3f85",
+        "id": "c25b447ff06bce78",
         "type": "tabs",
         "children": [
           {
-            "id": "a0d10452b4947320",
+            "id": "f45ce54ab6158458",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "excalidraw",
               "state": {
-                "file": "reading.base",
-                "viewName": "Library"
+                "file": "Assets/excalidraw/ai_native 2026.excalidraw.md"
               },
-              "icon": "lucide-layout-grid",
-              "title": "reading"
+              "icon": "excalidraw-icon",
+              "title": "ai_native 2026.excalidraw"
             }
           }
         ],
@@ -95,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.5
+    "width": 316.5,
+    "collapsed": true
   },
   "right": {
     "id": "5e007910e90f3de9",
@@ -194,10 +194,18 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "a0d10452b4947320",
+  "active": "f45ce54ab6158458",
   "lastOpenFiles": [
-    "Writings/Darkroom/darkroom.base",
+    "Writings/ai_native.md",
+    "Assets/excalidraw/ai_native 2026.excalidraw.md",
+    "Assets/excalidraw/yjango 2026.excalidraw.md",
+    "Writings/yjango.md",
+    "index.md",
+    "work.base",
     "life.base",
+    "knowledge.base",
+    "reading.base",
+    "Writings/Darkroom/darkroom.base",
     "Writings/theron.md",
     "Writings/movie.md",
     "Assets/images/movie.jpg",
@@ -205,12 +213,8 @@
     "Writings/bullet.md",
     "Assets/images/darkroom/bullet-0-0.jpg",
     "Writings/hiddenman.md",
-    "reading.base",
-    "work.base",
-    "knowledge.base",
     "Writings/online-calib-ex.md",
     "Clippings/天涯隐学：人生主线任务（普通人破局指南）.md",
-    "index.md",
     "Writings/tools-debug.md",
     "Assets/canvas/chinese history.canvas",
     "Assets/excalidraw/format 2025.excalidraw.md",
@@ -227,9 +231,6 @@
     "Writings/areas-planning.md",
     "Writings/android-structure.md",
     "Writings/algo.md",
-    "Writings/Darkroom/classic model.md",
-    "Writings/Darkroom/buer_two.md",
-    "Writings/Darkroom/bambola.md",
     "Assets/settings/excalidraw/scripts/QuickSwitchFrame.svg",
     "Assets/settings/excalidraw/scripts/Downloaded/Slideshow.svg",
     "Assets/settings/excalidraw/scripts/Downloaded/Select Elements of Type.svg",
