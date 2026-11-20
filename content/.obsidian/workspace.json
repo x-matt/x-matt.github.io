@@ -11,12 +11,14 @@
             "id": "f45ce54ab6158458",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Assets/excalidraw/ai_native 2026.excalidraw.md"
+                "file": "index.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "ai_native 2026.excalidraw"
+              "icon": "lucide-file",
+              "title": "index"
             }
           }
         ],
@@ -94,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.5,
-    "collapsed": true
+    "width": 316.5
   },
   "right": {
     "id": "5e007910e90f3de9",
@@ -196,16 +197,18 @@
   },
   "active": "f45ce54ab6158458",
   "lastOpenFiles": [
-    "Writings/ai_native.md",
-    "Assets/excalidraw/ai_native 2026.excalidraw.md",
-    "Assets/excalidraw/yjango 2026.excalidraw.md",
-    "Writings/yjango.md",
-    "index.md",
-    "work.base",
-    "life.base",
     "knowledge.base",
+    "life.base",
+    "work.base",
     "reading.base",
     "Writings/Darkroom/darkroom.base",
+    "Writings/Darkroom/sonyablaze.md",
+    "Assets/excalidraw/zoomeis 2025.excalidraw.md",
+    "Assets/excalidraw/yjango 2026.excalidraw.md",
+    "Assets/excalidraw/ai_native 2026.excalidraw.md",
+    "Writings/ai_native.md",
+    "Writings/yjango.md",
+    "index.md",
     "Writings/theron.md",
     "Writings/movie.md",
     "Assets/images/movie.jpg",
@@ -228,9 +231,6 @@
     "Writings/cloth.md",
     "Writings/chip.md",
     "Writings/body.md",
-    "Writings/areas-planning.md",
-    "Writings/android-structure.md",
-    "Writings/algo.md",
     "Assets/settings/excalidraw/scripts/QuickSwitchFrame.svg",
     "Assets/settings/excalidraw/scripts/Downloaded/Slideshow.svg",
     "Assets/settings/excalidraw/scripts/Downloaded/Select Elements of Type.svg",

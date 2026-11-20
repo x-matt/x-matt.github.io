@@ -10,8 +10,8 @@
     "article-title": {
       "source": "github:quartz-community/article-title",
       "resolved": "https://github.com/quartz-community/article-title.git",
-      "commit": "34427e6ac7ebf283e64a73bab043750b25c7b50b",
-      "installedAt": "2026-11-10T16:05:12.237Z"
+      "commit": "4f45d7b26efefe038130cf3ebb85b5733cc41089",
+      "installedAt": "2026-11-20T15:06:35.908Z"
     },
     "backlinks": {
       "source": "github:quartz-community/backlinks",
@@ -22,8 +22,8 @@
     "bases-page": {
       "source": "github:quartz-community/bases-page",
       "resolved": "https://github.com/quartz-community/bases-page.git",
-      "commit": "a7ef366bd2c47c59e3b45c5fa8a0eef6d967456f",
-      "installedAt": "2026-11-10T16:05:12.210Z"
+      "commit": "d22d149ac25941ce5efe100d8b9d72a202fc68aa",
+      "installedAt": "2026-11-20T15:06:34.900Z"
     },
     "breadcrumbs": {
       "source": "github:quartz-community/breadcrumbs",
@@ -100,8 +100,8 @@
     "explorer": {
       "source": "github:quartz-community/explorer",
       "resolved": "https://github.com/quartz-community/explorer.git",
-      "commit": "6f74926e4118a3714a56a683d8ae370cd185db3d",
-      "installedAt": "2026-11-14T03:07:21.607Z"
+      "commit": "03d76bc5ba5ec3f61e3eb528863a70bf32c49ae6",
+      "installedAt": "2026-11-20T15:06:37.256Z"
     },
     "favicon": {
       "source": "github:quartz-community/favicon",
@@ -154,8 +154,8 @@
     "obsidian-flavored-markdown": {
       "source": "github:quartz-community/obsidian-flavored-markdown",
       "resolved": "https://github.com/quartz-community/obsidian-flavored-markdown.git",
-      "commit": "c81f63b884f86bf83e54cd65f56ba465d93ce1a6",
-      "installedAt": "2026-11-10T16:05:16.406Z"
+      "commit": "feb49a9f39ac8092fc25238cea60d60b7ebb36e6",
+      "installedAt": "2026-11-20T15:06:39.431Z"
     },
     "obsidian-plugin-excalidraw": {
       "source": "github:quartz-community/obsidian-plugin-excalidraw",

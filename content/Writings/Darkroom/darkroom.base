@@ -30,6 +30,8 @@ views:
     filters:
       and:
         - category.containsAny("actor")
+    order:
+      - title
     limit: 30
     image: note.cover
     cardSize: 200
@@ -55,8 +57,8 @@ views:
       and:
         - category == "blogger"
     order:
-      - file.name
       - scoreStar
+      - title
     sort: []
     image: note.cover
     imageAspectRatio: 0.7
