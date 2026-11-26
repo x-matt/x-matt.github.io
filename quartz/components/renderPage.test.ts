@@ -1,6 +1,7 @@
 import test, { describe } from "node:test"
+import { toHtml } from "hast-util-to-html"
 import assert from "node:assert"
-import { renderTranscludes, pageResources } from "./renderPage"
+import { renderTranscludes, pageResources, transformPageContent } from "./renderPage"
 import { Root, Element } from "hast"
 import { FullSlug } from "../util/path"
 import { GlobalConfiguration } from "../cfg"
@@ -48,6 +49,42 @@ function makeComponentData(
 }
 
 describe("renderTranscludes", () => {
+  test("wraps transcluded content in Obsidian's embed markup", () => {
+    const root: Root = { type: "root", children: [makeTranscludeBlockquote("target")] }
+    const targetHtml: Root = {
+      type: "root",
+      children: [
+        {
+          type: "element",
+          tagName: "p",
+          properties: {},
+          children: [{ type: "text", value: "Target content" }],
+        },
+      ],
+    }
+    renderTranscludes(
+      root,
+      cfg,
+      "current" as FullSlug,
+      makeComponentData([makePageData("target", targetHtml)]) as QuartzComponentProps,
+      new Set<FullSlug>(["current" as FullSlug]),
+    )
+    const [title, content, link, embedLink] = (root.children[0] as Element).children as Element[]
+    assert.deepStrictEqual(title.properties.className, ["embed-title", "markdown-embed-title"])
+    assert.deepStrictEqual(content.properties.className, ["markdown-embed-content"])
+    const view = content.children[0] as Element
+    assert.deepStrictEqual(view.properties.className, [
+      "markdown-preview-view",
+      "markdown-rendered",
+    ])
+    assert.strictEqual((view.children[0] as Element).tagName, "p")
+    assert.deepStrictEqual(link.properties.class, ["internal", "internal-link", "transclude-src"])
+    // Obsidian's icon link to the note, after Quartz's (hidden unless a theme shows it).
+    assert.deepStrictEqual(embedLink.properties.className, ["markdown-embed-link"])
+    assert.strictEqual(embedLink.properties.href, link.properties.href)
+    assert.strictEqual((embedLink.children[0] as Element).tagName, "svg")
+  })
+
   test("resolves a single page transclusion", () => {
     const root: Root = {
       type: "root",
@@ -183,6 +220,43 @@ describe("renderTranscludes", () => {
     assert.ok(!secondText.includes("Circular transclusion"), "should not show circular warning")
   })
 
+  test("a header transclusion finds headings inside Obsidian's block wrappers", () => {
+    const root: Root = {
+      type: "root",
+      children: [makeTranscludeBlockquote("target", "#details")],
+    }
+    const wrap = (tagName: string, properties: Element["properties"], value: string): Element => ({
+      type: "element",
+      tagName: "div",
+      properties: { className: [`el-${tagName}`] },
+      children: [{ type: "element", tagName, properties, children: [{ type: "text", value }] }],
+    })
+    const targetHtml: Root = {
+      type: "root",
+      children: [
+        wrap("h2", { id: "intro" }, "Intro"),
+        wrap("p", {}, "Intro text"),
+        wrap("h2", { id: "details" }, "Details"),
+        wrap("p", {}, "Details text"),
+        wrap("h2", { id: "after" }, "After"),
+        wrap("p", {}, "After text"),
+      ],
+    }
+
+    renderTranscludes(
+      root,
+      cfg,
+      "current" as FullSlug,
+      makeComponentData([makePageData("target", targetHtml)]) as QuartzComponentProps,
+      new Set<FullSlug>(["current" as FullSlug]),
+    )
+
+    const html = toHtml(root.children[0] as Element)
+    assert.ok(html.includes('<div class="el-p"><p>Details text</p></div>'), html)
+    assert.ok(!html.includes("Intro text"), "the slice starts at its heading")
+    assert.ok(!html.includes("After text"), "the slice ends at the next heading")
+  })
+
   test("a header transclusion matches a heading's Obsidian-anchor alias", () => {
     const root: Root = {
       type: "root",
@@ -305,6 +379,62 @@ describe("renderTranscludes", () => {
     const bq = root.children[0] as Element
     const text = JSON.stringify(bq.children)
     assert.ok(text.includes("Circular transclusion"), "self-reference should be blocked")
+  })
+})
+
+describe("transformPageContent (render-time transforms)", () => {
+  const text = (root: Root) => toHtml(root)
+  const target: Root = {
+    type: "root",
+    children: [
+      {
+        type: "element",
+        tagName: "p",
+        properties: {},
+        children: [{ type: "text", value: "Target content" }],
+      },
+    ],
+  }
+
+  test("runs before, then transclusions, then treeTransforms, then after, on a copy", () => {
+    const page: Root = { type: "root", children: [makeTranscludeBlockquote("target")] }
+    const data = makeComponentData([makePageData("target", target)]) as QuartzComponentProps
+    data.tree = page
+    const seen: string[] = []
+    const root = transformPageContent(cfg, "current" as FullSlug, data, {
+      before: [(r) => seen.push(`before:${text(r).includes("Target content")}`)],
+      treeTransforms: [(r) => seen.push(`tree:${text(r).includes("Target content")}`)],
+      after: [
+        (r) => {
+          seen.push(`after:${text(r).includes("Target content")}`)
+          r.children = [{ type: "text", value: "replaced" }]
+        },
+      ],
+    })
+    assert.deepStrictEqual(seen, ["before:false", "tree:true", "after:true"])
+    assert.strictEqual(text(root), "replaced")
+    // the page's own tree is untouched
+    assert.ok(text(page).includes("transclude"))
+  })
+
+  test("a before transform can swap in content that then gets transclusions inlined", () => {
+    const data = makeComponentData([makePageData("target", target)]) as QuartzComponentProps
+    data.tree = { type: "root", children: [{ type: "text", value: "placeholder" }] } as Root
+    const root = transformPageContent(cfg, "current" as FullSlug, data, {
+      before: [(r) => (r.children = [makeTranscludeBlockquote("target")])],
+      treeTransforms: [],
+      after: [],
+    })
+    assert.ok(text(root).includes("Target content"))
+  })
+
+  test("a plain list is the page types' treeTransforms", () => {
+    const data = makeComponentData([]) as QuartzComponentProps
+    data.tree = { type: "root", children: [] } as Root
+    const root = transformPageContent(cfg, "current" as FullSlug, data, [
+      (r) => r.children.push({ type: "text", value: "x" }),
+    ])
+    assert.strictEqual(text(root), "x")
   })
 })
 

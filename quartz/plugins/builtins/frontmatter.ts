@@ -1,6 +1,6 @@
 import matter from "gray-matter"
 import remarkFrontmatter from "remark-frontmatter"
-import yaml from "js-yaml"
+import { CORE_SCHEMA, loadAll } from "js-yaml"
 import toml from "toml"
 import { QuartzTransformerPlugin } from "../types"
 import { QuartzPluginData } from "../vfile"
@@ -75,7 +75,12 @@ export function extractLinksFromValue(value: unknown): string[] {
     const links: string[] = []
     for (const match of value.matchAll(WIKILINK_PATTERN))
       links.push(slugifyWikilinkTarget(match[1]!))
-    for (const match of value.matchAll(MDLINK_PATTERN)) links.push(match[1]!)
+    for (const match of value.matchAll(MDLINK_PATTERN)) {
+      // `[x](<./My Note.md>)`: CommonMark's angle-bracket destination, which
+      // Obsidian writes for paths with spaces. The brackets aren't part of it.
+      const dest = match[1]!.trim()
+      links.push(dest.startsWith("<") && dest.endsWith(">") ? dest.slice(1, -1) : dest)
+    }
     return links
   }
   if (Array.isArray(value)) return value.flatMap((item) => extractLinksFromValue(item))
@@ -141,6 +146,17 @@ const refuseJavaScript = (): never => {
   )
 }
 
+/**
+ * YAML frontmatter as properties. YAML 1.2's core schema, as Obsidian reads properties: `true`,
+ * `null`, `~` and numbers resolve, dates stay strings. A block without a document (empty, or only
+ * comments) holds no properties.
+ */
+function loadYaml(source: string): object {
+  const docs = loadAll(source, { schema: CORE_SCHEMA })
+  if (docs.length > 1)
+    throw new Error("expected a single document in the frontmatter, but found more")
+  return (docs[0] ?? {}) as object
+}
 /** Parse a file's frontmatter with the configured delimiters and language (`{}` when it has none). */
 export function readFrontmatterData(
   source: Buffer | string,
@@ -158,7 +174,7 @@ export function readFrontmatterData(
       delimiters: options.delimiters ?? frontmatterDefaults.delimiters,
       language,
       engines: {
-        yaml: (s) => yaml.load(s, { schema: yaml.JSON_SCHEMA }) as object,
+        yaml: loadYaml,
         toml: (s) => toml.parse(s) as object,
         javascript: refuseJavaScript,
         js: refuseJavaScript,

@@ -38,7 +38,7 @@ export const linksDefaults: Required<Omit<LinksConfig, "enabled" | "order">> = {
   openLinksInNewTab: false,
   lazyLoad: false,
   externalLinkIcon: true,
-  disableBrokenWikilinks: false,
+  disableBrokenWikilinks: true,
 }
 
 /** Defaults of the former crawl-links plugin, applied when its config entry is migrated. */
@@ -46,10 +46,18 @@ export const legacyCrawlLinksDefaults: Partial<LinksConfig> = {
   markdownLinkResolution: "absolute",
 }
 
-const isAbsolute = isAbsoluteUrl as (url: string, options?: { httpOnly?: boolean }) => boolean
 // As in Obsidian: a URL with a scheme (`x:y`, but not `../x:y`), or a link whose path is not valid
 // percent-encoding (`%zz`, `a%E2.md`), which names no file
-const isExternalUrl = (url: string) => isAbsolute(url, { httpOnly: false }) || !linkPathDecodes(url)
+const isExternalUrl = (url: string) =>
+  isAbsoluteUrl(url, { httpOnly: false }) || !linkPathDecodes(url)
+// An href percent-decoded, to compare with link text; left as it is when it does not decode
+const decodedHref = (href: string) => {
+  try {
+    return decodeURI(href)
+  } catch {
+    return href
+  }
+}
 
 const EXTERNAL_ICON_PATH =
   "M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"
@@ -61,6 +69,21 @@ function canonicalSlug(dest: string, curSlug: SimpleSlug): FullSlug {
   if (canonical.endsWith("/")) canonical += "index"
   // WHATWG URL percent-encodes everything
   return decodeURIComponent(stripSlashes(canonical, true)) as FullSlug
+}
+
+/**
+ * Whether a link's target is a page of the site. Tag and folder pages are generated after
+ * the transformers run, so they aren't in `allSlugs` yet: a tag page (`tags/…`) exists for
+ * every tag that is used, and a folder page (`folder/index`) for every folder with content.
+ */
+export function pageExists(allSlugs: readonly string[], full: string): boolean {
+  if (allSlugs.includes(full)) return true
+  if (full === "index" || full.startsWith("tags/")) return true
+  if (full.endsWith("/index")) {
+    const folder = full.slice(0, -"index".length)
+    return allSlugs.some((s) => s.startsWith(folder))
+  }
+  return false
 }
 
 export const Links: QuartzTransformerPlugin<LinksConfig> = (userOpts) => {
@@ -106,8 +129,17 @@ export const Links: QuartzTransformerPlugin<LinksConfig> = (userOpts) => {
                 let dest = node.properties.href as RelativeURL
                 const classes = (node.properties.className ?? []) as string[]
                 const isExternal = isExternalUrl(dest)
+                // Footnote anchors aren't note links: Obsidian gives them `footnote-link`,
+                // never `internal-link`, whose link styles would override theirs.
+                const isFootnote =
+                  node.properties.dataFootnoteRef !== undefined ||
+                  node.properties.dataFootnoteBackref !== undefined
                 classes.push(
-                  ...(isExternal ? ["external", "external-link"] : ["internal", "internal-link"]),
+                  ...(isExternal
+                    ? ["external", "external-link"]
+                    : isFootnote
+                      ? ["internal"]
+                      : ["internal", "internal-link"]),
                 )
 
                 if (isExternal && opts.externalLinkIcon) {
@@ -131,12 +163,14 @@ export const Links: QuartzTransformerPlugin<LinksConfig> = (userOpts) => {
                   })
                 }
 
-                // link text differs from the href → it's an alias ("[[note|text]]")
+                // link text differs from the href → it's an alias ("[[note|text]]"). The href is
+                // percent-encoded by now ("a%20b" for "a b"), so it is compared decoded too (#2643)
                 const firstChild = node.children[0]
                 if (
                   node.children.length === 1 &&
                   firstChild?.type === "text" &&
-                  firstChild.value !== dest
+                  firstChild.value !== dest &&
+                  firstChild.value !== decodedHref(dest)
                 ) {
                   classes.push("alias")
                 }
@@ -153,7 +187,7 @@ export const Links: QuartzTransformerPlugin<LinksConfig> = (userOpts) => {
                   outgoing.add(simplifySlug(full))
                   node.properties["data-slug"] = full
 
-                  if (opts.disableBrokenWikilinks && !ctx.allSlugs.includes(full)) {
+                  if (opts.disableBrokenWikilinks && !pageExists(ctx.allSlugs, full)) {
                     classes.push("broken")
                     node.properties.className = classes
                   }

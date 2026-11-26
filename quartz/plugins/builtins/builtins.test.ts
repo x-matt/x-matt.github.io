@@ -14,6 +14,13 @@ import {
   readFrontmatterData,
 } from "./frontmatter"
 import { Links } from "./links"
+import {
+  buildLayeredCSS,
+  buildUnlayeredCSS,
+  googleFontHref,
+  resolveFontSpecs,
+  resolveFonts,
+} from "./fonts"
 import { isContentError } from "../../util/pluginErrors"
 import { Drafts, isDraft } from "./drafts"
 import {
@@ -216,6 +223,34 @@ describe("frontmatter built-in", () => {
     )
   })
 
+  test("frontmatter Markdown links with an angle-bracket destination drop the brackets", () => {
+    assert.deepStrictEqual(
+      extractLinksFromValue([
+        "[Exec Briefing](<./Exec Briefing.md>)",
+        "[x](<./Exec Briefing.md#Next steps>)",
+        "[y](./Exec Briefing.md)",
+      ]),
+      ["./Exec Briefing.md", "./Exec Briefing.md#Next steps", "./Exec Briefing.md"],
+    )
+  })
+
+  test("reads YAML frontmatter with YAML 1.2's core schema, as Obsidian does", () => {
+    const data = readFrontmatterData(
+      "---\ntitle: Hello world\ndate: 2024-01-02\ndraft: True\nn: 012\nnone: ~\nratio: .5\nalias: yes\n---\n",
+    )
+    assert.deepStrictEqual(data, {
+      title: "Hello world",
+      date: "2024-01-02",
+      draft: true,
+      n: 12,
+      none: null,
+      ratio: 0.5,
+      alias: "yes",
+    })
+    // a block without a document holds no properties
+    assert.deepStrictEqual(readFrontmatterData("---\n# only a comment\n---\nbody\n"), {})
+  })
+
   test("refuses JavaScript frontmatter instead of executing it", async () => {
     const g = globalThis as { __quartzFrontmatterRan?: boolean }
     delete g.__quartzFrontmatterRan
@@ -330,11 +365,27 @@ describe("links built-in", () => {
     assert.deepStrictEqual(file.data.links?.sort(), ["folder/sibling", "t"])
   })
 
+  test("footnote anchors stay internal without Obsidian's note-link class", () => {
+    const fn = (props: Record<string, unknown>): Element => ({
+      type: "element",
+      tagName: "a",
+      properties: { href: "#user-content-fn-1", ...props },
+      children: [{ type: "text", value: "1" }],
+    })
+    const { els } = run([fn({ dataFootnoteRef: "" }), fn({ dataFootnoteBackref: "" })])
+    for (const el of els.filter((e) => e.tagName === "a")) {
+      const classes = el.properties.className as string[]
+      assert.ok(classes.includes("internal"))
+      assert.ok(!classes.includes("internal-link"))
+    }
+  })
+
   test("makes internal links relative, records outgoing links, marks external ones", () => {
     const { els, file } = run(
       [a("other/note", "Note"), a("https://example.com"), a("#heading")],
       "folder/page",
       { markdownLinkResolution: "absolute" },
+      ["folder/page", "other/note"],
     )
     const [internal, external] = els.filter((e) => e.tagName === "a")
     assert.strictEqual(internal.properties.href, "../other/note")
@@ -405,6 +456,47 @@ describe("links built-in", () => {
       els.filter((e) => e.tagName === "a").map((e) => (e.children[0] as Text).value),
       ["note", "a\\b"],
     )
+  })
+
+  test("pretty links shorten a link whose text is its percent-decoded href (#2643)", () => {
+    const { els } = run(
+      [
+        a("Folder/Name%20With%20Space", "Folder/Name With Space"),
+        a("Ordner/%C3%9Cbersicht", "Ordner/Übersicht"),
+        a("Folder/Name%20With%20Space", "own text"),
+      ],
+      "page",
+      { prettyLinks: true },
+    )
+    const links = els.filter((e) => e.tagName === "a")
+    assert.deepStrictEqual(
+      links.map((e) => (e.children[0] as Text).value),
+      ["Name With Space", "Übersicht", "own text"],
+    )
+    assert.deepStrictEqual(
+      links.map((e) => (e.properties.className as string[]).includes("alias")),
+      [false, false, true],
+    )
+  })
+
+  test("missing targets get the broken class by default, as Obsidian marks them", () => {
+    const { els } = run([a("missing"), a("page")], "page", {}, ["page"])
+    assert.ok((els[0].properties.className as string[]).includes("broken"))
+    assert.ok(!(els[1].properties.className as string[]).includes("broken"))
+  })
+
+  test("tag and folder pages, generated later, are not broken", () => {
+    const { els } = run([a("tags/specimen"), a("folder/"), a("empty/")], "page", {}, [
+      "page",
+      "folder/note",
+    ])
+    const broken = els.map((e) => (e.properties.className as string[]).includes("broken"))
+    assert.deepStrictEqual(broken, [false, false, true])
+  })
+
+  test("disableBrokenWikilinks: false leaves missing targets unmarked", () => {
+    const { els } = run([a("missing")], "page", { disableBrokenWikilinks: false }, ["page"])
+    assert.ok(!(els[0].properties.className as string[]).includes("broken"))
   })
 
   test("disableBrokenWikilinks adds a broken class to missing targets", () => {
@@ -573,6 +665,98 @@ describe("ctx.contentIndex", () => {
       assert.deepStrictEqual(Object.keys(json), ["prepared"])
     } finally {
       await fs.rm(out, { recursive: true, force: true })
+    }
+  })
+})
+
+describe("fonts built-in", () => {
+  test("absorbs a @quartz-community/quartz-fonts entry with its options", () => {
+    const fonts = entry("@quartz-community/quartz-fonts", {
+      options: { h1: "Lora", fontOrigin: "local" },
+    })
+    const p = plan([fonts])
+    assert.strictEqual(byId(p, "fonts").enabled, true)
+    assert.strictEqual(byId(p, "fonts").options.h1, "Lora")
+    assert.strictEqual(byId(p, "fonts").options.fontOrigin, "local")
+    assert.ok(p.absorbedEntries.has(fonts))
+  })
+
+  test("a disabled plugin entry turns the built-in off", () => {
+    const p = plan([entry("@quartz-community/quartz-fonts", { enabled: false })])
+    assert.strictEqual(byId(p, "fonts").enabled, false)
+  })
+
+  test("without a theme, configured heading fonts are forced and Obsidian's variables set", () => {
+    delete (globalThis as Record<string, unknown>).__quartzFonts
+    const opts = { header: "Lora" }
+    const fonts = resolveFonts(opts, {})
+    assert.match(buildLayeredCSS(fonts, opts, false), /--h1-font: Lora;/)
+    assert.match(buildUnlayeredCSS(fonts, opts, false), /h1 \{ font-family: Lora; \}/)
+  })
+
+  test("with a theme, its fonts are left alone unless configured explicitly", () => {
+    ;(globalThis as Record<string, unknown>).__quartzFonts = {
+      themeName: "Minimal",
+      fonts: { "--font-text": "Inter" },
+    }
+    try {
+      const fonts = resolveFonts({}, {})
+      assert.strictEqual(fonts.body, "Inter")
+      assert.doesNotMatch(buildLayeredCSS(fonts, {}, true), /--h1-font|--font-text/)
+      assert.strictEqual(buildUnlayeredCSS(fonts, {}, true), "")
+      assert.match(
+        buildUnlayeredCSS(resolveFonts({ h2: "Lora" }, {}), { h2: "Lora" }, true),
+        /^h2 \{ font-family: Lora; \}$/,
+      )
+    } finally {
+      delete (globalThis as Record<string, unknown>).__quartzFonts
+    }
+  })
+
+  test("the interface and per-heading fonts are loaded from Google Fonts", () => {
+    const href = decodeURIComponent(
+      googleFontHref(
+        resolveFontSpecs(
+          { interface: "Inter", h1: { name: "Playfair Display", weights: [700] } },
+          {},
+        ),
+      ),
+    )
+    assert.match(href, /family=Inter:wght@400;600/)
+    assert.match(href, /family=Playfair Display:wght@700/)
+    assert.doesNotMatch(decodeURIComponent(googleFontHref(resolveFontSpecs({}, {}))), /Inter/)
+    const single = (spec: object) =>
+      decodeURIComponent(googleFontHref(resolveFontSpecs({ title: spec as never }, {})))
+    assert.match(single({ name: "Lora", weights: [400] }), /family=Lora&/)
+    assert.match(
+      single({ name: "Lora", weights: [400], includeItalic: true }),
+      /family=Lora:ital@0;1&/,
+    )
+    assert.match(
+      single({ name: "Lora", weights: [700], includeItalic: true }),
+      /family=Lora:ital,wght@0,700;1,700&/,
+    )
+  })
+
+  test("explicit body/interface/code fonts set Obsidian's overrides on body", () => {
+    ;(globalThis as Record<string, unknown>).__quartzFonts = {
+      themeName: "Things",
+      fonts: { "--font-text": "Inter", "--font-monospace": "JetBrains Mono" },
+    }
+    try {
+      const opts = { body: "Lora", code: "Fira Code" }
+      const css = buildUnlayeredCSS(resolveFonts(opts, {}), opts, true)
+      assert.match(css, /html body \{[^}]*--font-text-override: Lora;/)
+      assert.match(css, /html body \{[^}]*--font-monospace-override: Fira Code;/)
+      assert.doesNotMatch(css, /--font-interface-override/)
+      // a theme with themeFonts: false registers no fonts, but still reads the overrides
+      assert.match(
+        buildUnlayeredCSS(resolveFonts({ interface: "Inter" }, {}), { interface: "Inter" }, false),
+        /html body \{\n  --font-interface-override: Inter;\n\}/,
+      )
+      assert.doesNotMatch(buildUnlayeredCSS(resolveFonts({}, {}), {}, true), /override/)
+    } finally {
+      delete (globalThis as Record<string, unknown>).__quartzFonts
     }
   })
 })
