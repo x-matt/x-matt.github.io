@@ -48,6 +48,8 @@
     "excalidraw-embed-md": "checkbox",
     "excalidraw-export-internal-links": "checkbox",
     "TQ_show_toolbar": "checkbox",
-    "releasedate": "datetime"
+    "releasedate": "datetime",
+    "excalidraw-anchors": "multitext",
+    "excalidraw-thumbnail": "text"
   }
 }
